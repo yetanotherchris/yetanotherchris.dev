@@ -1,0 +1,19 @@
+# Site settings
+title: Yet Another Chris
+email: mrshrinkray@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  C# blog.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.anotherchris.net/" # the base hostname & protocol for your site
+twitter_username: yetanotherchris
+
+# Build settings
+markdown: kramdown
+
+# Pretty URL
+permalink: "posts/:title"
+
+sass:
+    style: :compressed
+
+include: [ "scripts/title.js" ]

@@ -1,0 +1,18 @@
+RewriteEngine on
+
+RewriteCond   %{REQUEST_URI}   !posts/.*
+RewriteCond   %{REQUEST_URI}   !img/.*
+RewriteCond   %{REQUEST_URI}   !css/.*
+RewriteCond   %{REQUEST_URI}   !scripts/.*
+RewriteCond   %{REQUEST_URI}   !wp-content/.*
+RewriteCond   %{REQUEST_URI}   !tags/.*
+
+RewriteRule ^.+?/(.*?)/?$ /posts/$1.html [L,NC]
+
+AddType image/svg+xml svg svgz
+AddEncoding gzip svgz
+
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresByType image/svg+xml "access plus 1 year"
+</IfModule>

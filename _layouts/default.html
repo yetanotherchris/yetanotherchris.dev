@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro">
+    <link rel="stylesheet" href="/css/autocomplete.css" />
+    <link rel="stylesheet" href="/css/Site.css">
+    <link rel="icon" href="/img/favicon.png?v=1.0">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-sm-3" id="vertical-menu-mobile">
+                <h3 class="site-title"><a href="/">Yet Another Chris</a></h3>
+                <h5 class="site-subtitle">London, UK</h5>
+            </div>
+
+            <div class="col-md-3" id="vertical-menu">
+                <h3 class="site-title"><a href="/">Yet Another Chris</a></h3>
+                <h5 class="site-subtitle">London, UK</h5>
+
+                <div id="taglist">
+                <h5>Tags</h5>
+                    {% for tag in site.tags limit:40 %}
+                    {% assign t = tag | first %}
+                    {% assign posts = tag | last %}
+                    <a class="label label-info" href="/tags.html#{{t | downcase | replace:" ","-" }}">{{t | downcase | replace:" ","-" }}</a>
+                    {% endfor %}
+                </div>
+
+                <div id="search">
+                    <h5>Search</h5>
+                    <input type="search" name="sitesearch" />
+                </div>
+
+                <div id="stackoverflow-flair">
+                    <h5>About me</h5>
+                    <small>I live in London, and have been a C# developer since around 2000:</small>
+                    <a href="http://stackoverflow.com/users/21574/chris-s" target="_blank">
+                    <img src="http://stackoverflow.com/users/flair/21574.png?theme=dark" width="208" height="58" alt="profile for Chris S at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Chris S at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+                    </a>
+                </div>
+
+                <div id="social-icons">
+                    <a href="https://www.twitter.com/yetanotherchris" target="_blank"><img src="/img/twitter.svg" width="32" height="32" /></a>
+                    <a href="https://github.com/yetanotherchris/" target="_blank"><img src="/img/github.svg" width="32" height="32" /></a>
+                </div>
+            </div>
+
+            <div class="col-md-9 main-container">
+                <div id="advert">
+                    <!-- Advert -->
+                    <div id="div-gpt-ad-1391455841542-0">
+                    </div>
+                </div>
+                {{ content }}
+            </div>
+        </div>
+    </div>
+
+    <!-- Search autocomplete -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/scripts/jquery.autocomplete.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $.getJSON( "/scripts/titles.js", function(data) {
+                    $("#search input").autocomplete({
+                            lookup: data,
+                            onSelect: function (suggestion) {
+                                window.location.href = suggestion.data;
+                        }
+                    });
+            });
+        });
+    </script>
+
+    <!-- Webfont -->
+    <script src="//use.edgefonts.net/source-sans-pro:n4.js"></script>      
+
+    <!-- Developer Media advert -->
+    <script type='text/javascript'>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+        (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+        '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+        })();
+
+        googletag.cmd.push(function() {
+        googletag.defineSlot('/6839/lqm.yetanotherchris.site', [[728, 90]], 'div-gpt-ad-1391455841542-0')
+                .addService(googletag.pubads());
+                
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+        });
+
+        googletag.cmd.push(function() { googletag.display('div-gpt-ad-1391455841542-0'); });
+    </script>
+
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38631652-1', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+</html>

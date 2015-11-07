@@ -1,0 +1,38 @@
+---
+layout: default
+---
+<article class="post-container">
+    <div class="post">
+        <h1>{{ page.title }}</h1>
+        {{ content }}
+    </div>
+    <div class="post-metadata">
+      <div class="date">Posted on {{ page.date | date: "%A %B %-d, %Y" }}</div>
+      <div class="tags">
+        {% for tag in page.tags %}
+          <span class="label label-info">
+            <a href="/tags.html#{{ tag | xml_escape }}">{{ tag }}</a>
+          </span>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Disqus -->
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+            this.page.url = "";
+            this.page.identifier = "{{ post.dsq_thread_id }}";
+        };
+        
+        (function() {  // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+            
+            s.src = '//yetanotherchris.disqus.com/embed.js';
+            
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+</article>

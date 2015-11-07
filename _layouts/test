@@ -1,0 +1,3 @@
+                    {% for tag in site.tags %}
+                    <a class="label label-info" href="/tags/{{ tag }}.html">{{ tag }}</a>
+                    {% endfor %}

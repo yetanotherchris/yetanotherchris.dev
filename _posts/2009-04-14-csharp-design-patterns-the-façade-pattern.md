@@ -1,0 +1,24 @@
+---
+Published: 2009-04-14
+title: "C# Design Patterns: the Façade pattern"
+author: Chris S
+excerpt: "A summary and example of the façade design pattern."
+layout: post
+permalink: /csharp/csharp-design-patterns-the-facade-pattern/
+dsq_thread_id:
+  - 1074291095
+tags:
+  - 'c#'
+  - design-patterns
+---
+### Summary
+
+Access multiple classes in one simple to use class. This class is often static too. 
+
+<!--more-->
+
+### Example
+
+A common use of the Façade pattern is with data access managers, a façade class that contains only static methods for CRUD operations. Another example might be a class that handles payment in an online store. This façade class would link into multiple payment providers (paypal, visa/mastercard) as well as updating any order details in a database table. Rather than making the UI perform 10-20 lines of code, this could be done in a simple CheckoutManager.ProcessPayment(&#8230;) method. 
+
+<script src="https://gist.github.com/yetanotherchris/4746929.js"></script>

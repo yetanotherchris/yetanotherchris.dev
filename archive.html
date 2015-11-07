@@ -1,0 +1,37 @@
+---
+title: Post archive
+layout: default
+---
+
+{% for post in site.posts | sort : "date" %}
+{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+{% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
+    {% if forloop.first %}
+    <div class="post-container">
+    <div class="post">
+      <h1 id="{{ this_year }}">{{this_year}}</h1>
+      <hr />
+    {% endif %}
+
+      <article class="archive-item">
+        <a href="{{ post.url }}">
+            <h3>{{ post.title }}</h3>
+        </a>
+        {{ post.excerpt }}
+        <div class="archive-date">Posted on {{ post.date | date: "%A %B %-d, %Y" }}</div>  
+      </article>
+
+    {% if forloop.last %}
+    </div>
+    </div>
+    {% else %}
+        {% if this_year != next_year %}
+        </div>
+        </div>
+        <div class="post-container">
+        <div class="post">
+        <h1 id="{{ next_year }}">{{next_year}}</h1>
+        <hr />
+        {% endif %}
+    {% endif %}
+{% endfor %}
