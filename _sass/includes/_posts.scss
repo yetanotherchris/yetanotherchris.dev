@@ -1,0 +1,65 @@
+// Post area
+.post-container {
+  background-color: #FFF;
+  margin: 10px 0px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(170,170,170, 0.5);
+  border-radius: 2px;
+}
+
+.post-container .row {
+  display: block;
+}
+
+.post {
+  padding: 0px 10px 5px 10px;
+}
+
+.post p a, .post li a {
+  text-decoration: underline;
+}
+
+.post h2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post-metadata {
+  min-height: 22px;
+  padding: 0px 10px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 768px){
+
+  .post-metadata .date {
+    float: right;
+    margin-top: 10px;
+  }
+}
+
+.post-metadata .tags {
+  padding: 10px 0px;
+  margin: 0px -5px;
+}
+
+.post-metadata .tags .label {
+  margin-left: 5px;
+  font-size: 9pt;
+}
+
+.post-metadata .tags a {
+  color: #FFF;
+}
+
+.post-metadata .date {
+  color: #AAA;
+}
+
+
+// disqus
+#disqus_thread
+{
+  padding: 30px 10px 10px 10px;
+  border-top: 1px solid rgba(170,170,170, 0.5);
+}

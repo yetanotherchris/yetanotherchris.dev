@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="stylesheet" href="/css/autocomplete.css" />
-    <link rel="stylesheet" href="/css/main.css">
     <link rel="icon" href="/img/favicon.png?v=1.0">
+    <style type="text/css">
+        body {
+          color: #202020;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
@@ -60,6 +63,9 @@
             </div>
         </div>
     </div>
+
+    <!-- CSS, positioned here to keep the Google Pagespeed Overlord happy -->
+    <link rel="stylesheet" href="/css/main.css">
 
     <!-- Search autocomplete -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
