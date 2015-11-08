@@ -7,7 +7,7 @@ tags:
   - Jeykll
   - news
 ---
-A few of us recently set about re-vamping the website for the Cancer Vaccine Institute charity. After battling with a terrible Wordpress theme, we settled on using Jekyll and static HTML. This was fairly serendipitous for me, as I got a crash course with getting Jekyll to run on Windows, the template engine it uses called Liquid, and getting free-hosting from Github.
+A few of us recently set about [re-vamping the website](https://github.com/CancerVaccine/cancervaccine.github.io) for the Cancer Vaccine Institute charity. After battling with a terrible Wordpress theme, we settled on using Jekyll and static HTML. This was fairly serendipitous for me, as I got a crash course on getting Jekyll to run on Windows, the template engine it uses called Liquid, and getting free-hosting from Github.
 
 The steps are a lot easier than I thought:
 
