@@ -30,5 +30,5 @@ The snippet below shows the KML/Geocode lookup and XML parsing.
 
 **Update:** Unfortunately the example is no longer available.
 
- [1]: /storage/downloads/gmapspostcodeexample.zip
+ [1]: /wp-content/uploads/2013/02/gmapspostcodeexample.zip
  [2]: http://www.google.com/apis/maps/documentation/reference.html
