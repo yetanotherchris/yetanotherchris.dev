@@ -18,4 +18,4 @@ This winforms application from 2004 shows the basics of querying an Active Direc
 
 It includes browsing of the LDAP server and an Integar8 conversion routine for Active Directory (the COM datatype used for storing the last login date in Active Directory). An interop'd version of ActiveDs.dll is included
 
- [1]: /storage/downloads/ldapexample.zip
+ [1]: /wp-content/uploads/2013/02/ldapexample.zip
