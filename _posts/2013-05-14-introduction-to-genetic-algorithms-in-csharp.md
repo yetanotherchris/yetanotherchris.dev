@@ -74,7 +74,7 @@ This would be 1 for the first dice, 6 for the second.
 
 The OO way of I’ve chosen to represent a Genome and the world they live in is fairly straightforward:
 
-[<img class="alignnone size-medium wp-image-1122" alt="ga-classdiagram" src="http://www.anotherchris.net/wp-content/uploads/2013/05/ga-classdiagram-243x300.png" width="243" height="300" />][4]
+[<img class="alignnone size-medium wp-image-1122" alt="ga-classdiagram" src="/wp-content/uploads/2013/05/ga-classdiagram-243x300.png" width="243" height="300" />][4]
 
 Genome contains an array of genes, which is just a bool[]. It contains a set of helper methods for cloning, initializing itself with random values, setting genes values on and off and getting the total based on the the array of bits.
 
@@ -168,7 +168,7 @@ We’ve produced two new genomes, children of the previous two genomes. These tw
 
 One thing to note is crossover isn’t performed every single time, but is based on a random chance of it occurring. This is your crossover percentage chance, which your GA is setup to have as a variable or constant. Here’s the C# example
 
-<script type=&#8221;text/javascript&#8221; src=&#8221;https://gist.github.com/yetanotherchris/5575085.js"></script>
+<script type="text/javascript" src="https://gist.github.com/yetanotherchris/5575085.js"></script>
 
 ## Mutation
 
@@ -233,7 +233,7 @@ If you play around with the crossover and mutation rates, you’ll see that the 
 As I mentioned at the start, this post really is scratching the surface of genetic algorithms, and after this it gets a lot more involved (or complicated if you prefer), with theories on the templates of the genomes coming into play, known as schema theory (more info [here][5]).
 
  [1]: https://github.com/yetanotherchris/SimpleGeneticAlgorithm/
- [2]: http://www.anotherchris.net/csharp/genetic-algorithms-in-csharp/
+ [2]: /csharp/genetic-algorithms-in-csharp/
  [3]: http://www.amazon.com/Adaptation-Natural-Artificial-Systems-Introductory/dp/0262581116
- [4]: http://www.anotherchris.net/wp-content/uploads/2013/05/ga-classdiagram.png
+ [4]: /wp-content/uploads/2013/05/ga-classdiagram.png
  [5]: http://en.wikipedia.org/wiki/Holland's_schema_theorem
