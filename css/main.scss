@@ -1,13 +1,24 @@
-﻿/* page wide */
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+  "bootstrap-custom-variables", // Custom variables must load before bootstrap.
+  "bootstrap"
+;
+
+/* page wide */
 html,
 body {
   height: 100%;
   min-height: 100%;
-  font-family: source-sans-pro, sans-serif;
+  font-family: "source-sans-pro", sans-serif;
   background-color: #EEE;
 }
 
-
+h1,h2,h3,h4,h5,p { font-family: "source-sans-pro", sans-serif; }
 p { font-size: 16px;}
 pre, blockquote { font-size: 12px;}
 
