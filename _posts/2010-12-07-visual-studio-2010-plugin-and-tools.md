@@ -100,6 +100,6 @@ For Eclipse and Java/Android developer, [here is a settings file][22] that takes
  [17]: http://www.slysoft.com/en/virtual-clonedrive.html
  [18]: http://www.speqmath.com/index.php?id=4
  [19]: http://www.sourcegear.com/diffmerge/
- [20]: /storage/downloads/snippets.zip
- [21]: /storage/downloads/Dependency-property.zip
+ [20]: /wp-content/uploads/2013/02/snippets.zip
+ [21]: /wp-content/uploads/2013/02/Dependency-property.zip
  [22]: /?p=924

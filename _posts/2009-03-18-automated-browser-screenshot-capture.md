@@ -26,6 +26,6 @@ You can specify the browser paths and path to save the screenshots (which are sa
 
 The screenshot mechanism is courtesy a class from of this [article][3]. The remaining code is some straight forward windows enumeration via the winapi and PostMessage.
 
- [1]: /storage/downloads/browsercapture.exe.zip
- [2]: /storage/downloads/browsercapture.zip
+ [1]: /wp-content/uploads/2013/02/browsercapture.exe.zip
+ [2]: /wp-content/uploads/2013/02/browsercapture.zip
  [3]: http://www.developerfusion.com/code/4630/capture-a-screen-shot/

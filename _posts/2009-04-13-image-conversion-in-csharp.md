@@ -19,5 +19,5 @@ This old application from 2004 demonstrates image conversion using the built in 
   
 ![Image conversion in C#][2]
 
- [1]: /storage/downloads/ImageConverter.zip
+ [1]: /wp-content/uploads/2013/02/ImageConverter.zip
  [2]: /wp-content/uploads/2009/04/imageconverter.jpg

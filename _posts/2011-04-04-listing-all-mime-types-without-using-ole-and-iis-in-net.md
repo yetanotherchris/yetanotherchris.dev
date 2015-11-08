@@ -38,5 +38,5 @@ The full download includes the XML serialized file.
 
 <script src="https://gist.github.com/yetanotherchris/4985418.js"></script>
 
- [1]: /storage/downloads/MimeTypes.zip
+ [1]: /wp-content/uploads/2013/02/MimeTypes.zip
  [2]: http://www.webmaster-toolkit.com/mime-types.shtml

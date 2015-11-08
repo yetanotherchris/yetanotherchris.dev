@@ -23,4 +23,4 @@ It includes a progress bar to show the progress, and total bytes expected. The s
 
 For now it doesn't deal with different content types, it's pretty basic.
 
- [1]: /storage/downloads/webdownloadexample.zip
+ [1]: /wp-content/uploads/2013/02/webdownloadexample.zip

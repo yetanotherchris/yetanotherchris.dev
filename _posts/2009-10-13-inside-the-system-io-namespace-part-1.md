@@ -81,5 +81,5 @@ The classes you will typically deal with on a day to day basis are BufferedStrea
 
  [1]: /net/inside-the-systemio-namespace-part-2/
  [2]: /net/inside-the-systemio-namespace-part-3/
- [3]: /storage/downloads/systemiotests.zip
+ [3]: /wp-content/uploads/2013/02/systemiotests.zip
  [4]: /wp-content/uploads/2009/10/stream.gif

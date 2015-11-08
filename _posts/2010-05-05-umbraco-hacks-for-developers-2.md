@@ -98,8 +98,8 @@ These links are included to supplement the ones on the Umbraco.org site.
   * [Official utilities:package][6]
 
  [1]: /wp-content/uploads/2010/05/umbracotables.gif
- [2]: /storage/downloads/umbraco-schema.gif
- [3]: /storage/downloads/umbraco-schema-visio.zip
+ [2]: /wp-content/uploads/2013/02/umbraco-schema.gif
+ [3]: /wp-content/uploads/2013/02/umbraco-schema-visio.zip
  [4]: https://bitbucket.org/yetanotherchris/projects/src/cb7e4045a1c24c8fd667075283c9e08c0c72618b/Umbraco.DataExport/?at=default
  [5]: http://en.wikibooks.org/wiki/Umbraco
  [6]: http://our.umbraco.org/projects/website-utilities

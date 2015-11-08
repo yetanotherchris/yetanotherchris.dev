@@ -23,4 +23,4 @@ There are of course far better ways of storing objects to disk. The object frame
 
 A project called Prevalance, taken from Java, uses the notion that RAM is so cheap now that you could store all your objects in memory all the time, and simply serialize them at checkpoints (hourly or daily). It takes it one step further than this by also recording the methods that were performed on the object and their state (much like a RDBMS transaction log). The project is used as a cache in HHibernate but hasn't really been updated since 2003. The site says it is a lot faster than using a RDBMS though I personally wouldn't want to use it for anything outside of caching.
 
- [1]: /storage/downloads/serializationdemo.zip
+ [1]: /wp-content/uploads/2013/02/serializationdemo.zip

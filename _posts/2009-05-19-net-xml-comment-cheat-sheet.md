@@ -174,7 +174,7 @@ In the written style of MSDN documentation
   * [MSDN docs for .NET XML documentation (local)][5]
   * [MSDN docs for .NET XML documentation (online)][6]
 
- [1]: /storage/downloads/snippets.zip
+ [1]: /wp-content/uploads/2013/02/snippets.zip
  [2]: http://www.roland-weigelt.de/ghostdoc/
  [3]: http://www.codeplex.com/Sandcastle
  [4]: http://www.codeplex.com/SHFB

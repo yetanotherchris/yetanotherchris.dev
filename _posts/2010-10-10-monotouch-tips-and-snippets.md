@@ -748,7 +748,7 @@ As the Monotouch library matches Cocoatouch down to the classname, you can often
 
  [1]: http://www.bitbucket.org/yetanotherchris/monotouch-samples/src/
  [2]: /csharp/objective-c-by-example-for-a-csharp-developer
- [3]: /storage/downloads/monotouchxmldocs.zip
+ [3]: /wp-content/uploads/2013/02/monotouchxmldocs.zip
  [4]: /wp-content/uploads/2010/10/iphonebounds1.png
  [5]: /wp-content/uploads/2010/10/iphonebounds2.png
  [6]: /wp-content/uploads/2010/10/iphonebounds3.png
@@ -767,7 +767,7 @@ As the Monotouch library matches Cocoatouch down to the classname, you can often
  [19]: https://github.com/follesoe/VSMonoTouch
  [20]: http://manniat.pp-p.net/blog/post/2009/11/18/MonoTouch-in-Visual-Studio.aspx
  [21]: /wp-content/uploads/2010/10/monodevelopconverter.png
- [22]: /storage/downloads/MonotouchProjectConverter.zip
+ [22]: /wp-content/uploads/2013/02/MonotouchProjectConverter.zip
  [23]: http://www.mono-project.com/Generating_Documentation#Converting_Monodoc_format_XML_into_inline_XML_documentation
  [24]: http://www.go-mono.com/docs/index.aspx?link=T:Mono.Data.SqliteClient.SqliteParameter/*
  [25]: http://en.wikipedia.org/wiki/Third-generation_programming_language

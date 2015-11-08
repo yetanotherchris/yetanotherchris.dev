@@ -20,5 +20,5 @@ This old bit of code from 2004 is an unfinished (i.e. not that pretty to read) d
 
 It shows a telnet style shell, a block caret, tab completion and a few other features. Type &#8220;prog&#8221; and then hit tab to see an example of the tab completion.
 
- [1]: /storage/downloads/richtextboxcaretexample.zip
+ [1]: /wp-content/uploads/2013/02/richtextboxcaretexample.zip
  [2]: /wp-content/uploads/2006/02/rtbcaret.jpg

@@ -22,6 +22,6 @@ The cheat sheet is 72 DPI and A4/Letter size.
 
 ![UML cheat sheet][3]
 
- [1]: /storage/Downloads/umlcheatsheet-visio.jpg
- [2]: /storage/Downloads/umlcheatsheet.jpg
+ [1]: /wp-content/uploads/2013/02/umlcheatsheet-visio.jpg
+ [2]: /wp-content/uploads/2013/02/umlcheatsheet.jpg
  [3]: /wp-content/uploads/2010/01/umlcheatsheet.jpg

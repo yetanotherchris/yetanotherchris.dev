@@ -20,4 +20,4 @@ It also gives a good example enumerating all databases, tables and columns from 
 
 As with all the old C# code on the site, the tool is very basic and not intended to be any shiney finished application.
 
- [1]: /storage/downloads/BinaryUpload.zip
+ [1]: /wp-content/uploads/2013/02/BinaryUpload.zip

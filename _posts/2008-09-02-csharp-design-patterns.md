@@ -72,7 +72,7 @@ The author of Patterns of Enterprise Application Architecture, another patterns 
  [8]: /csharp/csharp-design-patterns-the-state-pattern
  [9]: /csharp/csharp-design-patterns-the-façade-pattern
  [10]: /csharp/other-design-patterns
- [11]: /storage/downloads/designpatterns.zip
+ [11]: /wp-content/uploads/2013/02/designpatterns.zip
  [12]: http://msdn.microsoft.com/en-gb/magazine/cc188707.aspx
  [13]: http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=52003
  [14]: http://en.wikipedia.org/wiki/Design_Patterns

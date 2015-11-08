@@ -21,5 +21,5 @@ It uses a recursive method on the XML rather than lazy loading.
 
 ![Csharp XML browser][2]
 
- [1]: /storage/downloads/xmlexample.zip
+ [1]: /wp-content/uploads/2013/02/xmlexample.zip
  [2]: /wp-content/uploads/2008/02/csharpxml.jpg

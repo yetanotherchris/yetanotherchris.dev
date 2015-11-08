@@ -16,4 +16,4 @@ This windows demo app from 2004 shows you how to use the winapi EnumWindows func
 
 The application works with Mirc (an IRC client) and Trillian (a messenger program that works with msn,yahoo,icq and aim). It hasn't been tested with the latest versions of Mirc/Trillian but it still demonstrates the message sending.
 
- [1]: /storage/downloads/sendmessageenumwindows.zip
+ [1]: /wp-content/uploads/2013/02/sendmessageenumwindows.zip

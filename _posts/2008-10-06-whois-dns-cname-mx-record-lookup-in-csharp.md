@@ -24,7 +24,7 @@ The code below shows the simple Hostname to IP and visa versa methods.
 
 <script src="https://gist.github.com/yetanotherchris/4746180.js"></script>
 
- [1]: /storage/downloads/networktools.zip
+ [1]: /wp-content/uploads/2013/02/networktools.zip
  [2]: http://www.who.is/
  [3]: http://sourceforge.net/projects/nmailserver/
  [4]: /wp-content/uploads/2008/10/networktools.gif
