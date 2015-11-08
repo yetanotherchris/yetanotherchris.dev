@@ -30,10 +30,10 @@ Here’s some screenshots:
 Finally, I've had a fairly steep learning curve in the past months with workitem templates, continuous integration and security in TFS. But more about those in the next post.
 
  [1]: /wp-content/uploads/2011/06/spruce-new-a.png
- [2]: /storage/images/spruce-newlarge-a.png
+ [2]: /wp-content/uploads/2011/06/spruce-new-a.png
  [3]: /wp-content/uploads/2011/06/spruce-new-b.png
- [4]: /storage/images/spruce-newlarge-b.png
+ [4]: /wp-content/uploads/2011/06/spruce-new-b.png
  [5]: /wp-content/uploads/2011/06/spruce-new-c.png
- [6]: /storage/images/spruce-newlarge-c.png
+ [6]: /wp-content/uploads/2011/06/spruce-new-c.png
  [7]: /wp-content/uploads/2011/06/spruce-new-d.png
- [8]: /storage/images/spruce-newlarge-d.png
+ [8]: /wp-content/uploads/2011/06/spruce-new-d.png

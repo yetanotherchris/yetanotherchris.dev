@@ -25,6 +25,6 @@ My next attempt, which I’m just about to push to Bitbucket, features a set of 
 All that remains now is to add linked item support, and a history. I’m embarrassingly behind in my original schedule, but a lot of that time has been stolen by Roadkill Wiki, which at the moment I’m half 95% through adding a large new feature set for user signups. Once that is complete Spruce gets my undying attention for a month. And perhaps even a release candidate.
 
  [1]: /wp-content/uploads/2011/06/sprucenewui.png
- [2]: /storage/images/sprucenewui-large.png
+ [2]: /wp-content/uploads/2011/06/sprucenewui.png
  [3]: /wp-content/uploads/2011/06/sprucestoredqueries.png
- [4]: /storage/images/sprucestoredqueries-large.png
+ [4]: /wp-content/uploads/2011/06/sprucestoredqueries.png

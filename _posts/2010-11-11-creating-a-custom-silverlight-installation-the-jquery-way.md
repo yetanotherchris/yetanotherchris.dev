@@ -48,4 +48,4 @@ The entire solution including the XAP and JS files [can be downloaded here][4].
  [1]: http://www.silverlight.net/learn/quickstarts/silverlight-install-and-upgrade-experience/#resolvingproblems
  [2]: http://www.microsoft.com/downloads/en/details.aspx?displaylang=en&FamilyID=961e96e8-9a7f-4b70-947a-97f0973cb38c
  [3]: http://www.oldapps.com/silverlight.php
- [4]: /Upload/SilverlightInstallationExperience.zip
+ [4]: /wp-content/uploads/2013/02/SilverlightInstallationExperience.zip

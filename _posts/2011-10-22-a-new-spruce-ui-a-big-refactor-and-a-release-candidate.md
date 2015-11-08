@@ -83,4 +83,4 @@ Aside from this it’s not going to receive large amount of updates besides bug 
  [10]: http://www.bitbucket.org/yetanotherchris/
  [11]: http://www.db4o.com/
  [12]: http://ravendb.net/
- [13]: /spruce/some-base-principles-for-spruce
+ [13]: /tfs/some-base-principles-for-spruce/
