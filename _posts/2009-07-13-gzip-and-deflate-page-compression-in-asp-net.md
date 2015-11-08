@@ -38,7 +38,7 @@ There is also an open-source compression library for ASP.NET called
 
 <script src="https://gist.github.com/yetanotherchris/4754907.js"></script>
 
- [1]: /storage/downloads/pagecompression.zip
+ [1]: /wp-content/uploads/2013/02/pagecompression.zip
  [2]: http://www.port80software.com/
  [3]: http://www.codeproject.com/aspnet/httpcompression.asp
  [4]: https://addons.mozilla.org/en-US/firefox/addon/3829
