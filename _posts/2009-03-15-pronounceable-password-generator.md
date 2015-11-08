@@ -20,5 +20,5 @@ The pronounceable password generator is more complex. It is originally from [thi
 
 <script src="https://gist.github.com/yetanotherchris/4746867.js"></script>
 
- [1]: /password-generator/
+ [1]: /csharp/password-generator/
  [2]: http://www.multicians.org/thvv/gpw.html
