@@ -21,7 +21,7 @@ I'm in the middle of writing my own version of a C# Genetic Algorithm example, h
 
 As with Barry's original example you use it like so (with the delegate fluff now removed thanks to the v3 compiler):
 
-&nbsp;
+<script src="https://gist.github.com/yetanotherchris/4984735.js"></script>
 
 And the 3 classes needed are GA, Genome and GenomeComparer:
 
