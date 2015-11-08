@@ -2,11 +2,12 @@
 title: From Wordpress to Wyam  
 Published: 2015-11-01
 layout: post
-excerpt: Every few years I get bored of the technology that powers this blog and move to something new and interesting (to me), something that promises to make the blog experience easier and more productive. Over the years it’s followed the latest fashions, albeit usually a year behind, which has seen runtime server side languages, CMSs and hosted blog platforms.
+excerpt: Converting this blog from Wordpress to the Jekyll-like .NET tool, Wyam.
 tags:
   - Wyam
   - Jekyll
   - Wordpress
+  - news
 ---
 Every few years I get bored of the technology that powers this blog and move to something new and interesting (to me), something that promises to make the blog experience easier and more productive. Over the years it's followed the latest fashions, albeit usually a year behind, which has seen runtime server side languages, CMSs and hosted blog platforms. The chronology has roughly been:
 
@@ -60,4 +61,4 @@ It turns out that using all of Bootstrap upsets Google a bit (I'm only using a s
 
 So the original goal of having a fast site is achieved, at least in my mind, but not to Google. I'm sure a bit of CSS extraction will sort that out though.
 
-Wyam can be found on Github. The source to this blog van be found here.
+Wyam can be found on [Github](https://github.com/Wyamio/Wyam). The source to this blog van be found [here](https://github.com/yetanotherchris/AnotherChris-Wyam).
