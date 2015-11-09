@@ -10,7 +10,6 @@ dsq_thread_id:
 tags:
   - asp.net
 ---
-**[Download full solution][1]**
 
 If you're offering uploading on a web application, or providing a file proxy of some sort, at some point the list of files you offer will exceed a simple switch statement.
 
@@ -18,7 +17,7 @@ In order for the file to be recognised correctly by the browser that's downloadi
 
 <!--more-->
 
-Or you can cheat and simply query an XML file list of mimetypes. The application below does this, based on [a list from webmaster-toolkit.com][2].
+Or you can cheat and simply query an XML file list of mimetypes. The application below does this, based on [a list from webmaster-toolkit.com][1].
 
 The full download includes the XML serialized file.
 
@@ -38,5 +37,4 @@ The full download includes the XML serialized file.
 
 <script src="https://gist.github.com/yetanotherchris/4985418.js"></script>
 
- [1]: /wp-content/uploads/2013/02/MimeTypes.zip
- [2]: http://www.webmaster-toolkit.com/mime-types.shtml
+ [1]: http://www.webmaster-toolkit.com/mime-types.shtml

@@ -31,4 +31,4 @@ The two articles cover most of the basics and a bit more via code, and they incl
  [2]: /wp-content/uploads/2010/10/UITableViewController3.png
  [3]: /wp-content/uploads/2010/10/UITableViewController4.png
  [4]: /iphone/uinavigationcontroller-by-example
- [5]: /iphone/uitableviewcontroller-by-example
+ [5]: /monotouch/uitableviewcontroller-by-example/
