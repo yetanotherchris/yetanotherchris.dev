@@ -2,7 +2,7 @@
 title: Creating a Chocolately package for Chromedriver 
 Published: 2015-11-11
 layout: post
-excerpt: My first Chocolatey package: creating the chromedriver-latest Chocolatey package that grabs the latest Chomedriver and installs it.
+excerpt: "My first Chocolatey package: creating the chromedriver-latest Chocolatey package that grabs the latest Chomedriver and installs it."
 tags:
   - Chocolatey
   - Chromedriver
