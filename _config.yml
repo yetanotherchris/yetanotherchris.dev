@@ -19,3 +19,6 @@ sass:
     style: :compressed
 
 include: [ "scripts/title.js" ]
+
+gems:
+  - jekyll-sitemap
