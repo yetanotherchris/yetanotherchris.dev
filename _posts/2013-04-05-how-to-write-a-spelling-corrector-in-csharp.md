@@ -9,6 +9,8 @@ dsq_thread_id:
 tags:
   - 'c#'
 ---
+[Github repository - feel free to send improvements](https://github.com/yetanotherchris/SpellingCorrector/)
+
 <a href="http://norvig.com/spell-correct.html" target="_blank">Peter Norvig's spelling corrector</a> is fairly famous in nerd-circles as it describes the first steps in creating a Google-style spelling corrector that will take something like &#8220;Speling&#8221;, recognise its closest word and reply &#8220;Did you mean Spelling?&#8221;.
 
 His original is a few years old now, and only 21 lines of compact Python. Below is my attempt to convert it to C#. There are already some links to C# conversions on Peter Norvig's page, however I wanted one that was closer to C# and didn't rely on a 3rd party library for collection helpers, as Frederic Torres's does. The other C# version was a 404 last time I looked.
