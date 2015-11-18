@@ -24,7 +24,7 @@ The docs for creating a new package are good, everything is clear and you get a 
 
 This generates the .nuspec file for you, and two powershell files. Knowledge of Powershell helps a lot, but the 2 scripts having a long set of examples to get you going.
 
-Once you have written your installer and updated the .nuspec file, you can run install on it which will create the package, for example `choco install .\myfolder`. You can then try to install this package, or just push it to Chocolatey.org using `choco push`.
+Once you have written your installer and updated the .nuspec file, create the package using `choco pack .\MyPackage\MyPackage.nuspec" and then install it with `choco install MyPackage.1.0.0.nupkg`. Finally you can push it to Chocolatey.org using `choco push`.
 
 The package hasn't yet been improved so it's not listed publicly, however it is available using `choco install chromedriver-latest -version 1.0.1`.
 
