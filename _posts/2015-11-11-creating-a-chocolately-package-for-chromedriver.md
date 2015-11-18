@@ -20,7 +20,7 @@ The Chocolatey contributors are aware of this, and are working on a package veri
 My solution was to embark on writing my first Chocolatey package, "chromedriver-latest" - just to add confusion to the Chocolatey repository there are now 3 separate packages. The one I have created will always get the latest Chromedriver however, and unlike other software installers such as MongoDB, Chromedriver is useless unless you have the latest version. Infact it should really be auto-updating but the chances of that happening are fairly slim.
 
 ### Creating a Chocolatey package
-The docs for creating a new package are good, everything is clear and you get a nice bootstrap template by running `choco install -n`.
+The docs for creating a new package are good, everything is clear and you get a nice bootstrap template by running `choco new -h`.
 
 This generates the .nuspec file for you, and two powershell files. Knowledge of Powershell helps a lot, but the 2 scripts having a long set of examples to get you going.
 
