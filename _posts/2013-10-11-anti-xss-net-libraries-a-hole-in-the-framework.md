@@ -9,7 +9,7 @@ dsq_thread_id:
 tags:
   - anti-xss
   - asp.net
-  - roadkillwiki
+  - roadkill-wiki
 ---
 One of the more important parts in Roadkill Wiki is removing malicious HTML from the markup that's entered, even when the markup (Creole and Markdown) is controlled.
 

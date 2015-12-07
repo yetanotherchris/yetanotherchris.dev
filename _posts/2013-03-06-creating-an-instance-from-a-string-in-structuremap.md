@@ -5,7 +5,7 @@ author: Chris S
 layout: post
 permalink: /structuremap/creating-an-instance-from-a-string-in-structuremap/
 tags:
-  - roadkillwiki
+  - roadkill-wiki
   - structuremap
 ---
 As part of the refactor I'm doing for Roadkill, I'm loading custom types from the config file as default instances, via StructureMap. The types are defined as strings in the config file, and in future more plugins will be loaded this way.

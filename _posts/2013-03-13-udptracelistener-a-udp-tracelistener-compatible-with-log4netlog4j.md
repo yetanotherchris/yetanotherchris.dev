@@ -6,7 +6,7 @@ layout: post
 permalink: /log4net/udptracelistener-a-udp-tracelistener-compatible-with-log4netlog4j/
 tags:
   - log4net
-  - roadkillwiki
+  - roadkill-wiki
   - tracelistener
 ---
 This class is a TraceListener implementation that uses the log4j XML format and sends the XML to a UDP socket. This means you can configure a trace listener to send all your logs to something like [http://log2console.codeplex.com.][1]. There is also [Harvester][2] which has a TraceListener implementation for streaming over a network.

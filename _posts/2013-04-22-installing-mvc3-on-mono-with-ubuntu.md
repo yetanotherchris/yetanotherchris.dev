@@ -6,7 +6,7 @@ layout: post
 permalink: /asp-net-mvc/installing-mvc3-on-mono-with-ubuntu/
 tags:
   - asp.net-mvc
-  - roadkillwiki
+  - roadkill-wiki
 ---
 I managed to get the wiki engine I spend a lot of more spare time writing, [Roadkill][1] working on Ubuntu with Mono this weekend. Unfortunately for me, a lot of the documentation is patchy which meant it took a few hours to get it up and running by scouring Stackoverflow, blogs and news groups. It is infact very simple to get MVC3 working with Apache on Linux, provided you have the right Apache config settings and are willing to add a few hacks into your code to cater for the gaps (NotImplementedExceptions) in the Mono framework.
 

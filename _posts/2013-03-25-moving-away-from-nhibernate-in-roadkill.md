@@ -5,7 +5,7 @@ author: Chris S
 layout: post
 permalink: /umbraco/moving-away-from-nhibernate-in-roadkill/
 tags:
-  - roadkillwiki
+  - roadkill-wiki
   - nhibernate
 ---
 In the next version of Roadkill (1.6) I've moved away from NHibernate, the ORM that has been powering it for two years since version 1 and to a commercially supported ORM called Lightspeed.

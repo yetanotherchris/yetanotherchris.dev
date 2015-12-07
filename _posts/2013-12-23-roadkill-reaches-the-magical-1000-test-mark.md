@@ -7,7 +7,7 @@ permalink: /asp-net-mvc/roadkill-reaches-the-magical-1000-test-mark/
 tags:
   - asp.net-mvc
   - dotcover
-  - roadkillwiki
+  - roadkill-wiki
 ---
 *Warning: this post contains large amounts of pro-automated-testing propaganda.*
 
