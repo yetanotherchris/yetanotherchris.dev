@@ -8,6 +8,13 @@ tags:
   - Chromedriver
   - selenium
 ---
+**Update**: the package is now called chromedriver, and is at 
+
+- https://chocolatey.org/packages/chromedriver/1.0.0
+- https://github.com/yetanotherchris/Choco-chromedriver.
+
+---
+
 Chocolatey, our new Windows apt-get has now finally reached a stage where it is widely accepted (they get about 25m downloads a month) and thanks to its Kickstarter campaign, stable and close to a version 1 release.
 
 It works using nuget in the background, but instead of using `install-package xyz` you would use `choco install firefox`.
