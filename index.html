@@ -13,7 +13,11 @@ layout: default
         <a href="{{ post.url }}">
             <h3>{{ post.title }}</h3>
         </a>
+        {% if post.shortpost %}
+        {{ post.content }}
+        {% else %}
         {{ post.excerpt }}
+        {% endif %}
       </article>
   </div>
   {% endfor %}
