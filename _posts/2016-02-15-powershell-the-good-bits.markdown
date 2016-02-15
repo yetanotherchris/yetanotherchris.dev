@@ -2,6 +2,8 @@
 title: Powershell - the good bits
 layout: post
 shortpost: true
+tags:
+  - powershell
 ---
 
 I've been using Powershell on a daily basis for about 2 years now, mostly with Chocolatey and provisioning servers (the devops movement). Whilst it's a huge improvement over batch files (anything is)  and VBS, it is has foibles. 
@@ -35,6 +37,6 @@ That sounds like a damning critique but really the only two features that get an
 - Modules are easy to write.
 - The CLI intellisense in Windows 10 is nice.
 - The language is updated regularly, it's not left to fester like batch.
-- Chocolately and Boxstarter simplifying a large portion of what you do.
+- Chocolately and Boxstarter simplify a large portion of what you do.
 
 If you need to write infrastructure as code for Windows you're a bit stuck as the alternatives to Powershell aren't any better, they either lack the libraries Powershell has, or need to be compiled and aren't familiar to cross-platform sys-ops. So for now I'm happy with Powershell but do enjoy a good British moan at it every so often.

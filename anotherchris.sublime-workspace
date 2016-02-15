@@ -23,21 +23,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "anotherchris.sublime-project",
-			"settings":
-			{
-				"buffer_size": 350,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -46,10 +31,26 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 265.0,
-		"last_filter": "new",
+		"height": 392.0,
+		"last_filter": "git",
 		"selected_items":
 		[
+			[
+				"git",
+				"Git: Push"
+			],
+			[
+				"gitpu",
+				"Git: Push"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"jew",
+				"Jekyll: New post"
+			],
 			[
 				"new",
 				"Jekyll: New post"
@@ -69,10 +70,6 @@
 			[
 				"pack",
 				"Package Control: List Packages"
-			],
-			[
-				"git st",
-				"Git: Status"
 			],
 			[
 				"j",
@@ -108,10 +105,6 @@
 			],
 			[
 				"comm",
-				"Git: Commit"
-			],
-			[
-				"git",
 				"Git: Commit"
 			],
 			[
@@ -193,12 +186,16 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
-	"expanded_folders":
-	[
-		"/C/Code/yetanotherchris.github.io"
-	],
 	"file_history":
 	[
+		"/C/Code/.gitconfig",
+		"/C/Code/yetanotherchris.github.io/_layouts/post.html",
+		"/C/Code/yetanotherchris.github.io/index.html",
+		"/C/Code/yetanotherchris.github.io/_layouts/default.html",
+		"/C/Code/yetanotherchris.github.io/_posts/2016-02-14-shorter-posts.md",
+		"/C/Code/yetanotherchris.github.io/_posts/2016-02-15-powershell-the-good-bits.markdown",
+		"/C/Code/yetanotherchris.github.io/_posts/2016-02-15-.markdown",
+		"/C/Users/Chris/AppData/Roaming/Sublime Text 3/Packages/Jeykll/Jekyll.sublime-settings",
 		"/C/Code/yetanotherchris.github.io/anotherchris.sublime-project",
 		"/C/Program Files/Sublime Text 3/happymums.sublime-project",
 		"/C/Users/Chris/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
@@ -216,12 +213,8 @@
 		"/C/Code/happymumsfoundation.github.io/New Text Document.txt",
 		"/C/Users/Chris/AppData/Roaming/Sublime Text 3/scratchpad.txt",
 		"/C/Code/packer/scripts/teamcityagent/package.ps1",
-		"/C/Code/yetanotherchris.github.io/_posts/2016-02-14-shorter-posts.md",
-		"/C/Code/yetanotherchris.github.io/_layouts/post.html",
-		"/C/Code/yetanotherchris.github.io/index.html",
 		"/C/Code/yetanotherchris.github.io/_posts/2016-14-02-shorter-posts.md",
 		"/C/Code/yetanotherchris.github.io/_posts/2012-01-12-why-im-so-tired-uk-edition.md",
-		"/C/Code/yetanotherchris.github.io/_layouts/default.html",
 		"/D/Chris/Downloads/index.html",
 		"/C/Code/teste.txt",
 		"/C/Windows/System32/drivers/etc/hosts",
@@ -305,7 +298,6 @@
 		"/C/Code/Choco-Exceptionless/README.md",
 		"/C/Code/Choco-Exceptionless/exceptionless.3.1.1822.nupkg",
 		"/C/Code/Choco-Exceptionless/LICENSE",
-		"/C/Code/.gitconfig",
 		"/K/Google Drive/Documents/Roadkill/demo-site/Roadkill.config",
 		"/C/Code/roadkill/src/Roadkill.Web/Roadkill.config",
 		"/C/temp/fz3temp-1/Roadkill.config",
@@ -323,10 +315,7 @@
 		"/C/Code/Choco-chromedriver-latest/chromedriver/chromedriver.nuspec",
 		"/C/Code/Choco-chromedriver-latest/chromedriver-latest/tools/chocolateyinstall.ps1",
 		"/C/Code/Choco-chromedriver-latest/chromedriver-latest/chromedriver-latest.nuspec",
-		"/C/Code/Choco-chromedriver-latest/chromedriver-latest/tools/chocolateyuninstall.ps1",
-		"/C/Code/roadkill/tools/ConfigConverter/ConfigConverter/bin/Debug/roadkill.json",
-		"/C/Code/roadkill/src/Roadkill.Tests/Integration/Configuration/TestConfigs/JSON/test-empty-defaults.json",
-		"/C/Code/roadkill/lib/Configs/Roadkill.dev.config"
+		"/C/Code/Choco-chromedriver-latest/chromedriver-latest/tools/chocolateyuninstall.ps1"
 	],
 	"find":
 	{
@@ -548,66 +537,8 @@
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "anotherchris.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 350,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								350,
-								350
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -653,6 +584,14 @@
 	"output.git":
 	{
 		"height": 304.0
+	},
+	"output.git-commit":
+	{
+		"height": 100.0
+	},
+	"output.git-push":
+	{
+		"height": 100.0
 	},
 	"pinned_build_system": "Packages/User/wyam.sublime-build",
 	"project": "anotherchris.sublime-project",
