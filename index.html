@@ -14,6 +14,7 @@ layout: default
             <h3>{{ post.title }}</h3>
         </a>
         {% if post.shortpost %}
+        <div class="date">{{ post.date | date: "%A %B %-d, %Y" }}</div>
         {{ post.content }}
         {% else %}
         {{ post.excerpt }}

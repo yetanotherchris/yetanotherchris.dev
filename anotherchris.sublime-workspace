@@ -1,0 +1,704 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"r",
+				"no-repeat"
+			],
+			[
+				"bac",
+				"background-image"
+			],
+			[
+				"To",
+				"ToLowerInvariant"
+			],
+			[
+				"string",
+				"stringBuilder"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "anotherchris.sublime-project",
+			"settings":
+			{
+				"buffer_size": 350,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 265.0,
+		"last_filter": "new",
+		"selected_items":
+		[
+			[
+				"new",
+				"Jekyll: New post"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"pack",
+				"Package Control: List Packages"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"j",
+				"Jekyll: New post"
+			],
+			[
+				"jey",
+				"Jekyll: New post"
+			],
+			[
+				"convert",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"scrat",
+				"Scratch Pad"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add All"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"json",
+				"JSON Reindent: reindent file or selection"
+			],
+			[
+				"installpac",
+				"Package Control: Install Package"
+			],
+			[
+				"ya",
+				"Set Syntax: YAML"
+			],
+			[
+				"pretty",
+				"HTMLPrettify"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"c#",
+				"Set Syntax: C#"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"preview",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"About"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"spaces",
+				"Indentation: Convert to Spaces"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"C:\\Users\\Chris\\AppData\\Roaming\\Sublime Text 3\\Packages\\Jeykll",
+			"help",
+			"about",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Code/yetanotherchris.github.io"
+	],
+	"file_history":
+	[
+		"/C/Code/yetanotherchris.github.io/anotherchris.sublime-project",
+		"/C/Program Files/Sublime Text 3/happymums.sublime-project",
+		"/C/Users/Chris/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll.sublime-settings",
+		"/C/Users/Chris/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/C/Users/Chris/AppData/Roaming/Sublime Text 3/Packages/User/Jekyll/Jekyll.sublime-settings",
+		"/D/bot.config",
+		"/C/Code/equanimous-squeegee/src/OverwatchParser.cs",
+		"/C/Code/happy-mums-foundation.github.io/index.html",
+		"/C/Code/happy-mums-foundation.github.io/_layouts/default.html",
+		"/C/Code/happy-mums-foundation.github.io/_includes/temp.html",
+		"/C/Code/happy-mums-foundation.github.io/_posts/test.md",
+		"/C/Code/happy-mums-foundation.github.io/.gitignore",
+		"/C/My Web Sites/http___www.temphappymumsfoundation.xyz_/www.temphappymumsfoundation.xyz/index.html",
+		"/C/Code/happymumsfoundation.github.io/index.html",
+		"/C/Code/happymumsfoundation.github.io/New Text Document.txt",
+		"/C/Users/Chris/AppData/Roaming/Sublime Text 3/scratchpad.txt",
+		"/C/Code/packer/scripts/teamcityagent/package.ps1",
+		"/C/Code/yetanotherchris.github.io/_posts/2016-02-14-shorter-posts.md",
+		"/C/Code/yetanotherchris.github.io/_layouts/post.html",
+		"/C/Code/yetanotherchris.github.io/index.html",
+		"/C/Code/yetanotherchris.github.io/_posts/2016-14-02-shorter-posts.md",
+		"/C/Code/yetanotherchris.github.io/_posts/2012-01-12-why-im-so-tired-uk-edition.md",
+		"/C/Code/yetanotherchris.github.io/_layouts/default.html",
+		"/D/Chris/Downloads/index.html",
+		"/C/Code/teste.txt",
+		"/C/Windows/System32/drivers/etc/hosts",
+		"/C/Code/mkdocstest/docs/index.md",
+		"/C/Code/mkdocstest/mkdocs.yml",
+		"/C/Code/chocolateytemplates/_templates/chocolateyauto3/__NAME__.install/__NAME__.install.nuspec",
+		"/C/Code/Choco-Exceptionless/Exceptionless/exceptionless.nuspec",
+		"/C/Code/Syringe/src/Chocolatey/Syringe/syringe.nuspec",
+		"/C/Code/elasticsearch-package/exceptionless-elasticsearch/tools/chocolateyInstall.ps1",
+		"/C/Code/elasticsearch-package/exceptionless-elasticsearch/exceptionless-elasticsearch.nuspec",
+		"/C/Code/Choco-Exceptionless/Exceptionless/tools/ReadMe.md",
+		"/C/Code/Choco-chromedriver/chromedriver/chromedriver.nuspec",
+		"/C/Code/Choco-Exceptionless/Exceptionless/tools/chocolateyuninstall.ps1",
+		"/C/Code/Choco-Exceptionless/Exceptionless/tools/common.ps1",
+		"/C/ProgramData/chocolatey/lib/elasticsearch/tools/elasticsearch-1.7.2/bin/elasticsearch.bat",
+		"/C/Code/Choco-Exceptionless/Exceptionless/tools/chocolateyinstall.ps1",
+		"/C/Code/Choco-Exceptionless - Copy/Exceptionless/tools/ReadMe.md",
+		"/C/Code/Choco-Exceptionless - Copy/Exceptionless/tools/common.ps1",
+		"/C/Code/Choco-Exceptionless - Copy/Exceptionless/tools/chocolateyinstall.ps1",
+		"/C/Code/elasticsearch-package/tools/chocolateyInstall.ps1",
+		"/C/Code/elasticsearch-package/exceptionless-elasticsearch.nuspec",
+		"/C/Code/elasticsearch-package/elasticsearch.nuspec",
+		"/C/Code/Choco-chromedriver/chromedriver/tools/chocolateyinstall.ps1",
+		"/D/Chris/Downloads/LATEST_RELEASE",
+		"/C/tools/ChocolateyPackageUpdater/chocopkgup.exe.config",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/WSX.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/WindowsFeatures.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/Packer-Helpers.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/LegacyWSX.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/Iis-Helpers.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/Developer.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/AdDfsConnections.ps1",
+		"/C/Code/Powershell/PowershellModules/Modules/Packer/Environments/Developer.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Windows Image/DeveloperImage.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/Jobseeker/Jobseeker.psm1",
+		"/C/Code/Powershell/PowershellModules/Modules/module-list.json",
+		"/C/Code/Powershell/Packer-Dev/scripts/devmachine/package.ps1",
+		"/C/Code/Powershell/Packer-Dev/scripts/common.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/Gac[x]/Gac.psm1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Recipes/adddfsconnections.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Recipes/WSX-bootstrap.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/Other/RunInstallers.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/Other/import-octopus-variables.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/Other/UpdateRSAKeyContainer.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/Other/Update-ssl-cert-bindings.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/Other/InstallSSLCertificates.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/Other/Update-iis.ps1",
+		"/C/Code/Powershell/PowershellModules/Modules/WindowsFeatures/common.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/MachineClean/Clean-GAC.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.WSX/Powershell/MachineClean/Clean-Machine.ps1",
+		"/C/Code/Powershell/Chef/src/Chef.LOG/Recipes/LOG-bootstrap.ps1",
+		"/C/Code/roadkill/src/Roadkill.Web/Assets/Scripts/roadkill.min.js",
+		"/C/Code/roadkill/src/Roadkill.Web/gulpfile.js",
+		"/C/Code/roadkill/src/Roadkill.Web/Assets/Scripts/roadkill.js",
+		"/C/Code/roadkill/tools/Testing/Test-databases/roadkill-sqlserver.sql",
+		"/D/todo",
+		"/C/Code/roadkill/src/Roadkill.Web/App_Data/configuration.json",
+		"/C/Code/roadkill/tools/Testing/Configs/configuration.json",
+		"/C/Code/roadkill/src/Roadkill.Web/web.config",
+		"/C/Code/roadkill/tools/Testing/Configs/web.config",
+		"/D/Chris/Downloads/temp.txt",
+		"/V/logins.txt",
+		"/D/Chris/Downloads/installscript.txt",
+		"/C/Code/packer-windows/scripts/AdminDeployment.xml",
+		"/C/Code/roadkill/src/Roadkill.Tests/bin/Debug/plugins.json",
+		"/C/Code/roadkill/tools/Testing/Configs/connectionStrings.dev.config",
+		"/C/Code/roadkill/lib/Configs/connectionStrings.appveyor.config",
+		"/C/Code/roadkill/lib/Configs/web.config",
+		"/C/Code/roadkill/lib/Configs/Roadkill.windowsauth-acceptance.config",
+		"/D/right.txt",
+		"/D/temp.txt",
+		"/D/left.txt",
+		"/C/ProgramData/chocolatey/lib/exceptionless/tools/Exceptionless.3.1.1822/wwwroot/Web.config",
+		"/C/ProgramData/chocolatey/lib/exceptionless/tools/Exceptionless.3.1.1822/wwwroot/app.config.ed3cf0dcda32e24c.js",
+		"/C/ProgramData/chocolatey/lib/elasticsearch/tools/elasticsearch-1.7.2/config/elasticsearch.yml",
+		"/C/Code/vagrantfile-windows_2012_r2/scripts/common.ps1",
+		"/C/Code/manageddism-34686/Microsoft.Dism/Properties/Resources.resx",
+		"/C/Code/manageddism-34686/Microsoft.Dism/Properties/Resources.Designer.cs",
+		"/C/Code/ManagedDism/LICENSE",
+		"/C/Code/ManagedDism/ManagedDism.sln",
+		"/C/Code/Choco-Exceptionless/README.md",
+		"/C/Code/Choco-Exceptionless/exceptionless.3.1.1822.nupkg",
+		"/C/Code/Choco-Exceptionless/LICENSE",
+		"/C/Code/.gitconfig",
+		"/K/Google Drive/Documents/Roadkill/demo-site/Roadkill.config",
+		"/C/Code/roadkill/src/Roadkill.Web/Roadkill.config",
+		"/C/temp/fz3temp-1/Roadkill.config",
+		"/C/temp/fz3temp-1/Web.config",
+		"/D/test.txt",
+		"/C/Code/roadkill/src/Roadkill.Tests/bin/Debug/configuration.json",
+		"/D/Chris/Downloads/test-optional-values.config",
+		"/C/Code/roadkill/src/Roadkill.Tests/Integration/Configuration/TestConfigs/JSON/test.config",
+		"/C/Code/roadkill/src/Roadkill.Tests/Integration/Configuration/TestConfigs/JSON/test-empty.config",
+		"/C/Code/roadkill/src/Roadkill.Tests/Integration/Configuration/TestConfigs/JSON/test-mongodb.config",
+		"/C/Code/roadkill/src/Roadkill.Tests/Integration/Configuration/TestConfigs/JSON/test-optional-values.config",
+		"/D/Chris/Downloads/test-optional-values.json",
+		"/C/Code/Choco-chromedriver-latest/README.md",
+		"/C/Code/Choco-chromedriver-latest/chromedriver/tools/chocolateyuninstall.ps1",
+		"/C/Code/Choco-chromedriver-latest/chromedriver/chromedriver.nuspec",
+		"/C/Code/Choco-chromedriver-latest/chromedriver-latest/tools/chocolateyinstall.ps1",
+		"/C/Code/Choco-chromedriver-latest/chromedriver-latest/chromedriver-latest.nuspec",
+		"/C/Code/Choco-chromedriver-latest/chromedriver-latest/tools/chocolateyuninstall.ps1",
+		"/C/Code/roadkill/tools/ConfigConverter/ConfigConverter/bin/Debug/roadkill.json",
+		"/C/Code/roadkill/src/Roadkill.Tests/Integration/Configuration/TestConfigs/JSON/test-empty-defaults.json",
+		"/C/Code/roadkill/lib/Configs/Roadkill.dev.config"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 314.0,
+		"where_history":
+		[
+			"C:\\Code\\roadkill\\src\\Roadkill.Tests",
+			"C:\\Code\\yetanotherchris.github.io\\_posts",
+			"C:\\Code\\anotherchris.github.io\\_posts\\",
+			"C:\\Code\\anotherchris.github.io\\_posts",
+			"C:\\Code\\anotherchris.github.io\\posts",
+			"C:\\Code\\anotherchris.github.io\\_sass",
+			"C:\\Code\\anotherchris.github.io\\_posts",
+			"C:\\Code\\Anotherchris-wyam\\Input\\posts-fixed",
+			"C:\\Code\\Anotherchris-wyam\\Input\\",
+			"C:\\Code\\Anotherchris-wyam\\Input\\posts-fixed",
+			"",
+			"<open files>",
+			"K:\\OneDrive\\Anotherchris-wyam\\Input\\posts-fixed",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"\\",
+			"'",
+			"20px",
+			"#000",
+			"<a",
+			"logo",
+			"function",
+			"src",
+			" settingsRepository,",
+			"SettingsRepositoryMock settingsRepository = new SettingsRepositoryMock();",
+			"		public ",
+			"public ",
+			"new MarkupSanitizer(_settings)",
+			"=",
+			"appSettings.",
+			",",
+			":",
+			"\"",
+			"mno-cygwin",
+			"vcvars",
+			" = ",
+			"expectedSettings.",
+			"eee",
+			"CreatePageService",
+			"PageRepositoryMock pageRepository = new PageRepositoryMock();",
+			"Any",
+			"Repository",
+			"Count",
+			", Is.EqualTo(0));",
+			"Assert.That(",
+			"(\\[Test\\]\\s*public\\s*void\\s*)(.*)\\(",
+			"(\\[Test\\]\\s*public\\s*void\\s*)(.*)\\()",
+			"(\\[Test\\]\\s*public\\svoid\\s)(.*)\\()",
+			"(\\[Test\\]\\s*public\\svoid)\\s(.*)\\()",
+			"(\\[Test\\]\\s*public\\svoid\\s(.*)\\()",
+			"\\[Test\\]\\s*public\\svoid\\s(.*)\\(\\)",
+			"= ",
+			"new string(",
+			"RepositoryInfo",
+			"new RepositoryInfo",
+			"public static readonly RepositoryInfo MySQL = ",
+			"DataProvider",
+			"\",",
+			"RepositoryInfo(",
+			"RepositoryInfo",
+			"DataStoreType",
+			"public static readonly DataStoreType ",
+			"public static readonly DataStoreType MySQL = new ",
+			"service",
+			"userservice",
+			"LocatorStartup.Locator",
+			"roadkillwiki",
+			".HybridHttpOrThreadLocalScoped()",
+			"HybridHttpOrThreadLocalScoped()",
+			"x.F",
+			"x.",
+			"jsBundle.Include(\"~/",
+			"jsBundle.Include(\"",
+			" version=",
+			"  <package id=",
+			" targetFramework=\"net45\" />",
+			"  <package id=",
+			" version=\"",
+			" targetFramework=\"net451\" />",
+			"lightspeed",
+			" version=",
+			"targetFramework",
+			"/>",
+			"  <package id=\"",
+			"innocent - ",
+			"<pool_name>",
+			"yaml",
+			"download full",
+			"uinavigation",
+			": /upload",
+			"/upload",
+			"umlcheat",
+			"/storage/images/",
+			"/storage/downloads/",
+			"/storage/downloads",
+			"/storeage/downloads",
+			".alert",
+			".pull-right",
+			"Title:",
+			"Tags:",
+			"tags:",
+			"Tags:",
+			"wordpressExcerpt:",
+			"VisualStudioVersion",
+			"licen",
+			",",
+			"/iphone/",
+			"hero",
+			"doc",
+			"http://spruce.codeplex.com",
+			"If you'd like to see the caching in action in Roadkill",
+			"system-io",
+			"ViewData",
+			"Open Source Projects",
+			"Open Source",
+			"GetTagLink",
+			"microrest",
+			"open source projects",
+			"/net/inside-the-system-io-namespace-part-2/",
+			"/net/2010/7/29/inside-net-assemblies-part-2/",
+			"/csharp/commandoptions-interactive-console-application-command-parse/",
+			"The full implementation is on ",
+			"Extensions",
+			"GetPostFilename",
+			" ",
+			"fill",
+			"/tags/asp.net",
+			"/tags/net",
+			"/tags/.net",
+			"hero",
+			"width",
+			"min-width",
+			"&#",
+			"&#8211;",
+			"GetPostFilename",
+			"\"",
+			"wordpressExcerpt: (.*?)\\n",
+			"wordpressExcerpt: (.*?)",
+			"wordpressExcerpt: <p>(.*?)</p>",
+			"excerpt: |\n  |\n    ",
+			"}}}",
+			"#!c#",
+			"{{{"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"\\\\",
+			"\"",
+			"\"\"",
+			"$1\\L$2\\(",
+			"$1\\l$2\\(",
+			"/wp-content/uploads/2013/02/",
+			"title:",
+			"tags:",
+			"Tags:",
+			"tags:",
+			"excerpt:",
+			"-",
+			"wordpressExcerpt: \"$1\"\\n",
+			"wordpressExcerpt: \"$1\"",
+			"wordpressExcerpt: $1",
+			"wordpressExcerpt: ",
+			"#",
+			".html",
+			"Dog",
+			"dfs",
+			"eeor",
+			"BindMissile",
+			"/Places/To/Buy/Caravans/",
+			"Ping",
+			"Shizzletron",
+			"Shizzle",
+			"ListOfStuff2",
+			"ListOfStuff",
+			"FooFromBar5",
+			"FooFromBar4",
+			"FooFromBar3",
+			"FooFromBar1",
+			"FooFromBar",
+			"/Search/",
+			"SalmonDance",
+			"c:\\\\mycode\\\\AmazinApp\\\\RiceCakes.cs:line",
+			"c:\\\\mycode\\\\AmazinApp\\\\RiceCakes.cs ",
+			"c:\\\\mycode\\\\AmazinApp\\\\RiceCakes.cs",
+			"c:\\mycode\\AmazinApp\\RiceCakes.cs",
+			"c:\\\\mycode\\AmazinApp\\RiceCakes.cs",
+			"http://www.example.com/Search/",
+			"AmazingApp",
+			"\"\"",
+			";",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "anotherchris.sublime-project",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 350,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 336.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 304.0
+	},
+	"pinned_build_system": "Packages/User/wyam.sublime-build",
+	"project": "anotherchris.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 341.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
