@@ -1,5 +1,5 @@
 ---
-title: Powershell - the good bits
+title: Powershell - the good parts
 layout: post
 shortpost: true
 tags:
@@ -14,7 +14,7 @@ Infact it has so many foibles I would put it firmly in the languages-with-very-s
 - The same applies for the profile folder, it lived until recently inside Powershell1. Oh and there's also [6 different profile locations](https://blogs.technet.microsoft.com/heyscriptingguy/2012/05/21/understanding-the-six-powershell-profiles/).
 - `$true` and `$false` as constants
 - `$HOME` vs `~` vs `$env:HOME` ([explaination here](http://www.beefycode.com/post/The-Difference-Between-~-and-%24home.aspx))
-- Error handling. Do we try catch, `-ErrorAction`, `$ErrorActionPreference`, `2>&1`, $LastExistCode? I know there is a distinct difference between the four but it doesn't make it any less nutty.
+- Error handling. Do we `try {} catch`, `-ErrorAction`, `$ErrorActionPreference`, `2>&1`, `$LastExistCode`? I know there is a distinct difference between the four but it doesn't make it any less nutty.
 - Help docs. If I want help on a cmdlet I have to use `get-help invoke-webrequest` or the shortcut `man wget`, not just `-help`
 - ...which leads onto unix shortcuts. They're not unix shortcuts as they're different commands with completely different syntaxes. For example wget, curl, ls.
 - Functions. You declare them with brackets, you call them without.
@@ -23,7 +23,7 @@ These are more minor quibbles:
 
 - Inconsistently with semi colons at the end of the lines.
 - Casting is a complete beast.
-- String lookups and replacement is also not nice if you're not familiar with the .NET framework.
+- String lookups/replacements are also not nice if you're not familiar with the .NET framework.
 - No easy way to log output, even with the transcript commands.
 - A separate metadata file for modules - why not just use YAML (frontmatter) at the top or bottom of the file?
 - `-eq -neq -gt`. But there is actually a design decision behind this that makes sense, based on dash command line argument seperator and  having to maintain the > as a pipe.
@@ -32,7 +32,7 @@ That sounds like a damning critique but really the only two features that get an
 
 - Really easy to pickup if you're from a .NET background.
 - A familar Perl/PHP-like syntax for the variables and comments.
-- You can use the .NET fairly easily: `C:\>[System.DateTime]::Now` (there's a shortcut: `get-date`)
+- You can use the .NET framework fairly easily: `C:\>[System.DateTime]::Now` (there's a shortcut: `get-date`)
 - You can alias commands easily
 - Modules are easy to write.
 - The CLI intellisense in Windows 10 is nice.
