@@ -12,8 +12,8 @@ There's a [great guide on Digital Ocean](https://www.digitalocean.com/community/
 - `md /var/www/example.com`
 - `md /var/www/example.com/public_html`
 - `nano /var/www/example.com/public_html/index.html`
-- copy/create a conf in /etc/apache2/sites-available, e.g. example.com.conf:
 
+**copy/create a conf in /etc/apache2/sites-available, e.g. example.com.conf:**
 
 
     <VirtualHost *:80>
