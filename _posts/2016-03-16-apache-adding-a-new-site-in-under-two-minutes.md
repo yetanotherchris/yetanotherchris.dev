@@ -47,5 +47,5 @@ There's a [great guide on Digital Ocean](https://www.digitalocean.com/community/
     </VirtualHost>
 
 
-- sudo a2ensite example.com.conf
-- service apache2 restart
+- `sudo a2ensite example.com.conf`
+- `service apache2 restart`
