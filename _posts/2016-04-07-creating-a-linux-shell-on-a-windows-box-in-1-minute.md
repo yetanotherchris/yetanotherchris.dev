@@ -1,5 +1,5 @@
 ---
-title: Creating a Linux shell on a Windows box in 1 minutes (or 7 lines of Powershell)
+title: Creating a Linux shell on a Windows box in 1 minute (or 7 lines of Powershell)
 layout: post
 shortpost: true
 Published: 2016-04-07
