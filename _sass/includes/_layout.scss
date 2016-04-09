@@ -9,7 +9,8 @@ body {
 
 h1,h2,h3,h4,h5,p { font-family: "source-sans-pro", sans-serif; }
 p { font-size: 16px;}
-pre, blockquote { font-size: 12px;}
+pre, blockquote { font-size: 12px; }
+pre { background-color: #044c70; color: #fff; border-radius: 0px; border: 1px solid black;}
 
 a { color: #1c485b;}
 a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
