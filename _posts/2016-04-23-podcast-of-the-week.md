@@ -17,7 +17,7 @@ In particular:
 - Is everything in the universe conscious? If so, are thermostats conscious?
 - Mmmmmm brains: the zombie analogy for consciousness.
 
-https://www.samharris.org/podcast
+[https://www.samharris.org/podcast](https://www.samharris.org/podcast)
 
 
 
