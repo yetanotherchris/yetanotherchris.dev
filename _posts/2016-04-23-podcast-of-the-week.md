@@ -2,6 +2,7 @@
 published: 2016-04-23T00:00:00.000Z
 title: Podcast of the week
 shortpost: true
+layout: post
 tags: 
   - podcast
   - philosophy
