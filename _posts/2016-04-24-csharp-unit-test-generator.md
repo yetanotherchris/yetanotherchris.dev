@@ -2,6 +2,7 @@
 shortpost: true
 Published: 2016-04-24
 title: "C# Unit test generator"
+layout: post
 tags: 
   - "c#"
   - testing
