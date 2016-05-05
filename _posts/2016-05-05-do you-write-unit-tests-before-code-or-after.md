@@ -7,7 +7,7 @@ tags:
   - testing
   - "unit-tests"
 shortpost: true
-title: "C# Unit test generator"
+title: "Do you write unit test before code, or after?"
 ---
 One of the biggest ommisions in the TDD literature is the concept of code first vs test first. Both are valid in TDD but the discussion doesn't seem to surface very often, possibly because it's a more advanced topic.
 
