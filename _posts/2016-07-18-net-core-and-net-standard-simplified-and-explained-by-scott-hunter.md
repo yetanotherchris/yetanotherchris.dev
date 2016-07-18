@@ -13,6 +13,8 @@ Probably the clearest explanation I've found is hidden away in [this DotNetConf 
 
 ![.net today](/wp-content/uploads/2016/dotnet-today.png)
 
+**Note: The usage of Core library in this slide is slightly confusing, Scott is referring to System.Core.dll and for Base Class Library (BCL) this is typically system.dll**
+
 And if you really don't want to read the slides, my summary would be: .net standard is a versioned contract that the implementation has to adhere to (like the CLR and CLS standards). It'll get more APIs over time, and each implementation will have to honor the contract to keep up. If you want to be re-confused, try reading [this doc](https://github.com/dotnet/corefx/blob/master/Documentation/architecture/net-platform-standard.md#user-content-list-of-net-corefx-apis-and-their-associated-net-platform-standard-version). Why is everything version 4? Probably because it came straight from the .NET 4.0 code base.
 
 So .NET Core is an implementation of the .NET Standard (.NET Core is version 1.0 right now, .NET Standard is version 1.6). The version numbers really don't help at all, they would've benefited from resetting them all to 1.0 and blown a big raspberry at anyone who was using the betas and RC1 and RC2.
