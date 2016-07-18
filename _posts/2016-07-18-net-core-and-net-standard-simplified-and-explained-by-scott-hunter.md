@@ -11,12 +11,12 @@ With all the changes to .NET that have happened this year, and the constantly ev
 
 Probably the clearest explanation I've found was somewhat lost in [this DotNetConf Keynote by Scott Hunter](https://channel9.msdn.com/Events/dotnetConf/2016/NET-Conf-Day-1-Keynote-Scott-Hunter). The first 20 minutes gives the lowdown on the new architecture, or you can read the slides if you don't have time.
 
-![.net today](/wp-content/uploads/2016/.net-today.png)
+![.net today](/wp-content/uploads/2016/dotnet-today.png)
 
 And if you really don't want to read the slides, my summary would be: .net standard is a versioned contract that the implementation has to adhere to (like the CLR and CLS standards). It'll get more APIs over time, and each implementation will have to honor the contract to keep up. If you want to be re-confused, try reading [this doc](https://github.com/dotnet/corefx/blob/master/Documentation/architecture/net-platform-standard.md#user-content-list-of-net-corefx-apis-and-their-associated-net-platform-standard-version). Why is everything version 4? Probably because it came straight from the .NET 4.0 code base.
 
 So .NET Core is an implementation of the .NET Standard (.NET Core is version 1.0 right now, .NET Standard is version 1.6). The version numbers really don't help at all, they would've benefited from resetting them all to 1.0 and blown a big raspberry at anyone who was using the betas and RC1 and RC2.
 
-![.net core](/wp-content/uploads/2016/.net-tommorow.png)
+![.net core](/wp-content/uploads/2016/dotnet-tommorow.png)
 
 Also worth checking out is [the .NET roadmap up until the start of 2017](https://blogs.msdn.microsoft.com/dotnet/2016/07/15/net-core-roadmap/)
