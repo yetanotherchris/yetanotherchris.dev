@@ -11,7 +11,7 @@ With all the changes to .NET that have happened this year, and the constantly ev
 
 Probably the clearest explanation I've found was somewhat lost in [this DotNetConf Keynote by Scott Hunter](https://channel9.msdn.com/Events/dotnetConf/2016/NET-Conf-Day-1-Keynote-Scott-Hunter). The first 20 minutes gives the lowdown on the new architecture, or you can read the slides if you don't have time.
 
-![.net today][/wp-content/uploads/2016/.net-today.png]
-![.net core][/wp-content/uploads/2016/.net-tommorow.png]
+![.net today](/wp-content/uploads/2016/.net-today.png)
+![.net core](/wp-content/uploads/2016/.net-tommorow.png)
 
-Also worth checking out is [the roadmap up until the start of 2017](https://blogs.msdn.microsoft.com/dotnet/2016/07/15/net-core-roadmap/)
+Also worth checking out is [the .NET roadmap up until the start of 2017](https://blogs.msdn.microsoft.com/dotnet/2016/07/15/net-core-roadmap/)
