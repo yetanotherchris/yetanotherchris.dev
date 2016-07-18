@@ -9,7 +9,7 @@ title: '.NET Core and .NET Standard simplified and explained by Scott Hunter'
 ---
 With all the changes to .NET that have happened this year, and the constantly evolving .NET core/standard (and the bombshell that project.json is going), it's quite hard to decipher what Microsoft are doing to the frameworks besides the main marketing features of it running on Linux/MacOS with NPM style packages and ASP.NET getting Kestrel.
 
-Probably the clearest explanation I've found was somewhat lost in [this DotNetConf Keynote by Scott Hunter](https://channel9.msdn.com/Events/dotnetConf/2016/NET-Conf-Day-1-Keynote-Scott-Hunter). The first 20 minutes gives the lowdown on the new architecture, or you can read the slides if you don't have time.
+Probably the clearest explanation I've found is hidden away in [this DotNetConf Keynote by Scott Hunter](https://channel9.msdn.com/Events/dotnetConf/2016/NET-Conf-Day-1-Keynote-Scott-Hunter). The first 20 minutes gives the lowdown on the new architecture, or you can read the slides if you don't have time.
 
 ![.net today](/wp-content/uploads/2016/dotnet-today.png)
 
