@@ -10,6 +10,12 @@ dsq_thread_id:
 tags:
   - 'c#'
 ---
+
+*Small update: added the dotnet core way of doing things*
+
+### System.AppContext.BaseDirectory
+This is the prefered replacement for AppDomain.CurrentDomain.BaseDirectory in .net core (at least until the API appears for AppDomain, if it ever will).
+
 ### AppDomain.CurrentDomain.BaseDirectory
 
 This is the best option all round. It will give you the base directory for class libraries, including those in ASP.NET applications.
