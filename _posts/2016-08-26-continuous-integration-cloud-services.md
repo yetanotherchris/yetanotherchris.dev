@@ -1,5 +1,5 @@
 ---
-Published: 2006-02-16T00:00:00.000Z
+Published: 2016-08-26T00:00:00.000Z
 title: 'Continuous Integration cloud services'
 author: Chris S
 shortpost: true
