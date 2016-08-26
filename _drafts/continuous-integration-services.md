@@ -7,7 +7,7 @@ layout: post
 tags:
   - continous-integration
 ---
-I've probably missed a couple, but this is a list of compiled of all the CI services I know about and what you can get on a budget. My area of expertise is Teamcity, Octopus, Bamboo, Gitlab and a bit of Jenkins and Travis.
+I've probably missed a couple, but this is a list I've compiled of all the CI services I know about, geared towards cheapo devs on a budget. My area of expertise is Teamcity, Octopus, Bamboo, Gitlab and a bit of Jenkins and Travis, and limited to dot net core.
 
 - https://drone.io/new (free for public projects)
 - https://codeship.com/ (free 1 project)
