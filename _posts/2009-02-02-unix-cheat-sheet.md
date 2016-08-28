@@ -265,8 +265,8 @@ function reversePermissions()
 			var val = parseInt(form.elements[i].value);
 			var newMode = mode - val;
 			console.log("new mode would be: " +newMode);
-			
-			if (newMode == 0)
+
+			if (newMode === 0)
 			{
 				return;
 			}
