@@ -257,11 +257,14 @@ function reversePermissions()
 		}
 	}
 
+	console.log("the mode is: " +mode);
 	for (var i=0;i < form.elements.length;i++)
 	{
 		if (form.elements[i].type == "checkbox")
 		{
 			var val = parseInt(form.elements[i].value);
+
+			console.log("new mode would be: " +mode -val);
 			if (mode - val > 0)
 			{
 				form.elements[i].checked = true;
