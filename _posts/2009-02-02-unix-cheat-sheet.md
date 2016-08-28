@@ -266,10 +266,6 @@ function reversePermissions()
 			var newMode = mode - val;
 			console.log("new mode would be: " +newMode);
 
-			if (newMode === 0)
-			{
-				return;
-			}
 			else if (newMode > 0)
 			{
 				form.elements[i].checked = true;
