@@ -242,7 +242,14 @@ function makePermissions()
 
 function reversePermissions()
 {
-	clearForm();
+	var form = document.getElementById("unixcalculator");
+	for (var i=0;i < form.elements.length;i++)
+	{
+		if (form.elements[i].type == "checkbox")
+		{
+			form.elements[i].checked = false;
+		}
+	}
 
 	var form = document.getElementById("unixcalculator");
 	var mode = parseInt(form.unixpermission.value);
