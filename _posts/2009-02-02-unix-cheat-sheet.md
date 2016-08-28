@@ -225,7 +225,6 @@ function makePermissions()
 	form.unixpermission.value = mode;
 }
 
-
 function reversePermissions()
 {
 	var form = document.getElementById("unixcalculator");
@@ -234,14 +233,11 @@ function reversePermissions()
 	{
 		if (form.elements[i].type == "checkbox")
 		{
-			if (form.elements[i].checked == true)
+			var val = parseInt(form.elements[i].value);
+			if (mode - val > 0)
 			{
-				var val = parseInt(form.elements[i].value);
-				if (mode - val > 0)
-				{
-					form.elements[i].checked = true;
-					mode -= val;
-				}
+				form.elements[i].checked = true;
+				mode -= val;
 			}
 		}
 	}
