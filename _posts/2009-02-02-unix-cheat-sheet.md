@@ -242,6 +242,8 @@ function makePermissions()
 
 function reversePermissions()
 {
+	clearForm();
+	
 	var form = document.getElementById("unixcalculator");
 	var mode = parseInt(form.unixpermission.value);
 	for (var i=0;i < form.elements.length;i++)
