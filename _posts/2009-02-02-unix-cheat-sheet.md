@@ -226,7 +226,7 @@ function makePermissions()
 }
 </script>
 <form id="unixcalculator">
-<table width="500" class="table table-bordered" cellspacing="0" cellpadding="4">
+<table width="500" class="table table-bordered">
 	<thead>
 			<tr>
 				<th>&nbsp;</th>
