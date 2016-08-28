@@ -236,14 +236,14 @@ function makePermissions()
 			}
 		}
 	}
-	
+
 	form.unixpermission.value = mode;
 }
 
 function reversePermissions()
 {
 	var form = document.getElementById("unixcalculator");
-	var mode = form.unixpermission.value;
+	var mode = parseInt(form.unixpermission.value);
 	for (var i=0;i < form.elements.length;i++)
 	{
 		if (form.elements[i].type == "checkbox")
