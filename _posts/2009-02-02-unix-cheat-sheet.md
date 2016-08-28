@@ -206,10 +206,62 @@ e.g chmod 755 myfile.txt - changes the permissions on the file to 755 which is :
   * mysql -u username -p database > file*to*go_to.sql
 
 ## Permissions calculator
-
-<script type=&#8221;text/javascript&#8221;>  
-function makePermissions()  
-{  
-mode = 0;  
-var form = document.getElementById(&#8220;unixcalculator&#8221;);  
-for (var i=0;i < form.elements.length;i++) { if (form.elements[i].type == "checkbox") { if (form.elements[i].checked == true) { mode += parseInt(form.elements[i].value); } } } form.unixpermission.value = mode; } </script>
+<script>
+function makePermissions()
+{
+	mode = 0;
+	var form = document.getElementById("unixcalculator");
+	for (var i=0;i < form.elements.length;i++)
+	{
+		if (form.elements[i].type == "checkbox")
+		{
+			if (form.elements[i].checked == true)
+			{
+				mode += parseInt(form.elements[i].value);
+			}
+		}
+	}
+	form.unixpermission.value = mode;
+}
+</script>
+<form id="unixcalculator">
+<table width="500" class="rounded box unix-calc" cellspacing="0" cellpadding="4">
+	<thead>
+			<tr>
+				<th>&nbsp;</th>
+				<th>Read</th>
+				<th>Write</th>
+				<th>Execute</th>
+			</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Owner</td>
+			<td><input type="checkbox" name="a1" value="400" />			</td>
+			<td><input type="checkbox" name="a2" value="200" />			</td>
+			<td><input type="checkbox" name="a3" value="100" />			</td>
+		</tr>
+		<tr>
+			<td>Group</td>
+			<td><input type="checkbox" name="b1" value="40" />			</td>
+			<td><input type="checkbox" name="b2" value="20" />			</td>
+			<td><input type="checkbox" name="b3" value="10" />			</td>
+		</tr>
+		<tr>
+			<td>Others</td>
+			<td><input type="checkbox" name="c1" value="4" />			</td>
+			<td><input type="checkbox" name="c2" value="2" />			</td>
+			<td><input type="checkbox" name="c3" value="1" />			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align:right"><input type="button" name="Button" value="Clear" onclick="document.getElementById('unixcalculator').unixpermission.value='';" size="4" /></td>
+			<td colspan="2" style="text-align:left"><input type="button" name="Button" value="Calculate permissions" onclick="makePermissions();" /></td>
+		</tr>
+		<tr>
+			<td align="right">&nbsp;</td>
+			<td colspan="3" align="right">Mode&nbsp;<input type="text" name="unixpermission" id="unixpermission" readonly="readonly" />
+</td>
+		</tr>
+	</tbody>
+</table>
+</form>
