@@ -208,6 +208,20 @@ e.g chmod 755 myfile.txt - changes the permissions on the file to 755 which is :
 
 ## Permissions calculator
 <script>
+function clearForm()
+{
+	var form = document.getElementById("unixcalculator");
+	for (var i=0;i < form.elements.length;i++)
+	{
+		if (form.elements[i].type == "checkbox")
+		{
+			form.elements[i].checked = false;
+		}
+	}
+
+	form.unixpermission.value = "";
+}
+
 function makePermissions()
 {
 	mode = 0;
@@ -222,6 +236,7 @@ function makePermissions()
 			}
 		}
 	}
+	
 	form.unixpermission.value = mode;
 }
 
@@ -229,6 +244,19 @@ function reversePermissions()
 {
 	var form = document.getElementById("unixcalculator");
 	var mode = form.unixpermission.value;
+	for (var i=0;i < form.elements.length;i++)
+	{
+		if (form.elements[i].type == "checkbox")
+		{
+			var val = parseInt(form.elements[i].value);
+			if (mode === val)
+			{
+				form.elements[i].checked = true;
+				return;
+			}
+		}
+	}
+
 	for (var i=0;i < form.elements.length;i++)
 	{
 		if (form.elements[i].type == "checkbox")
@@ -277,9 +305,9 @@ function reversePermissions()
 		</tr>
 		<tr>
 			<td colspan="4" style="text-align:right">
-			<input type="button" class="btn btn-primary" name="Button" value="Clear" onclick="document.getElementById('unixcalculator').unixpermission.value='';" size="4" />
-			<input type="button" class="btn btn-primary" name="Button" value="Calculate permissions" onclick="makePermissions();" />
-			<input type="button" class="btn btn-primary" name="Button" value="Show permissions" onclick="reversePermissions();" />
+				<input type="button" class="btn btn-primary" name="Button" value="Clear" onclick="clearForm();" />
+				<input type="button" class="btn btn-primary" name="Button" value="Calculate permissions" onclick="makePermissions();" />
+				<input type="button" class="btn btn-primary" name="Button" value="Show permissions" onclick="reversePermissions();" />
 			</td>
 		</tr>
 	</tbody>
