@@ -255,12 +255,13 @@ function makePermissions()
 			<td><input type="checkbox" name="c3" value="1" />			</td>
 		</tr>
 		<tr>
-			<td colspan="2" style="text-align:right"><input type="button" name="Button" value="Clear" onclick="document.getElementById('unixcalculator').unixpermission.value='';" size="4" /></td>
-			<td colspan="2" style="text-align:left"><input type="button" name="Button" value="Calculate permissions" onclick="makePermissions();" /></td>
+			<td colspan="4" align="right">Mode&nbsp;<input type="text" name="unixpermission" id="unixpermission" readonly="readonly" /></td>
 		</tr>
 		<tr>
-			<td align="right">&nbsp;</td>
-			<td colspan="3" align="right">Mode&nbsp;<input type="text" name="unixpermission" id="unixpermission" readonly="readonly" /></td>
+			<td colspan="4" style="text-align:right">
+			<input type="button" class="btn btn-primary" name="Button" value="Clear" onclick="document.getElementById('unixcalculator').unixpermission.value='';" size="4" />
+			<input type="button" class="btn btn-primary" name="Button" value="Calculate permissions" onclick="makePermissions();" />
+			</td>
 		</tr>
 	</tbody>
 </table>
