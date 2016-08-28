@@ -264,11 +264,11 @@ function reversePermissions()
 		{
 			var val = parseInt(form.elements[i].value);
 
-			console.log("new mode would be: " +mode -val);
+			console.log("new mode would be: " + (mode - val));
 			if (mode - val > 0)
 			{
 				form.elements[i].checked = true;
-				mode -= val;
+				mode = mode - val;
 			}
 		}
 	}
