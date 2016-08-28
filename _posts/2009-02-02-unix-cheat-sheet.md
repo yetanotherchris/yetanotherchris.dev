@@ -155,19 +155,20 @@ The stuff below is in the man pages also.
 
 The format of passwd is:
 
-username  
-password denoted by x (use cat /etc/shadow | sort to list the shadow password file)  
-uid - user identifier number  
-gid - group identifier number  
-misc information such as real name  
-users home directory  
-shell for the user
+	username  
+	password denoted by x (use cat /etc/shadow | sort to list the shadow password file)  
+	uid - user identifier number  
+	gid - group identifier number  
+	misc information such as real name  
+	users home directory  
+	shell for the user
 
-The format of group is:  
-name of group  
-password denoted by x (use cat /etc/gshadow | sort to list the shadow group file)  
-gid - group identifier number  
-list of additional users assigned to the group
+The format of group is: 
+
+	name of group  
+	password denoted by x (use cat /etc/gshadow | sort to list the shadow group file)  
+	gid - group identifier number  
+	list of additional users assigned to the group
 
 Break down of permissions in a directory listing:
 
@@ -225,7 +226,7 @@ function makePermissions()
 }
 </script>
 <form id="unixcalculator">
-<table width="500" class="rounded box unix-calc" cellspacing="0" cellpadding="4">
+<table width="500" class="table table-bordered" cellspacing="0" cellpadding="4">
 	<thead>
 			<tr>
 				<th>&nbsp;</th>
@@ -259,8 +260,7 @@ function makePermissions()
 		</tr>
 		<tr>
 			<td align="right">&nbsp;</td>
-			<td colspan="3" align="right">Mode&nbsp;<input type="text" name="unixpermission" id="unixpermission" readonly="readonly" />
-</td>
+			<td colspan="3" align="right">Mode&nbsp;<input type="text" name="unixpermission" id="unixpermission" readonly="readonly" /></td>
 		</tr>
 	</tbody>
 </table>
