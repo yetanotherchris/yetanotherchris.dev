@@ -7,8 +7,6 @@ tags:
   - .net-core
   - nuget
 ---
-
-
 I had this problem today where a `dotnet restore` was failing on a Linux CI server, but working on my Windows 10 dev machine. The error was:
 
 > Unable to resolve 'System.Runtime.Serialization.Formatters (&gt;= 4.0.0-rc4-24217-03)' for '.NETCoreApp,Version=v1.0'.
