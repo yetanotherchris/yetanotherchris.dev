@@ -1,5 +1,5 @@
 ---
-Published: 2006-02-16T00:00:00.000Z
+Published: 2016-08-29T13:50:00.000Z
 title: Fixing .NET Core package restore problems
 author: Chris S
 layout: post
