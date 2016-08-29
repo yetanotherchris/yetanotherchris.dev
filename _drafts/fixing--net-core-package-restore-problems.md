@@ -3,10 +3,25 @@ Published: 2006-02-16T00:00:00.000Z
 title: Fixing .NET Core package restore problems
 author: Chris S
 layout: post
-permalink: /csharp/changing-a-richtextbox-caret-in-csharp/
 dsq_thread_id:
   - 4207230642
 tags:
-  - 'c#'
-  - winforms
+  - '.net-core'
+  - nuget
 ---
+
+I had this problem recently where a `dotnet restore` was failing on a Linux CI server, but working locally. The error was:
+
+> Unable to resolve 'System.Runtime.Serialization.Formatters (>= 4.0.0-rc4-24217-03)' for '.NETCoreApp,Version=v1.0'.
+
+It turns out I had this package in `C:\Users\MyUsername\.nuget\packages` so it restored locally, but on the internet the package isn't at nuget.org. How did I get it originally? That was a mystery that luckily another project in the solution solved by accident. 
+
+A lot of the .NET Core nuget packages are hosted on myget.org until they're ready to be fed over to nuget.org. The solution is to add a `nuget.config` file to your project, with this:
+
+
+    <configuration>
+      <packageSources>
+        <add key="nuget.org" value="https://api.nuget.org/v3/index.json" protocolVersion="3" />
+        <add key="dotnet-core" value="https://dotnet.myget.org/F/dotnet-core/api/v3/index.json" />
+      </packageSources>
+    </configuration>
