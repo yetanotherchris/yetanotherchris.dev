@@ -24,4 +24,4 @@ A lot of the .NET Core nuget packages are hosted on myget.org until they're read
     </configuration>
 
 
-One hour of my life wasted to save you 1 hour! 
+One hour of my life wasted to save you 1 hour! The myget feed is currently on [dotnet.myget.org](https://dotnet.myget.org/feed/dotnet-core/package/nuget/System.Runtime.Serialization.Formatters/4.0.0-rc4-24217-03)
