@@ -10,6 +10,9 @@ dsq_thread_id:
 tags:
   - tools
 ---
+
+![unix tar](http://imgs.xkcd.com/comics/tar.png)
+
 This post is a command reference card for some regularly used unix commands, tested on linux (Rdhat 6, a while ago) but should hopefully work on most unix command shells. Any additional (non-obscure) commands you think should be added,or corrections please email me.
 
 ## General help
