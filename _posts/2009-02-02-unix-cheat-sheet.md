@@ -50,6 +50,7 @@ Some common other text editing commands:
   * head [filename] - Shows the first 10 lines of file, or use -n
   * tail [filename] - Shows the last 10 lines of file, or use -n
   * cat [filename] | more - works like more, cat concats 2 strings
+  * sed 's|search string|replace string|' filename > newfile.txt - replaces a string inside a file. | is the delimiter here, but it can be anything to avoid clashes.
 
 ### General/System commands
 
@@ -101,6 +102,7 @@ Some common other text editing commands:
   * tar -xvf mytar.tar.gz destination - extracts a tar file (this example is compressed with gzip), verbosely, f is the filename
   * gzip fileordir - compresses a file with gzip.
   * gunzip file.gz - decompresses a file with gzip.
+  * unzip file - unzips a file (you'll need to apt-get install unzip)
 
 NB gzip only compresses files, it doesn't collect them into a single file like a tarball does.
 
