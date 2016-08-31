@@ -45,12 +45,19 @@ When inside vi:
 Some common other text editing commands:
 
   * pico [filename] - launches the PICO editor for the filename.
+  * nano [filename] - does anyone use PICO anymore?
   * more [filename] - shows one screen's worth of the file at a time.
   * less [filename] - similar to more
   * head [filename] - Shows the first 10 lines of file, or use -n
   * tail [filename] - Shows the last 10 lines of file, or use -n
   * cat [filename] | more - works like more, cat concats 2 strings
   * sed 's|search string|replace string|' filename > newfile.txt - replaces a string inside a file. | is the delimiter here, but it can be anything to avoid clashes.
+
+### SSH
+
+  * ssh root@1.2.3.4 - SSH onto a server (use git bash for Windows for this)
+  * scp root@1.2.3.4:localfile.txt /etc/remotefile.txt - copy localfile.txt to /etc/remotefile.txt
+  * scp root@1.2.3.4:/root/privatekey.prem privatekey.prem - copy privatekey.pem onto your server
 
 ### General/System commands
 
