@@ -25,3 +25,5 @@ There's quite a few gotchas to doing this however, which I discovered and spent 
 
 
 Below is the Docker file and the scripts are with the Gist.
+
+<script src="https://gist.github.com/yetanotherchris/e5185530eee16495a1432d3acf7f3e32.js"></script>
