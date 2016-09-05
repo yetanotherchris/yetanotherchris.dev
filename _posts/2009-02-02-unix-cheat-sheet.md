@@ -15,7 +15,19 @@ tags:
 
 This post is a command reference card for some regularly used unix commands, tested on linux (Rdhat 6, a while ago) but should hopefully work on most unix command shells. Any additional (non-obscure) commands you think should be added,or corrections please email me.
 
-## General help
+### Docker
+
+- `docker rm -f $(docker ps -a -q)` - removes all containers, forcing them to stop (-q is Windows friendly)
+- `docker rmi $(docker images -q)` - removes all images.
+
+### Sudo
+
+To edit the sudo file in bash (install Nano first, apt-get install nano or yum install nano):
+
+	# export VISUAL=nano
+	# crontab -e
+
+### General help
 
 [command] -help - gives syntax for using that command
 
