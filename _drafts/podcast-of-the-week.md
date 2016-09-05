@@ -14,6 +14,6 @@ A weekly favourite podcast doesn't really work as they only appear every month o
 
 This month is another Sam Harris one, talking about free will. Sam's books argues for the case that we have no free will beyond very simple choices. For example speaking - the broka region of the brain is responsible for speech but how much of your speech is words you are willfully choosing? Or another example given is decisions that the subconscious brain makes for you almost a second before the action is performed (from recent fMRI scans showing this is the case).
 
-Dennett (a philosopher) argues against this.&nbsp;
+Dennett (a philosopher) argues against this.
 
-&lt;iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/272067349&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&visual=true"&gt;&lt;/iframe&gt;
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/272067349&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
