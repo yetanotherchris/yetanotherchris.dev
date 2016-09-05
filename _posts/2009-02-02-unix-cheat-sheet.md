@@ -19,6 +19,19 @@ This post is a command reference card for some regularly used unix commands, tes
 
 - `docker rm -f $(docker ps -a -q)` - removes all containers, forcing them to stop (-q is Windows friendly)
 - `docker rmi $(docker images -q)` - removes all images.
+- `docker cp nginx:/usr/share/nginx/key.pem key.pem` - copies the pem file onto the nginx container from the current directory (this can be used to copy the other way round too).
+
+
+### Nginx
+
+To get a free SSL certificate for your site (expires in 90 days);
+
+	wget https://dl.eff.org/certbot-auto chmod a+x certbot-auto ./path/to/certbot-auto certonly --standalone -d example.com -d www.example.com
+
+You can then use it in your nginx conf file:
+
+    ssl_certificate /usr/share/nginx/keys/vac-ation.com/cert.pem;
+    ssl_certificate_key /usr/share/nginx/keys/vac-ation.com/privatekey.pem;
 
 ### Sudo
 
