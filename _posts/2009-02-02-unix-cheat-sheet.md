@@ -180,7 +180,7 @@ This searches for filename, runs the results through grep to filter everything w
   * `chsh [user]` - changes the shell for a user.
   * `userdel [user]` - removes a user from the system, use -r to remove their home directory too.
   * `newgrp [group id]` - log into a new group.
-  * `useradd -d /home/groupname -g groupname` - add a new user with the d being the homedirectory, g the default group they belong to.
+  * `useradd -d /home/username -g groupname` - add a new user with the d being the homedirectory, g the default group they belong to.
   * `groupadd [groupname]` - adds a group
 
 Take a look at the users/groups on the system with:
