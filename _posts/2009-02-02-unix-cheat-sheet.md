@@ -171,22 +171,22 @@ This searches for filename, runs the results through grep to filter everything w
 **>>** appends to the end of the file, and creates the file if one doesn't exist.   
 **<** sends everything after this to the application, e.g. ./mysql -u bob -p databasename < mysqldump.sql 
 
-### Permissions and directory listing format
+### Users and groups
 
-  * groups [username] - shows what groups the user belongs to
-  * id [username] - shows extended information about a user.
-  * finger [user] - give details about a user.
-  * passwd [user] - changes the password for a user, or without the user argument, changes your password.
-  * chsh [user] - changes the shell for a user.
-  * userdel [user] - removes a user from the system, use -r to remove their home directory too.
-  * newgrp [group id] - log into a new group.
-  * useradd -d /home/groupname -g groupname - add a new user with the d being the homedirectory, g the default group they belong to.
-  * groupadd [groupname] - adds a group
+  * `groups [username]` - shows what groups the user belongs to
+  * `id [username]` - shows extended information about a user.
+  * `finger [user]` - give details about a user.
+  * `passwd [user]` - changes the password for a user, or without the user argument, changes your password.
+  * `chsh [user]` - changes the shell for a user.
+  * `userdel [user]` - removes a user from the system, use -r to remove their home directory too.
+  * `newgrp [group id]` - log into a new group.
+  * `useradd -d /home/groupname -g groupname` - add a new user with the d being the homedirectory, g the default group they belong to.
+  * `groupadd [groupname]` - adds a group
 
 Take a look at the users/groups on the system with:
 
-  * cat /etc/passwd | sort
-  * cat /etc/group | sort
+  * `cat /etc/passwd | sort`
+  * `cat /etc/group | sort`
 
 The stuff below is in the man pages also.
 
@@ -206,6 +206,8 @@ The format of group is:
 	password denoted by x (use cat /etc/gshadow | sort to list the shadow group file)  
 	gid - group identifier number  
 	list of additional users assigned to the group
+
+### File and directory permissions
 
 Break down of permissions in a directory listing:
 
