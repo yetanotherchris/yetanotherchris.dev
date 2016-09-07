@@ -9,3 +9,8 @@ tags:
   - unix
   - .net-core
 ---
+
+
+The first 30 minutes of this podcast are worth a listen alone, Chris Kresser discusses how your stomach biome is linked to depression, your brain and cravings. After that they discuss the role of meet in providing nutrition to humans, how we don't consider ourselves animals anymore.
+
+&nbsp;
