@@ -162,14 +162,14 @@ NB gzip only compresses files, it doesn't collect them into a single file like a
 
 Piping to another command is straight forward enough:
 
-  * locate filename | grep /usr/local > searchresults.txt
+	`locate filename | grep /usr/local > searchresults.txt`
 
 This searches for filename, runs the results through grep to filter everything without /usr/local in it, and then outputs the results to searchresults.txt
 
-**|** runs one application via another, and can be used multiple times e.g. cat /usr/group | more | grep root | sort   
-**>** creates a new file if one doesn't already exist, overwrites the contents of the file if it does exist   
-**>>** appends to the end of the file, and creates the file if one doesn't exist.   
-**<** sends everything after this to the application, e.g. ./mysql -u bob -p databasename < mysqldump.sql 
+* `|` runs one application via another, and can be used multiple times e.g. cat /usr/group | more | grep root | sort   
+* `>` creates a new file if one doesn't already exist, overwrites the contents of the file if it does exist   
+* `>>` appends to the end of the file, and creates the file if one doesn't exist.   
+* `<` sends everything after this to the application, e.g. ./mysql -u bob -p databasename < mysqldump.sql 
 
 ### Users and groups
 
@@ -181,6 +181,7 @@ This searches for filename, runs the results through grep to filter everything w
   * `userdel [user]` - removes a user from the system, use -r to remove their home directory too.
   * `newgrp [group id]` - log into a new group.
   * `groupadd [groupname]` - adds a group
+  * `usermod -a -G [group-name] [user-name]` - adds a user to a group
   * `useradd -d /home/username -g groupname username` - add a new user with the d being the homedirectory, g the default group they belong to.
   * `sudo adduser <username> sudo` - add a user to the user of sudos
 
@@ -212,12 +213,12 @@ The format of group is:
 
 Break down of permissions in a directory listing:
 
-<pre>-rw-r--r-- 1 mainuser devel 9054 Dec 28 12:42 index.html</pre>
+	-rw-r--r-- 1 mainuser devel 9054 Dec 28 12:42 index.html
 
-The first character indicates whether it is a directory or file (d for directory).   
-After that, the next 3 (rw-) are owner permissions.   
-The following 3 (r-) are group permissions   
-The following 3(r-) are permissions for other users. 
+* The first character indicates whether it is a directory or file (d for directory).   
+* After that, the next 3 (rw-) are owner permissions.   
+* The following 3 (r-) are group permissions   
+* The following 3(r-) are permissions for other users. 
 
 After that reads the number of files inside the directory if it's a directory (which it isn't so it's 1) this can also be links to the file, the owner of the file, the group the file belongs to, size in bytes, date and time and then the filename.
 
@@ -225,18 +226,18 @@ After that reads the number of files inside the directory if it's a directory (w
 
 Owner,group and other permissions can be r,w,x. Translated into their decimal equivalents: 
 
-  * owner-read=400,write=200,execute=100
-  * group-read=40,write=20,execute=10
-  * other-read=4,write=2,execute=1
+  * `owner-read=400,write=200,execute=100`
+  * `group-read=40,write=20,execute=10`
+  * `other-read=4,write=2,execute=1`
 
 So add them up and you've got your user permissions for chmoding: 
 
-  * chmod [mode] fileordirectory - changes the permissions on a file or directory. use -r to recursively change a whole directory and its sub directories. 
+  * `chmod [mode] fileordirectory` - changes the permissions on a file or directory. use -r to recursively change a whole directory and its sub directories. 
 
 e.g chmod 755 myfile.txt - changes the permissions on the file to 755 which is : owner read,write,execute; group read,execute; other read,execute.
 
-  * chown [user:group] fileordirectory - changes the user and group ownership of a file or directory. Use -R to recursively change a whole directory and its sub directories.
-  * chgrp [group] fileordirectory - changes the groupownership of a file or directory. Use -R to recursively change a whole directory and its sub directories.
+  * `chown [user:group] fileordirectory` - changes the user and group ownership of a file or directory. Use -R to recursively change a whole directory and its sub directories.
+  * `chgrp [group] fileordirectory` - changes the groupownership of a file or directory. Use -R to recursively change a whole directory and its sub directories.
 
 ### MySQL
 
