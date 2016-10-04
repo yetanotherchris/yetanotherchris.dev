@@ -28,7 +28,7 @@ The most important parts (for me) are having a single responsibility for an obje
 - **O**pen/closed principle. Less important unless you are doing a lot with inheritence. Modification over extension of classes.
 - **L**iskov substitution principle. I've seen this abused with 8 class inheritence chains for a class ultimately is about performing a search. When abused, you end up unsure what the result of your override will do because of the mess above it.
 - **I**nterface Segregation Principle. This ties into single responsibility - an example of it going wrong is where you might implement an interface and be forced to put empty implementations for half the methods.
-- **D**epdency inversion principle. Structuremap, and all its cousins.
+- **D**epdency inversion principle. If you're using a DI framework like Structuremap then you'll be following this.
 
 ### Forks and Cascades
 
