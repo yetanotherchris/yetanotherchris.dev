@@ -8,7 +8,7 @@ tags:
   - object-oriented
   - c#
 ---
-#### The law of demeter
+### The law of demeter
 
 A method `m` in a `class A` should not send a message to another object unless that object is one of the following: 
 
@@ -19,7 +19,7 @@ A method `m` in a `class A` should not send a message to another object unless t
 
 One of the commonest examples is not exposing `List<T>` as properties, but `IEnumerable<T>` and providing methods to Add and Remove from the underlying list.
 
-#### SOLID principles
+### SOLID principles
 
 I've asked about these so many times in interviews and I still can't remember all the words behind the acronym - the point isn't to memorise some words but rather understand the ideas behind them. 
 The most important parts (for me) are having a single responsibility for an object, IoC/DI and having many interfaces rather than just one.
@@ -30,7 +30,7 @@ The most important parts (for me) are having a single responsibility for an obje
 - **I**nterface Segregation Principle. This ties into single responsibility - an example of it going wrong is where you might implement an interface and be forced to put empty implementations for half the methods.
 - **D**epdency inversion principle. Structuremap, and all its cousins.
 
-#### Forks and Cascades
+### Forks and Cascades
 
 I've deliberately avoid LINQ to remove any confusion:
 
