@@ -1,5 +1,5 @@
 ---
-Published: 2016-10-07T00:00:00.000Z
+Published: 2016-10-15T00:00:00.000Z
 title: Podcast of the Month Oct 2016
 author: Chris S
 layout: post
