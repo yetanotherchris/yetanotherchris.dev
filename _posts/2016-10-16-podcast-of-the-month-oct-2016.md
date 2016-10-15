@@ -8,6 +8,6 @@ tags:
   - podcast
   - nutrition
 ---
-The first 30 minutes of this podcast are worth a listen alone, Chris Kresser discusses how your stomach biome is linked to depression, your brain and cravings. After that they discuss the role of meet in providing nutrition to humans, how we don't consider ourselves animals anymore.
+The first 30 minutes of this podcast are worth a listen alone, Chris Kresser discusses how your stomach biome is linked to depression, your brain and cravings. After that they discuss the role of meat in providing nutrition to humans, and how we don't consider ourselves animals anymore.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/v_2vNj8pshY" frameborder="0" allowfullscreen></iframe>
