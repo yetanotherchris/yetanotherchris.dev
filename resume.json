@@ -1,0 +1,137 @@
+{
+  "basics": {
+    "name": "Chris Small",
+    "label": "Software Developer",
+    "picture": "",
+    "email": "chris.a.small@gmail.com",
+    "phone": "",
+    "website": "http://www.anotherchris.net",
+    "summary": "I've been working with C#/.NET framework since beta 2. My focus is on ASP.NET MVC with SQL Server plus client side technologies, and more recently .NET core on Docker/Linux and devops with Hashistack and AWS/VMWare.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": "London"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "yetanotherchris",
+        "url": "http://www.twitter.com/yetanotherchris"
+      },
+      {
+        "network": "Github",
+        "username": "yetanotherchris",
+        "url": "http://www.github.com/yetanotherchris"
+      },
+      {
+        "network": "Linkedin",
+        "username": "chris-small",
+        "url": "https://www.linkedin.com/in/chris-small"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Totaljobs Group",
+      "position": "Principal Developer",
+      "website": "https://www.totaljobs.com",
+      "startDate": "2012-07-01",
+      "endDate": "",
+      "summary": "One of three Principal developers in the Engineering team, the team focus being: improving the platform and exploring and evangelizing new technology to reduce the cost of change.",
+      "highlights": [
+        "Evangelism of the current technology stack, based off an agreed Tech Radar for the year.",
+        "Discussing and setting standards in the code base and tools to reduce the cost of change.",
+        "Helping scrum teams with implementations of new technology.",
+        "Updating and improving the developer interview questions/tests.",
+        "My starting role at Totaljobs was Senior developer, working in scrum teams to deliver features to the Jobseeker and Recruiter websites."
+      ]
+    },
+    {
+      "company": "RICS",
+      "position": "Maintenance lead",
+      "website": "http://www.rics.org",
+      "startDate": "2008-01-01",
+      "endDate": "2012-07-01",
+      "summary": "",
+      "highlights": [
+        "Responsible for maintenance of existing webforms based product range, and new ASP.NET MVC 3.0 applications.",
+        "Technology stack is based on NHibernate, Sql Server, jQuery, TFS, Silverlight, Visual Studio Team Test/NUnit, Watin/Selenium, Unity and Postsharp.",
+        "New product development was run using Scrum and agile methodologies in teams of 3, typically with 30 day iterations, burn downs, daily stand ups, code reviews",
+        "My starting role at RICS was mid-level developer"
+      ]
+    },
+    {
+      "company": "Burges Salmon",
+      "position": "Mid-level developer",
+      "website": "https://www.burges-salmon.com/",
+      "startDate": "2004-01-01",
+      "endDate": "2007-01-01",
+      "summary": "",
+      "highlights": [
+        "Winforms with .NET 1.1/2.0"
+      ]
+    },
+    {
+      "company": "Owtanet",
+      "position": "Developer",
+      "website": "",
+      "startDate": "2002-01-01",
+      "endDate": "2004-01-01",
+      "summary": "LAMP and C#/SQL Server development for Screwfix and Hanson websites.",
+      "highlights": []
+    }
+  ],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Open University",
+      "area": "Computing",
+      "studyType": "B.S.c",
+      "startDate": "2007-01-01",
+      "endDate": "2010-01-01",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "UWE Bristol",
+      "area": "Media and Cultural studies",
+      "studyType": "B.a.",
+      "startDate": "1998",
+      "endDate": "2001",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "Front end",
+      "level": "Senior",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ]
+    },
+    {
+      "name": "C#/.NET",
+      "level": "Senior",
+      "keywords": [
+        "MVC 5",
+        ".NET Core",
+        "Webapi, WPF"
+      ]
+    },
+    {
+      "name": "",
+      "level": "",
+      "keywords": []
+    }
+  ],
+  "languages": [],
+  "interests": [],
+  "references": []
+}
