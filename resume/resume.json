@@ -39,13 +39,12 @@
       "website": "https://www.totaljobs.com",
       "startDate": "2012-07-01",
       "endDate": "2099-01-01",
-      "summary": "One of three Principal developers in the Engineering team, the team focus being: improving the platform and exploring and evangelizing new technology to reduce the cost of change.",
+      "summary": "One of three Principal developers in the Engineering team, the team focus is on improving the legacy areas of the platform and exploring and recommending new technology to reduce the cost of change.",
       "highlights": [
-        "Evangelism of the current technology stack, based off an agreed Tech Radar for the year.",
-        "Discussing and setting standards in the code base and tools to reduce the cost of change.",
-        "Helping scrum teams with implementations of new technology.",
-        "Updating and improving the developer interview questions/tests.",
-        "My starting role at Totaljobs was Senior developer, working in scrum teams to deliver features to the Jobseeker and Recruiter websites."
+        "Technology stack: C#, .NET 1.1 to 4.6, MVC, Webforms, MSMQ, SQL Server, WebAPI/REST and WCF. Powershell, Chocolatey and Packer-based automation for AWS and VMWare.",
+        "Discussing, setting and communicating standards, improving the build and CI process to reduce the cost of change.",
+        "Consulting with, and helping scrum teams with implementations of new technology.",
+        "My starting role at Totaljobs was Senior developer, working in scrum teams to deliver features to the Jobseeker and Recruiter websites, a Salesforce-based fulfillment service and a large-scale email sending application."
       ]
     },
     {
@@ -56,10 +55,10 @@
       "endDate": "2012-07-01",
       "summary": "",
       "highlights": [
+        "Technology stack: C#, MVC, Webforms, NHibernate, Sql Server, MSMQ, Silverlight, Watin/Selenium, Unity and Postsharp.",
         "Responsible for maintenance of existing webforms based product range, and new ASP.NET MVC 3.0 applications.",
-        "Technology stack is based on NHibernate, Sql Server, jQuery, TFS, Silverlight, Visual Studio Team Test/NUnit, Watin/Selenium, Unity and Postsharp.",
-        "New product development was run using Scrum and agile methodologies in teams of 3, typically with 30 day iterations, burn downs, daily stand ups, code reviews",
-        "My starting role at RICS was mid-level developer"
+        "Scrum based process typically with 30 day iterations, burn downs, daily stand ups, code reviews.",
+        "My starting role at the RICS was as a mid-level developer."
       ]
     },
     {
@@ -70,8 +69,8 @@
       "endDate": "2007-01-01",
       "summary": "",
       "highlights": [
-        "Winforms with .NET 1.1/2.0",
-        "Outlook and Exchange server"
+        "Technology stack: C#, Winforms with .NET 1.1/2.0",
+        "Outlook and Exchange server integration"
       ]
     },
     {
@@ -115,10 +114,10 @@
       "level": "Senior",
       "keywords": [
         "ASP.NET MVC 5",
-        "NUnit, TDD",
+        "NUnit, TDD, IoC",
         "All framework versions",
         "Webapi, WPF",
-        "SQL Server"
+        "SQL Server, MSMQ"
       ]
     },
     {
