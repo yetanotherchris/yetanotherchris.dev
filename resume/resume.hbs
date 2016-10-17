@@ -57,7 +57,7 @@
 							<i class="fa fa-inbox" aria-hidden="true"></i>
 						</div>
 						<div>
-							{{email}}
+							<a id="email-address" href="mailto:{{obfuscateEmail email}}">{{obfuscateEmail email}}</a>
 						</div>
 					</div>
 					<div class="row">
@@ -435,6 +435,22 @@
 
     ga('create', 'UA-38631652-1', 'auto');
     ga('send', 'pageview');
+    </script>
+
+    <script>
+    // Email
+    function rot13(text){
+	    return text.replace(/[a-zA-Z]/g, function(c){
+	        return String.fromCharCode((c <= "Z" ? 90 : 122) >= (c = c.charCodeAt(0) + 13) ? c : c - 26);
+	    });
+	};
+
+	document.addEventListener("DOMContentLoaded", function(event) { 
+		var emailElement = document.getElementById("email-address");
+		emailElement.innerHTML = rot13(emailElement.innerHTML);
+		emailElement.setAttribute("href", "mailto:" +emailElement.innerHTML);
+	});
+
     </script>
 	</body>
 </html>
