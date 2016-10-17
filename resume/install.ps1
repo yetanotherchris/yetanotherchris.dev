@@ -1,4 +1,4 @@
-rm resume.html -ErrorAction Ignore
-npm install --global gulp
+rm index.html -ErrorAction Ignore
+
 npm install
-gulp
+node .\index.js

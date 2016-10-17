@@ -1,19 +1,15 @@
 {
-  "name": "chris-resume",
-  "version": "1.0.0",
-  "description": "",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "name": "jsonresume-theme-anotherchris",
+  "version": "1.0.1",
+  "description": "Theme for JSON Resume",
+  "author": "Chris Small",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yetanotherchris/resume"
   },
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-resume": "^0.1.4"
-  },
-  "devDependencies": {
-    "gulp-replace": "^0.5.4"
+    "handlebars": "^2.0.0-alpha.4",
+    "resume-cli": "0.4.13"
   }
 }
