@@ -42,12 +42,12 @@
       "highlights": [
         "A technical lead for 6 scrum teams, advising on technical approach, risks and reducing the cost of change.",
         "Very pro-active in pushing to reduce the company's technical debt through upgrading and strangling the legacy webforms applications and continued upgrade of current apps.",
-        "Server automation: Created 'Terry the terraformer' for setting up new Windows servers in C# and Powershell, reverse engineering the existing servers. This alongside my Packer work won a company award (and an Occulus Rift ⌐■_■).",
-        "A technical lead in moving the platform to Nginx on Docker in AWS ECS.",
+        "Server automation: Created 'Terry the terraformer' for setting up new Windows servers in C# and Powershell, reverse engineering the existing servers. This, alongside my Packer work won a company award (and an Occulus Rift ⌐■_■).",
+        "A technical lead in moving the platform to Nginx in Docker on AWS ECS.",
         "Key contributor on several large projects: an email service that sends millions of emails daily, content service for site wide HTML/CSS/JS and the order fulfillment service.",
-        "Automated of the developer VM images, and VMWare and AWS servers using Powershell (WinRM) and Hashicorp Packer.",
+        "Automation of the developer VM images, and VMWare and AWS servers using Powershell (WinRM) and Hashicorp Packer.",
         "Created and responsible for the Totaljobs Tech Blog, which aims at publicly evangelizing the department's technology innovations.",
-        "Spearheaded the Github.com/TotaljobsGroup organisation to open source parts of our infrastructure and encourage open collaboration most notably the Syringe project.",
+        "Spearheaded the Github.com/TotaljobsGroup organisation to open source parts of our code base and encourage open collaboration, most notably the Syringe project.",
         "Standardised the CI/CD process: Private Nuget server, Teamcity templates and scripted test agents, Octopus step templates, Exceptionless error logging across all our applications.",
         "Strong advocate for documentation in Github projects - I converted all our existing documentation to Markdown and then onto Github Enterprise and push for living (but minimal) documentation on all projects."
       ],
