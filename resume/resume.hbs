@@ -118,7 +118,7 @@
 			<div class="col-sm-6">
 				{{#name}}
 				<div class="name">
-					<h4 style="font-weight: bolder;">{{.}}</h4>
+					<h4>{{.}}</h4>
 				</div>
 				{{/name}}
 				{{#if keywords.length}}
@@ -144,24 +144,30 @@
 			<div class="row">
 			{{#each resume.work}}
 			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>{{company}}</span>
-					<span class="date"><a href="{{website}}" target="_blank">{{shortenWebsite website}}</a></span>
-				</h4>
+				<div class="row company-title">
+					<div class="col-sm-12">
+						<div class="pull-left company-name">
+							<h4>{{company}}</h4>
+						</div>
+						<div class="pull-right">
+							<a href="{{website}}" target="_blank">{{shortenWebsite website}}</a>
+						</div>
+					</div>
+				</div>
 
 				{{#positions}}
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						{{position}}
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>{{date startDate}} — {{date endDate}}</em>
 					</div>
 				</div>
 				{{/positions}}
 
 				{{#summary}}
-				<div class="summary" class="position-summary">
+				<div class="summary position-summary">
 					<p>{{.}}</p>
 				</div>
 				{{/summary}}

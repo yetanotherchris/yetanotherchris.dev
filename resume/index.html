@@ -300,6 +300,19 @@ h4 span:first-child {
 }
 
 /* Additions */
+.company-title {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+.company-name {
+}
+
+.company-name h4 {
+	margin: 0px;
+	font-weight: bolder;
+}
+
 .position-title {
 	font-weight: bolder; 
 	margin-bottom:0px;	
@@ -315,6 +328,14 @@ h4 span:first-child {
 
 .position-summary {
 	padding-top: 10px;
+}
+
+#skills .name h4 {
+	font-weight: bolder;
+}
+
+section#education {
+	margin-top: 50px;
 }
 	</style>
 
@@ -423,7 +444,7 @@ h4 span:first-child {
 			<div class="row">
 			<div class="col-sm-6">
 				<div class="name">
-					<h4 style="font-weight: bolder;">C# .NET</h4>
+					<h4>C# .NET</h4>
 				</div>
 				<ul class="keywords">
 					<li>ASP.NET MVC 5</li>
@@ -435,7 +456,7 @@ h4 span:first-child {
 			</div>
 			<div class="col-sm-6">
 				<div class="name">
-					<h4 style="font-weight: bolder;">Devops</h4>
+					<h4>Devops</h4>
 				</div>
 				<ul class="keywords">
 					<li>Docker</li>
@@ -447,7 +468,7 @@ h4 span:first-child {
 			</div>
 			<div class="col-sm-6">
 				<div class="name">
-					<h4 style="font-weight: bolder;">Front end</h4>
+					<h4>Front end</h4>
 				</div>
 				<ul class="keywords">
 					<li>HTML 5</li>
@@ -459,7 +480,7 @@ h4 span:first-child {
 			</div>
 			<div class="col-sm-6">
 				<div class="name">
-					<h4 style="font-weight: bolder;">CI</h4>
+					<h4>CI</h4>
 				</div>
 				<ul class="keywords">
 					<li>Teamcity</li>
@@ -480,104 +501,130 @@ h4 span:first-child {
 		<div class="col-sm-9">
 			<div class="row">
 			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Totaljobs Group</span>
-					<span class="date"><a href="https://www.totaljobs.com" target="_blank">totaljobs.com</a></span>
-				</h4>
+				<div class="row company-title">
+					<div class="col-sm-12">
+						<div class="pull-left company-name">
+							<h4>Totaljobs Group</h4>
+						</div>
+						<div class="pull-right">
+							<a href="https://www.totaljobs.com" target="_blank">totaljobs.com</a>
+						</div>
+					</div>
+				</div>
 
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						Principal Developer
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>March 2015 — Current</em>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						Senior Managing Developer
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>July 2013 — March 2015</em>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						Senior Developer
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>July 2012 — July 2013</em>
 					</div>
 				</div>
 
-				<div class="summary" class="position-summary">
-					<p>My achievements</p>
+				<div class="summary position-summary">
+					<p>Whilst at Totaljobs Group I have achieved the following:</p>
 				</div>
 				<ul class="highlights">
-					<li class="bullet">1</li>
-					<li class="bullet">2</li>
-					<li class="bullet">3</li>
-					<li class="bullet">4</li>
-					<li class="bullet">5</li>
-					<li class="bullet">6</li>
-					<li class="bullet">7</li>
-					<li class="bullet">8</li>
+					<li class="bullet">A technical lead for 6 scrum teams, advising on technical approach, risks and reducing the cost of change.</li>
+					<li class="bullet">Very pro-active in pushing to reduce the company's technical debt through upgrading and strangling the legacy webforms applications and continued upgrade of current apps.</li>
+					<li class="bullet">Server automation: Created 'Terry the terraformer' for setting up new Windows servers in C# and Powershell, reverse engineering the existing servers. This alongside my Packer work won a company award (and an Occulus Rift ⌐■_■).</li>
+					<li class="bullet">A technical lead in moving the platform to Nginx on Docker in AWS ECS.</li>
+					<li class="bullet">Key contributor on several large projects: an email service that sends millions of emails daily, content service for site wide HTML/CSS/JS and the order fulfillment service.</li>
+					<li class="bullet">Automated of the developer VM images, and VMWare and AWS servers using Powershell (WinRM) and Hashicorp Packer.</li>
+					<li class="bullet">Created and responsible for the Totaljobs Tech Blog, which aims at publicly evangelizing the department's technology innovations.</li>
+					<li class="bullet">Spearheaded the Github.com/TotaljobsGroup organisation to open source parts of our infrastructure and encourage open collaboration most notably the Syringe project.</li>
+					<li class="bullet">Standardised the CI/CD process: Private Nuget server, Teamcity templates and scripted test agents, Octopus step templates, Exceptionless error logging across all our applications.</li>
+					<li class="bullet">Strong advocate for documentation in Github projects - I converted all our existing documentation to Markdown and then onto Github Enterprise and push for living (but minimal) documentation on all projects.</li>
 				</ul>
 			</div>
 			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>RICS</span>
-					<span class="date"><a href="http://www.rics.org" target="_blank">rics.org</a></span>
-				</h4>
+				<div class="row company-title">
+					<div class="col-sm-12">
+						<div class="pull-left company-name">
+							<h4>RICS</h4>
+						</div>
+						<div class="pull-right">
+							<a href="http://www.rics.org" target="_blank">rics.org</a>
+						</div>
+					</div>
+				</div>
 
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						Maintenance lead
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>January 2011 — July 2012</em>
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						Mid-level developer
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>January 2008 — July 2011</em>
 					</div>
 				</div>
 
-				<div class="summary" class="position-summary">
+				<div class="summary position-summary">
 					<p></p>
 				</div>
 			</div>
 			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Burges Salmon</span>
-					<span class="date"><a href="https://www.burges-salmon.com" target="_blank">burges-salmon.com</a></span>
-				</h4>
+				<div class="row company-title">
+					<div class="col-sm-12">
+						<div class="pull-left company-name">
+							<h4>Burges Salmon</h4>
+						</div>
+						<div class="pull-right">
+							<a href="https://www.burges-salmon.com" target="_blank">burges-salmon.com</a>
+						</div>
+					</div>
+				</div>
 
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						Mid-level developer
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>January 2004 — January 2007</em>
 					</div>
 				</div>
 
 			</div>
 			<div class="col-sm-12">
-				<h4 class="strike-through">
-					<span>Owtanet</span>
-					<span class="date"><a href="http://www.owta.net" target="_blank">owta.net</a></span>
-				</h4>
+				<div class="row company-title">
+					<div class="col-sm-12">
+						<div class="pull-left company-name">
+							<h4>Owtanet</h4>
+						</div>
+						<div class="pull-right">
+							<a href="http://www.owta.net" target="_blank">owta.net</a>
+						</div>
+					</div>
+				</div>
 
 				<div class="row">
-					<div class="col-sm-5" class="position-title">
+					<div class="col-sm-5 position-title">
 						Developer
 					</div>
-					<div class="col-sm-7" class="position-date">
+					<div class="col-sm-7 position-date">
 						<em>January 2002 — January 2004</em>
 					</div>
 				</div>
@@ -633,5 +680,15 @@ h4 span:first-child {
 
 	</div>
 
+    <!-- Google Analytics -->
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-38631652-1', 'auto');
+    ga('send', 'pageview');
+    </script>
 	</body>
 </html>

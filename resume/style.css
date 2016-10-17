@@ -287,6 +287,19 @@ h4 span:first-child {
 }
 
 /* Additions */
+.company-title {
+	margin-bottom: 10px;
+	border-bottom: 1px solid #DDD;
+}
+
+.company-name {
+}
+
+.company-name h4 {
+	margin: 0px;
+	font-weight: bolder;
+}
+
 .position-title {
 	font-weight: bolder; 
 	margin-bottom:0px;	
@@ -302,4 +315,12 @@ h4 span:first-child {
 
 .position-summary {
 	padding-top: 10px;
+}
+
+#skills .name h4 {
+	font-weight: bolder;
+}
+
+section#education {
+	margin-top: 50px;
 }
