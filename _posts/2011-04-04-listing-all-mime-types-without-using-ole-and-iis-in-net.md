@@ -17,7 +17,7 @@ In order for the file to be recognised correctly by the browser that's downloadi
 
 <!--more-->
 
-Or you can cheat and simply query an XML file list of mimetypes. The application below does this, based on [a list from webmaster-toolkit.com][1].
+Or you can cheat and simply query an XML file list of mimetypes. The application below does this, based on [a list from webmaster-toolkit.com][1]. **Update** - that's now a dead link. [This link has a list](http://www.whoishostingthis.com/resources/mime-types/) (thanks Tim).
 
 The full download includes the XML serialized file.
 
