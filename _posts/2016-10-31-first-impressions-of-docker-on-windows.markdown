@@ -49,4 +49,4 @@ I'm hoping Microsoft find a way of combining all Docker images in Windows, maybe
 
 I'm hoping to get the Exceptionless image out shortly, which will let you run 
 
->`docker run -p 50000:50000 -e ELASTICSEARCH_URL=http://elasticsearch -e SMTP_HOST=mysmtp`
+>`docker run -p 50000:50000 -e ELASTICSEARCH_URL=http://elasticsearch -e SMTP_HOST=mysmtp yetanotherchris/exceptionless`
