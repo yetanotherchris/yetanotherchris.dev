@@ -13,7 +13,7 @@ Like the current release of .net core, Docker on Windows feels like a beta produ
 
 ## My biggest complaints
 
-A few of us spent around half a day making an [Exceptionless](https://github.com/exceptionless/Exceptionless) Windows Docker image. As I support the Chocolatey package, whose upgrade experience isn't great this format would make perfect sense for Exceptionless. It was successful in the end, but with a fair number of desk thumping moments:
+A few of us spent around half a day making an [Exceptionless](https://github.com/exceptionless/Exceptionless) Windows Docker image. Exceptionless is a great web-based UI for aggregating and grouping .NET exceptions on a per-project level (not an alternative to ELK, but something that lives with it). As I support the Exceptionless Chocolatey package, whose upgrade experience is currently non-existence, the Docker format makes perfect sense for Exceptionless. We built the Docker image successfully in the end, but with a fair number of desk thumping moments:
 
 ### You can't use the Docker Linux eco system
 I wanted to use the Elasticsearch image and couldn't as it's a Linux image. There are [a lot of mature images on the official registry](https://hub.docker.com/_/) right now that you'd have to use on a separate Docker host.
