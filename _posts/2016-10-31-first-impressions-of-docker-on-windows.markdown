@@ -4,7 +4,6 @@ date: 2016-10-31 12:45:00 Z
 tags:
 - docker
 - docker-windows
-shortpost: true
 layout: post
 ---
 
