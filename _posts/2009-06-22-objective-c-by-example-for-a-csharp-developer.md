@@ -1,16 +1,21 @@
 ---
-Published: 2009-06-22
-title: "Objective C by example for a C# developer"
-author: Chris S
-excerpt: "This is a small set of code snippets that may assist as a quick reference when switching between C# and Objective-C concepts. It's all beginner level and I've skipped some major concepts that a book will explain, as well as any C related tasks."
-layout: post
-permalink: /csharp/objective-c-by-example-for-a-csharp-developer/
-dsq_thread_id:
-  - 1074325398
+title: Objective C by example for a C# developer
+date: 2009-06-22 00:00:00 Z
+permalink: "/csharp/objective-c-by-example-for-a-csharp-developer/"
 tags:
-  - 'c#'
-  - iphone
+- c#
+- iphone
+Published: 2009-06-22 00:00:00 Z
+author: Chris S
+excerpt: This is a small set of code snippets that may assist as a quick reference
+  when switching between C# and Objective-C concepts. It's all beginner level and
+  I've skipped some major concepts that a book will explain, as well as any C related
+  tasks.
+layout: post
+dsq_thread_id:
+- 1074325398
 ---
+
 This is a small set of code snippets that may assist as a quick reference when switching between C# and Objective-C concepts. It's all beginner level and I've skipped some major concepts that a book will explain, as well as any C related tasks.
 
 **Update**   

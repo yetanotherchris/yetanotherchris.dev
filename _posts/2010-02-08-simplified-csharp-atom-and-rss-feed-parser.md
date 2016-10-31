@@ -1,15 +1,17 @@
 ---
-Published: 2010-02-08
-title: "Simplified C# Atom and Rss feed parser"
-author: Chris S
-excerpt: "A set of snippets for parsing RSS and ATOM feeds."
-layout: post
-permalink: /csharp/simplified-csharp-atom-and-rss-feed-parser/
-dsq_thread_id:
-  - 4207230687
+title: Simplified C# Atom and Rss feed parser
+date: 2010-02-08 00:00:00 Z
+permalink: "/csharp/simplified-csharp-atom-and-rss-feed-parser/"
 tags:
-  - 'c#'
+- c#
+Published: 2010-02-08 00:00:00 Z
+author: Chris S
+excerpt: A set of snippets for parsing RSS and ATOM feeds.
+layout: post
+dsq_thread_id:
+- 4207230687
 ---
+
 .NET already has quite a few open source RSS and ATOM libraries for parsing feeds. The most complete one is [Argotic][1] but there are also 3-4 others on codeplex and google code.
 
 **Update**   

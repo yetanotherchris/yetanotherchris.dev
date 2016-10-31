@@ -1,15 +1,18 @@
 ---
-Published: 2010-12-07
-title: "Visual Studio 2010 plugin and tools"
-author: Chris S
-excerpt: "A long list of Visual Studio 2008/2010 plugins and productivity tools. Since the extension manager arrived in 2010, the plugins on the list are a bit redundant."
-layout: post
-permalink: /tools/visual-studio-2010-plugin-and-tools/
-dsq_thread_id:
-  - 1085017567
+title: Visual Studio 2010 plugin and tools
+date: 2010-12-07 00:00:00 Z
+permalink: "/tools/visual-studio-2010-plugin-and-tools/"
 tags:
-  - tools
+- tools
+Published: 2010-12-07 00:00:00 Z
+author: Chris S
+excerpt: A long list of Visual Studio 2008/2010 plugins and productivity tools. Since
+  the extension manager arrived in 2010, the plugins on the list are a bit redundant.
+layout: post
+dsq_thread_id:
+- 1085017567
 ---
+
 This is nothing more than a list of plugins and tools that I use with Visual Studio, so I can remember where to get them each time I flatten Windows. Most of these work with 2005 also.
 
 <!--more-->

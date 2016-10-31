@@ -1,16 +1,19 @@
 ---
-Published: 2009-06-18
-title: "Wake up from Sleep (CreateWaitableTimer) in C#"
-author: Chris S
-excerpt: "The code illustrates how to set a timer to wake your computer up having been sleep'd. It's tested on Vista and Windows 7 with sleep mode."
-layout: post
-permalink: /csharp/wake-up-from-sleep-createwaitabletimer-in-csharp/
-dsq_thread_id:
-  - 114268110
+title: Wake up from Sleep (CreateWaitableTimer) in C#
+date: 2009-06-18 00:00:00 Z
+permalink: "/csharp/wake-up-from-sleep-createwaitabletimer-in-csharp/"
 tags:
-  - 'c#'
-  - winforms
+- c#
+- winforms
+Published: 2009-06-18 00:00:00 Z
+author: Chris S
+excerpt: The code illustrates how to set a timer to wake your computer up having been
+  sleep'd. It's tested on Vista and Windows 7 with sleep mode.
+layout: post
+dsq_thread_id:
+- 114268110
 ---
+
 This code isn't mine, but from a [newsgroup posting][1] on [Eggheadcafe.com][2] by MVP Willy Denoyette (I couldn't find a homepage to link). I'm reposting it here for my own benefit, safe in the knowledge it will never disappear unless my database backup corrupts.
 
 <!--more-->

@@ -1,15 +1,17 @@
 ---
-Published: 2015-05-06
-title: "Configuring WCF in code"
+title: Configuring WCF in code
+date: 2015-05-06 00:00:00 Z
+permalink: "/xml/configuring-wcf-in-code/"
+tags:
+- xml
+- wcf
+Published: 2015-05-06 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /xml/configuring-wcf-in-code/
 dsq_thread_id:
-  - 4207372827
-tags:
-  - xml
-  - wcf
+- 4207372827
 ---
+
 One of the main issues I have with WCF, compared to say a WebApi or a NancyFX based API, are the ridiculously large configuration options you have available. The ABC approach it uses (addresses, bindings, contracts) can adds a lot of confusion when you're creating a service and also connecting with a client.
 
 <!--more-->

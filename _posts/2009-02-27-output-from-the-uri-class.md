@@ -1,14 +1,16 @@
 ---
-Published: 2009-02-27
-title: "Output from the Uri class"
+title: Output from the Uri class
+date: 2009-02-27 00:00:00 Z
+permalink: "/csharp/output-from-the-uri-class/"
+tags:
+- c#
+Published: 2009-02-27 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/output-from-the-uri-class/
 dsq_thread_id:
-  - 1074137365
-tags:
-  - 'c#'
+- 1074137365
 ---
+
 This shows the output from all the properties of the URI class for the current request. The Uri has been hardcoded as:
 
 <!--more-->

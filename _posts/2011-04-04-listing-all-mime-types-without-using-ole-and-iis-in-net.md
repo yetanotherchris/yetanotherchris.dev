@@ -1,14 +1,16 @@
 ---
-Published: 2011-04-04
-title: "Listing all mime types without using OLE and IIS in .NET"
-author: Chris S
-excerpt: "An ASP.NET example of mapping file extensions to their mime types, without needing to query IIS via COM."
-layout: post
-permalink: /asp-net/listing-all-mime-types-without-using-ole-and-iis-in-net/
-dsq_thread_id:
-  - 1092478740
+title: Listing all mime types without using OLE and IIS in .NET
+date: 2011-04-04 00:00:00 Z
+permalink: "/asp-net/listing-all-mime-types-without-using-ole-and-iis-in-net/"
 tags:
-  - asp.net
+- asp.net
+Published: 2011-04-04 00:00:00 Z
+author: Chris S
+excerpt: An ASP.NET example of mapping file extensions to their mime types, without
+  needing to query IIS via COM.
+layout: post
+dsq_thread_id:
+- 1092478740
 ---
 
 If you're offering uploading on a web application, or providing a file proxy of some sort, at some point the list of files you offer will exceed a simple switch statement.

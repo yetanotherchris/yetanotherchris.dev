@@ -1,15 +1,17 @@
 ---
-Published: 2006-02-16
-title: "Changing a Richtextbox caret"
+title: Changing a Richtextbox caret
+date: 2006-02-16 00:00:00 Z
+permalink: "/csharp/changing-a-richtextbox-caret-in-csharp/"
+tags:
+- c#
+- winforms
+Published: 2006-02-16 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/changing-a-richtextbox-caret-in-csharp/
 dsq_thread_id:
-  - 4207230642
-tags:
-  - 'c#'
-  - winforms
+- 4207230642
 ---
+
 [Download][1]
 
 This old bit of code from 2004 is an unfinished (i.e. not that pretty to read) demo project for changing the caret in a rich text box. It was the beginnings of a kind of console host for C#.

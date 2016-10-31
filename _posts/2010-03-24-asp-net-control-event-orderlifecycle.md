@@ -1,15 +1,18 @@
 ---
-Published: 2010-03-24
-title: "ASP.NET control event order/lifecycle"
-author: Chris S
-excerpt: "A very concise reference for the order which events are fired when you subclass a control"
-layout: post
-permalink: /asp-net/asp-net-control-event-orderlifecycle/
-dsq_thread_id:
-  - 1083144045
+title: ASP.NET control event order/lifecycle
+date: 2010-03-24 00:00:00 Z
+permalink: "/asp-net/asp-net-control-event-orderlifecycle/"
 tags:
-  - asp.net
+- asp.net
+Published: 2010-03-24 00:00:00 Z
+author: Chris S
+excerpt: A very concise reference for the order which events are fired when you subclass
+  a control
+layout: post
+dsq_thread_id:
+- 1083144045
 ---
+
 This is a very concise reference for the order which events are fired when you subclass a control. The longer more detailed MSDN page on the lifecycle can be found [here][1]. The particular control this came from was a subclassed CompositeControl, but this could be any control, or a page.
 
 <!--more-->

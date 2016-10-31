@@ -1,15 +1,18 @@
 ---
-Published: 2010-01-01
-title: "Using JQuery with ASP.NET"
-author: Chris S
-excerpt: "This post is all about calling and parsing data from an ASP.NET web service using jQuery."
-layout: post
-permalink: /asp-net/using-jquery-with-asp-net/
-dsq_thread_id:
-  - 1077782437
+title: Using JQuery with ASP.NET
+date: 2010-01-01 00:00:00 Z
+permalink: "/asp-net/using-jquery-with-asp-net/"
 tags:
-  - asp.net
+- asp.net
+Published: 2010-01-01 00:00:00 Z
+author: Chris S
+excerpt: This post is all about calling and parsing data from an ASP.NET web service
+  using jQuery.
+layout: post
+dsq_thread_id:
+- 1077782437
 ---
+
 **Small update**   
 In this article I stuck to using a separate file for the web service. The [Webmethod] attribute could easily just be stuck on a method inside the Default.aspx.cs file. Additionally, you could use $.get() in jquery to simply call a plain .aspx file to return the HTML (skipping the XML parsing), or even better as a JQuery JSON request, using a call to an ASPX file that returns a JSON formatted string.
 

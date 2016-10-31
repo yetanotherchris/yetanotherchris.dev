@@ -1,14 +1,16 @@
 ---
-Published: 2010-11-16
-title: "TFS Caching work items"
+title: TFS Caching work items
+date: 2010-11-16 00:00:00 Z
+permalink: "/tfs/tfs-caching-work-items/"
+tags:
+- tfs
+Published: 2010-11-16 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /tfs/tfs-caching-work-items/
 dsq_thread_id:
-  - 
-tags:
-  - tfs
+- 
 ---
+
 A few days ago I bulk inserted 1000 work items for one iteration and area. The performance of the main bug list after this wasn’t too bad considering there’s no cache in place in Spruce right now. I’m not planning on putting one in until version 1, unless there is a real need for it. I’m guessing most people will be using it on a local network so the latency shouldn’t be too bad, the TFS api also does a good job caching items itself.
 
 <!--more-->

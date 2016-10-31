@@ -1,12 +1,14 @@
 ---
-Published: 2014-05-21
-title: "A C# UK bank holiday calculator"
+title: A C# UK bank holiday calculator
+date: 2014-05-21 00:00:00 Z
+permalink: "/csharp/a-c-uk-bank-holiday-calculator/"
+tags:
+- c#
+Published: 2014-05-21 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/a-c-uk-bank-holiday-calculator/
-tags:
-  - 'c#'
 ---
+
 In the UK we're fortunate enough to get 5 free holidays a year, under the guise of &#8220;Bank Holidays&#8221;. These are mostly on Mondays and come in January, March/April, May, August and December.
 
 Below is a calculator for working out the dates of these holidays, along with tests for the next 5 years. The class tells you if you're on a bank holiday, but could be easily changed to return the bank holiday dates. For now, it doesn't tell you if you're on the Boxing Day bank holiday.

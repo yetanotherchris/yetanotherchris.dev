@@ -1,15 +1,21 @@
 ---
-Published: 2011-01-27
-title: "A UI redesign for Spruce"
-author: Chris S
-excerpt: "After spending a week with the existing design, and having a sniff around the web at project management sites I began to realise the original design was in a nutshell, crap and ugly. It was too designery and not functional enough, and most importantly contained far too much complication in the form of jQuery dialogs, fancy tooltips and pointless fluff."
-layout: post
-permalink: /spruce/a-ui-redesign-for-spruce/
-dsq_thread_id:
-  - 
+title: A UI redesign for Spruce
+date: 2011-01-27 00:00:00 Z
+permalink: "/spruce/a-ui-redesign-for-spruce/"
 tags:
-  - spruce
+- spruce
+Published: 2011-01-27 00:00:00 Z
+author: Chris S
+excerpt: After spending a week with the existing design, and having a sniff around
+  the web at project management sites I began to realise the original design was in
+  a nutshell, crap and ugly. It was too designery and not functional enough, and most
+  importantly contained far too much complication in the form of jQuery dialogs, fancy
+  tooltips and pointless fluff.
+layout: post
+dsq_thread_id:
+- 
 ---
+
 After spending a week with the existing design, and having a sniff around the web at project management sites I began to realise the original design was in a nutshell, crap and ugly. It was too designery and not functional enough, and most importantly contained far too much complication in the form of jQuery dialogs, fancy tooltips and pointless fluff.
 
 <!--more-->

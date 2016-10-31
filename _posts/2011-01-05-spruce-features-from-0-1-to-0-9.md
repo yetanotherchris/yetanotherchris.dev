@@ -1,14 +1,16 @@
 ---
-Published: 2011-01-05
-title: "Spruce features from 0.1 to 0.9"
+title: Spruce features from 0.1 to 0.9
+date: 2011-01-05 00:00:00 Z
+permalink: "/spruce/spruce-features-from-0-1-to-0-9/"
+tags:
+- spruce
+Published: 2011-01-05 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /spruce/spruce-features-from-0-1-to-0-9/
 dsq_thread_id:
-  - 
-tags:
-  - spruce
+- 
 ---
+
 The following list is the features I’m aiming to implement between version 0.1 and 0.9. Search is a fairly critical one so this will be top of the list, once I’ve finished polishing the UI.
 
 **Search**

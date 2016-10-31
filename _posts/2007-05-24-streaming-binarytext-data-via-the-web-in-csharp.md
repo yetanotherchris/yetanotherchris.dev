@@ -1,16 +1,18 @@
 ---
-Published: 2007-05-24
-title: "Streaming binary/text data via the web in C#"
-author: Chris S
-excerpt: "An dated example of downloading binary data to autoupdate an application."
-layout: post
-permalink: /csharp/streaming-binarytext-data-via-the-web-in-csharp/
-dsq_thread_id:
-  - 1069222286
+title: Streaming binary/text data via the web in C#
+date: 2007-05-24 00:00:00 Z
+permalink: "/csharp/streaming-binarytext-data-via-the-web-in-csharp/"
 tags:
-  - 'c#'
-  - xml
+- c#
+- xml
+Published: 2007-05-24 00:00:00 Z
+author: Chris S
+excerpt: An dated example of downloading binary data to autoupdate an application.
+layout: post
+dsq_thread_id:
+- 1069222286
 ---
+
 [Download][1]
 
 This rough example was originally intended for auto-update functionality in an application (it downloads the new .exe, runs a bootstrap application that replaces the existing .exe with the new one, and runs it).

@@ -1,14 +1,16 @@
 ---
-title: From Wordpress to Wyam  
-Published: 2015-11-01
+title: From Wordpress to Wyam
+date: 2015-11-01 00:00:00 Z
+tags:
+- Wyam
+- Jekyll
+- Wordpress
+- news
+Published: 2015-11-01 00:00:00 Z
 layout: post
 excerpt: Converting this blog from Wordpress to the Jekyll-like .NET tool, Wyam.
-tags:
-  - Wyam
-  - Jekyll
-  - Wordpress
-  - news
 ---
+
 Every few years I get bored of the technology that powers this blog and move to something new and interesting (to me), something that promises to make the blog experience easier and more productive. Over the years it's followed the latest fashions, albeit usually a year behind, which has seen runtime server side languages, CMSs and hosted blog platforms. The chronology has roughly been:
 
 - ASP and ASP .NET (with site badges!)

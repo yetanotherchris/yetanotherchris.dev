@@ -1,16 +1,19 @@
 ---
-Published: 2010-12-29
-title: "Avoiding Unicode issues when inserting XML into a SQL Database"
-author: Chris S
-excerpt: "If you have to insert XML into a SQL Server (2005+) XML column, there's three ways of doing it..."
-layout: post
-permalink: /sql-server/avoiding-unicode-issues-when-inserting-xml-into-a-sql-database/
-dsq_thread_id:
-  - 1092317575
+title: Avoiding Unicode issues when inserting XML into a SQL Database
+date: 2010-12-29 00:00:00 Z
+permalink: "/sql-server/avoiding-unicode-issues-when-inserting-xml-into-a-sql-database/"
 tags:
-  - sql-server
-  - xml
+- sql-server
+- xml
+Published: 2010-12-29 00:00:00 Z
+author: Chris S
+excerpt: If you have to insert XML into a SQL Server (2005+) XML column, there's three
+  ways of doing it...
+layout: post
+dsq_thread_id:
+- 1092317575
 ---
+
 If you have to insert XML into a SQL Server (2005+) XML column, there's three ways of doing it.
 
   1. Perform a raw string insert, which is unlikely to work

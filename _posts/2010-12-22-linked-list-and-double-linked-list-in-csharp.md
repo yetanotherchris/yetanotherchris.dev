@@ -1,15 +1,17 @@
 ---
-Published: 2010-12-22
-title: "Linked list and Double linked list in C#"
-author: Chris S
-excerpt: "Two examples of implementing a linked and double linked list in C# from scratch."
-layout: post
-permalink: /csharp/linked-list-and-double-linked-list-in-csharp/
-dsq_thread_id:
-  - 1085038992
+title: Linked list and Double linked list in C#
+date: 2010-12-22 00:00:00 Z
+permalink: "/csharp/linked-list-and-double-linked-list-in-csharp/"
 tags:
-  - 'c#'
+- c#
+Published: 2010-12-22 00:00:00 Z
+author: Chris S
+excerpt: Two examples of implementing a linked and double linked list in C# from scratch.
+layout: post
+dsq_thread_id:
+- 1085038992
 ---
+
 Below are two examples of implementing a linked and double linked list in C#. The framework already has a [LinkedList<T> implementation][1] from version 2.0 - it is infact a double linked list and supports a whole lot of features the example below doesn't. I wrote the code below out of curiosity more than anything (some programmers like doing this kind of thing, some don't!). Most degree students or earlier will have learnt about linked lists in their courses, some may have not.
 
 <!--more-->

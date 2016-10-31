@@ -1,13 +1,15 @@
 ---
-Published: 2016-10-04
 title: Object-oriented theory you may not care or know about, but are doing
+date: 2016-10-04 00:00:00 Z
+tags:
+- object-oriented
+- c#
+Published: 2016-10-04 00:00:00 Z
 author: Chris S
 layout: post
 shortpost: true
-tags:
-  - object-oriented
-  - c#
 ---
+
 ### The law of demeter
 
 A method `m` in a `class A` should not send a message to another object unless that object is one of the following: 

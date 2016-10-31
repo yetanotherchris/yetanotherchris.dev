@@ -1,13 +1,15 @@
 ---
-Published: 2013-04-15
-title: "Object, Donut, OutputCache and Browser Caching in ASP.NET MVC"
+title: Object, Donut, OutputCache and Browser Caching in ASP.NET MVC
+date: 2013-04-15 00:00:00 Z
+permalink: "/asp-net-mvc/object-donut-outputcache-and-browser-caching-in-asp-net-mvc/"
+tags:
+- asp.net-mvc
+- roadkill-wiki
+Published: 2013-04-15 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /asp-net-mvc/object-donut-outputcache-and-browser-caching-in-asp-net-mvc/
-tags:
-  - asp.net-mvc
-  - roadkill-wiki
 ---
+
 I've spent the last week working on sorting out the caching in Roadkill as prior to 1.6 it relied on NHibernate's second level in memory cache and some incorrect 304s.
 
 Roadkill now has 3 levels of caching:

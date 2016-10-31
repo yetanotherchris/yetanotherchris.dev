@@ -1,16 +1,19 @@
 ---
-Published: 2009-03-03
-title: "Friendly Unique Id Generation Part 1"
-author: Chris S
-excerpt: "The first of two blog posts about generating url-friendly alternatives to the guid."
-layout: post
-permalink: /csharp/friendly-unique-id-generation-part-1/
-dsq_thread_id:
-  - 1074152177
+title: Friendly Unique Id Generation Part 1
+date: 2009-03-03 00:00:00 Z
+permalink: "/csharp/friendly-unique-id-generation-part-1/"
 tags:
-  - 'c#'
-  - url-generation
+- c#
+- url-generation
+Published: 2009-03-03 00:00:00 Z
+author: Chris S
+excerpt: The first of two blog posts about generating url-friendly alternatives to
+  the guid.
+layout: post
+dsq_thread_id:
+- 1074152177
 ---
+
   * **Part 1** 
       * [Base 64][1]
       * [Guid][2]

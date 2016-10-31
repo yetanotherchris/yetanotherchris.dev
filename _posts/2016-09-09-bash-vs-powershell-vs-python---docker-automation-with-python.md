@@ -1,14 +1,14 @@
 ---
-Published: 2016-09-09T00:00:00.000Z
 title: Bash vs Powershell vs Python - Docker automation with Python
+date: 2016-09-09 00:00:00 Z
+tags:
+- python
+- docker
+Published: 2016-09-09 00:00:00 Z
 author: Chris S
 layout: post
 shortpost: false
-tags:
-  - python
-  - docker
 ---
-
 
 Today I became a Python developer (writing a single script counts as a being a Python developer doesn't it?!).
 

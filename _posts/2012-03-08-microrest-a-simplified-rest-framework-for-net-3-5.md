@@ -1,14 +1,16 @@
 ---
-Published: 2012-03-08
-title: "MicroRest, a simplified REST framework for .NET 3.5+"
+title: MicroRest, a simplified REST framework for .NET 3.5+
+date: 2012-03-08 00:00:00 Z
+permalink: "/open-source-projects/microrest-a-simplified-rest-framework-for-net-3-5/"
+tags:
+- open source projects
+Published: 2012-03-08 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /open-source-projects/microrest-a-simplified-rest-framework-for-net-3-5/
 dsq_thread_id:
-  - 1092542251
-tags:
-  - open source projects
+- 1092542251
 ---
+
 **Update 2:**  
 Now it's 2015 and WebApi is almost in version 3 (vNext edition), I've removed the Microrest source from Bitbucket.
 

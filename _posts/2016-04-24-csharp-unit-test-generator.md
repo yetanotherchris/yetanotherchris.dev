@@ -1,12 +1,13 @@
 ---
+title: C# Unit test generator
+date: 2016-04-24 00:00:00 Z
+tags:
+- c#
+- testing
+- unit-tests
 shortpost: true
-Published: 2016-04-24
-title: "C# Unit test generator"
+Published: 2016-04-24 00:00:00 Z
 layout: post
-tags: 
-  - "c#"
-  - testing
-  - "unit-tests"
 ---
 
 This small Javascript pen generates a C# file for an object you want to test, using a list of test cases you specify in the textbox in this format:

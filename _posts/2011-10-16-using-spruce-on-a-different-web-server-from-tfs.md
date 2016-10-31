@@ -1,15 +1,21 @@
 ---
-Published: 2011-10-16
-title: "Using Spruce on a different web server from TFS"
-author: Chris S
-excerpt: "One of the big issues I’ve come up against when developing Spruce has been using the website on a different web server from the one TFS runs as. By default TFS creates itself as ‘Team Foundation Server’ as a separate site inside IIS. As its API is entirely web services based, this is where your calls are made to, the .NET assemblies simply wrap these HTTP calls up in an easy to use package."
-layout: post
-permalink: /spruce/using-spruce-on-a-different-web-server-from-tfs/
-dsq_thread_id:
-  - 1092640693
+title: Using Spruce on a different web server from TFS
+date: 2011-10-16 00:00:00 Z
+permalink: "/spruce/using-spruce-on-a-different-web-server-from-tfs/"
 tags:
-  - spruce
+- spruce
+Published: 2011-10-16 00:00:00 Z
+author: Chris S
+excerpt: One of the big issues I’ve come up against when developing Spruce has been
+  using the website on a different web server from the one TFS runs as. By default
+  TFS creates itself as ‘Team Foundation Server’ as a separate site inside IIS. As
+  its API is entirely web services based, this is where your calls are made to, the
+  .NET assemblies simply wrap these HTTP calls up in an easy to use package.
+layout: post
+dsq_thread_id:
+- 1092640693
 ---
+
 One of the big issues I've come up against when developing Spruce has been using the website on a different web server from the one TFS runs as. By default TFS creates itself as ‘Team Foundation Server’ as a separate site inside IIS. As its API is entirely web services based, this is where your calls are made to, the .NET assemblies simply wrap these HTTP calls up in an easy to use package.
 
 <!--more-->

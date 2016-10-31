@@ -1,16 +1,19 @@
 ---
-Published: 2010-09-09
-title: "A Look At .NET ORMs - Part 3"
-author: Chris S
-excerpt: "The final part of .NET orm series, looking at ODX, NHibernate, CoolStorage and Lightspeed."
-layout: post
-permalink: /orm/a-look-at-net-orms-part-3/
-dsq_thread_id:
-  - 1077619867
+title: A Look At .NET ORMs - Part 3
+date: 2010-09-09 00:00:00 Z
+permalink: "/orm/a-look-at-net-orms-part-3/"
 tags:
-  - .net
-  - orm
+- ".net"
+- orm
+Published: 2010-09-09 00:00:00 Z
+author: Chris S
+excerpt: The final part of .NET orm series, looking at ODX, NHibernate, CoolStorage
+  and Lightspeed.
+layout: post
+dsq_thread_id:
+- 1077619867
 ---
+
 <a name="odx"></a>
 
 ### ODX

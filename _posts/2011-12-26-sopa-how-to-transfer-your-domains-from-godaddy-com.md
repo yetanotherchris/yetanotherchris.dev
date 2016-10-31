@@ -1,14 +1,16 @@
 ---
-Published: 2011-12-26
-title: "SOPA: How to transfer your domains from Godaddy.com"
+title: 'SOPA: How to transfer your domains from Godaddy.com'
+date: 2011-12-26 00:00:00 Z
+permalink: "/misc/sopa-how-to-transfer-your-domains-from-godaddy-com/"
+tags:
+- misc
+Published: 2011-12-26 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /misc/sopa-how-to-transfer-your-domains-from-godaddy-com/
 dsq_thread_id:
-  - 1093479666
-tags:
-  - misc
+- 1093479666
 ---
+
 I'm not really fuming about the SOPA issue as I live in the UK, however given [the amount of DNS control the US has][1], it is worth giving a little-bit-of-a-crap about.
 
 If you happen to use Godaddy for your domains, you might be considering moving away from them after it was revealed that they played quite a big part in penning the details of SOPA (mostly for their own business gain).

@@ -1,15 +1,18 @@
 ---
-Published: 2010-01-01
-title: "IConfigurationSectionHandler example"
-author: Chris S
-excerpt: "This is a small snippet for the basics of writing a ConfigurationHandler to read a configuration section from your web.config or app.config."
-layout: post
-permalink: /csharp/configurationhandler-snippet/
-dsq_thread_id:
-  - 1077165684
+title: IConfigurationSectionHandler example
+date: 2010-01-01 00:00:00 Z
+permalink: "/csharp/configurationhandler-snippet/"
 tags:
-  - 'c#'
+- c#
+Published: 2010-01-01 00:00:00 Z
+author: Chris S
+excerpt: This is a small snippet for the basics of writing a ConfigurationHandler
+  to read a configuration section from your web.config or app.config.
+layout: post
+dsq_thread_id:
+- 1077165684
 ---
+
 This is a small snippet for the basics of writing a ConfigurationHandler to read a configuration section from your web.config or app.config. Since I wrote this I've moved to the easier ConfigSection way of doing things, there's an example [here][1].
 
 You start off with the XML definition in the config file:

@@ -1,16 +1,19 @@
 ---
-Published: 2010-11-29
-title: "Spruce screenshots"
-author: Chris S
-excerpt: "Nothing says progress like screenshots, so here’s 6 that give a general flavour of Spruce. It’s currently making heavy use of jQuery including the following plugins..."
-layout: post
-permalink: /tfs/screenshots/
-dsq_thread_id:
-  - 1085015075
+title: Spruce screenshots
+date: 2010-11-29 00:00:00 Z
+permalink: "/tfs/screenshots/"
 tags:
-  - spruce
-  - tfs
+- spruce
+- tfs
+Published: 2010-11-29 00:00:00 Z
+author: Chris S
+excerpt: Nothing says progress like screenshots, so here’s 6 that give a general flavour
+  of Spruce. It’s currently making heavy use of jQuery including the following plugins...
+layout: post
+dsq_thread_id:
+- 1085015075
 ---
+
 Nothing says progress like screenshots, so here’s 6 that give a general flavour of Spruce. It’s currently making heavy use of jQuery including the following plugins:
 
 <!--more-->

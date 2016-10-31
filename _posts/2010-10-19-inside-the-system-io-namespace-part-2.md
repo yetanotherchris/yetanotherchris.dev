@@ -1,15 +1,17 @@
 ---
-Published: 2010-10-19
-title: "Inside The System.IO Namespace Part 2"
-author: Chris S
-excerpt: "The second in a series of posts looking at the System.IO namespace."
-layout: post
-permalink: /net/inside-the-systemio-namespace-part-2/
-dsq_thread_id:
-  - 1077686629
+title: Inside The System.IO Namespace Part 2
+date: 2010-10-19 00:00:00 Z
+permalink: "/net/inside-the-systemio-namespace-part-2/"
 tags:
-  - .net
+- ".net"
+Published: 2010-10-19 00:00:00 Z
+author: Chris S
+excerpt: The second in a series of posts looking at the System.IO namespace.
+layout: post
+dsq_thread_id:
+- 1077686629
 ---
+
   * [Part 1][1]
   * Part 2
   * [Part 3][2]

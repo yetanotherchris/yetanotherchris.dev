@@ -1,16 +1,18 @@
 ---
-Published: 2009-03-09
-title: "C# Design Patterns: the State pattern"
-author: Chris S
-excerpt: "A summary and example of the state design pattern."
-layout: post
-permalink: /csharp/csharp-design-patterns-the-state-pattern/
-dsq_thread_id:
-  - 1074224903
+title: 'C# Design Patterns: the State pattern'
+date: 2009-03-09 00:00:00 Z
+permalink: "/csharp/csharp-design-patterns-the-state-pattern/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2009-03-09 00:00:00 Z
+author: Chris S
+excerpt: A summary and example of the state design pattern.
+layout: post
+dsq_thread_id:
+- 1074224903
 ---
+
 ### Summary
 
 Like a finite state machine but implemented using a class for each state, rather than an enumeration and/or switch statement. 

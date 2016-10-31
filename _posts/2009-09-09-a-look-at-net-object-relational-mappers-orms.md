@@ -1,16 +1,25 @@
 ---
-Published: 2009-09-09
-title: "A look at .NET Object Relational Mappers (ORM)s"
-author: Chris S
-excerpt: "This post looks at the many different ORM (object relational mappers) that exist for C#/.NET. These Object Relational Mappers aim to bridge the gap that exists between database servers and their native SQL, and the object-oriented world of non-tabular data. My main source for the ORMs I chose to look at were from csharp source and wikipedia along with a codeplex search, and just general knowledge of the products out there. I've excluded dead links from wikipedia, commercial ORMs (of which lots also exist) and narrowed it down the ones that seemed fairly mature and easy to assess from available walkthroughs. "
-layout: post
-permalink: /orm/a-look-at-net-object-relational-mappers-orms/
-dsq_thread_id:
-  - 1077609778
+title: A look at .NET Object Relational Mappers (ORM)s
+date: 2009-09-09 00:00:00 Z
+permalink: "/orm/a-look-at-net-object-relational-mappers-orms/"
 tags:
-  - .net
-  - orm
+- ".net"
+- orm
+Published: 2009-09-09 00:00:00 Z
+author: Chris S
+excerpt: 'This post looks at the many different ORM (object relational mappers) that
+  exist for C#/.NET. These Object Relational Mappers aim to bridge the gap that exists
+  between database servers and their native SQL, and the object-oriented world of
+  non-tabular data. My main source for the ORMs I chose to look at were from csharp
+  source and wikipedia along with a codeplex search, and just general knowledge of
+  the products out there. I''ve excluded dead links from wikipedia, commercial ORMs
+  (of which lots also exist) and narrowed it down the ones that seemed fairly mature
+  and easy to assess from available walkthroughs. '
+layout: post
+dsq_thread_id:
+- 1077609778
 ---
+
 ### Contents
 
   * [db4o][1]

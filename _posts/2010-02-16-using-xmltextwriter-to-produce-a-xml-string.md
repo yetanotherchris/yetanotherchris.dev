@@ -1,16 +1,19 @@
 ---
-Published: 2010-02-16
-title: "Using XmlTextWriter to produce a XML string"
-author: Chris S
-excerpt: "This is a small snippet showing an example of using a XmlTextWriter to produce Xml that validates."
-layout: post
-permalink: /csharp/using-xmltextwriter-to-produce-a-xml-string/
-dsq_thread_id:
-  - 1079916908
+title: Using XmlTextWriter to produce a XML string
+date: 2010-02-16 00:00:00 Z
+permalink: "/csharp/using-xmltextwriter-to-produce-a-xml-string/"
 tags:
-  - 'c#'
-  - xml
+- c#
+- xml
+Published: 2010-02-16 00:00:00 Z
+author: Chris S
+excerpt: This is a small snippet showing an example of using a XmlTextWriter to produce
+  Xml that validates.
+layout: post
+dsq_thread_id:
+- 1079916908
 ---
+
 This is a small snippet showing an example of using a XmlTextWriter to produce Xml that validates.
 
 One point to note is that because .NET strings are held internally as double-byte UTF16, using a StringWriter will always output to UTF16. If you try to force it down, the byte-order of the file will be wrong. Make sure if you're using File.WriteAllText, you use the overloaded version and specify Encoding.Unicode or it will write your string as UTF-8 with not Byte Order Mark. This confuses Visual Studio so that it doesn't open the files correctly.

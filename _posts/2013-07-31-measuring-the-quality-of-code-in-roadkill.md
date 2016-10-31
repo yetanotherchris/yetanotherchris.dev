@@ -1,15 +1,17 @@
 ---
-Published: 2013-07-31
-title: "Measuring the quality of code in Roadkill"
+title: Measuring the quality of code in Roadkill
+date: 2013-07-31 00:00:00 Z
+permalink: "/roadkill-wiki/measuring-the-quality-of-code-in-roadkill/"
+tags:
+- ndepend
+- roadkill-wiki
+Published: 2013-07-31 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /roadkill-wiki/measuring-the-quality-of-code-in-roadkill/
 dsq_thread_id:
-  - 4207372671
-tags:
-  - ndepend
-  - roadkill-wiki
+- 4207372671
 ---
+
 One of the subjects I recently studied in my part time university course was how to measure a software system's complexity, including quality measures for your code. These are statistical ways of measuring code or system complexity date back to before the SOLID principles became popular and with a little bit of insight give a fairly good marker of how complicated or clean your code is.
 
 With Roadkill almost 3 years old, I thought I'd give some of the metrics a try on the source. There's basically two ways of measuring system complexity: before you start the project and after/during the project.

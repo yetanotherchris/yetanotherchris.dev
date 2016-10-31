@@ -1,15 +1,20 @@
 ---
-Published: 2009-05-18
-title: "Your base class: Abstract or Interface?"
-author: Chris S
-excerpt: "One thing that is often overlooked by the tutorials and books is deciding when to use an abstract class vs an interface. The fashion for using interfaces for everything often rejects abstract classes outright. This post goes into a bit of detail about it."
-layout: post
-permalink: /csharp/your-base-class-abstract-or-interface/
-dsq_thread_id:
-  - 1069180544
+title: 'Your base class: Abstract or Interface?'
+date: 2009-05-18 00:00:00 Z
+permalink: "/csharp/your-base-class-abstract-or-interface/"
 tags:
-  - 'c#'
+- c#
+Published: 2009-05-18 00:00:00 Z
+author: Chris S
+excerpt: One thing that is often overlooked by the tutorials and books is deciding
+  when to use an abstract class vs an interface. The fashion for using interfaces
+  for everything often rejects abstract classes outright. This post goes into a bit
+  of detail about it.
+layout: post
+dsq_thread_id:
+- 1069180544
 ---
+
 This could be seen as a bit of a beginner's topic, but one thing that is often overlooked by the tutorials and books is deciding when to use each one. The fashion for using interfaces for everything often rejects abstract classes outright. If you look at the BCL it gives some good pointers when to use which, and points you in the direction of using both, if needed. There are examples of this inside System.Collections.Generics such as IList<T> and List<T>. 
 
 <!--more-->

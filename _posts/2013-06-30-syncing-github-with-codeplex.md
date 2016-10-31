@@ -1,12 +1,14 @@
 ---
-Published: 2013-06-30
-title: "Syncing Github with Codeplex"
+title: Syncing Github with Codeplex
+date: 2013-06-30 00:00:00 Z
+permalink: "/git/syncing-github-with-codeplex/"
+tags:
+- github
+Published: 2013-06-30 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /git/syncing-github-with-codeplex/
-tags:
-  - github
 ---
+
 Assuming you have used the Github Windows gui (or the console) to clone a Github repository, you can push it up to Codeplex in the console by using something like this:
 
 <pre>git push --all https://git01.codeplex.com/roadkill</pre>

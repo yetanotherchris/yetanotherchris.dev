@@ -1,15 +1,20 @@
 ---
-Published: 2011-03-02
-title: "The new Spruce solution structure"
-author: Chris S
-excerpt: "I’m quite anally retentive when it comes to folder structure in Visual Studio projects: I like to keep all C# source and site assets in a structured way that will avoid me having to spend (accumulated) hours doing pointless searches and treasure hunts through the solution explorer..."
-layout: post
-permalink: /spruce/the-new-spruce-solution-structure/
-dsq_thread_id:
-  - 1092440805
+title: The new Spruce solution structure
+date: 2011-03-02 00:00:00 Z
+permalink: "/spruce/the-new-spruce-solution-structure/"
 tags:
-  - spruce
+- spruce
+Published: 2011-03-02 00:00:00 Z
+author: Chris S
+excerpt: 'I’m quite anally retentive when it comes to folder structure in Visual Studio
+  projects: I like to keep all C# source and site assets in a structured way that
+  will avoid me having to spend (accumulated) hours doing pointless searches and treasure
+  hunts through the solution explorer...'
+layout: post
+dsq_thread_id:
+- 1092440805
 ---
+
 I’m quite anally retentive when it comes to folder structure in Visual Studio projects: I like to keep all C# source and site assets in a structured way that will avoid me having to spend (accumulated) hours doing pointless searches and treasure hunts through the solution explorer. I’m pretty sure it’s some form of OCD but at the same time I don’t really care too much as I subscribe to the [Bob Martin school of thought][1] that says leave the campsite cleaner than when you arrived.
 
 <!--more-->

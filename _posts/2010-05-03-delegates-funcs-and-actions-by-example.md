@@ -1,15 +1,19 @@
 ---
-Published: 2010-05-03
-title: "Delegates, Funcs and Actions by example"
-author: Chris S
-excerpt: "This is a small set of reference examples of the various ways of declaring delegates, funcs and actions across the different versions of the framework and C#"
-layout: post
-permalink: /csharp/delegates-funcs-and-actions-by-example/
-dsq_thread_id:
-  - 
+title: Delegates, Funcs and Actions by example
+date: 2010-05-03 00:00:00 Z
+permalink: "/csharp/delegates-funcs-and-actions-by-example/"
 tags:
-  - 'c#'
+- c#
+Published: 2010-05-03 00:00:00 Z
+author: Chris S
+excerpt: This is a small set of reference examples of the various ways of declaring
+  delegates, funcs and actions across the different versions of the framework and
+  C#
+layout: post
+dsq_thread_id:
+- 
 ---
+
 This is a small set of reference examples of the various ways of declaring delegates, funcs and actions across the different versions of the framework and C#. I haven't included any examples of passing Funcs,Actions as method parameters and interogating them, but Jon Skeet has [a good post][1] on it, and [this stackoverflow][2] question also demonstrates Action based operations quite succinctly. None of this article is under-the-hood in depth stuff - just a simple reference.
 
 <!--more-->

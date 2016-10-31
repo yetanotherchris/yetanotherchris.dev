@@ -1,14 +1,16 @@
 ---
-Published: 2012-02-07
-title: "Parsing XFDF (PDF annotations) in C#"
+title: Parsing XFDF (PDF annotations) in C#
+date: 2012-02-07 00:00:00 Z
+permalink: "/csharp/parsing-xfdf-pdf-annotations/"
+tags:
+- c#
+Published: 2012-02-07 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/parsing-xfdf-pdf-annotations/
 dsq_thread_id:
-  - 4207230070
-tags:
-  - 'c#'
+- 4207230070
 ---
+
 I'm in the middle of doing the final two modules of the 3rd year of my part-time Computer Science degree, which means going back to the books. I've gone through virtually every note taking technique possible for the reading over the years - textbook + pencil on the tube, Pulse pen, converting PDFs by hand for the Kindle and netbook. This year I've decided to try something different, and use the annotations functionality built into the PDF 9+ format. Fortunately the Open University provides most of the course reading in PDF format (except [this book][1], the main course text of one module). There's no lectures and occasional seminars so the majority of your time is spent reading the course texts and doing the activities for each assignment.
 
 <!--more-->

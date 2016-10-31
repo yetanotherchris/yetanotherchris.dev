@@ -1,16 +1,21 @@
 ---
-Published: 2010-04-05
-title: "ApplicationException versus Exception"
-author: Chris S
-excerpt: "The two often repeated phrases about Exceptions in .NET is they should be used for 'exceptional behaviour' and sparingly; they are a performance hit on your application and aren't a replacement for logging. This post goes into some details about Exceptions and ApplicationExceptions."
-layout: post
-permalink: /csharp/applicationexception-versus-exception/
-dsq_thread_id:
-  - 1083200872
+title: ApplicationException versus Exception
+date: 2010-04-05 00:00:00 Z
+permalink: "/csharp/applicationexception-versus-exception/"
 tags:
-  - best-practices
-  - 'c#'
+- best-practices
+- c#
+Published: 2010-04-05 00:00:00 Z
+author: Chris S
+excerpt: The two often repeated phrases about Exceptions in .NET is they should be
+  used for 'exceptional behaviour' and sparingly; they are a performance hit on your
+  application and aren't a replacement for logging. This post goes into some details
+  about Exceptions and ApplicationExceptions.
+layout: post
+dsq_thread_id:
+- 1083200872
 ---
+
 ### Exceptions
 
 The two often repeated phrases about Exceptions in .NET is they should be used for &#8220;exceptional behaviour&#8221; and sparingly; they are a performance hit on your application and aren't a replacement for logging. These are of course good recommendations, however one point that is often neglated is guidance of when Exceptions should be thrown, and when they are just a performance hit. 

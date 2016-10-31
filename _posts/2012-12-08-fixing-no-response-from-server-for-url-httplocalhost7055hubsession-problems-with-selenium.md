@@ -1,16 +1,20 @@
 ---
-Published: 2012-12-08
-title: "Fixing 'No response from server for url http://localhost:7055/hub/session/' problems with Selenium"
-author: Chris S
-excerpt: "If you're using a Windows Server 2008 R2 for your CI builds and tests, you may run into issues with running Selenium tests that Server 2003 didn't have."
-layout: post
-permalink: /selenium/fixing-no-response-from-server-for-url-httplocalhost7055hubsession-problems-with-selenium/
-dsq_thread_id:
-  - 4207354224
+title: Fixing 'No response from server for url http://localhost:7055/hub/session/'
+  problems with Selenium
+date: 2012-12-08 00:00:00 Z
+permalink: "/selenium/fixing-no-response-from-server-for-url-httplocalhost7055hubsession-problems-with-selenium/"
 tags:
-  - selenium
-  - testing
+- selenium
+- testing
+Published: 2012-12-08 00:00:00 Z
+author: Chris S
+excerpt: If you're using a Windows Server 2008 R2 for your CI builds and tests, you
+  may run into issues with running Selenium tests that Server 2003 didn't have.
+layout: post
+dsq_thread_id:
+- 4207354224
 ---
+
 If you're using a Windows Server 2008 R2 for your CI builds and tests, you may run into issues with running Selenium tests that Server 2003 didn't have. It took me a good 1/2 day of trial and error to fix the problem, but it's so obscure I thought I'd share. The error you'll see from Selenium is usually this one:
 
 > &#8220;No response from server for url http://localhost:7055/hub/session/&#8230;&#8221;

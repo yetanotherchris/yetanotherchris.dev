@@ -1,16 +1,19 @@
 ---
-Published: 2011-02-02
-title: "C# Bit manipulation by example (part 2)"
-author: Chris S
-excerpt: "The second part of a two-part blog series looking at bit manipulation in C#."
-layout: post
-permalink: /csharp/csharp-bit-manipulation-by-example-part-2/
-dsq_thread_id:
-  - 1093154059
+title: C# Bit manipulation by example (part 2)
+date: 2011-02-02 00:00:00 Z
+permalink: "/csharp/csharp-bit-manipulation-by-example-part-2/"
 tags:
-  - bit-manipulation
-  - 'c#'
+- bit-manipulation
+- c#
+Published: 2011-02-02 00:00:00 Z
+author: Chris S
+excerpt: The second part of a two-part blog series looking at bit manipulation in
+  C#.
+layout: post
+dsq_thread_id:
+- 1093154059
 ---
+
 The [previous post][1] explained:
 
   * Counting and arithmetic in base 2,8,10,16 (binary, octal and decimal,hexadecimal), 

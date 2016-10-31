@@ -1,14 +1,14 @@
 ---
-Published: 2016-09-08T00:00:00.000Z
 title: Podcast of the month - Sept 2016
+date: 2016-09-09 00:00:00 Z
+tags:
+- podcasts
+- brain
+Published: 2016-09-08 00:00:00 Z
 author: Chris S
 layout: post
 shortpost: true
-tags:
-  - podcasts
-  - brain
 ---
-
 
 A weekly favourite podcast doesn't really work on this site, as I only end up adding them every month or two. So I'm switching to a monthly format to share my discoveries in the Podcast world.
 

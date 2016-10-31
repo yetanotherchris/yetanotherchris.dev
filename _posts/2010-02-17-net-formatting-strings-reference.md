@@ -1,15 +1,19 @@
 ---
-Published: 2010-02-17
 title: ".NET Formatting Strings Reference"
-author: Chris S
-excerpt: "This post is aimed at being a reference and a code-by-example guide to format strings in C# (and .NET), plus delving a little deeper into custom formatting strings and what goes on internally"
-layout: post
-permalink: /net/net-formatting-strings-reference/
-dsq_thread_id:
-  - 1079942386
+date: 2010-02-17 00:00:00 Z
+permalink: "/net/net-formatting-strings-reference/"
 tags:
-  - .net
+- ".net"
+Published: 2010-02-17 00:00:00 Z
+author: Chris S
+excerpt: This post is aimed at being a reference and a code-by-example guide to format
+  strings in C# (and .NET), plus delving a little deeper into custom formatting strings
+  and what goes on internally
+layout: post
+dsq_thread_id:
+- 1079942386
 ---
+
 This post is aimed at being a reference and a code-by-example guide to format strings in C# (and .NET), plus delving a little deeper into custom formatting strings and what goes on internally. It assumes you already know what they are, if you don't then there's links at the end for getting started.
 
 ### Types of formatting strings

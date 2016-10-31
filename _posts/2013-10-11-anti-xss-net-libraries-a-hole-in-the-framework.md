@@ -1,16 +1,18 @@
 ---
-Published: 2013-10-11
-title: "Anti-XSS .NET libraries in 2013"
+title: Anti-XSS .NET libraries in 2013
+date: 2013-10-11 00:00:00 Z
+permalink: "/asp-net/anti-xss-net-libraries-a-hole-in-the-framework/"
+tags:
+- anti-xss
+- asp.net
+- roadkill-wiki
+Published: 2013-10-11 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /asp-net/anti-xss-net-libraries-a-hole-in-the-framework/
 dsq_thread_id:
-  - 4207230580
-tags:
-  - anti-xss
-  - asp.net
-  - roadkill-wiki
+- 4207230580
 ---
+
 One of the more important parts in Roadkill Wiki is removing malicious HTML from the markup that's entered, even when the markup (Creole and Markdown) is controlled.
 
 The markup you enter is converted into HTML, and then sanitized internally to remove any HTML that is bad, the markup can also contain HTML itself - the Creole parser allows this as does the Markdown parser to an extent.

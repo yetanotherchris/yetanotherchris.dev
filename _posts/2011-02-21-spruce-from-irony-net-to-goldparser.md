@@ -1,18 +1,25 @@
 ---
-Published: 2011-02-21
-title: "Spruce: From Irony.NET to GoldParser"
-author: Chris S
-excerpt: "In the last post I was all geared up and ready to write my search engine parser with the Irony framework. As has happened a fews times to me in with searching out solutions with development, shortly after writing the post I stumbled upon Gold Parser and Calitha. I'm not usually that fickle with frameworks that I’ll ditch one straight away, however Gold Parser was exactly what I was looking for originally, that ANTLR failed to provide."
-layout: post
-permalink: /spruce/spruce-from-irony-net-to-goldparser/
-dsq_thread_id:
-  - 1092394892
+title: 'Spruce: From Irony.NET to GoldParser'
+date: 2011-02-21 00:00:00 Z
+permalink: "/spruce/spruce-from-irony-net-to-goldparser/"
 tags:
-  - goldparser
-  - irony.net
-  - lalr
-  - spruce
+- goldparser
+- irony.net
+- lalr
+- spruce
+Published: 2011-02-21 00:00:00 Z
+author: Chris S
+excerpt: In the last post I was all geared up and ready to write my search engine
+  parser with the Irony framework. As has happened a fews times to me in with searching
+  out solutions with development, shortly after writing the post I stumbled upon Gold
+  Parser and Calitha. I'm not usually that fickle with frameworks that I’ll ditch
+  one straight away, however Gold Parser was exactly what I was looking for originally,
+  that ANTLR failed to provide.
+layout: post
+dsq_thread_id:
+- 1092394892
 ---
+
 In the last post I was all geared up and ready to write my search engine parser with the Irony framework. As has happened a fews times to me in with searching out solutions with development, shortly after writing the post I stumbled upon Gold Parser and Calitha.
 
 I’m not usually that fickle with frameworks that I’ll ditch one straight away, however Gold Parser was exactly what I was looking for originally, that ANTLR failed to provide.

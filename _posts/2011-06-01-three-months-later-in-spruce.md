@@ -1,15 +1,23 @@
 ---
-Published: 2011-06-01
-title: "Three months later in Spruce…"
-author: Chris S
-excerpt: "Not much has changed on this blog since March, no new posts have appeared. The main reason for this has been, amongst other things, my focus being shifted towards another FOSS project I’ve been doing called Roadkill Wiki. It’s a .NET wiki engine which I wrote to take the place of Screwturn. The primary motivator for this was that Screwturn had fairly poor Windows auth support, and used its own Wiki syntax. Roadkill addresses both of these, supporting Markdown, Media Wiki and Creole syntaxes and allows you to import from a Screwturn database."
-layout: post
-permalink: /spruce/three-months-later-in-spruce/
-dsq_thread_id:
-  - 
+title: Three months later in Spruce…
+date: 2011-06-01 00:00:00 Z
+permalink: "/spruce/three-months-later-in-spruce/"
 tags:
-  - spruce
+- spruce
+Published: 2011-06-01 00:00:00 Z
+author: Chris S
+excerpt: Not much has changed on this blog since March, no new posts have appeared.
+  The main reason for this has been, amongst other things, my focus being shifted
+  towards another FOSS project I’ve been doing called Roadkill Wiki. It’s a .NET wiki
+  engine which I wrote to take the place of Screwturn. The primary motivator for this
+  was that Screwturn had fairly poor Windows auth support, and used its own Wiki syntax.
+  Roadkill addresses both of these, supporting Markdown, Media Wiki and Creole syntaxes
+  and allows you to import from a Screwturn database.
+layout: post
+dsq_thread_id:
+- 
 ---
+
 Not much has changed on this blog since March, no new posts have appeared. The main reason for this has been, amongst other things, my focus being shifted towards another FOSS project I've been doing called Roadkill Wiki. It’s a .NET wiki engine which I wrote to take the place of Screwturn. The primary motivator for this was that Screwturn had fairly poor Windows auth support, and used its own Wiki syntax. Roadkill addresses both of these, supporting Markdown, Media Wiki and Creole syntaxes and allows you to import from a Screwturn database.
 
 <!--more-->

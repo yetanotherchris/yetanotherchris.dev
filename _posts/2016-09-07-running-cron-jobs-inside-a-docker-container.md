@@ -1,15 +1,15 @@
 ---
-Published: 2016-09-07T00:00:00.000Z
 title: Running cron jobs inside a Docker container
+date: 2016-09-07 00:00:00 Z
+tags:
+- docker
+- unix
+- ".net-core"
+Published: 2016-09-07 00:00:00 Z
 author: Chris S
 layout: post
 shortpost: true
-tags:
-  - docker
-  - unix
-  - .net-core
 ---
-
 
 Probably the most basic use of a Docker image is to run it, and let it exist - like `docker run hello-world`. If you want to do this on a regular schedule, you have several options but the cron one is narrowed down to running cron on the Docker host or in the container.
 

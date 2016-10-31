@@ -1,16 +1,19 @@
 ---
-Published: 2010-11-04
-title: "Some base principles for Spruce"
-author: Chris S
-excerpt: "Here's 7 guiding principles I'm sticking to with the development of the Spruce front end for TFS."
-layout: post
-permalink: /tfs/some-base-principles-for-spruce/
-dsq_thread_id:
-  - 1093195283
+title: Some base principles for Spruce
+date: 2010-11-04 00:00:00 Z
+permalink: "/tfs/some-base-principles-for-spruce/"
 tags:
-  - spruce
-  - tfs
+- spruce
+- tfs
+Published: 2010-11-04 00:00:00 Z
+author: Chris S
+excerpt: Here's 7 guiding principles I'm sticking to with the development of the Spruce
+  front end for TFS.
+layout: post
+dsq_thread_id:
+- 1093195283
 ---
+
 There’s 7 ‘guiding principles’ I’ve laid down for Spruce:
 
 **1. Attractive and easy to use UI**

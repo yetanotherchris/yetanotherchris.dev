@@ -1,15 +1,19 @@
 ---
-Published: 2010-07-26
-title: "Silverlight snippets"
-author: Chris S
-excerpt: "This is a collection of mostly simple/beginner level Silverlight snippets that will slowly build up over time. A lot of the answers here come thanks to the Silverlight tag on Stackoverflow and the Microsoft silverlight forums."
-layout: post
-permalink: /silverlight/silverlight-snippets/
-dsq_thread_id:
-  - 1084003825
+title: Silverlight snippets
+date: 2010-07-26 00:00:00 Z
+permalink: "/silverlight/silverlight-snippets/"
 tags:
-  - silverlight
+- silverlight
+Published: 2010-07-26 00:00:00 Z
+author: Chris S
+excerpt: This is a collection of mostly simple/beginner level Silverlight snippets
+  that will slowly build up over time. A lot of the answers here come thanks to the
+  Silverlight tag on Stackoverflow and the Microsoft silverlight forums.
+layout: post
+dsq_thread_id:
+- 1084003825
 ---
+
 This is a collection of simple/beginner level Silverlight snippets that will slowly build up over time. A lot of the answers here come thanks to the [Silverlight tag][1] on Stackoverflow and the Microsoft silverlight forums.
 
 <!--more-->

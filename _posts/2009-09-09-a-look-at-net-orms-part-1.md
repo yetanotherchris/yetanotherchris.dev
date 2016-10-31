@@ -1,16 +1,19 @@
 ---
-Published: 2009-09-09
-title: "A Look At .NET ORMs - Part 1"
-author: Chris S
-excerpt: "Part one of look at .NET ORMs, including examples of using db4o, Linq to Entities, Sooda,"
-layout: post
-permalink: /orm/a-look-at-net-orms-part-1/
-dsq_thread_id:
-  - 1077619711
+title: A Look At .NET ORMs - Part 1
+date: 2009-09-09 00:00:00 Z
+permalink: "/orm/a-look-at-net-orms-part-1/"
 tags:
-  - .net
-  - orm
+- ".net"
+- orm
+Published: 2009-09-09 00:00:00 Z
+author: Chris S
+excerpt: Part one of look at .NET ORMs, including examples of using db4o, Linq to
+  Entities, Sooda,
+layout: post
+dsq_thread_id:
+- 1077619711
 ---
+
 [Back to contents][1]
 
 I'm not going to waste the article waxing about how these make an ORM useful as there's plenty of sites out there that describe the concepts of ORMs, on codeproject and blogs. So first of all I'll introduce you to one of my favourite non-ORM, ORMs. 

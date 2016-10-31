@@ -1,12 +1,14 @@
 ---
 title: From Wyam to Jekyll
-Published: 2015-11-09
+date: 2015-11-09 00:00:00 Z
+tags:
+- Jeykll
+- news
+Published: 2015-11-09 00:00:00 Z
 layout: post
 excerpt: Converting the blog over to Jekyll for free Github hosting.
-tags:
-  - Jeykll
-  - news
 ---
+
 A few of us recently set about [re-vamping the website](https://github.com/CancerVaccine/cancervaccine.github.io) for the Cancer Vaccine Institute charity. After battling with a terrible Wordpress theme, we settled on using Jekyll and static HTML. This was fairly serendipitous for me, as I got a crash course on getting Jekyll to run on Windows, the template engine it uses called Liquid, and getting free-hosting from Github.
 
 The steps are a lot easier than I thought:

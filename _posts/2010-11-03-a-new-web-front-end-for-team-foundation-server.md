@@ -1,16 +1,22 @@
 ---
-Published: 2010-11-03
-title: "A new web front end for Team Foundation Server"
-author: Chris S
-excerpt: "Team Foundation Server has had some great improvements since the 2005 and 2008 versions, including a plethora of new link types for workitems, an API that is a lot more dev friendly and some improvements to the Visual Studio UI. It is, however, still not really close to the easy of use and user experience you get from competitor bug tracking software..."
-layout: post
-permalink: /tfs/a-new-web-front-end-for-team-foundation-server/
-dsq_thread_id:
-  - 
+title: A new web front end for Team Foundation Server
+date: 2010-11-03 00:00:00 Z
+permalink: "/tfs/a-new-web-front-end-for-team-foundation-server/"
 tags:
-  - spruce
-  - tfs
+- spruce
+- tfs
+Published: 2010-11-03 00:00:00 Z
+author: Chris S
+excerpt: Team Foundation Server has had some great improvements since the 2005 and
+  2008 versions, including a plethora of new link types for workitems, an API that
+  is a lot more dev friendly and some improvements to the Visual Studio UI. It is,
+  however, still not really close to the easy of use and user experience you get from
+  competitor bug tracking software...
+layout: post
+dsq_thread_id:
+- 
 ---
+
 Team Foundation Server has had some great improvements since the 2005 and 2008 versions, including a plethora of new link types for workitems, an API that is a lot more dev friendly and some improvements to the Visual Studio UI.
 
 It is, however, still not really close to the easy of use and user experience you get from competitor bug tracking software.

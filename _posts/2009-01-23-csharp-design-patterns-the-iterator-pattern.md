@@ -1,16 +1,18 @@
 ---
-Published: 2009-01-23
-title: "C# Design Patterns: the Iterator pattern"
-author: Chris S
-excerpt: "A summary and example of the iterator design pattern."
-layout: post
-permalink: /csharp/csharp-design-patterns-the-iterator-pattern/
-dsq_thread_id:
-  - 4207300352
+title: 'C# Design Patterns: the Iterator pattern'
+date: 2009-01-23 00:00:00 Z
+permalink: "/csharp/csharp-design-patterns-the-iterator-pattern/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2009-01-23 00:00:00 Z
+author: Chris S
+excerpt: A summary and example of the iterator design pattern.
+layout: post
+dsq_thread_id:
+- 4207300352
 ---
+
 ### Summary
 
 Iterate through a list of items, with an enumerator class ordering the set/list before it is iterated through. 

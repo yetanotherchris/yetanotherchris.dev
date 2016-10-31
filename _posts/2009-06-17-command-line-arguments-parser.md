@@ -1,16 +1,20 @@
 ---
-Published: 2009-06-17
-title: "Command line arguments parser"
-author: Chris S
-excerpt: "There are already 2 or 3 command line arguments in C#, two of which are found on the codeproject.com website. Both of these didn't match my exact needs so I decided to write my own one."
-layout: post
-permalink: /csharp/command-line-arguments-parser/
-dsq_thread_id:
-  - 1069176934
+title: Command line arguments parser
+date: 2009-06-17 00:00:00 Z
+permalink: "/csharp/command-line-arguments-parser/"
 tags:
-  - 'c#'
-  - command-line
+- c#
+- command-line
+Published: 2009-06-17 00:00:00 Z
+author: Chris S
+excerpt: There are already 2 or 3 command line arguments in C#, two of which are found
+  on the codeproject.com website. Both of these didn't match my exact needs so I decided
+  to write my own one.
+layout: post
+dsq_thread_id:
+- 1069176934
 ---
+
 There are already 2 or 3 command line arguments in C#, two of which are found on the codeproject.com website. Both of these didn't match my exact needs so I decided to write my own one.
 
 An updated and more advanced parser can be found in the [CommandOptions class][1].

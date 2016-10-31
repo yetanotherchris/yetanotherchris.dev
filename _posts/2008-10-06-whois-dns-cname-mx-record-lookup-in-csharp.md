@@ -1,15 +1,19 @@
 ---
-Published: 2008-10-06
-title: "Whois, DNS, CName, MX record lookup in C#"
-author: Chris S
-excerpt: "This is the source code from the network tools page that use to exist on the previous domain (when the site was hosted on a dedicated server). A good replacement site is [who.is][6], however the source for the tools is below."
-layout: post
-permalink: /csharp/whois-dns-cname-mx-record-lookup-in-csharp/
-dsq_thread_id:
-  - 1072994329
+title: Whois, DNS, CName, MX record lookup in C#
+date: 2008-10-06 00:00:00 Z
+permalink: "/csharp/whois-dns-cname-mx-record-lookup-in-csharp/"
 tags:
-  - 'c#'
+- c#
+Published: 2008-10-06 00:00:00 Z
+author: Chris S
+excerpt: This is the source code from the network tools page that use to exist on
+  the previous domain (when the site was hosted on a dedicated server). A good replacement
+  site is [who.is][6], however the source for the tools is below.
+layout: post
+dsq_thread_id:
+- 1072994329
 ---
+
 [Download][1]
 
 This is the source code from the network tools page that use to exist on the previous domain (when the site was hosted on a dedicated server). A good replacement site is [who.is][2], however the source for the tools is below.

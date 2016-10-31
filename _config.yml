@@ -1,24 +1,22 @@
-# Site settings
+---
 title: Yet Another Chris
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 email: mrshrinkray@gmail.com
 description: London-based C# developer and an open sourcer behind Roadkill wiki.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.anotherchris.net/" # the base hostname & protocol for your site
+baseurl: ''
+url: http://www.anotherchris.net/
 twitter_username: yetanotherchris
-
-# Build settings
-#markdown: redcarpet
-
-#redcarpet:
-#  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-
-# Pretty URL
-permalink: "posts/:title"
-
+permalink: posts/:title
 sass:
-    style: :compressed
-
-include: [ "scripts/title.js" ]
-
+  style: :compressed
+include:
+- scripts/title.js
 gems:
-  - jekyll-sitemap
+- jekyll-sitemap

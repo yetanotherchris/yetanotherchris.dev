@@ -1,16 +1,19 @@
 ---
-Published: 2010-09-09
-title: "A Look At .NET ORMs - Part 2"
-author: Chris S
-excerpt: "Part two of the ORM series looks at Persister.NET, NPersist, Paladin and Subsonic"
-layout: post
-permalink: /orm/a-look-at-net-orms-part-2/
-dsq_thread_id:
-  - 4207232490
+title: A Look At .NET ORMs - Part 2
+date: 2010-09-09 00:00:00 Z
+permalink: "/orm/a-look-at-net-orms-part-2/"
 tags:
-  - .net
-  - orm
+- ".net"
+- orm
+Published: 2010-09-09 00:00:00 Z
+author: Chris S
+excerpt: Part two of the ORM series looks at Persister.NET, NPersist, Paladin and
+  Subsonic
+layout: post
+dsq_thread_id:
+- 4207232490
 ---
+
 <a name="persitor"></a>
 
 ### Persistor.NET Express

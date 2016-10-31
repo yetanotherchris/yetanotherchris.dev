@@ -1,16 +1,19 @@
 ---
-Published: 2010-07-12
-title: "Inside .NET assemblies (part 1)"
-author: Chris S
-excerpt: "The first of a set of reference blog posts covering .NET assemblies + modules, structure of a .NET assembly and metadata tables."
-layout: post
-permalink: /net/inside-net-assemblies-part-1/
-dsq_thread_id:
-  - 114209863
+title: Inside .NET assemblies (part 1)
+date: 2010-07-12 00:00:00 Z
+permalink: "/net/inside-net-assemblies-part-1/"
 tags:
-  - .net
-  - assemblies
+- ".net"
+- assemblies
+Published: 2010-07-12 00:00:00 Z
+author: Chris S
+excerpt: The first of a set of reference blog posts covering .NET assemblies + modules,
+  structure of a .NET assembly and metadata tables.
+layout: post
+dsq_thread_id:
+- 114209863
 ---
+
 [View part 2][1]
 
 This post (in two parts) covers the following topics:

@@ -1,16 +1,18 @@
 ---
-Published: 2009-02-10
-title: "C# Design Patterns: the Mediator pattern"
-author: Chris S
-excerpt: "A summary and example of the mediator design pattern."
-layout: post
-permalink: /csharp/csharp-design-patterns-the-mediator-pattern/
-dsq_thread_id:
-  - 1074134407
+title: 'C# Design Patterns: the Mediator pattern'
+date: 2009-02-10 00:00:00 Z
+permalink: "/csharp/csharp-design-patterns-the-mediator-pattern/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2009-02-10 00:00:00 Z
+author: Chris S
+excerpt: A summary and example of the mediator design pattern.
+layout: post
+dsq_thread_id:
+- 1074134407
 ---
+
 ### Summary
 
 This pattern is best illustrated in code as the source describes it a lot more concisely than in prose.

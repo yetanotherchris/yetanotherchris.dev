@@ -1,15 +1,17 @@
 ---
-Published: 2009-09-06
-title: "Const vs Readonly in C#"
-author: Chris S
-excerpt: "The differences between const and readonly, including some ILASM."
-layout: post
-permalink: /csharp/const-vs-readonly-in-csharp/
-dsq_thread_id:
-  - 4207230630
+title: Const vs Readonly in C#
+date: 2009-09-06 00:00:00 Z
+permalink: "/csharp/const-vs-readonly-in-csharp/"
 tags:
-  - 'c#'
+- c#
+Published: 2009-09-06 00:00:00 Z
+author: Chris S
+excerpt: The differences between const and readonly, including some ILASM.
+layout: post
+dsq_thread_id:
+- 4207230630
 ---
+
 ### Const
 
 The value of your const property is set at compile time and can't change at runtime. Where the const is used in the callee, this value is replaced by the compiler. This can lead to versioning problems if your const changes in later versions.

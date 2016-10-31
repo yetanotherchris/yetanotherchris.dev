@@ -1,14 +1,16 @@
 ---
-Published: 2010-10-18
-title: "How to restore the new text file option in the windows context menu"
+title: How to restore the new text file option in the windows context menu
+date: 2010-10-18 00:00:00 Z
+permalink: "/misc/how-to-restore-the-new-text-file-option-in-the-windows-context-menu/"
+tags:
+- misc
+Published: 2010-10-18 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /misc/how-to-restore-the-new-text-file-option-in-the-windows-context-menu/
 dsq_thread_id:
-  - 1084990532
-tags:
-  - misc
+- 1084990532
 ---
+
 This small registry snippet can be used if you've lost the Windows context menu's (right click menu inside explorer and your desktop) New->Text Document option.
 
 Save the snippet below as &#8220;install.reg&#8221; (including the quotes) in Notepad, and then run it.

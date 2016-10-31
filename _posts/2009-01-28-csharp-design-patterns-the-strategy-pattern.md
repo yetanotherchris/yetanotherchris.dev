@@ -1,16 +1,18 @@
 ---
-Published: 2009-01-28
-title: "C# Design patterns: the Strategy pattern"
-author: Chris S
-excerpt: "A summary and example of the strategy design pattern."
-layout: post
-permalink: /csharp/csharp-design-patterns-the-strategy-pattern/
-dsq_thread_id:
-  - 4207300078
+title: 'C# Design patterns: the Strategy pattern'
+date: 2009-01-28 00:00:00 Z
+permalink: "/csharp/csharp-design-patterns-the-strategy-pattern/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2009-01-28 00:00:00 Z
+author: Chris S
+excerpt: A summary and example of the strategy design pattern.
+layout: post
+dsq_thread_id:
+- 4207300078
 ---
+
 ## Summary
 
 Multiple classes implement an interface, handling an algorithm in a different way. 

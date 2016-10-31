@@ -1,14 +1,16 @@
 ---
-Published: 2010-12-08
-title: "Installing the Spruce alpha"
+title: Installing the Spruce alpha
+date: 2010-12-08 00:00:00 Z
+permalink: "/spruce/installing-the-spruce-alpha/"
+tags:
+- spruce
+Published: 2010-12-08 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /spruce/installing-the-spruce-alpha/
 dsq_thread_id:
-  - 
-tags:
-  - spruce
+- 
 ---
+
 The installation of (the current version of Spruce when this post was written) is very straightforward:
 
 <!--more-->

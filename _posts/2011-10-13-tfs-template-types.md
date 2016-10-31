@@ -1,15 +1,22 @@
 ---
-Published: 2011-10-13
-title: "TFS Template types"
-author: Chris S
-excerpt: "One of the main features of using TFS for bug and backlog tracking is the power it gives you to edit work item templates. A work item is simply a bag of properties/fields grouped together, like a class in C#/Java/every other OO language. You can customise these fields, and you also get a set of core fields, but you also get to choose the workflow of each field. For example you can’t set a bug to closed, before it’s been resolved."
-layout: post
-permalink: /tfs/tfs-template-types/
-dsq_thread_id:
-  - 1092516278
+title: TFS Template types
+date: 2011-10-13 00:00:00 Z
+permalink: "/tfs/tfs-template-types/"
 tags:
-  - tfs
+- tfs
+Published: 2011-10-13 00:00:00 Z
+author: Chris S
+excerpt: One of the main features of using TFS for bug and backlog tracking is the
+  power it gives you to edit work item templates. A work item is simply a bag of properties/fields
+  grouped together, like a class in C#/Java/every other OO language. You can customise
+  these fields, and you also get a set of core fields, but you also get to choose
+  the workflow of each field. For example you can’t set a bug to closed, before it’s
+  been resolved.
+layout: post
+dsq_thread_id:
+- 1092516278
 ---
+
 One of the main features of using TFS for bug and backlog tracking is the power it gives you to edit work item templates. A work item is simply a bag of properties/fields grouped together, like a class in C#/Java/every other OO language. You can customise these fields, and you also get a set of core fields, but you also get to choose the workflow of each field. For example you can’t set a bug to closed, before it’s been resolved.
 
 Team Foundation server comes with 2 templates that contain around 4-5 work item types. There’s MS Agile 4.2 (for TFS 2008) and 5, and CMMI. There’s an additional two that exist out there: Microsoft’s Scrum template and another that EPI (who make the CMS Epi Server) have created which is goes side-by-side with their .NET web front end for it.

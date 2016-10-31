@@ -1,14 +1,16 @@
 ---
-Published: 2012-04-04
-title: "Razor: Defining a section inside a HTML helper extension method"
+title: 'Razor: Defining a section inside a HTML helper extension method'
+date: 2012-04-04 00:00:00 Z
+permalink: "/asp-net-mvc/razor-defining-a-section-inside-a-html-helper-extension-method/"
+tags:
+- asp.net-mvc
+Published: 2012-04-04 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /asp-net-mvc/razor-defining-a-section-inside-a-html-helper-extension-method/
 dsq_thread_id:
-  - 1067464549
-tags:
-  - asp.net-mvc
+- 1067464549
 ---
+
 If you need to inject a generic section of code to your view you'd typically write an extension method for the HtmlHelper class and return an MVCHtmlString. You can also create an extension method that will add a @section Name to the view, using something like the snippet below:
 
 <!--more-->

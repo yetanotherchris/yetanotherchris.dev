@@ -1,15 +1,17 @@
 ---
-Published: 2010-04-16
-title: "Listing Windows users and groups in C#"
-author: Chris S
-excerpt: "One method of listing Windows users and groups in C#."
-layout: post
-permalink: /csharp/listing-windows-users-and-groups-in-c/
-dsq_thread_id:
-  - 1083214265
+title: Listing Windows users and groups in C#
+date: 2010-04-16 00:00:00 Z
+permalink: "/csharp/listing-windows-users-and-groups-in-c/"
 tags:
-  - 'c#'
+- c#
+Published: 2010-04-16 00:00:00 Z
+author: Chris S
+excerpt: One method of listing Windows users and groups in C#.
+layout: post
+dsq_thread_id:
+- 1083214265
 ---
+
 This example is borrowed from a newsgroup post, apologies to whoever should take the credit but I lost the original url. It's a basic console application that prints out access lists and groups lists using WMI for the windows directory.
 
 <!--more-->

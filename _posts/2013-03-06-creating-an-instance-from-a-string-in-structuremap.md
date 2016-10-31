@@ -1,13 +1,15 @@
 ---
-Published: 2013-03-06
-title: "Creating an instance from a string or type name in StructureMap"
+title: Creating an instance from a string or type name in StructureMap
+date: 2013-03-06 00:00:00 Z
+permalink: "/structuremap/creating-an-instance-from-a-string-in-structuremap/"
+tags:
+- roadkill-wiki
+- structuremap
+Published: 2013-03-06 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /structuremap/creating-an-instance-from-a-string-in-structuremap/
-tags:
-  - roadkill-wiki
-  - structuremap
 ---
+
 As part of the refactor I'm doing for Roadkill, I'm loading custom types from the config file as default instances, via StructureMap. The types are defined as strings in the config file, and in future more plugins will be loaded this way.
 
 This took me around 4 hours to figure out over the past few days, partly from lots of false leads out there but also missing the blindingly object ObjectFactory.Model property. The way you can achieve it is fairly straightforward in 2.5+. I have a base UserManager type, and a concrete type that implements it.

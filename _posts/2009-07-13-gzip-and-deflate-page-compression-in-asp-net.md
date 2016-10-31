@@ -1,16 +1,18 @@
 ---
-Published: 2009-07-13
-title: "GZip and Deflate page compression in ASP.NET"
-author: Chris S
-excerpt: "A re-packaged version of Bart De Smet's ASP.NET page compression using GZIP."
-layout: post
-permalink: /csharp/gzip-and-deflate-page-compression-in-asp-net/
-dsq_thread_id:
-  - 1077124267
+title: GZip and Deflate page compression in ASP.NET
+date: 2009-07-13 00:00:00 Z
+permalink: "/csharp/gzip-and-deflate-page-compression-in-asp-net/"
 tags:
-  - asp.net
-  - 'c#'
+- asp.net
+- c#
+Published: 2009-07-13 00:00:00 Z
+author: Chris S
+excerpt: A re-packaged version of Bart De Smet's ASP.NET page compression using GZIP.
+layout: post
+dsq_thread_id:
+- 1077124267
 ---
+
 [Download][1]
 
 Having written a GZip compression class in PHP many moons ago, I was interested to find out if anyone had done something similar in ASP.NET/C#. I found it strange that I couldn't find much out there until I stumbled upon Bart De Smet's article on MSDN (no longer available). I can't take much credit for the code below/download besides packaging it up into a download, Bart's article saved me re-reading the IHttpModule docs and figuring out where to get the stream from that's for sure.

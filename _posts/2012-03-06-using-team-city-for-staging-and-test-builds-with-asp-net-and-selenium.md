@@ -1,15 +1,25 @@
 ---
-Published: 2012-03-06
-title: "Using Team City for staging and test builds with ASP.NET and Selenium"
-author: Chris S
-excerpt: "I've been meaning to write this up for a while, to share my ongoing experience with using Team City for our build, test and staging server, but I've only finally got round to writing something up. I stumbled upon Team City in 2011, after looking around for an alternative to Team Foundation Server's Build server, which wasn't working well with Selenium tests. It's amazing that the product is free for up to 20 or so projects given how polished it is. My workplace doesn't have a huge test coverage setup, mostly down to time constraints (if you want an example of huge test coverage, check out the Team City build server, with over 5000 CI tests running), but the prime motive for using Team City is to automate the following..."
-layout: post
-permalink: /tools/using-team-city-for-staging-and-test-builds-with-asp-net-and-selenium/
-dsq_thread_id:
-  - 1074344781
+title: Using Team City for staging and test builds with ASP.NET and Selenium
+date: 2012-03-06 00:00:00 Z
+permalink: "/tools/using-team-city-for-staging-and-test-builds-with-asp-net-and-selenium/"
 tags:
-  - tools
+- tools
+Published: 2012-03-06 00:00:00 Z
+author: Chris S
+excerpt: I've been meaning to write this up for a while, to share my ongoing experience
+  with using Team City for our build, test and staging server, but I've only finally
+  got round to writing something up. I stumbled upon Team City in 2011, after looking
+  around for an alternative to Team Foundation Server's Build server, which wasn't
+  working well with Selenium tests. It's amazing that the product is free for up to
+  20 or so projects given how polished it is. My workplace doesn't have a huge test
+  coverage setup, mostly down to time constraints (if you want an example of huge
+  test coverage, check out the Team City build server, with over 5000 CI tests running),
+  but the prime motive for using Team City is to automate the following...
+layout: post
+dsq_thread_id:
+- 1074344781
 ---
+
 I've been meaning to write this up for a while, to share my ongoing experience with using Team City for our build, test and staging server, but I've only finally got round to writing something up.
 
 I stumbled upon Team City in 2011, after looking around for an alternative to Team Foundation Server's Build server, which wasn't working well with Selenium tests. It's amazing that the product is free for up to 20 or so projects given how polished it is. My workplace doesn't have a huge test coverage setup, mostly down to time constraints (if you want an example of huge test coverage, check out the Team City build server, with over 5000 CI tests running), but the prime motive for using Team City is to automate:

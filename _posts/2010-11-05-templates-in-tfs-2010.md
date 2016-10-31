@@ -1,15 +1,19 @@
 ---
-Published: 2010-11-05
-title: "Templates in TFS 2010"
-author: Chris S
-excerpt: "One of the things I wanted to establish early on with Spruce was whether it was feasible to build an editor for TFS that could handle work items, without the software needing too many variations for each template type..."
-layout: post
-permalink: /tfs/templates-in-tfs-2010/
-dsq_thread_id:
-  - 
+title: Templates in TFS 2010
+date: 2010-11-05 00:00:00 Z
+permalink: "/tfs/templates-in-tfs-2010/"
 tags:
-  - tfs
+- tfs
+Published: 2010-11-05 00:00:00 Z
+author: Chris S
+excerpt: One of the things I wanted to establish early on with Spruce was whether
+  it was feasible to build an editor for TFS that could handle work items, without
+  the software needing too many variations for each template type...
+layout: post
+dsq_thread_id:
+- 
 ---
+
 One of the things I wanted to establish early on with Spruce was whether it was feasible to build an editor for TFS that could handle work items, without the software needing too many variations for each template type.
 
 In TFS you get to create templates for your work process that give you access to field customisation. So for example if you want to add a field called “PEBKAC error” for your bugs this is easy to do using custom fields in TFS.

@@ -1,14 +1,16 @@
 ---
-Published: 2012-01-12
-title: "Why I'm so Tired (UK edition)"
+title: Why I'm so Tired (UK edition)
+date: 2012-01-12 00:00:00 Z
+permalink: "/misc/why-im-so-tired-uk-edition/"
+tags:
+- misc
+Published: 2012-01-12 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /misc/why-im-so-tired-uk-edition/
 dsq_thread_id:
-  - 
-tags:
-  - misc
+- 
 ---
+
 This is a modification of [this page][1] that I adjusted for 2012 UK statistics.
 
 I'm tired because I'm overworked. Let me explain&#8230;

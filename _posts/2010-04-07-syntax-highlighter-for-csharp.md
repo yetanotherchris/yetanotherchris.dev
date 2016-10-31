@@ -1,15 +1,19 @@
 ---
-Published: 2010-04-07
-title: "Syntax highlighter for C#"
-author: Chris S
-excerpt: "This is small class for color coding, syntax highlighting, pretty printing, prettifying (any of the above) C# source code. It produces HTML with span tags and a css class. It's not perfect and undoubtedly has bugs in it, but on the whole works"
-layout: post
-permalink: /csharp/syntax-highlighter-for-csharp/
-dsq_thread_id:
-  - 1083208021
+title: Syntax highlighter for C#
+date: 2010-04-07 00:00:00 Z
+permalink: "/csharp/syntax-highlighter-for-csharp/"
 tags:
-  - 'c#'
+- c#
+Published: 2010-04-07 00:00:00 Z
+author: Chris S
+excerpt: This is small class for color coding, syntax highlighting, pretty printing,
+  prettifying (any of the above) C# source code. It produces HTML with span tags and
+  a css class. It's not perfect and undoubtedly has bugs in it, but on the whole works
+layout: post
+dsq_thread_id:
+- 1083208021
 ---
+
 This is small class for color coding, syntax highlighting, pretty printing, prettifying (any of the above) C# source code. It produces HTML with span tags and a css class. It's not perfect and undoubtedly has bugs in it, but on the whole works. It was written in a lunchhour and given some spit and polish at night - any suggestions or bugs you find are welcomed.
 
 <!--more-->

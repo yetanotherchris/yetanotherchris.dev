@@ -1,15 +1,18 @@
 ---
-Published: 2009-12-14
-title: "Value types, reference types, boxing and unboxing in C#"
-author: Chris S
-excerpt: "There's hundreds of posts and articles out there about value vs reference types, boxing and unboxing, the stack and the heap. Here's another!"
-layout: post
-permalink: /csharp/value-types-reference-types-boxing-and-unboxing/
-dsq_thread_id:
-  - 1077752575
+title: Value types, reference types, boxing and unboxing in C#
+date: 2009-12-14 00:00:00 Z
+permalink: "/csharp/value-types-reference-types-boxing-and-unboxing/"
 tags:
-  - 'c#'
+- c#
+Published: 2009-12-14 00:00:00 Z
+author: Chris S
+excerpt: There's hundreds of posts and articles out there about value vs reference
+  types, boxing and unboxing, the stack and the heap. Here's another!
+layout: post
+dsq_thread_id:
+- 1077752575
 ---
+
 No boxing topic is complete without a quick summary of value types and reference types:
 
 ## Value types

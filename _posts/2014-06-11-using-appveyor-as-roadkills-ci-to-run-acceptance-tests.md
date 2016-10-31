@@ -1,13 +1,15 @@
 ---
-Published: 2014-06-11
-title: "Using Appveyor as Roadkill's CI to run acceptance tests"
+title: Using Appveyor as Roadkill's CI to run acceptance tests
+date: 2014-06-11 00:00:00 Z
+permalink: "/appveyor/using-appveyor-as-roadkills-ci-to-run-acceptance-tests/"
+tags:
+- appveyor
+- continuous-integration
+Published: 2014-06-11 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /appveyor/using-appveyor-as-roadkills-ci-to-run-acceptance-tests/
-tags:
-  - appveyor
-  - continuous-integration
 ---
+
 A while ago Roadkill's CI solution was hosted on Appharbor, which was a great solution (and free for a single project), but the configuration hacking and I problems with the hosted environment with the unit tests meant it wasn't a viable solution for Roadkill's requirements.
 
 After Appharbor I moved onto using Bamboo from Atlassian. This, like Appharbor, was also a great hosted product but was costing me a lot in Amazon EC2 hosting costs which I was too cheap and miserly to pay for.

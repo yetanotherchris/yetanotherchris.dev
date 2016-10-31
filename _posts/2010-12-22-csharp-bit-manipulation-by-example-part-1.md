@@ -1,16 +1,19 @@
 ---
-Published: 2010-12-22
-title: "C# Bit manipulation by example (part 1)"
-author: Chris S
-excerpt: "This is the first part of two blog posts trying demystify bit manipulation in C/C#."
-layout: post
-permalink: /csharp/csharp-bit-manipulation-by-example-part-1/
-dsq_thread_id:
-  - 1092279118
+title: C# Bit manipulation by example (part 1)
+date: 2010-12-22 00:00:00 Z
+permalink: "/csharp/csharp-bit-manipulation-by-example-part-1/"
 tags:
-  - bit-manipulation
-  - 'c#'
+- bit-manipulation
+- c#
+Published: 2010-12-22 00:00:00 Z
+author: Chris S
+excerpt: This is the first part of two blog posts trying demystify bit manipulation
+  in C/C#.
+layout: post
+dsq_thread_id:
+- 1092279118
 ---
+
 This is the first part of two blog posts trying demystify bit manipulation in C/C#.
 
 Below are several topics that I found useful background knowledge for bit manipulation (whether it's in C#, C or Java - any C based language but this page is written with C# in mind). The most important topic is obviously knowing how to count in binary, but also knowledge about 1s and 2s complement form bit shifting.

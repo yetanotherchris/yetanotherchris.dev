@@ -1,15 +1,18 @@
 ---
-Published: 2010-03-16
-title: "Using Google maps with C#"
-author: Chris S
-excerpt: "How to parse a website and then plot a set of addresses onto an embedded google map using C#."
-layout: post
-permalink: /csharp/using-google-maps-with-csharp/
-dsq_thread_id:
-  - 1083142154
+title: Using Google maps with C#
+date: 2010-03-16 00:00:00 Z
+permalink: "/csharp/using-google-maps-with-csharp/"
 tags:
-  - 'c#'
+- c#
+Published: 2010-03-16 00:00:00 Z
+author: Chris S
+excerpt: How to parse a website and then plot a set of addresses onto an embedded
+  google map using C#.
+layout: post
+dsq_thread_id:
+- 1083142154
 ---
+
 [Download example solution][1]
 
 This example/download was made to retrieve all UK postcodes from a webpage you give, and then plot them onto google maps. It was made to make up for the shortcomings of some sites that don't plot onto maps, or those that do but only individually. 

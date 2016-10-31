@@ -1,15 +1,17 @@
 ---
-Published: 2013-05-14
-title: "Introduction to Genetic Algorithms in C#"
+title: Introduction to Genetic Algorithms in C#
+date: 2013-05-14 00:00:00 Z
+permalink: "/csharp/introduction-to-genetic-algorithms-in-csharp/"
+tags:
+- artificial-intelligence
+- c#
+Published: 2013-05-14 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/introduction-to-genetic-algorithms-in-csharp/
 dsq_thread_id:
-  - 4207230501
-tags:
-  - artificial-intelligence
-  - 'c#'
+- 4207230501
 ---
+
 [Get the code][1]
 
 A long time ago I mentioned in [this post][2] that I was planning on writing up some notes I made at university about Genetic Algorithms (from now on, known as GAs) and my version of a very simple example in C#. Years later&#8230;here it is! C# isn’t the most popular choice for artificial or natural intelligence programming, that job is largely the domain of Java or other more academic friendly languages. This means there aren’t a great deal of C# examples out there for neural networks, search and genetic algorithms and programming.

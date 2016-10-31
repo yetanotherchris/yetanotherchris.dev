@@ -1,12 +1,14 @@
 ---
-Published: 2014-08-08
 title: ".NET logging libraries compared"
+date: 2014-08-08 00:00:00 Z
+permalink: "/csharp/net-logging-libraries-compared/"
+tags:
+- c#
+Published: 2014-08-08 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/net-logging-libraries-compared/
-tags:
-  - 'c#'
 ---
+
 This is a short presentation I created for the company I work for, and gives my thoughts on the state of .NET logging libraries in 2014. 
 My knowledge comes from day-to-day use of MSEntLib and log4net and moving from TraceListener to NLog in Roadkill. The presentation comes from a web and windows service perspective.
 

@@ -1,16 +1,18 @@
 ---
-Published: 2010-01-04
-title: "UML cheat sheet"
-author: Chris S
-excerpt: "This is a small reference sheet for UML class diagrams"
-layout: post
-permalink: /cheatsheet/uml-cheat-sheet/
-dsq_thread_id:
-  - 1077821486
+title: UML cheat sheet
+date: 2010-01-04 00:00:00 Z
+permalink: "/cheatsheet/uml-cheat-sheet/"
 tags:
-  - cheatsheet
-  - uml
+- cheatsheet
+- uml
+Published: 2010-01-04 00:00:00 Z
+author: Chris S
+excerpt: This is a small reference sheet for UML class diagrams
+layout: post
+dsq_thread_id:
+- 1077821486
 ---
+
 This is a small reference sheet for UML *class* diagrams.. 
 
 <!--more-->

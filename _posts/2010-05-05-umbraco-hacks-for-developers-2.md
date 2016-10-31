@@ -1,15 +1,18 @@
 ---
-Published: 2010-05-05
-title: "Umbraco hacks for developers"
-author: Chris S
-excerpt: "A lot of the tips below are relevant for Umbraco 3.0, issues such as the debug builds have been resolved in 4.0"
-layout: post
-permalink: /umbraco/umbraco-hacks-for-developers-2/
-dsq_thread_id:
-  - 1083928823
+title: Umbraco hacks for developers
+date: 2010-05-05 00:00:00 Z
+permalink: "/umbraco/umbraco-hacks-for-developers-2/"
 tags:
-  - umbraco
+- umbraco
+Published: 2010-05-05 00:00:00 Z
+author: Chris S
+excerpt: A lot of the tips below are relevant for Umbraco 3.0, issues such as the
+  debug builds have been resolved in 4.0
+layout: post
+dsq_thread_id:
+- 1083928823
 ---
+
 A lot of the tips here are relevant for Umbraco 3.0, issues such as the debug builds have been resolved in 4.0
 
 <!--more-->

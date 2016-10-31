@@ -1,15 +1,18 @@
 ---
-Published: 2011-09-21
-title: "A review of Mike Bluesteins Learning Monotouch'"
-author: Chris S
-excerpt: "I have been lucky enough to receive a review copy of Mike Bluestein’s 'Learning Monotouch'. This is a mini review of the book."
-layout: post
-permalink: /monotouch/a-review-of-mike-bluesteins-learning-monotouch/
-dsq_thread_id:
-  - 1092636141
+title: A review of Mike Bluesteins Learning Monotouch'
+date: 2011-09-21 00:00:00 Z
+permalink: "/monotouch/a-review-of-mike-bluesteins-learning-monotouch/"
 tags:
-  - monotouch
+- monotouch
+Published: 2011-09-21 00:00:00 Z
+author: Chris S
+excerpt: I have been lucky enough to receive a review copy of Mike Bluestein’s 'Learning
+  Monotouch'. This is a mini review of the book.
+layout: post
+dsq_thread_id:
+- 1092636141
 ---
+
 ![Book cover][1]
 
 I have been lucky enough to receive a review copy of Mike Bluestein’s “Learning Monotouch”. This is a mini review of the book.

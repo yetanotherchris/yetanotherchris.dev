@@ -1,14 +1,16 @@
 ---
-Published: 2011-04-04
-title: "Installing Windows 7 from a USB stick"
+title: Installing Windows 7 from a USB stick
+date: 2011-04-04 00:00:00 Z
+permalink: "/misc/installing-windows-7-from-a-usb-stick/"
+tags:
+- misc
+Published: 2011-04-04 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /misc/installing-windows-7-from-a-usb-stick/
 dsq_thread_id:
-  - 
-tags:
-  - misc
+- 
 ---
+
 **Update:** There is now [this][1] Microsoft tool to do this for you.
 
 This is borrowed from [Dennis Chung's page][2] about the same title. I've adapted it slightly.

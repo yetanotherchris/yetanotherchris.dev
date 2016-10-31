@@ -1,13 +1,15 @@
 ---
-title: Unit test naming conventions  
-Published: 2015-11-04
+title: Unit test naming conventions
+date: 2015-11-04 00:00:00 Z
+tags:
+- c#
+- testing
+- unit-tests
+Published: 2015-11-04 00:00:00 Z
 layout: post
 excerpt: Choosing a naming convention for unit tests method names.
-tags:
-  - c#
-  - testing
-  - unit-tests
 ---
+
 ###What's in a name? 
 Uncle Bob has written on this topic at great length in his books x and y. He has some great tips on naming methods, but unless they've been updated, he doesn't go into great detail about unit test names beyond the guidelines that they should be at the level of production code, and immediately readable.
 

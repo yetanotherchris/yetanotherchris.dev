@@ -1,15 +1,17 @@
 ---
-Published: 2010-11-09
-title: "WorkItems that spruce supports: tasks, bugs, issues"
+title: 'WorkItems that spruce supports: tasks, bugs, issues'
+date: 2010-11-09 00:00:00 Z
+permalink: "/tfs/workitems-that-spruce-supports-tasks-bugs-issues/"
+tags:
+- spruce
+- tfs
+Published: 2010-11-09 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /tfs/workitems-that-spruce-supports-tasks-bugs-issues/
 dsq_thread_id:
-  - 
-tags:
-  - spruce
-  - tfs
+- 
 ---
+
 The flexibility and arguably the over complexity of TFS versus other online bug tracking software is its ability to create custom work item types that cover anything you like. For the Scrum template this includes a Sprint workitem, a product backlog item as well as the standard bug and task items.
 
 <!--more-->

@@ -1,13 +1,15 @@
 ---
-Published: 2016-08-29T13:50:00.000Z
 title: Fixing .NET Core package restore problems
+date: 2016-08-29 00:00:00 Z
+tags:
+- ".net-core"
+- nuget
+Published: 2016-08-29 13:50:00 Z
 author: Chris S
 layout: post
 shortpost: true
-tags:
-  - .net-core
-  - nuget
 ---
+
 I had this problem today where a `dotnet restore` was failing on a Linux CI server, but working on my Windows 10 dev machine. The error was:
 
 > Unable to resolve 'System.Runtime.Serialization.Formatters (>= 4.0.0-rc4-24217-03)' for '.NETCoreApp,Version=v1.0'.

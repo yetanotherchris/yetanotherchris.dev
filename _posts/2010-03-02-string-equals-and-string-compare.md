@@ -1,16 +1,19 @@
 ---
-Published: 2010-03-02
-title: "String.Equals(), == and String.Compare()"
-author: Chris S
-excerpt: "What's the difference between ==, .equals and string.Compare()? This post explores the three ways of comparing strings in C#/.NET."
-layout: post
-permalink: /csharp/string-equals-and-string-compare/
-dsq_thread_id:
-  - 1083137256
+title: String.Equals(), == and String.Compare()
+date: 2010-03-02 00:00:00 Z
+permalink: "/csharp/string-equals-and-string-compare/"
 tags:
-  - assemblies
-  - 'c#'
+- assemblies
+- c#
+Published: 2010-03-02 00:00:00 Z
+author: Chris S
+excerpt: What's the difference between ==, .equals and string.Compare()? This post
+  explores the three ways of comparing strings in C#/.NET.
+layout: post
+dsq_thread_id:
+- 1083137256
 ---
+
 Most C# books will tell you from the early chapters that you should always override Equals in your class instead of relying on the base Object.Equals. As mentioned a few times previously, this is essential for value types as the base ValueType.Equals() method (which overrides Object.Equals) uses reflection to decide whether two objects are equal, comparing the field values. The source code for ValueType.Equals (from the Shared Source CLI) is shown below. 
 
 <!--more-->

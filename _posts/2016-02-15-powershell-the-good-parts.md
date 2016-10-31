@@ -1,9 +1,10 @@
 ---
 title: Powershell - the good parts
+date: 2016-02-15 00:00:00 Z
+tags:
+- powershell
 layout: post
 shortpost: true
-tags:
-  - powershell
 ---
 
 I've been using Powershell on a daily basis for about 2 years now, mostly with Chocolatey and provisioning servers (the devops movement). Whilst it's a huge improvement over batch files (anything is)  and VBS, it is has foibles. 

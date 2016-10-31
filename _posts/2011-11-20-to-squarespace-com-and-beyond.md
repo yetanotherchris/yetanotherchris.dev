@@ -1,14 +1,16 @@
 ---
-Published: 2011-11-20
-title: "To Squarespace.com and Beyond!"
+title: To Squarespace.com and Beyond!
+date: 2011-11-20 00:00:00 Z
+permalink: "/news/to-squarespace-com-and-beyond/"
+tags:
+- news
+Published: 2011-11-20 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /news/to-squarespace-com-and-beyond/
 dsq_thread_id:
-  - 
-tags:
-  - news
+- 
 ---
+
 As you've probably noticed if you're one of the 10 people who don't browse the site for less than 40 seconds (that's 99% of the traffic), the URL has changed and the design too. I've moved all my content over from the dedicated Win 2008 server running N2 to Squarespace.com, saving me about £25 a month.
 
 I wasn't that keen on the domain name of the old site, and it was hosted on a virtual dedicated server which was a waste of money for the traffic I get. I did consider doing this a few years ago when I moved to N2, but at the time no blog engines had what I needed for the site.

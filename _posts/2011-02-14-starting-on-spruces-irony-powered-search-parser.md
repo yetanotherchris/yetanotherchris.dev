@@ -1,16 +1,22 @@
 ---
-Published: 2011-02-14
-title: "Starting on Spruce's irony-powered search parser"
-author: Chris S
-excerpt: "After a few months off to eat a lot of food, I’m returning to do more dev work on Spruce. Picking up where I left off, the first “subsystem” I’m focusing on is the search. The UI and search I have in mind is fairly simple, but also powerful. I’m aiming to keep it google-esque in its search results and allow you to search the important fields of a work item, plus its core fields."
-layout: post
-permalink: /spruce/starting-on-spruces-irony-powered-search-parser/
-dsq_thread_id:
-  - 1092330052
+title: Starting on Spruce's irony-powered search parser
+date: 2011-02-14 00:00:00 Z
+permalink: "/spruce/starting-on-spruces-irony-powered-search-parser/"
 tags:
-  - irony.net
-  - spruce
+- irony.net
+- spruce
+Published: 2011-02-14 00:00:00 Z
+author: Chris S
+excerpt: After a few months off to eat a lot of food, I’m returning to do more dev
+  work on Spruce. Picking up where I left off, the first “subsystem” I’m focusing
+  on is the search. The UI and search I have in mind is fairly simple, but also powerful.
+  I’m aiming to keep it google-esque in its search results and allow you to search
+  the important fields of a work item, plus its core fields.
+layout: post
+dsq_thread_id:
+- 1092330052
 ---
+
 After a few months off to eat a lot of food, I’m returning to do more dev work on Spruce.
 
 Picking up where I left off, the first &#8220;subsystem&#8221; I’m focusing on is the search. The UI and search I have in mind is fairly simple, but also powerful. I’m aiming to keep it google-esque in its search results and allow you to search the important fields of a work item, plus its core fields.

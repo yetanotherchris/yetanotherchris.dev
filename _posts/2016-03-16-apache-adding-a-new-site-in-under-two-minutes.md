@@ -1,12 +1,14 @@
 ---
 title: Apache - adding a new site in under 2 minutes.
+date: 2016-03-16 00:00:00 Z
+tags:
+- apache
+- linux
 layout: post
 shortpost: true
-Published: 2016-03-16
-tags:
-  - apache
-  - linux
+Published: 2016-03-16 00:00:00 Z
 ---
+
 There's a [great guide on Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-configure-the-apache-web-server-on-an-ubuntu-or-debian-vps) for setting up new sites in Apache on Linux. Once you've done it a few times though it can be shortened to a few bullet points:
 
 - `md /var/www/example.com`

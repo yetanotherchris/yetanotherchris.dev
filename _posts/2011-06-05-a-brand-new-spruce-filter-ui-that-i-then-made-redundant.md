@@ -1,15 +1,20 @@
 ---
-Published: 2011-06-05
-title: "A brand new Spruce filter UI (that I then made redundant)"
-author: Chris S
-excerpt: "After feedback from both developers and non-developers in my company about the current filter UI in Spruce, it was obviously time to ditch it. It was failure #2 in my attempt at creating a simpler way of showing TFS's vast set of work item options."
-layout: post
-permalink: /spruce/a-brand-new-spruce-filter-ui-that-i-then-made-redundant/
-dsq_thread_id:
-  - 1093152909
+title: A brand new Spruce filter UI (that I then made redundant)
+date: 2011-06-05 00:00:00 Z
+permalink: "/spruce/a-brand-new-spruce-filter-ui-that-i-then-made-redundant/"
 tags:
-  - spruce
+- spruce
+Published: 2011-06-05 00:00:00 Z
+author: Chris S
+excerpt: 'After feedback from both developers and non-developers in my company about
+  the current filter UI in Spruce, it was obviously time to ditch it. It was failure
+  #2 in my attempt at creating a simpler way of showing TFS''s vast set of work item
+  options.'
+layout: post
+dsq_thread_id:
+- 1093152909
 ---
+
 After feedback from both developers and non-developers in my company about the current filter UI in Spruce, it was obviously time to ditch it. It was failure #2 in my attempt at creating a simpler way of showing TFS’s vast set of work item options.
 
 <!--more-->

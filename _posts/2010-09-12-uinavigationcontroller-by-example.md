@@ -1,16 +1,18 @@
 ---
-Published: 2010-09-12
-title: "UINavigationController by example"
-author: Chris S
-excerpt: "A look at the UINavigationController in Monotouch."
-layout: post
-permalink: /iphone/uinavigationcontroller-by-example/
-dsq_thread_id:
-  - 1084966103
+title: UINavigationController by example
+date: 2010-09-12 00:00:00 Z
+permalink: "/iphone/uinavigationcontroller-by-example/"
 tags:
-  - iphone
-  - monotouch
+- iphone
+- monotouch
+Published: 2010-09-12 00:00:00 Z
+author: Chris S
+excerpt: A look at the UINavigationController in Monotouch.
+layout: post
+dsq_thread_id:
+- 1084966103
 ---
+
 [Download all examples from Bitbucket][1]
 
 ### The basics

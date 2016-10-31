@@ -1,11 +1,13 @@
 ---
 title: Shorter blog posts
-Published: 2016-02-14
+date: 2016-02-14 00:00:00 Z
+tags:
+- news
+Published: 2016-02-14 00:00:00 Z
 layout: post
 shortpost: true
-tags:
-  - news
 ---
+
 I listen to a lot of podcasts from a small clique of online "life hackers" (a cringey term), most of which I've discovered via Joe Rogan. 
 
 The majority are nutrition, health and self-improvement related one of which is Tim Ferris. I found Tim's podcast after reading chunks of his 4 hour books (not via Rogan), and on his latest podcast his guest is the enterpreneur Seth Godson.

@@ -1,15 +1,19 @@
 ---
-Published: 2010-10-18
-title: "UITableViewController by example"
-author: Chris S
-excerpt: "This article focuses on XIB-free UITableViewControllers. The entire article focuses on adding controllers and views programatically and is completely Interface Builder free"
-layout: post
-permalink: /monotouch/uitableviewcontroller-by-example/
-dsq_thread_id:
-  - 475320419
+title: UITableViewController by example
+date: 2010-10-18 00:00:00 Z
+permalink: "/monotouch/uitableviewcontroller-by-example/"
 tags:
-  - monotouch
+- monotouch
+Published: 2010-10-18 00:00:00 Z
+author: Chris S
+excerpt: This article focuses on XIB-free UITableViewControllers. The entire article
+  focuses on adding controllers and views programatically and is completely Interface
+  Builder free
+layout: post
+dsq_thread_id:
+- 475320419
 ---
+
 [Download via bitbucket][1]
 
 #### Please note, this article is aimed at [Monotouch][2] development on the iPhone

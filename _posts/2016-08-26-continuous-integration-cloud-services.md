@@ -1,12 +1,14 @@
 ---
-Published: 2016-08-26T00:00:00.000Z
-title: 'Continuous Integration cloud services'
+title: Continuous Integration cloud services
+date: 2016-08-26 00:00:00 Z
+tags:
+- continous-integration
+Published: 2016-08-26 00:00:00 Z
 author: Chris S
 shortpost: true
 layout: post
-tags:
-  - continous-integration
 ---
+
 I've probably missed a couple, but this is a list I've compiled of all the CI services I know about, geared towards cheapo devs on a budget. My area of expertise is Teamcity, Octopus, Bamboo, Gitlab and a bit of Jenkins and Travis, and limited to dot net core.
 
 - [https://drone.io/new](https://drone.io/new) (free for public projects)

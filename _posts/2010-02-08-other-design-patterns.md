@@ -1,16 +1,18 @@
 ---
-Published: 2010-02-08
-title: "Other Design Patterns"
-author: Chris S
-excerpt: "Here's a few more design patterns I left out from my design patterns series."
-layout: post
-permalink: /csharp/other-design-patterns/
-dsq_thread_id:
-  - 1076935965
+title: Other Design Patterns
+date: 2010-02-08 00:00:00 Z
+permalink: "/csharp/other-design-patterns/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2010-02-08 00:00:00 Z
+author: Chris S
+excerpt: Here's a few more design patterns I left out from my design patterns series.
+layout: post
+dsq_thread_id:
+- 1076935965
 ---
+
 Here are some remaining software design patterns I missed out from the set of examples I gave.
 
 <!--more-->

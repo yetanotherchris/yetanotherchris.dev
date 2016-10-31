@@ -1,15 +1,20 @@
 ---
-Published: 2010-10-10
-title: "Monotouch tips and snippets"
-author: Chris S
-excerpt: "This page is full of discoveries and snippets I'm accruing as I slowly learn my way around Monotouch. Originally my plan was to write objective-C, but just as I had finished my first Objective-C book I heard Monotouch presentation at a Devdays conference..."
-layout: post
-permalink: /monotouch/monotouch-tips-and-snippets/
-dsq_thread_id:
-  - 
+title: Monotouch tips and snippets
+date: 2010-10-10 00:00:00 Z
+permalink: "/monotouch/monotouch-tips-and-snippets/"
 tags:
-  - monotouch
+- monotouch
+Published: 2010-10-10 00:00:00 Z
+author: Chris S
+excerpt: This page is full of discoveries and snippets I'm accruing as I slowly learn
+  my way around Monotouch. Originally my plan was to write objective-C, but just as
+  I had finished my first Objective-C book I heard Monotouch presentation at a Devdays
+  conference...
+layout: post
+dsq_thread_id:
+- 
 ---
+
 [Sample code on Bitbucket][1]
 
 This page is full of discoveries and snippets I'm accruing as I slowly learn my way around Monotouch. [Originally my plan was to write objective-C][2], but just as I had finished my first Objective-C book I heard Monotouch presentation at a Devdays conference.

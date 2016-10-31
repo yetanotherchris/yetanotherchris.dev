@@ -1,16 +1,19 @@
 ---
-Published: 2008-09-02
-title: "C# Design Patterns"
-author: Chris S
-excerpt: "This is the introduction to a series of 7 blog posts describing and illustrating common design patterns in C#, based on those found in the Gang of Four book."
-layout: post
-permalink: /csharp/csharp-design-patterns/
-dsq_thread_id:
-  - 1072256499
+title: C# Design Patterns
+date: 2008-09-02 00:00:00 Z
+permalink: "/csharp/csharp-design-patterns/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2008-09-02 00:00:00 Z
+author: Chris S
+excerpt: This is the introduction to a series of 7 blog posts describing and illustrating
+  common design patterns in C#, based on those found in the Gang of Four book.
+layout: post
+dsq_thread_id:
+- 1072256499
 ---
+
 ### Contents
 
   * [Factory][1]

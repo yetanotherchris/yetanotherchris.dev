@@ -1,13 +1,15 @@
 ---
-Published: 2013-03-25
-title: "Moving away from NHibernate in Roadkill"
+title: Moving away from NHibernate in Roadkill
+date: 2013-03-25 00:00:00 Z
+permalink: "/umbraco/moving-away-from-nhibernate-in-roadkill/"
+tags:
+- roadkill-wiki
+- nhibernate
+Published: 2013-03-25 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /umbraco/moving-away-from-nhibernate-in-roadkill/
-tags:
-  - roadkill-wiki
-  - nhibernate
 ---
+
 In the next version of Roadkill (1.6) I've moved away from NHibernate, the ORM that has been powering it for two years since version 1 and to a commercially supported ORM called Lightspeed.
 
 Unlike the [Umbraco drama][1] that emerged last year this wasn't for performance reasons or a badly engineered business layer. I give myself a big pat on back infact, as it was really simple to switch firstly to a Mongodb repository and then over to Lightspeed. Nor was it from lack of NH experience as I've used NH day to day for 3 or so years.

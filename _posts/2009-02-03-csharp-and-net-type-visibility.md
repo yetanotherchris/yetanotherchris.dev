@@ -1,16 +1,18 @@
 ---
-Published: 2009-02-03
-title: "C# and .NET type visibility"
-author: Chris S
-excerpt: "This post is a reference article about visibility in C# and .NET."
-layout: post
-permalink: /csharp/csharp-and-net-type-visibility/
-dsq_thread_id:
-  - 
+title: C# and .NET type visibility
+date: 2009-02-03 00:00:00 Z
+permalink: "/csharp/csharp-and-net-type-visibility/"
 tags:
-  - .net
-  - 'c#'
+- ".net"
+- c#
+Published: 2009-02-03 00:00:00 Z
+author: Chris S
+excerpt: This post is a reference article about visibility in C# and .NET.
+layout: post
+dsq_thread_id:
+- 
 ---
+
 ## Classes and Structs
 
 Classes and structs allow the following type visibility options in C#:

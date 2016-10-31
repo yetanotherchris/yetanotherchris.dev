@@ -1,15 +1,17 @@
 ---
-Published: 2009-03-18
-title: "Automated browser screenshot capture"
+title: Automated browser screenshot capture
+date: 2009-03-18 00:00:00 Z
+permalink: "/csharp/automated-browser-screenshot-capture/"
+tags:
+- c#
+- winforms
+Published: 2009-03-18 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/automated-browser-screenshot-capture/
 dsq_thread_id:
-  - 
-tags:
-  - 'c#'
-  - winforms
+- 
 ---
+
 [BrowserCapture.exe.zip][1]  
 [Project source (Visual Studio 2008)][2]
 

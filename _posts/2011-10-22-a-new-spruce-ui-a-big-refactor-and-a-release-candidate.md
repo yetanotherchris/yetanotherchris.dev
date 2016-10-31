@@ -1,15 +1,24 @@
 ---
-Published: 2011-10-22
-title: "A new Spruce UI, a big refactor and a release candidate!"
-author: Chris S
-excerpt: "It’s been roughly a year since I started the Spruce project, back in November 2010. Over the course of a year it’s had a lot of hold-ups and could be mistaken for yet another open source project where the author excitedly starts the project and then ditches it after about 3 beta releases. It’s also understandably not had much interest – I would guess that small .NET/C++ teams generally use Fogbugz, JIRA and other web-based bug and task tracking tools, while larger teams will either use TFS with the CMMI project type or the Scrum dashboards via tools like Urban Turtle and the Scrum Dashboard, or just Visual Studio."
-layout: post
-permalink: /spruce/a-new-spruce-ui-a-big-refactor-and-a-release-candidate/
-dsq_thread_id:
-  - 1092783440
+title: A new Spruce UI, a big refactor and a release candidate!
+date: 2011-10-22 00:00:00 Z
+permalink: "/spruce/a-new-spruce-ui-a-big-refactor-and-a-release-candidate/"
 tags:
-  - spruce
+- spruce
+Published: 2011-10-22 00:00:00 Z
+author: Chris S
+excerpt: It’s been roughly a year since I started the Spruce project, back in November
+  2010. Over the course of a year it’s had a lot of hold-ups and could be mistaken
+  for yet another open source project where the author excitedly starts the project
+  and then ditches it after about 3 beta releases. It’s also understandably not had
+  much interest – I would guess that small .NET/C++ teams generally use Fogbugz, JIRA
+  and other web-based bug and task tracking tools, while larger teams will either
+  use TFS with the CMMI project type or the Scrum dashboards via tools like Urban
+  Turtle and the Scrum Dashboard, or just Visual Studio.
+layout: post
+dsq_thread_id:
+- 1092783440
 ---
+
 It’s been roughly a year since I started the Spruce project, back in November 2010. Over the course of a year it’s had a lot of hold-ups and could be mistaken for yet another open source project where the author excitedly starts the project and then ditches it after about 3 beta releases. It’s also understandably not had much interest – I would guess that small .NET/C++ teams generally use Fogbugz, JIRA and other web-based bug and task tracking tools, while larger teams will either use TFS with the CMMI project type or the Scrum dashboards via tools like Urban Turtle and the Scrum Dashboard, or just Visual Studio.
 
 <!--more-->

@@ -1,15 +1,18 @@
 ---
-Published: 2010-06-07
-title: "Online XPath Tester"
-author: Chris S
-excerpt: "This is basic tool for testing a xpath query on your XML you can paste into a second text box. Its powered by Silverlight."
-layout: post
-permalink: /tools/online-xpath-tester/
-dsq_thread_id:
-  - 1083966976
+title: Online XPath Tester
+date: 2010-06-07 00:00:00 Z
+permalink: "/tools/online-xpath-tester/"
 tags:
-  - tools
+- tools
+Published: 2010-06-07 00:00:00 Z
+author: Chris S
+excerpt: This is basic tool for testing a xpath query on your XML you can paste into
+  a second text box. Its powered by Silverlight.
+layout: post
+dsq_thread_id:
+- 1083966976
 ---
+
 This is basic tool for testing a xpath query on your XML you can paste into a second text box. Its powered by Silverlight.
 
 <!--more-->

@@ -1,16 +1,18 @@
 ---
-Published: 2008-08-05
-title: "Serialization as a database"
-author: Chris S
-excerpt: "Using serialization as persistent object store (in non bs-bingo: a database)"
-layout: post
-permalink: /csharp/serialization-as-a-database-in/
-dsq_thread_id:
-  - 
+title: Serialization as a database
+date: 2008-08-05 00:00:00 Z
+permalink: "/csharp/serialization-as-a-database-in/"
 tags:
-  - 'c#'
-  - serialization
+- c#
+- serialization
+Published: 2008-08-05 00:00:00 Z
+author: Chris S
+excerpt: 'Using serialization as persistent object store (in non bs-bingo: a database)'
+layout: post
+dsq_thread_id:
+- 
 ---
+
 [Download][1]
 
 This app from 2004 demonstrates serialization in its simplest form, in particular for use as a storage medium. The demo creates 20,000 &#8220;Product&#8221; objects, adds them to a collection, and serializes the collection. It's a basic app, it was made to test whether serialization can be used for storing data (&#8216;persisting') efficiently.

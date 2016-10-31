@@ -1,14 +1,16 @@
 ---
-Published: 2013-04-05
-title: "How to Write a Spelling Corrector in C#"
+title: How to Write a Spelling Corrector in C#
+date: 2013-04-05 00:00:00 Z
+permalink: "/csharp/how-to-write-a-spelling-corrector-in-csharp/"
+tags:
+- c#
+Published: 2013-04-05 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/how-to-write-a-spelling-corrector-in-csharp/
 dsq_thread_id:
-  - 4207230276
-tags:
-  - 'c#'
+- 4207230276
 ---
+
 [Github repository - feel free to send improvements](https://github.com/yetanotherchris/SpellingCorrector/)
 
 <a href="http://norvig.com/spell-correct.html" target="_blank">Peter Norvig's spelling corrector</a> is fairly famous in nerd-circles as it describes the first steps in creating a Google-style spelling corrector that will take something like &#8220;Speling&#8221;, recognise its closest word and reply &#8220;Did you mean Spelling?&#8221;.

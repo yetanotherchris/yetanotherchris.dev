@@ -1,15 +1,22 @@
 ---
-Published: 2011-02-28
-title: "Supported search syntax in Spruce"
-author: Chris S
-excerpt: "For anyone reading the blog you may be wondering and be slightly bemused as to why there’s so many blog posts and yet such a painstaking pace to the source code checkins. The main reason for this is I want to save myself the slightly boring documenting task (that many open source projects neglect) that will come later by doing it in small chunks now. The plan is to to use these blog posts as the core material for the documentation and also explain some of the design decisions."
-layout: post
-permalink: /spruce/supported-search-syntax-in-spruce/
-dsq_thread_id:
-  - 1092436322
+title: Supported search syntax in Spruce
+date: 2011-02-28 00:00:00 Z
+permalink: "/spruce/supported-search-syntax-in-spruce/"
 tags:
-  - spruce
+- spruce
+Published: 2011-02-28 00:00:00 Z
+author: Chris S
+excerpt: For anyone reading the blog you may be wondering and be slightly bemused
+  as to why there’s so many blog posts and yet such a painstaking pace to the source
+  code checkins. The main reason for this is I want to save myself the slightly boring
+  documenting task (that many open source projects neglect) that will come later by
+  doing it in small chunks now. The plan is to to use these blog posts as the core
+  material for the documentation and also explain some of the design decisions.
+layout: post
+dsq_thread_id:
+- 1092436322
 ---
+
 For anyone reading the blog you may be wondering and be slightly bemused as to why there’s so many (Spruce) blog posts and yet such a painstaking pace to the (Spruce) source code checkins. The main reason for this is I want to save myself the slightly boring documenting task (that many open source projects neglect) that will come later by doing it in small chunks now. The plan is to to use these blog posts as the core material for the documentation and also explain some of the design decisions.
 
 So without further ado, the supported search syntax for Spruce. It’s best explained with examples:

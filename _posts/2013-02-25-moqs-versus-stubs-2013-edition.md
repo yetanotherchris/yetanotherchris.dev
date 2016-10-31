@@ -1,14 +1,16 @@
 ---
-Published: 2013-02-25
-title: "Moqs versus Stubs (2013 edition)"
+title: Moqs versus Stubs (2013 edition)
+date: 2013-02-25 00:00:00 Z
+permalink: "/csharp/moqs-versus-stubs-2013-edition/"
+tags:
+- c#
+- roadkill-wiki
+- testing
+Published: 2013-02-25 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/moqs-versus-stubs-2013-edition/
-tags:
-  - 'c#'
-  - roadkill-wiki
-  - testing
 ---
+
 This is an age old debate which I'll chirp in with my opinion. According to Gojko Adzic there's two types of TDD people in the world: classic stubbers and the new(ish)-school Moqers (or Mockito in the Java world). MOQ is an amazing tool, but consider the following test code:
 
 <pre>_mockRepository = new Mock&lt;IRepository>();

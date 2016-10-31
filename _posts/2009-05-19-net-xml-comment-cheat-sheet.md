@@ -1,16 +1,22 @@
 ---
-Published: 2009-05-19
 title: ".NET XML Comment Cheat Sheet"
-author: Chris S
-excerpt: "If you like to give your code meaningful XML comments and want the output to look vaguely like the MSDN documentation, then below are a few templates you can use for consistency. These aren't 'how to write XX method' but just how the textual descriptions appear in most of the .NET framework documentation, for example you'll find 'Raises the ... event' in almost all event descriptions."
-layout: post
-permalink: /net/net-xml-comment-cheat-sheet/
-dsq_thread_id:
-  - 4207230545
+date: 2009-05-19 00:00:00 Z
+permalink: "/net/net-xml-comment-cheat-sheet/"
 tags:
-  - .net
-  - xml
+- ".net"
+- xml
+Published: 2009-05-19 00:00:00 Z
+author: Chris S
+excerpt: If you like to give your code meaningful XML comments and want the output
+  to look vaguely like the MSDN documentation, then below are a few templates you
+  can use for consistency. These aren't 'how to write XX method' but just how the
+  textual descriptions appear in most of the .NET framework documentation, for example
+  you'll find 'Raises the ... event' in almost all event descriptions.
+layout: post
+dsq_thread_id:
+- 4207230545
 ---
+
 [Download .snippet file][1]
 
 **Update:** Ghost doc (free addin for Visual Studio 2008) makes a lot of the snippets redundent. Some are still relevant however.

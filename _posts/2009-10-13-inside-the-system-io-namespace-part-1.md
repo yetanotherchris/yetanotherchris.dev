@@ -1,15 +1,18 @@
 ---
-Published: 2009-10-13
-title: "Inside The System.IO Namespace Part 1"
-author: Chris S
-excerpt: "The first in a series of posts looking at Streams,Writers and Readers in System.IO"
-layout: post
-permalink: /net/inside-the-systemio-namespace-part-1/
-dsq_thread_id:
-  - 1077675657
+title: Inside The System.IO Namespace Part 1
+date: 2009-10-13 00:00:00 Z
+permalink: "/net/inside-the-systemio-namespace-part-1/"
 tags:
-  - .net
+- ".net"
+Published: 2009-10-13 00:00:00 Z
+author: Chris S
+excerpt: The first in a series of posts looking at Streams,Writers and Readers in
+  System.IO
+layout: post
+dsq_thread_id:
+- 1077675657
 ---
+
   * Part 1
   * [Part 2][1]
   * [Part 3][2]

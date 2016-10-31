@@ -1,15 +1,20 @@
 ---
-Published: 2010-11-11
-title: "Creating a custom silverlight installation the jQuery way"
-author: Chris S
-excerpt: "The default Silverlight installation and upgrade experience is fairly jarring compared to its counter-part Flash. If you target version 4.0 of Silverlight and the user has 3.0 installed, they will receive an ugly and annoying modal dialog forcing them to upgrade..."
-layout: post
-permalink: /silverlight/creating-a-custom-silverlight-installation-the-jquery-way/
-dsq_thread_id:
-  - 1085006559
+title: Creating a custom silverlight installation the jQuery way
+date: 2010-11-11 00:00:00 Z
+permalink: "/silverlight/creating-a-custom-silverlight-installation-the-jquery-way/"
 tags:
-  - silverlight
+- silverlight
+Published: 2010-11-11 00:00:00 Z
+author: Chris S
+excerpt: The default Silverlight installation and upgrade experience is fairly jarring
+  compared to its counter-part Flash. If you target version 4.0 of Silverlight and
+  the user has 3.0 installed, they will receive an ugly and annoying modal dialog
+  forcing them to upgrade...
+layout: post
+dsq_thread_id:
+- 1085006559
 ---
+
 The default Silverlight installation and upgrade experience is fairly jarring compared to its counter-part Flash. If you target version 4.0 of Silverlight and the user has 3.0 installed, they will receive an ugly and annoying modal dialog forcing them to upgrade.
 
 If they don't have Silverlight installed, they simply get a big button that leads them into Microsoft's corporatey and fairly none-consumer friendly Silverlight page.

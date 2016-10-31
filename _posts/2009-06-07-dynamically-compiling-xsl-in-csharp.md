@@ -1,16 +1,19 @@
 ---
-Published: 2009-06-07
-title: "Dynamically compiling XSL in C#"
-author: Chris S
-excerpt: "This post shows an alternative to using XSLTC.exe to compile XSL, when the XSLT you're using is dynamically generated from the database."
-layout: post
-permalink: /csharp/dynamically-compiling-xsl-in-csharp/
-dsq_thread_id:
-  - 1069177988
+title: Dynamically compiling XSL in C#
+date: 2009-06-07 00:00:00 Z
+permalink: "/csharp/dynamically-compiling-xsl-in-csharp/"
 tags:
-  - 'c#'
-  - xml
+- c#
+- xml
+Published: 2009-06-07 00:00:00 Z
+author: Chris S
+excerpt: This post shows an alternative to using XSLTC.exe to compile XSL, when the
+  XSLT you're using is dynamically generated from the database.
+layout: post
+dsq_thread_id:
+- 1069177988
 ---
+
 If you use XSL extensively in any .NET applications then you will probably find yourself encountering performance issues with your XSL in an ASP.NET environment. This can either come from customscripts (which are recompiled into a new assembly each time the XSL is transformed) or simply because the XSLCompiledTransform class has to create its assembly from fresh each time your page or resource is accessed. It not so much of a problem for windows forms or other types of application that sit in memory and don't die after a page request, but for ASP.NET it's a big issue, and as I found out a memory hog.
 
 <!--more-->

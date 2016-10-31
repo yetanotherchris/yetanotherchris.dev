@@ -1,14 +1,14 @@
 ---
-Published: 2016-09-05T00:00:00.000Z
 title: Updated Unix Cheat Sheet
+date: 2016-09-05 00:00:00 Z
+tags:
+- unix
+- cheat-sheet
+Published: 2016-09-05 00:00:00 Z
 author: Chris S
 layout: post
 shortpost: true
-tags:
-  - unix
-  - cheat-sheet
 ---
-
 
 My career as a web-centric software dev started with Unix (Linux and some Solaris/BSD) and thanks to .NET Core I'm now back in that world for some of my web development. I much prefer Unix for the server, particularly as it's far cheaper than Windows to tinker with as a developer but also its simplicity. It is made for automation - something Windows is slowly catching up with but still performs in a clunky way.
 

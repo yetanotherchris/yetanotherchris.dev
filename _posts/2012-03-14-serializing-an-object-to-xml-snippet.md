@@ -1,14 +1,16 @@
 ---
-Published: 2012-03-14
-title: "Serializing an object to XML snippet"
+title: Serializing an object to XML snippet
+date: 2012-03-14 00:00:00 Z
+permalink: "/csharp/serializing-an-object-to-xml-snippet/"
+tags:
+- c#
+Published: 2012-03-14 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /csharp/serializing-an-object-to-xml-snippet/
 dsq_thread_id:
-  - 1069228112
-tags:
-  - 'c#'
+- 1069228112
 ---
+
 I've written this same snippet so many times I've decided to shove it here to save my fingers a few calories in future. It's nothing special, just a way of serializing an object to XML.
 
 <!--more-->

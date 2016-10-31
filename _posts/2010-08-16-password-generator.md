@@ -1,16 +1,19 @@
 ---
-Published: 2010-08-16
-title: "Password Generator"
-author: Chris S
-excerpt: "This Silverlight-based tool produces either prounceable or alphanumeric passwords of the length you want, and quantity."
-layout: post
-permalink: /csharp/password-generator/
-dsq_thread_id:
-  - 1084093463
+title: Password Generator
+date: 2010-08-16 00:00:00 Z
+permalink: "/csharp/password-generator/"
 tags:
-  - 'c#'
-  - password-generator
+- c#
+- password-generator
+Published: 2010-08-16 00:00:00 Z
+author: Chris S
+excerpt: This Silverlight-based tool produces either prounceable or alphanumeric passwords
+  of the length you want, and quantity.
+layout: post
+dsq_thread_id:
+- 1084093463
 ---
+
 Update: It's 2015 and no browser supports Silverlight anymore (good riddance). Feel free to compile the source and turn it into a console app.
 
 This Silverlight-based tool produces either prounceable or alphanumeric passwords of the length you want, and quantity. 

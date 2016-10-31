@@ -1,16 +1,18 @@
 ---
-Published: 2009-04-14
-title: "C# Design Patterns: the Façade pattern"
-author: Chris S
-excerpt: "A summary and example of the façade design pattern."
-layout: post
-permalink: /csharp/csharp-design-patterns-the-facade-pattern/
-dsq_thread_id:
-  - 1074291095
+title: 'C# Design Patterns: the Façade pattern'
+date: 2009-04-14 00:00:00 Z
+permalink: "/csharp/csharp-design-patterns-the-facade-pattern/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2009-04-14 00:00:00 Z
+author: Chris S
+excerpt: A summary and example of the façade design pattern.
+layout: post
+dsq_thread_id:
+- 1074291095
 ---
+
 ### Summary
 
 Access multiple classes in one simple to use class. This class is often static too. 

@@ -1,14 +1,16 @@
 ---
-Published: 2013-12-23
-title: "Roadkill reaches the magical 1000 unit test mark"
+title: Roadkill reaches the magical 1000 unit test mark
+date: 2013-12-23 00:00:00 Z
+permalink: "/asp-net-mvc/roadkill-reaches-the-magical-1000-test-mark/"
+tags:
+- asp.net-mvc
+- dotcover
+- roadkill-wiki
+Published: 2013-12-23 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /asp-net-mvc/roadkill-reaches-the-magical-1000-test-mark/
-tags:
-  - asp.net-mvc
-  - dotcover
-  - roadkill-wiki
 ---
+
 *Warning: this post contains large amounts of pro-automated-testing propaganda.*
 
 Roadkill is now up to over 1000 tests (around 1150) as it gets near the version 2 release coming in 2014. Around three hundred of these come from the Markdown parser that Jeff Atwood wrote, and the HTML sanitizing toolkit, but the others have all accumulated over the past year including a lot of retro-fitted tests which were written to aid refactors. The test coverage is now around the 75% mark according to Jetbrain's DotCover tool:

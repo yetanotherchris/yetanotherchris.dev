@@ -1,15 +1,17 @@
 ---
-Published: 2010-10-10
-title: "Monotouch Controllers by example"
-author: Chris S
-excerpt: "The first of a few posts about using XIB-free Controllers in Monotouch."
-layout: post
-permalink: /monotouch/monotouch-controllers-by-example/
-dsq_thread_id:
-  - 1084985186
+title: Monotouch Controllers by example
+date: 2010-10-10 00:00:00 Z
+permalink: "/monotouch/monotouch-controllers-by-example/"
 tags:
-  - monotouch
+- monotouch
+Published: 2010-10-10 00:00:00 Z
+author: Chris S
+excerpt: The first of a few posts about using XIB-free Controllers in Monotouch.
+layout: post
+dsq_thread_id:
+- 1084985186
 ---
+
 ![UINavigationController][1]![UITableController][2]![UITableController][3]
 
 <!--more-->

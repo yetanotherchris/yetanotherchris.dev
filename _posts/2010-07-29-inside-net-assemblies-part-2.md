@@ -1,15 +1,18 @@
 ---
-Published: 2010-07-29
-title: "Inside .NET Assemblies (part 2)"
-author: Chris S
-excerpt: "The second of a set of reference blog posts covering .NET assemblies + modules, structure of a .NET assembly and metadata tables."
-layout: post
-permalink: /net/inside-net-assemblies-part-2/
-dsq_thread_id:
-  - 1083972652
+title: Inside .NET Assemblies (part 2)
+date: 2010-07-29 00:00:00 Z
+permalink: "/net/inside-net-assemblies-part-2/"
 tags:
-  - .net
+- ".net"
+Published: 2010-07-29 00:00:00 Z
+author: Chris S
+excerpt: The second of a set of reference blog posts covering .NET assemblies + modules,
+  structure of a .NET assembly and metadata tables.
+layout: post
+dsq_thread_id:
+- 1083972652
 ---
+
 [View part 1][1]</li> 
 
 ### Basic resource embedding

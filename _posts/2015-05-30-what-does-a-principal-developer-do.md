@@ -1,15 +1,17 @@
 ---
-Published: 2015-05-30
-title: "What does a principal developer do?"
+title: What does a principal developer do?
+date: 2015-05-30 00:00:00 Z
+permalink: "/opinion/what-does-a-principal-developer-do/"
+tags:
+- opinion
+- principal-developer
+Published: 2015-05-30 00:00:00 Z
 author: Chris S
 layout: post
-permalink: /opinion/what-does-a-principal-developer-do/
 dsq_thread_id:
-  - 4207272619
-tags:
-  - opinion
-  - principal-developer
+- 4207272619
 ---
+
 Or to word it another way, What is a Principal Developer?
 
 I recently got asked this question at an internal (non-technology-based) event with about 50 people in the room. With a mixture of stage fright and not being able to provide a single one-sentence answer, I copped out with &#8220;It's complicated, we do lots of things&#8221;.

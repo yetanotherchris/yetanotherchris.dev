@@ -1,15 +1,18 @@
 ---
-Published: 2009-10-20
-title: "Abstract methods vs Virtual methods"
-author: Chris S
-excerpt: "Many moons I was curious about the difference in IL that is produced between abstract and virtual methods. This post gives the details."
-layout: post
-permalink: /csharp/abstract-methods-vs-virtual-methods/
-dsq_thread_id:
-  - 1077695438
+title: Abstract methods vs Virtual methods
+date: 2009-10-20 00:00:00 Z
+permalink: "/csharp/abstract-methods-vs-virtual-methods/"
 tags:
-  - 'c#'
+- c#
+Published: 2009-10-20 00:00:00 Z
+author: Chris S
+excerpt: Many moons I was curious about the difference in IL that is produced between
+  abstract and virtual methods. This post gives the details.
+layout: post
+dsq_thread_id:
+- 1077695438
 ---
+
 Many moons ago I was curious about the difference in IL that is produced between abstract and virtual methods, and this is the result. 
 
 What IL code is emitted when you have an abstract method, and a virtual method? For the C# below

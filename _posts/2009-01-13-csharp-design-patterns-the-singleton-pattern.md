@@ -1,16 +1,18 @@
 ---
-Published: 2009-01-13
-title: "C# Design Patterns: the Singleton pattern"
-author: Chris S
-excerpt: "A summary and example of the singleton design pattern."
-layout: post
-permalink: /csharp/csharp-design-patterns-the-singleton-pattern/
-dsq_thread_id:
-  - 1074101178
+title: 'C# Design Patterns: the Singleton pattern'
+date: 2009-01-13 00:00:00 Z
+permalink: "/csharp/csharp-design-patterns-the-singleton-pattern/"
 tags:
-  - 'c#'
-  - design-patterns
+- c#
+- design-patterns
+Published: 2009-01-13 00:00:00 Z
+author: Chris S
+excerpt: A summary and example of the singleton design pattern.
+layout: post
+dsq_thread_id:
+- 1074101178
 ---
+
 ### Summary
 
 A class that only allows one instance of itself, which is accessed via a static property.
