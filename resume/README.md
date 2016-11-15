@@ -12,3 +12,5 @@ The theme is based off https://github.com/eddywashere/resume. I added some JSON 
 - Skills are at the top of the template. When reading CVs to hire my preference is to see a Github repository, the skills section and then experience. The other information you can get from chatting to the candidate.
 
 As the schema has changed, I've stuck to just transforming the JSON using Handlebar and writing the HTML to disk instead of the Resume NPM package.
+
+Run `install.ps1` to run node with `index.js`, which runs handlebar. `index2.html` was done by hand.
