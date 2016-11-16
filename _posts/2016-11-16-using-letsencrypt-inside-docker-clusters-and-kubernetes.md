@@ -3,6 +3,7 @@ Published: 2016-11-16
 title: Using letsencrypt and certbot inside a Docker cluster
 author: Chris S
 layout: post
+excerpt: "[Letsencrypt.org](Letsencrypt.org) is a free SSL certificate service. As a certificate authority, it is at the time of writing trusted by Chrome (desktop), IE10 and shortly Firefox. Currently it uses another provider for its authority chain, and the biggest restrictions are the SSL certificates are for public domains only and your certificates only last 3 months."
 shortpost: false
 tags:
   - letsencrypt
