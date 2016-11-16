@@ -1,6 +1,7 @@
 ---
 title: Object-oriented theory you may not care or know about, but are doing
 date: 2016-10-04 00:00:00 Z
+excerpt: "Floating around in note form, I thought I'd write up a few principles that most good devs will already be doing, but unaware of their formal names in object-oriented theory."
 tags:
 - object-oriented
 - c#
