@@ -2,6 +2,7 @@
 Published: 2016-11-16
 title: Using letsencrypt and certbot inside a Docker cluster
 author: Chris S
+excerpt: "Letsencrypt.org is a free SSL certificate service. This post explains creating and renewing using its certbot for Docker containers."
 layout: post
 tags:
   - letsencrypt
