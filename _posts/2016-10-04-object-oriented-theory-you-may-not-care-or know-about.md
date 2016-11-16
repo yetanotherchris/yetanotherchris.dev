@@ -4,10 +4,8 @@ date: 2016-10-04 00:00:00 Z
 tags:
 - object-oriented
 - c#
-Published: 2016-10-04 00:00:00 Z
 author: Chris S
 layout: post
-shortpost: true
 ---
 
 ### The law of demeter
