@@ -40,14 +40,14 @@
       "website": "https://www.totaljobs.com",
       "summary": "Whilst at Totaljobs Group I have achieved the following:",
       "highlights": [
-        "A technical lead for 6 scrum teams, advising on technical approach, risks and reducing the cost of change.",
+        "Currently a technical consultant for 6 scrum teams, advising on technical approach, risks and reducing the cost of change.",
         "Very pro-active in pushing to reduce the company's technical debt through upgrading and strangling the legacy webforms applications and continued upgrade of current apps.",
         "Server automation: Created 'Terry the terraformer' for setting up new Windows servers in C# and Powershell, reverse engineering the existing servers. This, alongside my Packer work won a company award (and an Occulus Rift ⌐■_■).",
-        "A technical lead in moving the platform to Nginx in Docker on AWS ECS.",
+        "Current project: working as a technical lead in moving the platform to Nginx in Docker on AWS ECS, and then to .NET core in Docker containers.",
         "Key contributor on several large projects: an email service that sends millions of emails daily, content service for site wide HTML/CSS/JS and the order fulfillment service.",
         "Automation of the developer VM images, and VMWare and AWS servers using Powershell (WinRM) and Hashicorp Packer.",
         "Created and responsible for the Totaljobs Tech Blog, which aims at publicly evangelizing the department's technology innovations.",
-        "Spearheaded the Github.com/TotaljobsGroup organisation to open source parts of our code base and encourage open collaboration, most notably the Syringe project.",
+        "Spearheaded the creation of the www.github.com/totaljobsgroup organisation, open sourcing parts of our code base to encourage open collaboration, most notably the Syringe project.",
         "Standardised the CI/CD process: Private Nuget server, Teamcity templates and scripted test agents, Octopus step templates, Exceptionless error logging across all our applications.",
         "Strong advocate for documentation in Github projects - I converted all our existing documentation to Markdown and then onto Github Enterprise and push for living (but minimal) documentation on all projects."
       ],
@@ -115,7 +115,7 @@
     {
       "institution": "Open University",
       "area": "Computing",
-      "studyType": "B.S.c",
+      "studyType": "BSc",
       "startDate": "2007-01-01",
       "endDate": "2010-01-01",
       "gpa": "",
@@ -124,7 +124,7 @@
     {
       "institution": "UWE Bristol",
       "area": "Media and Cultural studies",
-      "studyType": "B.a.",
+      "studyType": "BA (Hons)",
       "startDate": "1998",
       "endDate": "2001",
       "gpa": "",
@@ -138,7 +138,7 @@
       "name": "C# .NET",
       "level": "Senior",
       "keywords": [
-        "ASP.NET MVC 5",
+        "ASP.NET MVC 5, 6",
         "NUnit, TDD, IoC",
         ".NET Core, .NET 1.1->4.6",
         "Webapi, WPF",
@@ -153,7 +153,7 @@
         "Hashistack",
         "Powershell",
         "Bash",
-        "AWS, VMWare, Google Cloud"
+        "AWS, VMWare, Google Cloud, Azure"
       ]
     },
     {
