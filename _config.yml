@@ -19,6 +19,6 @@ sass:
 include:
 - scripts/title.js
 exclude:
-- resume/
+- resume/node_modules
 gems:
 - jekyll-sitemap
