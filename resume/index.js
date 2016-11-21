@@ -33,6 +33,10 @@ Handlebars.registerHelper('toLowerCase', function(str) {
   return str.toLowerCase();
 });
 
+Handlebars.registerHelper('companyId', function(str) {
+  return str.toLowerCase().replace(" ","-");
+});
+
 Handlebars.registerHelper('obfuscateEmail', function(email) {
   return email.rot13();
 });
