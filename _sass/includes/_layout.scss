@@ -54,9 +54,14 @@ a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
 }
 
 // tags
+#all-tags { 
+  line-height:23px;
+}
+
 .label-info {
   background-color: #1c485b;
 }
+
 
 #search {
   padding: 20px 0px;
@@ -104,4 +109,6 @@ a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
 
 h1#recent-posts {
   margin-top: 0px;
+  color:black;
+  font-size: 30px;
 }

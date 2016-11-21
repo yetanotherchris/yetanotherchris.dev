@@ -33,7 +33,7 @@ layout: default
     </div>
 
     <div class="row">
-        <div>
+        <div id="all-tags">
             {% for tag in site.tags limit:40 %}
             {% assign t = tag | first %}
             {% assign posts = tag | last %}
