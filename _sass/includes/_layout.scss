@@ -8,6 +8,13 @@ body {
 }
 
 h1,h2,h3,h4,h5,p { font-family: "source-sans-pro", sans-serif; }
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #000;
+}
+
 p { font-size: 16px;}
 pre, blockquote { font-size: 12px; }
 pre { background-color: #044c70; color: #fff; border-radius: 0px; border: 1px solid black;}
