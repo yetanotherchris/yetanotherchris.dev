@@ -18,5 +18,7 @@ sass:
   style: :compressed
 include:
 - scripts/title.js
+exclude:
+- resume/
 gems:
 - jekyll-sitemap

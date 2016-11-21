@@ -22,6 +22,14 @@ pre { background-color: #044c70; color: #fff; border-radius: 0px; border: 1px so
 a { color: #1c485b;}
 a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
 
+p.more-link { 
+  margin-top:10px;
+
+  a {
+    text-decoration:none !important; 
+  }
+}
+
 #title-container {
   margin-top: 10px;
 }

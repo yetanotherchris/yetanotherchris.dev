@@ -19,6 +19,9 @@ layout: default
         {{ post.content }}
         {% else %}
         {{ post.excerpt }}
+        <p class="more-link">
+            <a class="btn btn-xs btn-default" href="{{ post.url }}">More...</a>
+        </p>
         {% endif %}
         </div>
       </article>
