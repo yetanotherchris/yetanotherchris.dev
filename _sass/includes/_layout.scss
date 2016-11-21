@@ -22,6 +22,18 @@ pre { background-color: #044c70; color: #fff; border-radius: 0px; border: 1px so
 a { color: #1c485b;}
 a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
 
+#title-container {
+  margin-top: 10px;
+}
+
+#title-link {
+  margin-left: 20px;
+}
+
+#title-icons {
+  margin-right: 20px;
+}
+
 @media screen and (min-width: 780px){
 
   .container {
@@ -31,39 +43,6 @@ a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
   }
   .row {
     display: table-row;
-  }
-}
-
-// left column back ground image (hide the column on mobile)
-#vertical-menu {
-  display:none;
-}
-
-#vertical-menu-mobile {
-  color: #FFF;
-  background-color: #1c485b;
-  border: 1px solid #5AA3B4;
-}
-
-@media screen and (min-width: 780px) {
-
-  #vertical-menu {
-    background: url('/img/blackfriars.jpg');
-    color: #FFF;
-    padding: 20px;
-    min-height: 100%;
-    height: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
-    display: table-cell;
-    float: none;
-    vertical-align: top;
-    min-width:300px;
-  }
-
-  #vertical-menu-mobile {
-    display: none;
   }
 }
 
@@ -79,42 +58,22 @@ a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
   background-color: #1c485b;
 }
 
-// left column - search, tags, flair
-.site-title a {
-  color: white;
-}
-
-#taglist {
-  margin-top: 330px;
+#search {
+  padding: 20px 0px;
 }
 
 #search input {
   color: #000;
-  width: 100%;
   height: 30px;
   border: 1px solid #AAA;
   padding: 3px;
+  width:100%;
 }
 
-#stackoverflow-flair {
-  margin-top: 50px; 
-}
-
-#stackoverflow-flair small {
-  margin-bottom: 10px; 
-  display: block;
-}
-
-#search {
-  margin-top: 40px; 
-}
-
-#social-icons {
-  margin-top: 40px; 
-}
-
-#social-icons a {
-  padding-right: 10px; 
+@media screen and (min-width: 780px){
+  #search input {
+    width: 50%;
+  }
 }
 
 // right column - the main content
@@ -131,4 +90,18 @@ a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
   .main-container {
     display: table-cell; 
   }
+}
+
+.bordered-container {
+  background-color: #FFF;
+  margin: 10px 0px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(170,170,170, 0.5);
+  border-radius: 2px;
+  box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
+  padding: 0px 40px;
+}
+
+h1#recent-posts {
+  margin-top: 0px;
 }

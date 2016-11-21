@@ -11,36 +11,59 @@
 <body>
     <div class="container">
         <div class="row">
+
             <div class="col-md-12">
                 <div id="advert">
                     <!-- Advert -->
-                    <div id="div-gpt-ad-1391455841542-0"></div>
-                </div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-12" id="title-container">
-                <div class="pull-left" id="title-link">
-                    <strong><a href="/">Yet Another Chris</a></strong><br />
-                    <small>I live in London, and have been a software developer since around 2000.</small>
+                    <div id="div-gpt-ad-1391455841542-0">
+                    </div>
                 </div>
 
-                <div class="pull-right" id="title-icons">
+
+
+                <div id="social-icons">
+                    <h3 class="site-title"><a href="/">Yet Another Chris</a></h3>
+                    <h5 class="site-subtitle">London, UK</h5>
+
                     <a href="https://www.twitter.com/yetanotherchris" target="_blank"><img src="/img/twitter.svg" width="32" height="32" /></a>
                     <a href="https://github.com/yetanotherchris/" target="_blank"><img src="/img/github.svg" width="32" height="32" /></a>
                     <a href="/resume/" title="my resume/cv" target="_blank"><img src="/img/resume-icon.png" width="32" height="32" /></a>
-                    <a href="http://stackoverflow.com/users/21574/chris-s" title="My stackoverflow profile" target="_blank"><img src="/img/stackoverflow.svg" width="32" height="32" /></a>
                 </div>
+
+                {{ content }}
             </div>
         </div>
 
         <div class="row">
             <div class="col-md-12">
-                {{ content }}
+                <div id="taglist">
+                <h5>Tags</h5>
+                    {% for tag in site.tags limit:40 %}
+                    {% assign t = tag | first %}
+                    {% assign posts = tag | last %}
+                    <a class="label label-info" href="/tags.html#{{t | downcase | replace:" ","-" }}">{{t | downcase | replace:" ","-" }}</a>
+                    {% endfor %}
+                </div>
             </div>
         </div>
     </div>
+
+    <!-- Search autocomplete -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="/scripts/jquery.autocomplete.js"></script>
+    <script>
+        $(document).ready(function()
+        {
+            $.getJSON( "/scripts/titles.js", function(data) {
+                    $("#search input").autocomplete({
+                            lookup: data,
+                            onSelect: function (suggestion) {
+                                window.location.href = suggestion.data;
+                        }
+                    });
+            });
+        });
+    </script>
 
     <!-- Webfont -->
     <script src="//use.edgefonts.net/source-sans-pro:n4.js"></script>      

@@ -1,11 +1,6 @@
 // Post area
-.post-container {
-  background-color: #FFF;
-  margin: 10px 0px;
-  margin-bottom: 30px;
-  border: 1px solid rgba(170,170,170, 0.5);
-  border-radius: 2px;
-  box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
+.post-container { 
+  @extend .bordered-container; 
   padding: 40px 30px;
 }
 
@@ -23,6 +18,10 @@ article.recent-post h3 {
 
 article.recent-post {
   margin-bottom: 10px;
+
+  div.post-excerpt {
+    margin-top:10px;
+  }
 }
 
 .post {

@@ -14,17 +14,22 @@ layout: default
         <a href="{{ post.url }}">
             <h3>{{ post.title }}</h3>
         </a>
-        {% if post.shortpost %}
         <div class="date">{{ post.date | date: "%A %B %-d, %Y" }}</div>
+        <div class="post-excerpt">
+        {% if post.shortpost %}
         {{ post.content }}
         {% else %}
         {{ post.excerpt }}
         {% endif %}
+        </div>
       </article>
   </div>
   {% endfor %}
 </div>
 
 <div class="row pull-right archive">
-  <a href="archive.html" class="btn btn-primary">Archive</a>
+  <a href="/tags.html" class="btn btn-primary">Tags</a>
+</div>
+<div class="row pull-right archive">
+  <a href="/archive.html" class="btn btn-primary">Archive</a>
 </div>
