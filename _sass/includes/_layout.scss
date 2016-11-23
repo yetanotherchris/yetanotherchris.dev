@@ -30,16 +30,29 @@ p.more-link {
   }
 }
 
-#title-container {
-  margin-top: 10px;
-}
+#top-bar {
+  position: static;
+  background-color: #d2d2d2;
+  padding: 20px;
+  border-bottom: 1px solid #6f6f6f;
+  color: white;
+  background-image: url('/img/top-image.jpg');
 
-#title-link {
-  margin-left: 20px;
-}
+  a { color: white; }
 
-#title-icons {
-  margin-right: 20px;
+  .row {
+    display: block !important;
+  }
+
+  #title-container {
+  }
+
+  #title-link {
+  }
+
+  #title-icons {
+    text-align: right;
+  }
 }
 
 @media screen and (min-width: 780px){
