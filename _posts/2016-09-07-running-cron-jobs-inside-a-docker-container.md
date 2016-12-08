@@ -27,3 +27,8 @@ There's quite a few gotchas to doing this however, which I discovered and spent 
 Below is the Docker file and the scripts are with the Gist.
 
 <script src="https://gist.github.com/yetanotherchris/e5185530eee16495a1432d3acf7f3e32.js"></script>
+
+Some relevant Stackoverflow posts that helped:
+
+- http://stackoverflow.com/questions/27771781/how-can-i-access-docker-set-environment-variables-from-a-cron-job
+- http://stackoverflow.com/questions/15557777/crontab-job-does-not-get-the-environment-variables-set-in-bashrc-file
