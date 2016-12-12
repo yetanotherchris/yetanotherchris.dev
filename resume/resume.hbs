@@ -54,35 +54,6 @@
 		<div class="col-sm-9">
 			<div class="row">
 				<div class="col-sm-6">
-					<div class="row">
-						<div class="col-sm-2">
-							<i class="fa fa-inbox" aria-hidden="true"></i>
-						</div>
-						<div>
-							<a id="email-address" href="mailto:{{obfuscateEmail email}}">{{obfuscateEmail email}}</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-sm-2">
-							<i class="fa fa-link" aria-hidden="true"></i>
-						</div>
-						<div>
-							<a href="{{website}}" target="_blank">{{shortenWebsite website}}</a>
-						</div>
-					</div>
-					{{#alternativeResume}}
-					<div class="row">
-						<div class="col-sm-2">
-							<i class="fa fa-link" aria-hidden="true"></i>
-						</div>
-						<div>
-							<a href="{{.}}">My less-traditional resume/CV</a>
-						</div>
-					</div>
-					{{/alternativeResume}}
-				</div>
-
-				<div class="col-sm-6">
 					{{#if profiles.length}}
 					{{#profiles}}
 					<div class="row">
@@ -103,6 +74,35 @@
 					</div>
 					{{/profiles}}
 					{{/if}}
+				</div>
+
+				<div class="col-sm-6">
+					<div class="row">
+						<div class="col-sm-2">
+							<i class="fa fa-inbox" aria-hidden="true"></i>
+						</div>
+						<div>
+							<a id="email-address" href="mailto:{{obfuscateEmail email}}">{{obfuscateEmail email}}</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-2">
+							<i class="fa fa-link" aria-hidden="true"></i>
+						</div>
+						<div>
+							<a href="{{website}}" target="_blank">{{shortenWebsite website}}</a>
+						</div>
+					</div>
+					{{#alternativeResume}}
+					<div class="row">
+						<div class="col-sm-2">
+
+						</div>
+						<div>
+
+						</div>
+					</div>
+					{{/alternativeResume}}
 				</div>
 			</div>
 		</div>
