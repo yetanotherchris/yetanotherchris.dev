@@ -4,4 +4,3 @@ choco install -y nodejs
 refreshenv
 
 npm install
-node .\index.js
