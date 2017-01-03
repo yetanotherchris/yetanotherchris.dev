@@ -12,13 +12,13 @@ layout: post
 
 *Warning: long boring how-to blog post*...
 
-[Letsencrypt.org](Letsencrypt.org) is a free SSL certificate service. As a certificate authority, it is at the time of writing trusted by Chrome (desktop), IE10 and shortly Firefox. Currently it uses another provider for its authority chain, and the biggest restrictions are the SSL certificates are for public domains only and your certificates only last 3 months.
+[Letsencrypt.org](Letsencrypt.org) is a free SSL certificate service. As a certificate authority, it is (at the time of writing) trusted by Chrome (desktop), IE10 and shortly Firefox. Currently it uses another provider for its authority chain, and the biggest restrictions are the SSL certificates are for public domains only and your certificates only last 3 months.
 
 It's fairly easy to setup, you use a tool called cert-bot. This handles creating the private and public key for you, however it assumes you have your website running on is a single VM/server with a known IP address.
 
-This caused problems for me when running a site in a Docker container on Kubernetes, on Google Cloud, as it's behind a load balancer. There's no way to get into the load balancer and run the request from there, so the solution is to `docker exe -it {id} bash` into the container and create a domain-proof file on the site.
+This caused problems for me when running a site in a Docker container on Kubernetes, on Google Cloud, as it's behind a load balancer. There's no way to get into the load balancer and run the request from there, so the solution is to `docker exec -it {id} bash` into the container and create a domain proof-of-ownership file on the site.
 
-The cert is for a .NET core site running inside Docker on Kubernetes, with its build pipeline in Gitlab. I'm hoping to write up all my experience with Kubernetes in a blog post series soon, so it doesn't get lost in text files.
+The cert I made is for a .NET core site running inside Docker on Kubernetes, with its build pipeline in Gitlab. I'm hoping to write up all my experience with Kubernetes in a blog post series soon, so it doesn't get lost in text files.
 
 Large parts of this post are thanks to [this blog post](https://realguess.net/2016/09/26/installing-let-s-encrypt-ssl-certificate-on-google-app-engine-using-certbot/).
 
@@ -34,19 +34,19 @@ To verify your site (on renewal, possibly on creation too), you need a Google/Bi
 
 	  root /usr/share/nginx/html/example.com;
 
-	ssl on;
-	ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
-	ssl_prefer_server_ciphers on;
-	ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-RC4-SHA:ECDHE-RSA-AES128-SHA:AES128-SHA:RC4-SHA;
-	ssl_session_cache shared:SSL:10m;
+	  ssl on;
+	  ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+	  ssl_prefer_server_ciphers on;
+	  ssl_ciphers ECDHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-RC4-SHA:ECDHE-RSA-AES128-SHA:AES128-SHA:RC4-SHA;
+	  ssl_session_cache shared:SSL:10m;
 
 	  ssl_certificate /usr/share/nginx/keys/example.com/cert.pem;
-	ssl_certificate_key /usr/share/nginx/keys/example.com/privatekey.pem;
+	  ssl_certificate_key /usr/share/nginx/keys/example.com/privatekey.pem;
 
 	  # Lets encrypt renew domain verification files
 	  location ^~ /.well-known/acme-challenge {
-	  allow all;
-	  default_type "text/plain";
+	    allow all;
+	    default_type "text/plain";
 	  }
 
 	}
