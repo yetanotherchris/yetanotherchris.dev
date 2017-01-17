@@ -12,6 +12,7 @@ layout: post
 I've probably missed a couple, but this is a list I've compiled of all the CI services I know about, geared towards cheapo devs on a budget. My area of expertise is Teamcity, Octopus, Bamboo, Gitlab and a bit of Jenkins and Travis, and limited to dot net core.
 
 - [https://drone.io/new](https://drone.io/new) (free for public projects)
+- [https://buildkite.com] ($15 a month unlimited agents, builds, pipelines. Free trial)
 - [https://codeship.com/](https://codeship.com/) (free 1 project)
 - [https://circleci.com/](https://circleci.com/) (free 1 project)
 - [http://www.appveyor.com/](http://www.appveyor.com/) (Windows only, free for OS projects)
