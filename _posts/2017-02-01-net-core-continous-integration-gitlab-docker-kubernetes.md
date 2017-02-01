@@ -5,8 +5,11 @@ author: Chris S
 layout: post
 shortpost: false
 tags:
-  - tag1
-  - tag2
+  - .net-core
+  - gitlab
+  - docker
+  - kubernetes
+  - google-cloud
 ---
 
 Over the past few months I've put Roadkill on hold in my free time, to get some .NET core projects working inside Docker. They're mostly sandbox websites for exploring the tech stack, and are hosted privately in Gitlab. Gitlab gives you a decent CI server for free, which works really well with CI and deployment of .NET core apps (both websites and console apps).
@@ -29,6 +32,10 @@ One final step you could easily add is performing a `kubectl edit deployments/..
 The app has a website, and then a Google Cloud Pub/Sub part that is used for updating data that the website uses periodically. The Pub/Sub part is a publisher and a poller-based subscriber. I tried using push but Google Cloud had a habit of denial of servicing my endpoint, even with throttling enabled inside Nginx.
 
 All three bits are Docker containers running as seperate pods inside a Kubernetes cluster.
+
+### How can I change the file so it works with Bitbucket Pipelines/Travis/Appveyor/CI-service XYZ
+
+You could convert it really easily to another build service YAML format. Appveyor wouldn't make much sense, but other services would be trivial to do.
 
 ### Source
 
