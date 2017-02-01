@@ -1,6 +1,6 @@
 ---
 Published: 2017-02-01
-title: .NET Core continous integration and deployment with Gitlab, Docker, Kubernetes, Gitlab and Google Cloud
+title: .NET Core continous integration and deployment with Gitlab, Docker, Kubernetes and Google Cloud
 author: Chris S
 layout: post
 shortpost: false
