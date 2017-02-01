@@ -13,7 +13,9 @@ Over the past few months I've put Roadkill on hold in my free time, to get some 
 
 <!--more-->
 
-As .NET core runs in Linux, you no  longer have to worry about spinning up an over-powered Windows server. What's more you can do it all inside a Docker container. I plan to do a series of posts on my learnings with .NET core and Kubernetes, in the meantime below is the YAML build definition build I used. It does the following:
+### How the build works
+
+As .NET core runs in Linux, you no longer have to worry about spinning up an over-powered Windows server. What's more you can do it all inside a Docker container. I plan to do a series of posts on my learnings with .NET core and Kubernetes, in the meantime below is the YAML build definition build I used. It does the following:
 
 1. Build and publish (publish is just creating a clean bin folder with assets) the .NET Core app in release mode
 2. Build the Docker image in the repository: `docker build -t gcr.io/my-kube-project/...`
@@ -21,5 +23,13 @@ As .NET core runs in Linux, you no  longer have to worry about spinning up an ov
 4. Finally push to the Google Cloud Docker registry.
 
 One final step you could easily add is performing a `kubectl edit deployments/...` to update the Docker image to the latest tag, but it's not in the YAML build definition file.
+
+### What does the app do?
+
+The app has a website, and then a Google Cloud Pub/Sub part that is used for updating data that the website uses periodically. The Pub/Sub part is a publisher and a poller-based subscriber. I tried using push but Google Cloud had a habit of denial of servicing my endpoint, even with throttling enabled inside Nginx.
+
+All three bits are Docker containers running as seperate pods inside a Kubernetes cluster.
+
+### Source
 
 <script src="https://gist.github.com/yetanotherchris/7be82856f3240776a880d3bf540bf844.js"></script>
