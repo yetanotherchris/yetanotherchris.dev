@@ -72,14 +72,14 @@ When inside vi:
 
 Some common other text editing commands:
 
-  * pico [filename] - launches the PICO editor for the filename.
-  * nano [filename] - does anyone use PICO anymore?
-  * more [filename] - shows one screen's worth of the file at a time.
-  * less [filename] - similar to more
-  * head [filename] - Shows the first 10 lines of file, or use -n
-  * tail [filename] - Shows the last 10 lines of file, or use -n
-  * cat [filename] | more - works like more, cat concats 2 strings
-  * sed 's|search string|replace string|' filename > newfile.txt - replaces a string inside a file. | is the delimiter here, but it can be anything to avoid clashes.
+  * `pico [filename]` - launches the PICO editor for the filename.
+  * `nano [filename]` - does anyone use PICO anymore?
+  * `more [filename]` - shows one screen's worth of the file at a time.
+  * `less [filename]` - similar to more
+  * `head [filename]` - Shows the first 10 lines of file, or use` -n
+  * `tail [filename]` - Shows the last 10 lines of file, or use -n
+  * `cat [filename] | more` - works like more, `cat` concats 2 strings
+  * `sed 's|search string|replace string|' filename > newfile.txt` - replaces a string inside a file. `|` is the delimiter here, but it can be anything to avoid clashes.
 
 ### SSH
 
