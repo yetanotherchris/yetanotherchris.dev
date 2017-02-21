@@ -12,7 +12,7 @@ excerpt: This post is a command reference card for some regularly used unix comm
 layout: post
 dsq_thread_id:
 - 1074123375
----
+--- 
 
 ![unix tar](http://imgs.xkcd.com/comics/tar.png)
 
