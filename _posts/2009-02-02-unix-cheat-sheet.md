@@ -169,10 +169,10 @@ Piping to another command is straight forward enough:
 
 This searches for filename, runs the results through grep to filter everything without /usr/local in it, and then outputs the results to searchresults.txt
 
-* `|` runs one application via another, and can be used multiple times e.g. cat /usr/group | more | grep root | sort   
-* `>` creates a new file if one doesn't already exist, overwrites the contents of the file if it does exist   
-* `>>` appends to the end of the file, and creates the file if one doesn't exist.   
-* `<` sends everything after this to the application, e.g. ./mysql -u bob -p databasename < mysqldump.sql 
+- `|` runs one application via another, and can be used multiple times e.g. cat /usr/group | more | grep root | sort   
+- `>` creates a new file if one doesn't already exist, overwrites the contents of the file if it does exist   
+- `>>` appends to the end of the file, and creates the file if one doesn't exist.   
+- `<` sends everything after this to the application, e.g. ./mysql -u bob -p databasename < mysqldump.sql 
 
 ### Users and groups
 
@@ -218,10 +218,10 @@ Break down of permissions in a directory listing:
 
 	-rw-r--r-- 1 mainuser devel 9054 Dec 28 12:42 index.html
 
-* The first character indicates whether it is a directory or file (d for directory).   
-* After that, the next 3 (rw-) are owner permissions.   
-* The following 3 (r-) are group permissions   
-* The following 3(r-) are permissions for other users. 
+- The first character indicates whether it is a directory or file (d for directory).   
+- After that, the next 3 (rw-) are owner permissions.   
+- The following 3 (r-) are group permissions   
+- The following 3(r-) are permissions for other users. 
 
 After that reads the number of files inside the directory if it's a directory (which it isn't so it's 1) this can also be links to the file, the owner of the file, the group the file belongs to, size in bytes, date and time and then the filename.
 
@@ -256,10 +256,10 @@ function clearForm()
 {
 	var form = document.getElementById("unixcalculator");
 	for (var i=0;i < form.elements.length;i++)
-	{
-		if (form.elements[i].type == "checkbox")
-		{
-			form.elements[i].checked = false;
+`	{
+`		if (form.elements[i].type == "checkbox")
+`		{
+`			form.elements[i].checked = false;
 		}
 	}
 
