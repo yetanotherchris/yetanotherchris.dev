@@ -42,7 +42,7 @@ You can then use it in your nginx conf file:
 To edit the sudo file in bash (install Nano first, apt-get install nano or yum install nano):
 
 	export VISUAL=nano
-	crontab -e
+	crontab -e 
 
 ### General help
 
