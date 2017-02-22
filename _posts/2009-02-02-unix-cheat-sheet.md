@@ -18,12 +18,13 @@ dsq_thread_id:
 
 This post is a command reference card for some regularly used unix commands, tested on linux (Rdhat 6, a while ago) but should hopefully work on most unix command shells. Any additional (non-obscure) commands you think should be added,or corrections please email me.
 
+<!--more-->
+
 ### Docker
 
 - `docker rm -f $(docker ps -a -q)` - removes all containers, forcing them to stop (-q is Windows friendly)
 - `docker rmi $(docker images -q)` - removes all images.
 - `docker cp nginx:/usr/share/nginx/key.pem key.pem` - copies the pem file onto the nginx container from the current directory (this can be used to copy the other way round too).
-
 
 ### Nginx
 
@@ -40,37 +41,20 @@ You can then use it in your nginx conf file:
 
 To edit the sudo file in bash (install Nano first, apt-get install nano or yum install nano):
 
-	# export VISUAL=nano
-	# crontab -e
+	export VISUAL=nano
+	crontab -e
 
 ### General help
 
 [command] -help - gives syntax for using that command
 
-<!--more-->
+- `man [command]` - brings up the manual page for the command, if it exists
+- `man [command] > file.txt` - dumps the manual page(s) for the command into &#8216;file.txt'
+- `whatis [command]` - gives a short description of the command.
+- `help` - gives a list of commands (GNU Bash).
+- `help [command]` - gives extra information on the commands listed above.
 
-- man [command] - brings up the manual page for the command, if it exists
-- man [command] > file.txt - dumps the manual page(s) for the command into &#8216;file.txt'
-- whatis [command] - gives a short description of the command.
-- help - gives a list of commands (GNU Bash).
-- help [command] - gives extra information on the commands listed above.
-
-### Viewing/editing/creating a text file
-
-vi [filename] - opens VI text editor, if the file doesn't exist, it'll be created on saving. 
-
-When inside vi:
-
-- using &#8216;i' inserts
-- pressing &#8216;escape' and then &#8216;:' goes back to command mode.
-- &#8216;/searchstring' searchs for &#8216;searchstring' using regular expressions.
-- &#8216;:' followed by &#8216;w' writes
-- &#8216;:' followed by &#8216;qw' writes then quits
-- &#8216;:' followed by &#8216;q' quits.
-- &#8216;:' followed by &#8216;q!' quits regardless of whether changes are made.
-- &#8216;:' followed by &#8216;z' undos. 
-
-Some common other text editing commands:
+### General text editing/viewing
 
 - `pico [filename]` - launches the PICO editor for the filename.
 - `nano [filename]` - does anyone use PICO anymore?
@@ -79,100 +63,109 @@ Some common other text editing commands:
 - `head [filename]` - Shows the first 10 lines of file, or use` -n
 - `tail [filename]` - Shows the last 10 lines of file, or use -n
 - `cat [filename] | more` - works like more, `cat` concats 2 strings
-- `sed 's|search string|replace string|' filename > newfile.txt` - replaces a string inside a file. `|` is the delimiter here, but it can be anything to avoid clashes.
+- `sed 's|search string|replace string|' filename > newfile.txt` - replaces a string inside a file. 
+  - `|` is the delimiter here, but it can be anything to avoid clashes.
+
+### VI
+
+- `vi [filename]` - opens VI text editor, if the file doesn't exist, it'll be created on saving. 
+- using `i` inserts
+- pressing `escape` and then `:` goes back to command mode.
+- `/searchstring` searchs for `searchstring` using regular expressions.
+- `:` followed by `w` writes
+- `:` followed by `qw` writes then quits
+- `:` followed by `q` quits.
+- `:` followed by `q!` quits regardless of whether changes are made.
+- `:` followed by `z` undos. 
 
 ### SSH
 
-- ssh root@1.2.3.4 - SSH onto a server (use git bash for Windows for this)
-- scp root@1.2.3.4:localfile.txt /etc/remotefile.txt - copy localfile.txt to /etc/remotefile.txt
-- scp root@1.2.3.4:/root/privatekey.prem privatekey.prem - copy privatekey.pem onto your server
+- `ssh root@1.2.3.4` - SSH onto a server (use git bash for Windows for this)
+- `scp root@1.2.3.4:localfile.txt /etc/remotefile.txt` - copy localfile.txt to /etc/remotefile.txt
+- `scp root@1.2.3.4:/root/privatekey.pem privatekey.pem` - copy privatekey.pem onto your server
 
 ### General/System commands
 
-- su [user] - changes the login to &#8216;user', or to the root if no &#8216;user' is given.
-- date - shows the system date
-- whoami - tells you who you're logged in as
-- uptime - how long the computer has been running, plus other details
-- w - shows who's logged on, what they're doing.
-- df - how much disk space is left.
-- du - disk usage by your login, it can also total up directories.
-- uname -mrs - userful info about the system
-- uname -a - all details about the system
-
-### Desktop / X server + client
-
-- Switchdesk {manager - gnome, Enlightenment, etc} - Switches your desktop
+- `su [user]` - changes the login to `[user]` or to the root if no `[user]` is given.
+- `date` - shows the system date
+- `whoami` - tells you who you're logged in as
+- `uptime` - how long the computer has been running, plus other details
+- `w` - shows who's logged on, what they're doing.
+- `df` - how much disk space is left.
+- `du` - disk usage by your login, it can also total up directories.
+- `uname -mrs` - userful info about the system
+- `uname -a` - all details about the system
 
 ### What's running
 
-- ps - what's running.
-- ps ax - shows all processes
-- top - sort of interactive version of ps.
-- kill [pid] - terminates the named process, which can be name or number or other options.
-- killall -HUP [command name] - kill a process, running the command specified, by name.
-- killall -9 [command] - similar to the above
-- xkill - kills a frozen application in X (gnome,kde etc. desktops), you just click on the frozen app.
+- `ps` - what's running.
+- `ps` ax - shows all processes
+- `top` - sort of interactive version of ps, there is also `ntop`.
+- `kill [pid]` - terminates the named process, which can be name or number or other options.
+- `killall -HUP [command name]` - kill a process, running the command specified, by name.
+- `killall -9 [command]` - similar to the above
+- `xkill` - kills a frozen application in X (gnome,kde etc. desktops), you just click on the frozen app.
 
 ### File system
 
-- ls -la - list all files/directories
-- dir - simple form of ls
-- cd [dir] - change directory
-- cd ~ - go back to the home directory
-- cdup - similar to using &#8220;cd ..&#8221;, go up one directory.
-- pwd - print which directory you're in.
-- ./[filename] - run the file if it's executable and in the current directory
-- rm [filename] - delete a file
-- rm -R [directory] - delete a directory
-- mv \[oldfilename\] \[newfilename\] - renames the file (or directory)
-- cp \[filename-source\] \[filename-destination\] - copy the file from one place to another
-- cp -R \[dir-source\] \[dir-destination\] - copy a directory an all its subdirectories
-- mkdir [name] - makes a directory.
-- cat [sourcefile] >> [destinationfile] - appends sourcefile to the end of destinationfile
-- df - how much disk space is available, more options available.
+- `ls -la` - list all files/directories
+- `dir` - simple form of ls
+- `cd [dir]` - change directory
+- `cd ~` - go back to the home directory
+- `cdup` - similar to using `cd ..`, go up one directory.
+- `pwd` - print which directory you're in.
+- `./[filename]` - run the file if it's executable and in the current directory.
+- `rm [filename]` - delete a file
+- `rm -R [directory]` - delete a directory
+- `mv [oldfilename] [newfilename]` - renames the file (or directory)
+- `cp [filename-source] [filename-destination]` - copy the file from one place to another
+- `cp -R [dir-source] [dir-destination]` - copy a directory an all its subdirectories
+- `mkdir [name]` - makes a directory.
+- `cat [sourcefile] >> [destinationfile]` - appends sourcefile to the end of destinationfile
+- `df` - how much disk space is available, more options available.
 
 ### Zipping/taring
 
-- tar -cvzf mytar.tar.gz sourcefilesordir - creates a new tar file, verbose options on, runs it through gnuzip,f is the filename
-- tar -xvf mytar.tar.gz destination - extracts a tar file (this example is compressed with gzip), verbosely, f is the filename
-- gzip fileordir - compresses a file with gzip.
-- gunzip file.gz - decompresses a file with gzip.
-- unzip file - unzips a file (you'll need to apt-get install unzip)
+- `tar -cvzf mytar.tar.gz [sourcefiles-or-dir]` - creates a new tar file, verbose options on, runs it through gnuzip,f is the filename
+- `tar -xvf mytar.tar.gz [destination]` - extracts a tar file (this example is compressed with gzip), verbosely, f is the filename
+- `gzip [file-or-dir]` - compresses a file with gzip.
+- `gunzip file.gz` - decompresses a file with gzip.
+- `unzip file` - unzips a file (you'll need to apt-get install unzip)
 
 NB gzip only compresses files, it doesn't collect them into a single file like a tarball does.
 
 ### Searching
 
-- locate [filename] - searches the system using an indexed database of files. use updatedb to update the file database
-- locate [filename] | sort - sorts the files alphabetically
-- whereis [filename] - locates an application, such as &#8216;whereis bash'
-- find [filename] - searches the filesystem as with locate, but without a database so its slower.
-- find /directory -atime +30 -print - searches for files not used in the past 30 days.
+- `locate [filename]` - searches the system using an indexed database of files. use updatedb to update the file database
+- `locate [filename] | sort` - sorts the files alphabetically
+- `whereis [filename]` - locates an application, such as &#8216;whereis bash'
+- `find [filename]` - searches the filesystem as with locate, but without a database so its slower.
+- `find /directory -atime +30 -print` - searches for files not used in the past 30 days.
 
 ### Setting up links
 
-- ln -s target linkname - creates a symbolic link, like a shortcut to the target directory or filename.
-- ln target linkname - creates the default hard link. Deleting this will delete the targetted file or directory.
+- `ln -s target linkname` - creates a symbolic link, like a shortcut to the target directory or filename.
+- `ln target linkname` - creates the default hard link. Deleting this will delete the targetted file or directory.
 
 ### Network commands
 
-- dig domainname - retrieves information about a domain, such as name servers, mx records
-- whois domainname - whois info on a domain
-- finger user - gives info about a user, their group status, but can also be used over a network
-- netstat -ape - lots of info about whos connected to your machine, what processes are doing what with sockets
+- `dig domainname` - retrieves information about a domain, such as name servers, mx records
+- `whois domainname` - whois info on a domain
+- `finger user` - gives info about a user, their group status, but can also be used over a network
+- `netstat -ape` - lots of info about whos connected to your machine, what processes are doing what with sockets
 
 ### Piping
 
 Piping to another command is straight forward enough:
 
-	`locate filename | grep /usr/local > searchresults.txt`
-
-This searches for filename, runs the results through grep to filter everything without /usr/local in it, and then outputs the results to searchresults.txt
-
-- `|` runs one application via another, and can be used multiple times e.g. cat /usr/group | more | grep root | sort   
-- `>` creates a new file if one doesn't already exist, overwrites the contents of the file if it does exist   
-- `>>` appends to the end of the file, and creates the file if one doesn't exist.   
-- `<` sends everything after this to the application, e.g. ./mysql -u bob -p databasename < mysqldump.sql 
+	locate filename | grep /usr/local > searchresults.txt
+	
+    This searches for filename, runs the results through grep to filter everything without /usr/local in it, and then outputs the results to searchresults.txt
+	
+	|  - runs one application via another, and can be used multiple times e.g. cat /usr/group | more | grep root | sort.
+	>  - creates a new file if one doesn't already exist, overwrites the contents of the file if it does exist   
+	>> - appends to the end of the file, and creates the file if one doesn't exist.   
+	<  - sends everything after this to the application, e.g. ./mysql -u bob -p databasename < mysqldump.sql 
 
 ### Users and groups
 
@@ -241,14 +234,6 @@ e.g chmod 755 myfile.txt - changes the permissions on the file to 755 which is :
 
 - `chown [user:group] fileordirectory` - changes the user and group ownership of a file or directory. Use -R to recursively change a whole directory and its sub directories.
 - `chgrp [group] fileordirectory` - changes the groupownership of a file or directory. Use -R to recursively change a whole directory and its sub directories.
-
-### MySQL
-
-- mysqldump - Dumps a table,database or all databases to a SQL file. Use the -opt argument for best results e.g.
-- mysqldump -u username -p -opt database > file.sql
-- mysql - The mySQL query manager. To import/export a database to or from a SQL try:
-- mysql -u username -p database < file*to*go_in.sql
-- mysql -u username -p database > file*to*go_to.sql
 
 ## Permissions calculator
 <script>
