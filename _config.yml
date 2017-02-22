@@ -1,23 +1,14 @@
 ---
 title: Yet Another Chris
 timezone: UTC
-collections:
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
 email: mrshrinkray@gmail.com
 description: London-based C# developer and an open sourcer behind Roadkill wiki.
-baseurl: ''
+baseurl: http://www.anotherchris.net/
 url: http://www.anotherchris.net/
 twitter_username: yetanotherchris
 permalink: posts/:title
 sass:
   style: :compressed
-include:
-- scripts/title.js
 exclude:
 - resume/node_modules
 gems:
