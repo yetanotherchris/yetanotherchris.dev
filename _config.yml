@@ -22,3 +22,4 @@ exclude:
 - resume/node_modules
 gems:
 - jekyll-sitemap
+repository: https://github.com/yetanotherchris/yetanotherchris.github.io.git
