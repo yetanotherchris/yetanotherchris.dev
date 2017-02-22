@@ -60,8 +60,8 @@ To edit the sudo file in bash (install Nano first, apt-get install nano or yum i
 - `nano [filename]` - does anyone use PICO anymore?
 - `more [filename]` - shows one screen's worth of the file at a time.
 - `less [filename]` - similar to more
-- `head [filename]` - Shows the first 10 lines of file, or use` -n
-- `tail [filename]` - Shows the last 10 lines of file, or use -n
+- `head [filename]` - Shows the first 10 lines of file, or use `-n` for the number of lines.
+- `tail [filename]` - Shows the last 10 lines of file, or use `-n` for the number of lines.
 - `cat [filename] | more` - works like more, `cat` concats 2 strings
 - `sed 's|search string|replace string|' filename > newfile.txt` - replaces a string inside a file. 
   - `|` is the delimiter here, but it can be anything to avoid clashes.
