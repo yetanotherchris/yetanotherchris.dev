@@ -27,4 +27,4 @@ The script below changes your [Powershell prompt](https://msdn.microsoft.com/en-
 Your Powershell command prompt will now look something like this:    
 
     ~\Documents\Code\Github\yetanotherchris.github.io\_posts [master ≡]
-    $
+    $ echo "hello world"
