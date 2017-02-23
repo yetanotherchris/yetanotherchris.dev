@@ -125,3 +125,79 @@ This it the operator you'll use most often as it's used for comparisons. It will
         val = ~42;
         WL("{0}",val);
     }
+
+
+### Using the Flags() Attribute
+
+    // The Flags attribute is used for parsing of the enum and its string representation,
+    // and is not actually necessary for the bit operations
+    [Flags]
+    enum Rights
+    {
+        None = 0,       // 0000 0000
+        ReadFile = 1,   // 0000 0001
+        ModifyFile = 2, // 0000 0010
+        WriteFile = 4,  // 0000 0100
+        ReadDir = 8,    // 0000 1000
+        All = ReadFile | ModifyFile | WriteFile | ReadDir
+    }
+
+    static void FLAGS()
+    {
+        // Using OR - adding values
+        // rights  = 0000 0001 (ReadFile)
+        // a       = 0000 0010 (ModifyFile)
+        // b       = 0000 0100 (WriteFile)
+        // rights  = 0000 0111 = 7
+        Rights rights = Rights.ReadFile;
+        rights |= Rights.ModifyFile;
+        rights |= Rights.WriteFile;
+        WL("|= {0}",rights);
+        
+        // Using AND
+        // rights  = 0000 0111
+        // a       = 0000 0010 (ModifyFile)
+        // rights  = 0000 0010 = 2
+        rights &= Rights.ModifyFile;
+        WL("&= {0}",rights);
+        
+        // Using XOR - removing a single value
+        // rights  = 0000 0111
+        // a       = 0000 0010 (ModifyFile)
+        // rights  = 0000 0101 = 5
+        rights = InitRights();
+        rights ^= Rights.ModifyFile;
+        
+        WL("^= {0}",rights);
+        // Using ~ - removing multiple flags
+        // rights  = 0011 1111
+        // a       = 1111 1001 ~(ModifyFile | WriteFile)
+        rights = Rights.All;
+        rights &= ~(Rights.ModifyFile | Rights.WriteFile);
+        WL("~ {0}",rights);
+        
+        // Testing if it contains a value
+        // rights  = 0000 0110
+        // test    = 0000 1000
+        // displays None
+        rights = Rights.WriteFile | Rights.ModifyFile;
+        Rights test = rights & Rights.ReadDir;
+        WL("Contains Rights.ReadDir: {0}",test == Rights.ReadDir);
+        
+        // Testing if it contains value 1 or value 2
+        // rights  = 0000 1110
+        // test    = 0000 0000
+        // displays None
+        rights = InitRights();
+        if ((rights & Rights.ReadFile) == Rights.ReadFile)
+        WL("If test: contains ReadFile");
+        if ((rights & Rights.ModifyFile) == Rights.ModifyFile)
+        WL("If test: contains ModifyFile");
+    }
+
+    static Rights InitRights()
+    {
+        return Rights.ReadFile | Rights.ModifyFile | Rights.WriteFile;
+    }
+
+
