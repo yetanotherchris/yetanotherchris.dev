@@ -247,3 +247,35 @@ This it the operator you'll use most often as it's used for comparisons. It will
         val = val &gt;&gt; 2;
         WL("{0}",val);
     }
+
+
+### Bit shifting with a negative number
+
+The well written JavaRanch article below has 2 good examples of bit shifting with negative numbers. Here's a practical example
+
+    static void NEGATIVESHIFT()
+    {
+        // Using 256 as 42 doesn't have enough bits (it right shifts to 0)
+        //
+        // 256   = 0000 0001 0000 0000
+        // -6    = 0000 0000 1111 1010 With shifting, this is promoted to an int, using the last 5 bits
+        //       = 0000 0000 0001 1010 (2 + 8 + 16 = 26)
+        //       = 0000 0000 0000 0000 (Zero as its shifting 26 bits to the right)
+        int val = 256 &gt;&gt; -6;
+        WL("{0}",val);
+    }
+
+
+### Reference
+
+  * [An alternative, good C# reference][3]
+  * [A very well written readable article (for Java but relevant), not dry wikiprose][4]
+  * [Wikipedia article on Endianess][5]
+  * [Stackoverflow question on bitwise shifting][6]
+
+ [1]: /csharp/csharp-bit-manipulation-by-example-part-1/
+ [2]: http://www.sliver.com/dotnet/SnippetCompiler/
+ [3]: http://www.blackwasp.co.uk/CSharpLogicalBitwiseOps.aspx
+ [4]: http://www.javaranch.com/journal/200406/ScjpTipLine-BitShifting.html
+ [5]: http://en.wikipedia.org/wiki/Endian
+ [6]: http://stackoverflow.com/questions/791328/how-does-bitwise-complement-operator-works
