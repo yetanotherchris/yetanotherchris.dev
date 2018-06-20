@@ -18,19 +18,19 @@
     },
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "yetanotherchris",
-        "url": "http://www.twitter.com/yetanotherchris"
+        "network": "Stack-overflow",
+        "username": "Chris S",
+        "url": "https://stackoverflow.com/users/21574/chris-s"
+      }
+      {
+        "network": "Linkedin",
+        "username": "chris-small",
+        "url": "https://www.linkedin.com/in/chris-small"
       },
       {
         "network": "Github",
         "username": "yetanotherchris",
         "url": "http://www.github.com/yetanotherchris"
-      },
-      {
-        "network": "Linkedin",
-        "username": "chris-small",
-        "url": "https://www.linkedin.com/in/chris-small"
       }
     ]
   },
