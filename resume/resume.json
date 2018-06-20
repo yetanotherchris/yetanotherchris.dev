@@ -7,8 +7,8 @@
     "email": "chris.a.small@gmail.com",
     "phone": "on request",
     "website": "http://www.anotherchris.net",
-    "alternativeResume" : "http://www.anotherchris.net/resume/resume2.html",
-    "summary": " C#, ASP.NET, MVC, WebApi, Javascript, Typescript, LESS/SASS, Scrum, Agil, SQL Server, MSMQ, Teamcity, Octopus, Powershell, Bash, TDD, Git, Hg, .NET Core, Linux, Docker, VMWare, AWS, Jekyll,  Appveyor, Open source",
+    "alternativeResume": "http://www.anotherchris.net/resume/resume2.html",
+    "summary": "C#, ASP.NET, MVC, WebApi, Javascript, Typescript, LESS/SASS, Scrum, Agil, SQL Server, MSMQ, Teamcity, Octopus, Powershell, Bash, TDD, Git, Hg, .NET Core, Linux, Docker, VMWare, AWS, Jekyll,  Appveyor, Open source",
     "location": {
       "address": "",
       "postalCode": "",
@@ -40,22 +40,24 @@
       "website": "https://www.totaljobs.com",
       "summary": "Whilst at Totaljobs Group I have achieved the following:",
       "highlights": [
-        "Currently a technical consultant for 6 scrum teams, advising on technical approach, risks and reducing the cost of change.",
-        "Very pro-active in pushing to reduce the company's technical debt through upgrading and strangling the legacy webforms applications and continued upgrade of current apps.",
-        "Server automation: Created 'Terry the terraformer' for setting up new Windows servers in C# and Powershell, reverse engineering the existing servers. This, alongside my Packer work won a company award (and an Occulus Rift ⌐■_■).",
-        "Current project: working as a technical lead in moving the platform to Nginx in Docker on AWS ECS, and then to .NET core in Docker containers.",
-        "Key contributor on several large projects: an email service that sends millions of emails daily, content service for site wide HTML/CSS/JS and the order fulfillment service.",
-        "Automation of the developer VM images, and VMWare and AWS servers using Powershell (WinRM) and Hashicorp Packer.",
-        "Created and responsible for the Totaljobs Tech Blog, which aims at publicly evangelizing the department's technology innovations.",
-        "Spearheaded the creation of the www.github.com/totaljobsgroup organisation, open sourcing parts of our code base to encourage open collaboration, most notably the Syringe project.",
-        "Standardised the CI/CD process: Private Nuget server, Teamcity templates and scripted test agents, Octopus step templates, Exceptionless error logging across all our applications.",
-        "Strong advocate for documentation in Github projects - I converted all our existing documentation to Markdown and then onto Github Enterprise and push for living (but minimal) documentation on all projects."
+        "Worked in several roles in the organisation: managing developer, Principal developer and currently Senior developer.",
+        "In conjunction with the Packt work, my current specialism is .NET Core and ASP.NET Core with Docker, and automation of the build process.",
+        "Current project is Docker/.NET Core based inside AWS ECS serving up to 80,000 requests per minute, including SNS/SQS event based system for managing various job-based events.",
+        "As well as C# (backend) work we have a devops work we perform on a daily basis, we own the releases and are pushing towards CD.",
+        "The company is heavily AWS, and we manage all our AWS resources managed via Terraform, with additional Bash and Powershell for orchestration.",
+        "I am one of the main contributors to the www.github.com/totaljobsgroup organisation, open sourcing parts of our code base to encourage open collaboration, most notably the Syringe project.",
+        "Strong advocate for clean code and good simple technical documentation in our Github projects - I converted all our existing documentation to Markdown and then onto Github Enterprise and push for living (but minimal) documentation on all projects.",
+        "I've worked on most of the Totaljobs tech stack over the years noteably: an email service that sends millions of emails daily, content service for site wide HTML/CSS/JS and a Salesforce based order fulfillment service."
       ],
       "positions": [
         {
-          "position": "Platform Engineer",
+          "position": "Senior Developer",
+          "startDate": "2017-04-01"
+        },
+        {
+          "position": "Principal Developer",
           "startDate": "2015-03-01",
-          "endDate": ""
+          "endDate": "2017-02-01"
         },
         {
           "position": "Senior Managing Developer",
@@ -131,23 +133,45 @@
       "courses": []
     }
   ],
-  "awards": [],
-  "publications": [],
+  "awards": [
+    {
+      "title": "Tiger Award",
+      "date": "2016-07-01",
+      "awarder": "Stepstone",
+      "summary": "Voted for by the department, this award recognises achievements by employees for the entire Stepstone set of companies."
+    }
+  ],
+  "publications": [
+    {
+      "name": "Docker for ASP.NET Core MVC (video)",
+      "publisher": "Packt",
+      "releaseDate": "2018-03-18",
+      "website": "https://www.packtpub.com/",
+      "summary": "A video course to get you up and running with ASP.NET Core with Docker."
+    },
+    {
+      "name": "Learn ASP.NET Core in 7 Days (video)",
+      "publisher": "Packt",
+      "releaseDate": "2018-09-01",
+      "website": "https://www.packtpub.com/",
+      "summary": "In progress"
+    }
+  ],
   "skills": [
     {
       "name": "C# .NET",
       "level": "Senior",
       "keywords": [
-        "ASP.NET MVC 5, 6",
-        "NUnit, TDD, IoC",
-        ".NET Core, .NET 1.1->4.6",
-        "Webapi, WPF",
-        "SQL Server, MSMQ"
+        "ASP.NET MVC/Core",
+        ".NET Core and frameworks",
+        "TDD: XUnit, NUnit",
+        "IoC, Service buses (SNS, Rabbit)",
+        "SQL Server, Redis, DynamoDB"
       ]
     },
     {
       "name": "Devops",
-      "level": "Ongoing",
+      "level": "Senior",
       "keywords": [
         "Docker",
         "Hashistack",
@@ -161,9 +185,9 @@
       "level": "Senior",
       "keywords": [
         "HTML 5",
-        "CSS, LESS/SASS",
+        "VueJS, React, CSS, LESS/SASS",
         "NodeJS",
-        "Javascript",
+        "ECMAScript",
         "Typescript"
       ]
     },
@@ -171,11 +195,11 @@
       "name": "CI",
       "level": "Senior",
       "keywords": [
+        "Git",
         "Teamcity",
         "Octopus",
         "Kubernetes, AWS ECS",
-        "Atlassian Bamboo",
-        "Appveyor"
+        "Appveyor, Travis, Gitlab"
       ]
     }
   ],
