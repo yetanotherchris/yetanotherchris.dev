@@ -52,7 +52,8 @@
       "positions": [
         {
           "position": "Senior Developer",
-          "startDate": "2017-04-01"
+          "startDate": "2017-04-01",
+          "endDate": ""
         },
         {
           "position": "Principal Developer",
