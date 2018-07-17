@@ -7,17 +7,17 @@ body {
   background-color: #e8e8e8;
 }
 
-h1,h2,h3,h4,h5,p { font-family: arimo, sans-serif; }
+h1,h2,h3,h4,h5 { font-family: kreon, sans-serif; }
+p { font-family: istok-web }
 
 h1 {
   font-size: 40px;
-  font-weight: bold;
   color: #000;
 }
 
-p { font-size: 18px;}
+p { font-size: 14px;}
 pre, blockquote { font-size: 12px; }
-pre { background-color: #044c70; color: #fff; border-radius: 0px; border: 1px solid black; margin: 30px 0px;}
+pre { border-radius: 10px; border: 1px solid #909090; margin: 30px 0px;}
 
 a { color: #1c485b;}
 a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
@@ -33,7 +33,7 @@ p.more-link {
 #top-bar {
   position: static;
   background-color: #d2d2d2;
-  padding: 20px;
+  padding: 40px;
   border-bottom: 1px solid #6f6f6f;
   color: white;
   background-image: url('/img/top-image.jpg');
