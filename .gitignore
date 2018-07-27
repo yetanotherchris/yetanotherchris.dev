@@ -2,3 +2,4 @@ _site/
 .sass-cache/
 .lock
 package-lock.json
+Gemfile.lock
