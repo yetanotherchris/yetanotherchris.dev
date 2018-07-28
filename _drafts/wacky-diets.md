@@ -1,5 +1,5 @@
 ---
-title: Wacky diets
+title: A list of my wacky diets
 Published: 2018-07-28 18:25:04 +0000
 date: 2018-07-28 18:34:54 +0000
 author: Chris S
@@ -9,7 +9,7 @@ tags:
 - nutrition
 
 ---
-Over the past three or four years I've done a number of different diets: this is my experience with all of them:
+Over the past three or four years I've tried a number of different diets, mostly to aid my running: this is my experience with all of them:
 
 #### Five-two diet
 
@@ -37,12 +37,42 @@ This is an easier version of the Wheat-free diet. I stick to this diet as much a
 
 This is one step above Wheat free. I've tried it a few times but never got past a few days, finding the ingredients you need so much hard work it wasn't worth it - and I'm grateful I'm not Caeliac and forced to do the diet.
 
-Sugar free diet
+#### Sugar free diet
 
-Like the Wheat-free diet, this is a tricky one to do when you start reading ingredients list of most supermarket items - almost all contain sugar. Do you also exclude fructose, e.g. fruit? Like the wheat-free diet I try to use it to guide my diet but allow exceptions.
+Like the Wheat-free diet, this is a tricky one to do when you start reading ingredients list of most supermarket items - almost all contain sugar. Do you also exclude fructose, e.g. fruit?
 
-Meat free diet
+Like the wheat-free diet I try to use it to guide my diet but allow exceptions. Sugar is probably the biggest culprit of belly fat for me, and is an obvious one to minimise to stop me lugging the equivalent of a water bladder around on my stomach.
+
+#### Meat free diet
 
 The vegetarian diet, and the harder version vegan-free, is something I've tried for a short while but never any longer than a few days.
 
-I'm trying to stick to meat-free a few times a week, to follow the avant-garde trend and reduce my dependency on meat which seems to be every meal except breakfast. It's also got 
+I want to stick to meat-free a few times a week, to follow the avant-garde trend and reduce my dependency on meat which seems to be every meal except breakfast. There's a few Netflix documentaries on the subject, and the anti-biotics and growth hormones used on animals is my main worry. Why are most sandwiches chicken? Can't we find another form of protein in its place?
+
+#### Four hour body (Ketogenic diet)
+
+This is a less strict version of a Ketogenic diet: one where you don't consume any carbohydrates, or limit yourself to generally 25g or less a diet.
+
+Ketogenic diets are stricter as you have to regularly monitor your ketone levels and your grammes of carbohydrates. Tim Ferris' four hour body version gives you a cheat day once a week to go crazy, and basically tells you to eat the same meal every day.
+
+For me this was eggs and ham, tortilla-less burrito, and a lentil stew or salad. It gets incredibly boring after two weeks but does have a noticeable affect on the heaviness of your belly and weight loss. I've only done it once, if I was to do it again I'd stick to 5 days on, and a normal weekend rather than a cheat day which caters for a more generalised audience.
+
+#### Alcohol free
+
+I've done this several times for 5 or 6 months. I didn't notice much weight loss or belly-fat loss. My liver and kidneys were naturally more efficient
+
+#### Drinking more water diet
+
+This is simply quaffing 2-3 litres of water during the day - continually drinking throughout the day. You definitely have a clearer head when you do this, but the downside being you are frequently going to the toilet, a little embarrassing when you are in an office environment.
+
+#### Smoothie diet
+
+I haven't done an official "detox" smoothie diet, but have drunk smoothies myself for a day. You get very hungry and have to stick to limited fruit ones to avoid a sugar headache.
+
+#### One glass of wine a day diet
+
+Not strictly a diet, but something I've adopted recently to counter low heart rate, which was down to under 35 when I was training one year. This is a small 175ml glass, and there's the tonnes of articles about its long term benefit.
+
+#### Lager free
+
+I find beer (Lager) has a negative effect on my gut (biome) when I drink it in excess, I spent about 3 months without drinking it and only wine and found it far better for my body weight and gut, but this is probably largely down to the chemicals you get in English lagers.
