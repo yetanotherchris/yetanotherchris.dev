@@ -43,4 +43,5 @@ fields:
 pages:
 - _posts/wacky-diets.md
 - _posts/2018-07-28-photo-of-the-month.md
+- _posts/settings-up-kubernetes-on-azure-roughly-in-5-steps.md
 - _posts/converting-nunit-to-xunit.md
