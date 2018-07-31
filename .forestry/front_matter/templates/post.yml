@@ -24,6 +24,7 @@ fields:
     - Chris S
   label: Author
   name: author
+  default: Chris S
 - type: select
   name: layout
   config:
@@ -32,6 +33,7 @@ fields:
     options:
     - post
   label: Layout
+  default: post
 - type: boolean
   name: shortpost
   label: Shortpost
