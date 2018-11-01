@@ -10,7 +10,7 @@ tags: []
 ---
 [Roadkill version 3](http://github.com/roadkillwiki/roadkill) has been a long time coming, over 2 years in fact. The main reason for this has been the volatile nature of the .NET ecosystem of the past few years, and uncertainty of the .NET Standard/.NET Core roadmap, up until project.json was ditched recently.
 
-The project has a lot of stars (almost 250) and watchers on Github, so this post has an update on the status of the project and its various parts.<!--more-->
+The project has a lot of stars (almost 250) and watchers on Github, so this post has an update on the status of the project and its various parts.
 
 #### Converting to .NET Core beta, 1.1, 2.1
 
