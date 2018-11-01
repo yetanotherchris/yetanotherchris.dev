@@ -41,6 +41,7 @@ fields:
   name: tags
   label: Tags
 pages:
+- _posts/roadkill-update-2018-q4.md
 - _posts/2018-08-17-high-performance-and-scaling-asp-net-core-and-docker.md
 - _posts/settings-up-kubernetes-on-azure-roughly-in-5-steps.md
 - _posts/converting-nunit-to-xunit.md
