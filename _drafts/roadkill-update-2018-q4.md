@@ -10,11 +10,13 @@ tags: []
 ---
 [Roadkill version 3](http://github.com/roadkillwiki/roadkill) has been a long time coming, over 2 years in fact. The main reason for this has been the volatile nature of the .NET ecosystem of the past few years, and uncertainty of the .NET Standard/.NET Core roadmap, up until project.json was ditched recently.
 
+This post has an update on the status of the project and its various parts.<!--more-->
+
 #### Converting to .NET Core beta, 1.1, 2.1
 
 The conversion started with a standard .NET Framework to .NET Core upgrade. This took about 6 months of my free time, and eventually got nowhere as the [number of changes between the framework was so great.](https://gist.github.com/yetanotherchris/197963aec1872c40bba515f8f95b7e0f)
 
-I changed direction at the start of the year, and have now moved to a direct re-write of Roadkill, moving to an API-first approach. 
+I changed direction at the start of the year, and have now moved to a direct re-write of Roadkill, moving to an API-first approach.
 
 Roadkill v3 is an API project, and a website project.
 
@@ -34,7 +36,7 @@ Roadkill v3 is an API project, and a website project.
 * Mailing templates are to-do. [Mailkit](https://github.com/jstedfast/MailKit) is now being used by Roadkill to send mails. _(50% done)_
 * Conversion from v2->v3 tool is to-do _(0% done)_
 
-#### Users 
+#### Users
 
 The main bulk of work that is currently being done on Roadkill is around users. It's being completely re-written using AspNet Identity. I've spent a fair amount of time writing [this library](https://github.com/yetanotherchris/marten.AspNetIdentity) that enables Marten support for the AspNetIdentity framework.
 
