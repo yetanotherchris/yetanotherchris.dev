@@ -1,4 +1,6 @@
+// 
 // site wide
+// 
 html,
 body {
   height: 100%;
@@ -12,8 +14,10 @@ p { font-family: istok-web }
 
 h1 {
   font-size: 40px;
-  color: #000;
+  color: rgb(0, 103, 151);
+  margin-left: -3px;
 }
+h2 { color: rgb(0, 103, 151); }
 
 p { font-size: 14px;}
 pre, blockquote { font-size: 12px; }
@@ -53,57 +57,7 @@ p.more-link {
   }
 }
 
-// advert - hide on mobile/low res
-#advert { display:none; }
-
-@media screen and (min-width: 1024px){
-  #advert { padding:10px; width:600px;margin-left:20px; }
-}
-
-// tags
-#all-tags { 
-  line-height:23px;
-}
-
-.label-info {
-  background-color: #1c485b;
-}
-
-
-#search {
-  padding: 20px 0px;
-}
-
-#search input {
-  color: #000;
-  height: 30px;
-  border: 1px solid #AAA;
-  padding: 3px;
-  width:100%;
-}
-
-@media screen and (min-width: 780px){
-  #search input {
-    width: 50%;
-  }
-}
-
-// right column - the main content
-.main-container {
-  min-height: 100%;
-  height: 100%;
-  background-color: #e8e8e8;
-  float: none;
-}
-
-@media screen and (min-width: 1024px){
-
-  // Use table cell for the column layout on desktop
-  .main-container {
-    display: table-cell; 
-  }
-}
-
+// shared between index and post
 .bordered-container {
   background-color: #FFF;
   padding: 20px 40px;
@@ -114,9 +68,48 @@ p.more-link {
   box-shadow: 0 0 0 0,0 6px 12px rgba(34,34,34,0.1);
 }
 
-h1#recent-posts {
-  margin-top: 0px;
-  color:black;
-  font-size: 30px;
+//
+// posts
+//
+
+.date { font-size: 0.8em; color: rgb(197, 197, 197); }
+.tags .badge { margin-right: 5px; }
+.tags .badge a { color: white; }
+
+// advert - hide on mobile/low res
+#advert { display:none; }
+@media screen and (min-width: 1024px){
+  #advert { padding:10px; width:600px;margin-left:20px; }
 }
-.tag-row { margin-top:30px;}
+
+#disqus_thread
+{
+  margin-top: 50px;
+  border-top: 1px solid rgba(170,170,170, 0.5);
+}
+
+//
+// index.html
+//
+.content-container { margin-top: 20px; }
+.index-item { margin-bottom: 20px; }
+.index-item .img-container { min-height: 200px;max-height:200px; }
+.index-item .img-container img { border-radius: 5px; }
+
+//
+// tags.html
+//
+.tag-row { margin-top:30px; }
+#search { padding: 20px 0px; }
+#search input {
+    color: #000;
+    height: 30px;
+    border: 1px solid #AAA;
+    padding: 3px;
+    width:100%;
+}
+
+@media screen and (min-width: 780px)
+{
+    #search input { width: 50%; }
+}

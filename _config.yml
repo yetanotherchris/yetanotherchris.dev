@@ -8,7 +8,7 @@ permalink: posts/:title
 sass:
   style: :compressed
 exclude: [node_modules, vendor, resume]
-gems:
+plugins:
 - jekyll-sitemap
 repository: https://github.com/yetanotherchris/yetanotherchris.github.io.git
 markdown: kramdown

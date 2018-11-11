@@ -11,7 +11,8 @@ layout: default
     <div class="card h-100">
       <div class="card-body">
         <div class="img-container">
-          <a href="{{ post.url }}"><img class="img-fluid" src="img/recent-posts/{{image_date}}.jpg" /></a>
+            <a href="{{ post.url }}">
+              <img class="img-fluid" src="img/recent-posts/{{image_date}}.jpg" /></a>
         </div>
         <a href="{{ post.url }}" class="card-title">
           <h3>{{ post.title }}</h3>
@@ -28,7 +29,7 @@ layout: default
 </div>
 
 <div class="row">
-  <div class="w-25">
+  <div class="col">
     <a href="/tags.html" class="btn btn-primary">Tags</a>
     <a href="/archive.html" class="btn btn-primary">Archive</a>
   </div>
