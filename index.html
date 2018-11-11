@@ -3,35 +3,35 @@ title: Latest posts
 layout: default
 ---
 
-<div class="post-container">
-  {% for post in site.posts limit:10 %}
-  <div class="post">
-      {% if forloop.first %}
-      <h1 id="recent-posts">Recent Posts</h1>
-    {% endif %}
-      <article class="recent-post">
-        <a href="{{ post.url }}">
-            <h3>{{ post.title }}</h3>
+<div class="row">
+  {% for post in site.posts limit:9 %}
+  {% if post.frontpage %}
+  {% capture image_date %}{{ post.date | date: "%-d-%m-%Y" }}{% endcapture %}
+  <div class="col-4 index-item">
+    <div class="card h-100">
+      <div class="card-body">
+        <div class="img-container">
+          <a href="{{ post.url }}"><img class="img-fluid" src="img/recent-posts/{{image_date}}.jpg" /></a>
+        </div>
+        <a href="{{ post.url }}" class="card-title">
+          <h3>{{ post.title }}</h3>
         </a>
         <div class="date">{{ post.date | date: "%A %B %-d, %Y" }}</div>
-        <div class="post-excerpt">
-        {% if post.shortpost %}
-        {{ post.content }}
-        {% else %}
-        {{ post.excerpt }}
-        <p class="more-link">
-            <a class="btn btn-xs btn-default" href="{{ post.url }}">More...</a>
-        </p>
-        {% endif %}
+        <div class="post-excerpt card-text">
+          {{ post.excerpt }}
         </div>
-      </article>
+      </div>
+    </div>
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 
-<div class="row pull-right archive">
-  <a href="/tags.html" class="btn btn-primary">Tags</a>
+<div class="row">
+  <div class="w-25">
+    <a href="/tags.html" class="btn btn-primary">Tags</a>
+    <a href="/archive.html" class="btn btn-primary">Archive</a>
+  </div>
 </div>
-<div class="row pull-right archive">
-  <a href="/archive.html" class="btn btn-primary">Archive</a>
-</div>
+
+<br />

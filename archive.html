@@ -25,45 +25,37 @@ layout: default
     </div>
 
     <div class="row">
-        <div id="search">
-            <h5>Search</h5>
-            <input type="search" name="sitesearch" />
+            <div class="w-100">
+                <div id="search">
+                    <h5>Search</h5>
+                    <form>
+                        <div class="form-group">
+                            <input type="search" name="sitesearch" class="form-control" />
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
 
     <div class="row">
-        {% assign sorted_posts = site.posts | sort:"date" %}
-        {% for post in sorted_posts %}
-        {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-        {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
-            {% if forloop.first %}
-            <div>
-            <div class="post">
-              <h1 id="{{ this_year }}">{{this_year}}</h1>
-              <hr />
-            {% endif %}
-
-              <article class="archive-item">
-                <a href="{{ post.url }}">
-                    <h3>{{ post.title }}</h3>
-                </a>
-                {{ post.excerpt }}
-                <div class="archive-date">Posted on {{ post.date | date: "%A %B %-d, %Y" }}</div>  
-              </article>
-
-            {% if forloop.last %}
+        <ul>
+            {% assign sorted_posts = site.posts | sort:"date" | reverse %}
+            {% for post in sorted_posts %}
+            {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+            {% capture previous_post_year %}{{ post.next.date | date: "%Y" }}{% endcapture %}
+            {% if post_year != previous_post_year %}
+            </ul>
             </div>
+            <div class="row">
+            <h2>{{post_year}}</h2>
             </div>
-            {% else %}
-                {% if this_year != next_year %}
-                </div>
-                </div>
-                <div class="post-container">
-                <div class="post">
-                <h1 id="{{ next_year }}">{{next_year}}</h1>
-                <hr />
-                {% endif %}
+            <div class="row">
+            <ul>
             {% endif %}
-        {% endfor %}
+            <li>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
+            {% endfor %}
+        </ul>
     </div>
 </div>

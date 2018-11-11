@@ -12,12 +12,12 @@
 <body>
     <div class="container-fluid" id="top-bar">
         <div class="row" id="title-container">
-            <div class="col-sm-9" id="title-link">
+            <div class="col w-75" id="title-link">
                 <strong><a href="/">Yet Another Chris</a></strong><br>
                 <small>London, UK.</small>
             </div>
 
-            <div class="col-sm-3" id="title-icons">
+            <div class="col" id="title-icons">
                 <a href="https://www.twitter.com/yetanotherchris" target="_blank"><img src="/img/twitter.svg" width="32" height="32"></a>
                 <a href="https://github.com/yetanotherchris/" target="_blank"><img src="/img/github.svg" width="32" height="32"></a>
                 <a href="/resume/" title="my resume/cv" target="_blank"><img src="/img/resume-icon.png" width="32" height="32"></a>
@@ -26,26 +26,20 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container content-container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col">
                 <div id="advert">
                     <!-- Advert -->
                     <div id="div-gpt-ad-1391455841542-0"></div>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-md-12">
-                {{ content }}
-            </div>
-        </div>
+        {{ content }}
     </div>
 
     <!-- Webfont -->
-<script src="//use.edgefonts.net/kreon;istok-web.js"></script>
-<!--    <script src="//use.edgefonts.net/karla;arimo.js"></script>-->
+    <script src="//use.edgefonts.net/kreon;istok-web.js"></script>
 
     <!-- Developer Media advert -->
     <script type='text/javascript'>
@@ -75,13 +69,13 @@
 
     <!-- Google Analytics -->
     <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-    ga('create', 'UA-38631652-1', 'auto');
-    ga('send', 'pageview');
+        ga('create', 'UA-38631652-1', 'auto');
+        ga('send', 'pageview');
     </script>
 </body>
 </html>

@@ -1,27 +1,7 @@
-// Post area
-.post-container { 
-  @extend .bordered-container; 
-  padding: 40px 30px;
-}
+.content-container { margin-top: 20px; }
 
-.post-container .row {
-  display: block;
-}
-
-article.recent-post h3 {
-  margin-top: 50px;
-  margin-bottom: 5px;
-  font-size: 40px;
-  color: #d63232;
-}
-
-article.recent-post {
-  margin-bottom: 10px;
-
-  div.post-excerpt {
-    margin-top:10px;
-  }
-}
+.index-item { margin-bottom: 20px; }
+.index-item .img-container { min-height: 200px;max-height:200px; }
 
 .post {
   padding: 0px 10px 5px 10px;

@@ -7,7 +7,7 @@ twitter_username: yetanotherchris
 permalink: posts/:title
 sass:
   style: :compressed
-exclude: [node_modules, vendor]
+exclude: [node_modules, vendor, resume]
 gems:
 - jekyll-sitemap
 repository: https://github.com/yetanotherchris/yetanotherchris.github.io.git
