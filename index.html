@@ -7,7 +7,7 @@ layout: default
   {% for post in site.posts limit:9 %}
   {% if post.frontpage %}
   {% capture image_date %}{{ post.date | date: "%-d-%m-%Y" }}{% endcapture %}
-  <div class="col index-item">
+  <div class="col-sm-12 col-md-6 col-lg-4 index-item">
     <div class="card h-100">
       <div class="card-body">
         <div class="img-container">
