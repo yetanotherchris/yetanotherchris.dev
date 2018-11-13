@@ -9,7 +9,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "handlebars": "^2.0.0-alpha.4",
+    "handlebars": ">=4.0.0",
     "resume-cli": "0.4.13"
   }
 }
