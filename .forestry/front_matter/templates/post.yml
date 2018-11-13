@@ -41,6 +41,7 @@ fields:
   name: frontpage
   label: frontpage
 pages:
+- _posts/personality-type.md
 - _posts/2018-07-28-photo-of-the-month.md
 - _posts/2018-08-17-high-performance-and-scaling-asp-net-core-and-docker.md
 - _posts/2018-11-01-roadkill-update-2018-q4.md
