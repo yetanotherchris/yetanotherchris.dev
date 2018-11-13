@@ -8,6 +8,6 @@ tags: []
 frontpage: true
 
 ---
-From the excellent 16personalities.com (I'm a sucker for nice vector cartoon artwork), I was an:
+From the excellent 16personalities.com (I'm a sucker for nice vector cartoon artwork), I was an [INFJ](https://www.16personalities.com/infj-personality):
 
-[![personality](/wp-content/uploads/personality.png)](https://www.16personalities.com/infj-personality)
+![](/wp-content/uploads/personality.png)
