@@ -21,7 +21,13 @@ h2 { color: rgb(0, 103, 151); }
 
 p { font-size: 14px;}
 pre, blockquote { font-size: 12px; }
-pre { border-radius: 10px; border: 1px solid #909090; margin: 30px 0px;}
+pre
+{
+    border: 1px solid #dadada;
+    margin: 30px 0px;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
 
 a { color: #1c485b;}
 a:focus, a:hover { color: #5AA3B4; text-decoration: none; }
