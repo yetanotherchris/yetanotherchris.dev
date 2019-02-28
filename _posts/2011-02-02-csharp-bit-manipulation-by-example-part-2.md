@@ -201,33 +201,33 @@ This it the operator you'll use most often as it's used for comparisons. It will
     }
 
 
-### Left shifting: &lt;&lt;
+### Left shifting: <<
 
     static void SHIFTLEFT()
     {
         // 42   = 0010 1010
-        // &lt;&lt; 2 = 1010 1000 = 168
+        // << 2 = 1010 1000 = 168
         int val = 42;
-        val = val &lt;&lt; 2;
+        val = val << 2;
         WL("{0}",val);
         
         // Pushing beyond 8 bits
         // 42   = 0000 0000 0010 1010
-        // &lt;&lt; 4 = 0000 0010 1010 0000 = 672 (512 + 128 + 32)
+        // << 4 = 0000 0010 1010 0000 = 672 (512 + 128 + 32)
         val = 42;
-        val = val &lt;&lt; 4;
+        val = val << 4;
         WL("{0}",val);
     }
 
 
-### Right shifting: &gt;&gt;
+### Right shifting: >>
 
     static void SHIFTRIGHT()
     {
         // 42   = 0010 1010
-        // &gt;&gt; 2 = 0000 1010 = 10)
+        // >> 2 = 0000 1010 = 10)
         int val = 42;
-        val = val &gt;&gt; 2;
+        val = val >> 2;
         WL("{0}",val);
         
         //  42   = 0010 1010
@@ -241,10 +241,10 @@ This it the operator you'll use most often as it's used for comparisons. It will
         //            1111 1111 1111 1110 0010 1011 0100 0000 (2s - added 1)
         // 42      = 0010 1010
         // -42     = 1101 0110
-        // -42 &gt;&gt;2 = 0011 0101
-        // -42 &gt;&gt;2 = 1111 0101 (it pads the zeros to the left with 1s)
+        // -42 >> 2 = 0011 0101
+        // -42 >> 2 = 1111 0101 (it pads the zeros to the left with 1s)
         val = -42;
-        val = val &gt;&gt; 2;
+        val = val >> 2;
         WL("{0}",val);
     }
 
@@ -261,7 +261,7 @@ The well written JavaRanch article below has 2 good examples of bit shifting wit
         // -6    = 0000 0000 1111 1010 With shifting, this is promoted to an int, using the last 5 bits
         //       = 0000 0000 0001 1010 (2 + 8 + 16 = 26)
         //       = 0000 0000 0000 0000 (Zero as its shifting 26 bits to the right)
-        int val = 256 &gt;&gt; -6;
+        int val = 256 >> -6;
         WL("{0}",val);
     }
 
