@@ -38,7 +38,8 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong> who lives and works in London.
+              I'm <strong>{author}</strong>, a software engineer living and working in London. 
+              This is my tech blog. Find out more via 
               {` `}
               <a href={`https://github.com/${social.github}`}>
                 Github
