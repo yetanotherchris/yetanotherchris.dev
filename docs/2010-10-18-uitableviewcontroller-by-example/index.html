@@ -1,0 +1,674 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="stylesheet" href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=392814b65480e9bcefa2fc1f244f99f6"/><meta name="generator" content="Gatsby 2.3.23"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=392814b65480e9bcefa2fc1f244f99f6"/><title data-react-helmet="true">UITableViewController by example | Another Chris</title><meta data-react-helmet="true" name="description" content="This article focuses on XIB-free UITableViewControllers. The entire article focuses on adding controllers and views programatically and is completely Interface Builder free"/><meta data-react-helmet="true" property="og:title" content="UITableViewController by example"/><meta data-react-helmet="true" property="og:description" content="This article focuses on XIB-free UITableViewControllers. The entire article focuses on adding controllers and views programatically and is completely Interface Builder free"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Chris Small"/><meta data-react-helmet="true" name="twitter:title" content="UITableViewController by example"/><meta data-react-helmet="true" name="twitter:description" content="This article focuses on XIB-free UITableViewControllers. The entire article focuses on adding controllers and views programatically and is completely Interface Builder free"/><style data-href="/styles.1025963f4f2ec7abbad4.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-4124805c0503dbfe42dd67d7f5715964.woff2) format("woff2"),url(/static/montserrat-latin-100-c8fb2f714bbc7bc3e8dfffa916b286dc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-e4bf47bd171a9b2a72dd84c58bf90edf.woff2) format("woff2"),url(/static/montserrat-latin-100italic-d1f3f2d02ee4d7d2d4b1ad865014f189.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-444ae007121264bc1969d49b4031f9b2.woff2) format("woff2"),url(/static/montserrat-latin-200-edbce16a90aa22c297a0307b85789837.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-f316c5d1ec40f3e68654c3f38b3999f3.woff2) format("woff2"),url(/static/montserrat-latin-200italic-d7bbb730d9b5e11720b3eb32326dcca7.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-0a7c6df06e85d978d096d4d18fd8d43d.woff2) format("woff2"),url(/static/montserrat-latin-300-5e86df2cad22d2ef2b03516334afae5e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-c076c4892bc7a4be7b9097e97a35012d.woff2) format("woff2"),url(/static/montserrat-latin-300italic-37c74a8d2d0d36a0a2c6e9a37ee15b0c.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-501ce09c42716a2f6e1503a25eb174c9.woff2) format("woff2"),url(/static/montserrat-latin-400-f29d2b8559699b6beb5b29b25b8bc572.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-882908d9950d9c86ebd380877f293d95.woff2) format("woff2"),url(/static/montserrat-latin-400italic-22e7b04e5f2a901d49d4d342315a715a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-f0f2716c5fe401d175b88715e7d28685.woff2) format("woff2"),url(/static/montserrat-latin-500-991b453bf90a0980e78966d2af7e3d3a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-4590ebba421b3288c305305d7fa7b504.woff2) format("woff2"),url(/static/montserrat-latin-500italic-f3d41e4cdcc2314e49ddcea751d6f87f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-15c24f7109941777774ddd2c636c6a50.woff2) format("woff2"),url(/static/montserrat-latin-600-f6dc6096f48956908c1787d9a722570a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-6d10b80529d5c36c7c09fca7193af0fc.woff2) format("woff2"),url(/static/montserrat-latin-600italic-02c4833312d94b1b0866f073023a250e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-79982cd1f74c6fa7451bf9b37ead09ff.woff2) format("woff2"),url(/static/montserrat-latin-700-957e93fbbe131a59791cd820d98b7109.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-283438e9577fe6a684466bb100e105ec.woff2) format("woff2"),url(/static/montserrat-latin-700italic-ca627c5ccc65cf80c2ecaea44b997de9.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-35386154b78d046218fc8f88a44ff515.woff2) format("woff2"),url(/static/montserrat-latin-800-756655905d91b77960888262e7d58d35.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-e1b52a7bd83e2324db6d92bdc206844c.woff2) format("woff2"),url(/static/montserrat-latin-800italic-a69f0add9d86c1a84311d7dd8693ba4a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-260c2ea3ef57feb82251952e605a36d5.woff2) format("woff2"),url(/static/montserrat-latin-900-186cae8091da578150d81958e217714a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-d785fb9fc74588ffb7f306799709a97d.woff2) format("woff2"),url(/static/montserrat-latin-900italic-43b527fe77254f97ea36e2b54e845ec4.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}</style><link as="script" rel="preload" href="/component---src-templates-blog-post-js-775aca275802758b5820.js"/><link as="script" rel="preload" href="/0-fa4a7f07c6fbcaedd682.js"/><link as="script" rel="preload" href="/app-e94527e8e59d87114934.js"/><link as="script" rel="preload" href="/styles-12b50b0331563bca0609.js"/><link as="script" rel="preload" href="/webpack-runtime-40594e5056c89970428b.js"/><link as="fetch" rel="preload" href="/static/d/844/path---2010-10-18-uitableviewcontroller-by-example-8-f-3-4e9-77OCFUdW0slMSTeDVuZcoGjbp3Q.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">Another Chris</a></h3></header><main><h1>UITableViewController by example</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">October 18, 2010</p><div><p><a href="https://bitbucket.org/yetanotherchris/monotouch-samples/get/default.zip">Download via bitbucket</a></p>
+<h4>Please note, this article is aimed at <a href="http://ios.xamarin.com/">Monotouch</a> development on the iPhone</h4>
+<p>This article focuses on XIB-free UITableViewControllers. The entire article focuses on adding controllers and views programatically and is completely Interface Builder free. All of the code samples below are packaged together in a sample solution in the download above, and the following tasks are covered:</p>
+<!--more-->
+<ul>
+<li>UITableViewDataSource and UITableViewDelegate</li>
+<li>Creating a Settings view with a UITableViewController and Checkmarks</li>
+<li>The various inbuilt styling capabilities of the UIKit tables</li>
+<li>Sections</li>
+<li>The basics of making tables editable so you can delete and re-order rows.</li>
+</ul>
+<h3>Housing inside a UINavigationController</h3>
+<p>It’s worth reading the <a href="/iphone/uinavigationcontroller-by-example/">UINavigationController by example article first</a> if you’re not familiar with UINavigationControllers, as the example UITableViewControllers in this article sit inside a UINavigationController so we can navigate back and forth. This navigation controller is wired up in the AppDelegate class:</p>
+<pre>public partial class AppDelegate : UIApplicationDelegate
+{
+	private MyTableController controller;
+	public override bool FinishedLaunching (UIApplication app, NSDictionary options)
+	{
+		controller = new MyTableController();
+		window.AddSubview (controller.View);
+		window.MakeKeyAndVisible ();
+		return true;
+	}
+
+	// This method is required in iPhoneOS 3.0
+	public override void OnActivated (UIApplication application)
+	{
+	}
+}
+</pre>
+<h3>The basics</h3>
+<p><em>A video showing the solution download in action</em></p>
+<p>Ignoring custom-painted views and games, tables are the commonest technique for displaying data in iPhone apps. Apple have made them simple to use and implement and the they’re even easier in Monotouch. Unlike HTML tables or winforms datatables, they are not excel-like with their columns. You are given around 3 columns to present your data with which makes things a lot simpler to program for.</p>
+<p>To get started, you simply derive a new class from UITableViewController and overide the ViewDidLoad or ViewDidAppear methods (<a href="/monotouch/monotouch-tips-and-snippets/">this</a> will help you decide which one). From here you are given a TableView property. This is the table the controller uses as its view. You have probably already read tutorials on UITableViews and UITableViewControllers and discovered that, unlike the Microsoft .NET way of serving up data in tabular form (ASP.NET or winforms version), databinding and events are slightly more code-heavy.</p>
+<p>The anti-pattern of this code heavy way of doing things are what .NET delegates were designed to improve upon: repetitive subclassing for events and datasources. If you’ve ever used Java Swing you’ll be use to the same kind of thing with the MouseListener/MouseWatcher classes. As you’re coding with a framework designed for Objective-C, the objective-C equivalent is not as verbose as the C# equivalent.</p>
+<p>Each TableController’s TableView property needs to have a delegate class - a class that inherits from UITableViewDelegate and handles events such as rows being selected. It also needs a datasource class which inherits from UITableViewDataSource and is responsible for providing the data to display.</p>
+<pre>public class MainTableController : UITableViewController
+{
+	// Allow us to set the style of the TableView
+	public MainTableController(UITableViewStyle style) : base(style)
+	{
+	}
+
+	public override void ViewDidLoad ()
+	{
+		TableView.DataSource = new MainTableDataSource();
+		TableView.Delegate = new MainTableDelegate(this);
+		base.ViewDidLoad ();
+	}
+}
+</pre>
+<h3>UITableViewDelegate</h3>
+<p>The code below shows a basic example of implementing a class derived from <a href="http://www.go-mono.org/docs/index.aspx?link=T:MonoTouch.UIKit.UITableViewDelegate">UITableViewDelegate</a>.</p>
+<p>The examples in this article use a UITableViewDataSource and UITableViewDelegate, however it is possible to reduce your lines of code by simply subclassing a UITableViewSource which combines the two classes.</p>
+<p>The UITableViewDelegate you derive from gives you a number of methods that are fired after certain events. The most common one you’ll override is the RowSelected event, which is where you decide what you want to do when each separate row is selected - typically pushing another table or non-table based controller into view or toggling some kind of state. In the example below we push a new TableView controller based on the row.</p>
+<pre>public class MainTableDelegate : UITableViewDelegate
+{
+	private MainTableController _controller;
+	public MainTableDelegate(MainTableController controller)
+	{
+		_controller = controller;
+	}
+	
+	public override void RowSelected (UITableView tableView, NSIndexPath indexPath)
+	{
+		UITableViewController nextController = null;
+		
+		switch (indexPath.Row)
+		{
+			case 0:
+				nextController = new CheckmarkDemoTableController(UITableViewStyle.Grouped);
+				break;
+			case 1:
+				nextController = new StyleDemoTableController(UITableViewStyle.Grouped);
+				break;
+			case 2:
+				nextController = new EditableTableController(UITableViewStyle.Plain);
+				break;
+			default:
+				break;
+		}
+		
+		if (nextController != null)
+			_controller.NavigationController.PushViewController(nextController,true);
+	}
+}
+</pre>
+<h3>UITableViewDataSource</h3>
+<p>Unlike .NET controls that have a datasource property, you need to subclass <a href="http://www.go-mono.org/docs/index.aspx?link=T:MonoTouch.UIKit.UITableViewDataSource">UITableViewDataSource</a> for the data you display in your table, you can’t just pass it an IList or IListSource. You gain greater control of each table row this way, however does take more lines of code to get the result.</p>
+<p><img src="/assets/2010/10/UITableViewController.png" alt="datasource"></p>
+<p>The two methods you need to override in UITableViewDataSource are RowsInSection and GetCell. If you have sections it’s slightly more complicated (more on this in the styling section of the article). The example below demonstrates a simple List-based datasource.</p>
+<p>Where to you store the data - in the controller or the datasource is something that is open to debate. My view is that the datasource should have the responsibility for loading the data, however it is possible to store the data in the controller and then pass the controller into the datasource to reference it. If your delegate needs to reference the data then the controller makes sense <strong>or</strong> passing the UITableViewDataSource to the delegate.</p>
+<p><div id="gist4963909" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-gistfile1-cs" class="file">
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-c ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-gistfile1-cs-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-gistfile1-cs-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">MainTableDataSource</span> : <span class="pl-en">UITableViewDataSource</span></td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-gistfile1-cs-LC2" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-gistfile1-cs-LC3" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">private</span> <span class="pl-en">List</span>&lt;<span class="pl-k">string</span>&gt; <span class="pl-smi">_items</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-gistfile1-cs-LC4" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">private</span> <span class="pl-k">string</span> <span class="pl-smi">_section1CellId</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-gistfile1-cs-LC5" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-gistfile1-cs-LC6" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-en">MainTableDataSource</span>()</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-gistfile1-cs-LC7" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-gistfile1-cs-LC8" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">_section1CellId</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>cellid<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-gistfile1-cs-LC9" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">_items</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">List</span>&lt;<span class="pl-k">string</span>&gt;()</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-gistfile1-cs-LC10" class="blob-code blob-code-inner js-file-line">		{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-gistfile1-cs-LC11" class="blob-code blob-code-inner js-file-line">			<span class="pl-s"><span class="pl-pds">&quot;</span>Checked items demo<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-gistfile1-cs-LC12" class="blob-code blob-code-inner js-file-line">			<span class="pl-s"><span class="pl-pds">&quot;</span>Various styles demo<span class="pl-pds">&quot;</span></span>,</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-gistfile1-cs-LC13" class="blob-code blob-code-inner js-file-line">			<span class="pl-s"><span class="pl-pds">&quot;</span>Editable tables demo<span class="pl-pds">&quot;</span></span></td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-gistfile1-cs-LC14" class="blob-code blob-code-inner js-file-line">		};</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-gistfile1-cs-LC15" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-gistfile1-cs-LC16" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-gistfile1-cs-LC17" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-k">string</span> <span class="pl-en">TitleForHeader</span>(<span class="pl-en">UITableView</span> <span class="pl-smi">tableView</span>, <span class="pl-k">int</span> <span class="pl-smi">section</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-gistfile1-cs-LC18" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-gistfile1-cs-LC19" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Items<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-gistfile1-cs-LC20" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-gistfile1-cs-LC21" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-gistfile1-cs-LC22" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-k">int</span> <span class="pl-en">RowsInSection</span>(<span class="pl-en">UITableView</span> <span class="pl-smi">tableview</span>, <span class="pl-k">int</span> <span class="pl-smi">section</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-gistfile1-cs-LC23" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-gistfile1-cs-LC24" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> <span class="pl-smi">_items</span>.<span class="pl-smi">Count</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-gistfile1-cs-LC25" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-gistfile1-cs-LC26" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-gistfile1-cs-LC27" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-en">UITableViewCell</span> <span class="pl-en">GetCell</span>(<span class="pl-en">UITableView</span> <span class="pl-smi">tableView</span>, <span class="pl-en">NSIndexPath</span> <span class="pl-smi">indexPath</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-gistfile1-cs-LC28" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-gistfile1-cs-LC29" class="blob-code blob-code-inner js-file-line">		<span class="pl-c"><span class="pl-c">//</span> For more information on why this is necessary, see the Apple docs</span></td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-gistfile1-cs-LC30" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">var</span> <span class="pl-smi">row</span> <span class="pl-k">=</span> <span class="pl-smi">indexPath</span>.<span class="pl-smi">Row</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-gistfile1-cs-LC31" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-gistfile1-cs-LC32" class="blob-code blob-code-inner js-file-line">		<span class="pl-en">UITableViewCell</span> <span class="pl-smi">cell</span> <span class="pl-k">=</span> <span class="pl-smi">tableView</span>.<span class="pl-en">DequeueReusableCell</span>(<span class="pl-smi">_section1CellId</span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-gistfile1-cs-LC33" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">if</span> (<span class="pl-smi">cell</span> <span class="pl-k">==</span> <span class="pl-c1">null</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-gistfile1-cs-LC34" class="blob-code blob-code-inner js-file-line">		{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-gistfile1-cs-LC35" class="blob-code blob-code-inner js-file-line">			<span class="pl-c"><span class="pl-c">//</span> See the styles demo for different UITableViewCellAccessory</span></td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-gistfile1-cs-LC36" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">cell</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">UITableViewCell</span>(<span class="pl-smi">UITableViewCellStyle</span>.<span class="pl-smi">Default</span>, <span class="pl-smi">_section1CellId</span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-gistfile1-cs-LC37" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">cell</span>.<span class="pl-smi">Accessory</span> <span class="pl-k">=</span> <span class="pl-smi">UITableViewCellAccessory</span>.<span class="pl-smi">DisclosureIndicator</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="file-gistfile1-cs-LC38" class="blob-code blob-code-inner js-file-line">		}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="file-gistfile1-cs-LC39" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="file-gistfile1-cs-LC40" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">cell</span>.<span class="pl-smi">TextLabel</span>.<span class="pl-smi">Text</span> <span class="pl-k">=</span> <span class="pl-smi">_items</span>[<span class="pl-smi">indexPath</span>.<span class="pl-smi">Row</span>];</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="file-gistfile1-cs-LC41" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> <span class="pl-smi">cell</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="file-gistfile1-cs-LC42" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="file-gistfile1-cs-LC43" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/yetanotherchris/4963909/raw/4e0ceaf4170f3967a52a9153f635ce397ecaf90f/gistfile1.cs" style="float:right">view raw</a>
+        <a href="https://gist.github.com/yetanotherchris/4963909#file-gistfile1-cs">gistfile1.cs</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div></p>
+<h3>Creating a Settings view with a UITableViewController and Checkmarks</h3>
+<p>Almost every app on the iPhone has some form of settings view, and these are usually represented by UITableViewController, using the UITableViewStyle.Grouped enum. You can do this in the constructor of your subclassed UITableViewController:</p>
+<pre>public class MySettingsTableController : UITableViewController
+{
+	public CheckmarkDemoTableController() : base(UITableViewStyle.Grouped)
+	{
+	}
+}
+</pre>
+<p><img src="/assets/2010/10/UITableViewController2.png" alt="Checkmarks"></p>
+<p>Originally I intended to write about using checkmarks in tables (checkmarks are equivalent to radio boxes but can also be multi-select), however it seems that using <a href="http://tirania.org/blog/">Miguel De Icaza</a>‘s <a href="http://github.com/migueldeicaza/MonoTouch.Dialog">MonoTouch.Dialog</a> class is a far easier solution than writing datasource class after datasource class for what should be a fairly simple task. There’s a full usage example <a href="http://github.com/migueldeicaza/MonoTouch.Dialog/blob/master/Sample/DemoReflectionApi.cs">here</a> - make sure you use the Fetch method. I’ve left my checkmark example in the download solution if the MonoTouch.Dialog doesn’t do what you want.</p>
+<h2>Styling options available for UITableViewControllers</h2>
+<p>The downloadable solution contains a demonstration of styling rows and cells for a table controller. Styling is done inside your datasource class, in the GetCell() method. The UITableViewCell holds the styling options via its constructor:</p>
+<p><img src="/assets/2010/10/UITableViewController31.png" alt="UITableViewControllers styles"></p>
+<ul>
+<li>UITableViewCellStyle.Default</li>
+<li>UITableViewCellStyle.Subtitle</li>
+<li>UITableViewCellStyle.Value1</li>
+<li>UITableViewCellStyle.Value2</li>
+</ul>
+<p>And its primary styling properties:</p>
+<ul>
+<li>UITableViewCell.TextLabel (primarily UITableViewCell.TextLabel.Text)</li>
+<li>UITableViewCell.Accessory - the right side icon/button</li>
+<li>UITableViewCell.AccessoryView - allows you customise the right side icon/button</li>
+<li>UITableViewCell.DetailTextLabel - the text underneath the cell’s title</li>
+<li>UITableViewCell.ImageView - the left side image of the cell</li>
+<li>UITableViewCell.ContentView - the central area allowing to embed controls/views.</li>
+</ul>
+<p>The “accessory” types (the button or item found on the right hand side):</p>
+<ul>
+<li>UITableViewCellAccessory.None (and using theAccessoryView` property)</li>
+<li>UITableViewCellAccessory.Checkmark</li>
+<li>UITableViewCellAccessory.DetailDisclosureButton</li>
+<li>UITableViewCellAccessory.DisclosureIndicator</li>
+</ul>
+<p><em>You can also use the AccessoryForRow method in the UITableViewDataSource to lay out your accessory.</em></p>
+<p>You’re given 3 Views to play with on each row:</p>
+<ul>
+<li>UITableViewCell.BackgroundView - An background view for the cell (an image using a UIImageView for example).</li>
+<li>UITableViewCell.AccessoryView - the far right button/icon.</li>
+<li>UITableViewCell.ContentView - the middle area.</li>
+<li>UITableViewCell.ImageView - the left hand side image area. </li>
+</ul>
+<p>The graphics below demonstrate these settings. As you can see laying out a table row is fairly flexible however you’re only essentially given a maximum of 3 columns. You can do a fair amount of customisation with the ContentView property.</p>
+<p><img src="/assets/2010/10/UITableViewControllerstyles.png" alt="UITableViewControllers styles"></p>
+<p><img src="/assets/2010/10/uitablestyle-views.png" alt="UITableVIewControllers styles 2"></p>
+<p>In the demo solution I’ve wrapped styling metadata information in a StyleItem class. Each datasource item is a StyleItem class which tells the GetCell method what to do with it. This is there for purpose of demo’ing the capabilities of tables, in reality you’ll rarely have to do this as each cell will generally be consistent in style.</p>
+<h3>Sections</h3>
+<p>One nice feature that the UITableViewDataSource gives you is the ability to break your rows up into sections. The styling options above show you how to do this with one single datasource, but to section your code up you should ideally use two sources of data - for example two ILists, or a class to hold the title and the list of data for that section, as shown below. The download solution does it using the messier first technique of a single list, and basing the data on the row number.</p>
+<p>Make sure the cellid is unique for each section or you will get some strange results with the table drawing/painting.</p>
+<p><div id="gist4963935" class="gist">
+    <div class="gist-file">
+      <div class="gist-data">
+        <div class="js-gist-file-update-container js-task-list-container file-box">
+  <div id="file-gistfile1-cs" class="file">
+    
+
+  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-c ">
+      
+<table class="highlight tab-size js-file-line-container" data-tab-size="8">
+      <tr>
+        <td id="file-gistfile1-cs-L1" class="blob-num js-line-number" data-line-number="1"></td>
+        <td id="file-gistfile1-cs-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-k">public</span> <span class="pl-k">class</span> <span class="pl-en">MyDataSource</span> : <span class="pl-en">UITableViewDataSource</span></td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L2" class="blob-num js-line-number" data-line-number="2"></td>
+        <td id="file-gistfile1-cs-LC2" class="blob-code blob-code-inner js-file-line">{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L3" class="blob-num js-line-number" data-line-number="3"></td>
+        <td id="file-gistfile1-cs-LC3" class="blob-code blob-code-inner js-file-line">	<span class="pl-en">IList</span>&lt;<span class="pl-en">SectionData</span>&gt; <span class="pl-smi">_data</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L4" class="blob-num js-line-number" data-line-number="4"></td>
+        <td id="file-gistfile1-cs-LC4" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">private</span> <span class="pl-k">class</span> <span class="pl-en">SectionData</span></td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L5" class="blob-num js-line-number" data-line-number="5"></td>
+        <td id="file-gistfile1-cs-LC5" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L6" class="blob-num js-line-number" data-line-number="6"></td>
+        <td id="file-gistfile1-cs-LC6" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">public</span> <span class="pl-k">string</span> <span class="pl-smi">Title</span> { <span class="pl-k">get</span>; <span class="pl-k">set</span>; }</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L7" class="blob-num js-line-number" data-line-number="7"></td>
+        <td id="file-gistfile1-cs-LC7" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">public</span> <span class="pl-k">string</span> <span class="pl-smi">CellId</span> { <span class="pl-k">get</span>; <span class="pl-k">set</span>; }</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L8" class="blob-num js-line-number" data-line-number="8"></td>
+        <td id="file-gistfile1-cs-LC8" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">public</span> <span class="pl-en">IList</span>&lt;<span class="pl-k">string</span>&gt; <span class="pl-smi">Data</span> { <span class="pl-k">get</span>; <span class="pl-k">set</span>; }</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L9" class="blob-num js-line-number" data-line-number="9"></td>
+        <td id="file-gistfile1-cs-LC9" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L10" class="blob-num js-line-number" data-line-number="10"></td>
+        <td id="file-gistfile1-cs-LC10" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">public</span> <span class="pl-en">SectionData</span>(<span class="pl-k">string</span> <span class="pl-smi">cellId</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L11" class="blob-num js-line-number" data-line-number="11"></td>
+        <td id="file-gistfile1-cs-LC11" class="blob-code blob-code-inner js-file-line">		{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L12" class="blob-num js-line-number" data-line-number="12"></td>
+        <td id="file-gistfile1-cs-LC12" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">Title</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span><span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L13" class="blob-num js-line-number" data-line-number="13"></td>
+        <td id="file-gistfile1-cs-LC13" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">CellId</span> <span class="pl-k">=</span> <span class="pl-smi">cellId</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L14" class="blob-num js-line-number" data-line-number="14"></td>
+        <td id="file-gistfile1-cs-LC14" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">Data</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">List</span>&lt;<span class="pl-k">string</span>&gt;();</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L15" class="blob-num js-line-number" data-line-number="15"></td>
+        <td id="file-gistfile1-cs-LC15" class="blob-code blob-code-inner js-file-line">		}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L16" class="blob-num js-line-number" data-line-number="16"></td>
+        <td id="file-gistfile1-cs-LC16" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L17" class="blob-num js-line-number" data-line-number="17"></td>
+        <td id="file-gistfile1-cs-LC17" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L18" class="blob-num js-line-number" data-line-number="18"></td>
+        <td id="file-gistfile1-cs-LC18" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-en">MyDataSource</span>()</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L19" class="blob-num js-line-number" data-line-number="19"></td>
+        <td id="file-gistfile1-cs-LC19" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L20" class="blob-num js-line-number" data-line-number="20"></td>
+        <td id="file-gistfile1-cs-LC20" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">_data</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">List</span>&lt;<span class="pl-en">SectionData</span>&gt;();</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L21" class="blob-num js-line-number" data-line-number="21"></td>
+        <td id="file-gistfile1-cs-LC21" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L22" class="blob-num js-line-number" data-line-number="22"></td>
+        <td id="file-gistfile1-cs-LC22" class="blob-code blob-code-inner js-file-line">		<span class="pl-en">SectionData</span> <span class="pl-smi">section1</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">SectionData</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>section1<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L23" class="blob-num js-line-number" data-line-number="23"></td>
+        <td id="file-gistfile1-cs-LC23" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">section1</span>.<span class="pl-smi">Data</span>.<span class="pl-en">Add</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>item 1<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L24" class="blob-num js-line-number" data-line-number="24"></td>
+        <td id="file-gistfile1-cs-LC24" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">section1</span>.<span class="pl-smi">Data</span>.<span class="pl-en">Add</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>item 2<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L25" class="blob-num js-line-number" data-line-number="25"></td>
+        <td id="file-gistfile1-cs-LC25" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">section1</span>.<span class="pl-smi">Data</span>.<span class="pl-en">Add</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>item 3<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L26" class="blob-num js-line-number" data-line-number="26"></td>
+        <td id="file-gistfile1-cs-LC26" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">section1</span>.<span class="pl-smi">Title</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Basic<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L27" class="blob-num js-line-number" data-line-number="27"></td>
+        <td id="file-gistfile1-cs-LC27" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">_data</span>.<span class="pl-en">Add</span>(<span class="pl-smi">section1</span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L28" class="blob-num js-line-number" data-line-number="28"></td>
+        <td id="file-gistfile1-cs-LC28" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L29" class="blob-num js-line-number" data-line-number="29"></td>
+        <td id="file-gistfile1-cs-LC29" class="blob-code blob-code-inner js-file-line">		<span class="pl-en">SectionData</span> <span class="pl-smi">section2</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">SectionData</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>section2<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L30" class="blob-num js-line-number" data-line-number="30"></td>
+        <td id="file-gistfile1-cs-LC30" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">section2</span>.<span class="pl-smi">Data</span>.<span class="pl-en">Add</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>option a<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L31" class="blob-num js-line-number" data-line-number="31"></td>
+        <td id="file-gistfile1-cs-LC31" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">section2</span>.<span class="pl-smi">Data</span>.<span class="pl-en">Add</span>(<span class="pl-s"><span class="pl-pds">&quot;</span>option b<span class="pl-pds">&quot;</span></span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L32" class="blob-num js-line-number" data-line-number="32"></td>
+        <td id="file-gistfile1-cs-LC32" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">section2</span>.<span class="pl-smi">Title</span> <span class="pl-k">=</span> <span class="pl-s"><span class="pl-pds">&quot;</span>Advanced<span class="pl-pds">&quot;</span></span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L33" class="blob-num js-line-number" data-line-number="33"></td>
+        <td id="file-gistfile1-cs-LC33" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">_data</span>.<span class="pl-en">Add</span>(<span class="pl-smi">section2</span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L34" class="blob-num js-line-number" data-line-number="34"></td>
+        <td id="file-gistfile1-cs-LC34" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L35" class="blob-num js-line-number" data-line-number="35"></td>
+        <td id="file-gistfile1-cs-LC35" class="blob-code blob-code-inner js-file-line">
+</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L36" class="blob-num js-line-number" data-line-number="36"></td>
+        <td id="file-gistfile1-cs-LC36" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-k">string</span> <span class="pl-en">TitleForHeader</span>(<span class="pl-en">UITableView</span> <span class="pl-smi">tableView</span>, <span class="pl-k">int</span> <span class="pl-smi">section</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L37" class="blob-num js-line-number" data-line-number="37"></td>
+        <td id="file-gistfile1-cs-LC37" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L38" class="blob-num js-line-number" data-line-number="38"></td>
+        <td id="file-gistfile1-cs-LC38" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> <span class="pl-smi">_data</span>[<span class="pl-smi">section</span>].<span class="pl-smi">Title</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L39" class="blob-num js-line-number" data-line-number="39"></td>
+        <td id="file-gistfile1-cs-LC39" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L40" class="blob-num js-line-number" data-line-number="40"></td>
+        <td id="file-gistfile1-cs-LC40" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L41" class="blob-num js-line-number" data-line-number="41"></td>
+        <td id="file-gistfile1-cs-LC41" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-k">int</span> <span class="pl-en">RowsInSection</span>(<span class="pl-en">UITableView</span> <span class="pl-smi">tableview</span>, <span class="pl-k">int</span> <span class="pl-smi">section</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L42" class="blob-num js-line-number" data-line-number="42"></td>
+        <td id="file-gistfile1-cs-LC42" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L43" class="blob-num js-line-number" data-line-number="43"></td>
+        <td id="file-gistfile1-cs-LC43" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> <span class="pl-smi">_data</span>[<span class="pl-smi">section</span>].<span class="pl-smi">Data</span>.<span class="pl-smi">Count</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L44" class="blob-num js-line-number" data-line-number="44"></td>
+        <td id="file-gistfile1-cs-LC44" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L45" class="blob-num js-line-number" data-line-number="45"></td>
+        <td id="file-gistfile1-cs-LC45" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L46" class="blob-num js-line-number" data-line-number="46"></td>
+        <td id="file-gistfile1-cs-LC46" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-k">int</span> <span class="pl-en">NumberOfSections</span>(<span class="pl-en">UITableView</span> <span class="pl-smi">tableView</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L47" class="blob-num js-line-number" data-line-number="47"></td>
+        <td id="file-gistfile1-cs-LC47" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L48" class="blob-num js-line-number" data-line-number="48"></td>
+        <td id="file-gistfile1-cs-LC48" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> <span class="pl-smi">_data</span>.<span class="pl-smi">Count</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L49" class="blob-num js-line-number" data-line-number="49"></td>
+        <td id="file-gistfile1-cs-LC49" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L50" class="blob-num js-line-number" data-line-number="50"></td>
+        <td id="file-gistfile1-cs-LC50" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L51" class="blob-num js-line-number" data-line-number="51"></td>
+        <td id="file-gistfile1-cs-LC51" class="blob-code blob-code-inner js-file-line">	<span class="pl-k">public</span> <span class="pl-k">override</span> <span class="pl-en">UITableViewCell</span> <span class="pl-en">GetCell</span>(<span class="pl-en">UITableView</span> <span class="pl-smi">tableView</span>, <span class="pl-en">NSIndexPath</span> <span class="pl-smi">indexPath</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L52" class="blob-num js-line-number" data-line-number="52"></td>
+        <td id="file-gistfile1-cs-LC52" class="blob-code blob-code-inner js-file-line">	{</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L53" class="blob-num js-line-number" data-line-number="53"></td>
+        <td id="file-gistfile1-cs-LC53" class="blob-code blob-code-inner js-file-line">		<span class="pl-en">SectionData</span> <span class="pl-smi">sectionData</span> <span class="pl-k">=</span> <span class="pl-smi">_data</span>[<span class="pl-smi">indexPath</span>.<span class="pl-smi">Section</span>];</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L54" class="blob-num js-line-number" data-line-number="54"></td>
+        <td id="file-gistfile1-cs-LC54" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">string</span> <span class="pl-smi">cellId</span> <span class="pl-k">=</span> <span class="pl-smi">sectionData</span>.<span class="pl-smi">CellId</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L55" class="blob-num js-line-number" data-line-number="55"></td>
+        <td id="file-gistfile1-cs-LC55" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">string</span> <span class="pl-smi">row</span> <span class="pl-k">=</span> <span class="pl-smi">sectionData</span>.<span class="pl-smi">Data</span>[<span class="pl-smi">indexPath</span>.<span class="pl-smi">Row</span>];</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L56" class="blob-num js-line-number" data-line-number="56"></td>
+        <td id="file-gistfile1-cs-LC56" class="blob-code blob-code-inner js-file-line">	</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L57" class="blob-num js-line-number" data-line-number="57"></td>
+        <td id="file-gistfile1-cs-LC57" class="blob-code blob-code-inner js-file-line">		<span class="pl-en">UITableViewCell</span> <span class="pl-smi">cell</span> <span class="pl-k">=</span> <span class="pl-smi">tableView</span>.<span class="pl-en">DequeueReusableCell</span>(<span class="pl-smi">cellId</span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L58" class="blob-num js-line-number" data-line-number="58"></td>
+        <td id="file-gistfile1-cs-LC58" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">if</span> (<span class="pl-smi">cell</span> <span class="pl-k">==</span> <span class="pl-c1">null</span>)</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L59" class="blob-num js-line-number" data-line-number="59"></td>
+        <td id="file-gistfile1-cs-LC59" class="blob-code blob-code-inner js-file-line">			<span class="pl-smi">cell</span> <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-en">UITableViewCell</span>(<span class="pl-smi">UITableViewCellStyle</span>.<span class="pl-smi">Default</span>, <span class="pl-smi">cellId</span>);</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L60" class="blob-num js-line-number" data-line-number="60"></td>
+        <td id="file-gistfile1-cs-LC60" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L61" class="blob-num js-line-number" data-line-number="61"></td>
+        <td id="file-gistfile1-cs-LC61" class="blob-code blob-code-inner js-file-line">		<span class="pl-smi">cell</span>.<span class="pl-smi">TextLabel</span>.<span class="pl-smi">Text</span> <span class="pl-k">=</span> <span class="pl-smi">row</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L62" class="blob-num js-line-number" data-line-number="62"></td>
+        <td id="file-gistfile1-cs-LC62" class="blob-code blob-code-inner js-file-line">		</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L63" class="blob-num js-line-number" data-line-number="63"></td>
+        <td id="file-gistfile1-cs-LC63" class="blob-code blob-code-inner js-file-line">		<span class="pl-k">return</span> <span class="pl-smi">cell</span>;</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L64" class="blob-num js-line-number" data-line-number="64"></td>
+        <td id="file-gistfile1-cs-LC64" class="blob-code blob-code-inner js-file-line">	}</td>
+      </tr>
+      <tr>
+        <td id="file-gistfile1-cs-L65" class="blob-num js-line-number" data-line-number="65"></td>
+        <td id="file-gistfile1-cs-LC65" class="blob-code blob-code-inner js-file-line">}</td>
+      </tr>
+</table>
+
+
+  </div>
+
+  </div>
+</div>
+
+      </div>
+      <div class="gist-meta">
+        <a href="https://gist.github.com/yetanotherchris/4963935/raw/fbbe96ac57276a28fb49b2f9786d5b49091643f0/gistfile1.cs" style="float:right">view raw</a>
+        <a href="https://gist.github.com/yetanotherchris/4963935#file-gistfile1-cs">gistfile1.cs</a>
+        hosted with &#10084; by <a href="https://github.com">GitHub</a>
+      </div>
+    </div>
+</div></p>
+<h3>Making tables editable (deleting and moving rows)</h3>
+<p>The final part of the UITableViewController adventure demonstrates the inbuilt capabilites of UIKit for table editing, and how it works with MonoTouch. If you’re an objective-c and X-Code veteran (something I definitely am not), editing tables is like the rest of Monotouch - easy to transpose objective-c examples across.</p>
+<p><img src="/assets/2010/10/UITableViewController41.png" alt="editable table"></p>
+<p>Editing is easily done with an IList datasource, you just add the methods below to your UITableViewDataSource class and the rest is inbuilt. The solution download is the same code but using a list of vitamins. As I point out in the code comments, the hard part of the move operation is moving the data around in your underlying datasource (for example doing a swap in SQL).</p>
+<pre>public override void CommitEditingStyle (UITableView tableView, UITableViewCellEditingStyle editingStyle, NSIndexPath indexPath)
+{
+	if (editingStyle == UITableViewCellEditingStyle.Delete)
+	{
+		_items.RemoveAt(indexPath.Row);
+		tableView.DeleteRows(new [] { indexPath }, UITableViewRowAnimation.Fade);
+	}
+}
+
+public override bool CanMoveRow (UITableView tableView, NSIndexPath indexPath)
+{
+	return true;
+}
+
+public override void MoveRow (UITableView tableView, NSIndexPath sourceIndexPath, NSIndexPath destinationIndexPath)
+{
+	// This is a basic example, with a database it'll be more tricky
+	string item = _items[sourceIndexPath.Row];
+	_items.RemoveAt(sourceIndexPath.Row);
+	_items.Insert(destinationIndexPath.Row,item);
+}
+</pre></div><hr style="margin-bottom:1.75rem"/><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABtm2Q9WjuUl4Fn//EABsQAAIDAAMAAAAAAAAAAAAAAAECAAMhERMx/9oACAEBAAEFAu2sy+zmB2EAAje4Y2JVqMd//8QAFxEAAwEAAAAAAAAAAAAAAAAAAQIQMf/aAAgBAwEBPwEbGn//xAAWEQEBAQAAAAAAAAAAAAAAAAAQAQL/2gAIAQIBAT8Bpk//xAAcEAACAgIDAAAAAAAAAAAAAAAAEQIhARAxQWH/2gAIAQEABj8C5MRjLC7En6UUXp6//8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFBUf/aAAgBAQABPyE4AHsWpejCNs4NwGgRUS77AL13MWQDM2G7YphP/9oADAMBAAIAAwAAABCMEEL/xAAYEQEAAwEAAAAAAAAAAAAAAAABABAhMf/aAAgBAwEBPxAkPcmGv//EABkRAQACAwAAAAAAAAAAAAAAAAEAIRARMf/aAAgBAgEBPxBOuwKlsf/EAB4QAQACAgEFAAAAAAAAAAAAAAEAESExQWFxscHR/9oACAEBAAE/EFKza0fIZwQXJ6qmLkEU2SEg17oyw2jlgu99WGEXqhBcx6IziJDPudsROKi3yz//2Q==" alt="Chris Small" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:0.5s;border-radius:50%"/><noscript><picture><img width="50" height="50" srcset="/static/bd88f286fb823f243a3ee995debb8ec1/c15d6/profile-pic.jpg 1x,
+/static/bd88f286fb823f243a3ee995debb8ec1/43c20/profile-pic.jpg 1.5x,
+/static/bd88f286fb823f243a3ee995debb8ec1/da97e/profile-pic.jpg 2x,
+/static/bd88f286fb823f243a3ee995debb8ec1/3e75a/profile-pic.jpg 3x" src="/static/bd88f286fb823f243a3ee995debb8ec1/c15d6/profile-pic.jpg" alt="Chris Small" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>Chris Small</strong> who lives and works in London.<!-- --> <a href="https://github.com/yetanotherchris">Github</a>, <a href="https://stackoverflow.com/users/21574/chris-s">Stackoverflow</a>, <a href="/resume/">Resume</a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/2010-10-10-monotouch-controllers-by-example/">← <!-- -->Monotouch Controllers by example</a></li><li><a rel="next" href="/2010-10-18-how-to-restore-the-new-text-file-option-in-the-windows-context-menu/">How to restore the new text file option in the windows context menu<!-- --> →</a></li></ul></main><footer>© <!-- -->2019<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'undefined', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"2010-10-18-uitableviewcontroller-by-example-8f3","path":"/2010-10-18-uitableviewcontroller-by-example/"};window.dataPath="844/path---2010-10-18-uitableviewcontroller-by-example-8-f-3-4e9-77OCFUdW0slMSTeDVuZcoGjbp3Q";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e94527e8e59d87114934.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-78f9e4dea04737fa062d.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-775aca275802758b5820.js"],"component---src-pages-404-js":["/component---src-pages-404-js-85f717e2054b0307fff6.js"],"component---src-pages-archive-js":["/component---src-pages-archive-js-aaa339ea62cc802de0b9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-d4cb84c2d5fcf0fc531e.js"],"pages-manifest":["/pages-manifest-3f8d51ed239a703d029a.js"]};/*]]>*/</script><script src="/webpack-runtime-40594e5056c89970428b.js" async=""></script><script src="/styles-12b50b0331563bca0609.js" async=""></script><script src="/app-e94527e8e59d87114934.js" async=""></script><script src="/0-fa4a7f07c6fbcaedd682.js" async=""></script><script src="/component---src-templates-blog-post-js-775aca275802758b5820.js" async=""></script></body></html>

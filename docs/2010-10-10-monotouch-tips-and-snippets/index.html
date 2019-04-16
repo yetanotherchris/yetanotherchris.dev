@@ -1,0 +1,616 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:100%/1.75 'Merriweather','Georgia',serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.9);font-family:'Merriweather','Georgia',serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:Montserrat,sans-serif;font-weight:900;text-rendering:optimizeLegibility;font-size:2.5rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.73286rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1.4427rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;letter-spacing:0.140625em;text-transform:uppercase;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.83255rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;color:inherit;font-family:'Merriweather','Georgia',serif;font-weight:900;text-rendering:optimizeLegibility;font-size:0.75966rem;line-height:1.1;font-style:italic;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}ul{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;list-style:disc;}ol{margin-left:1.75rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:0.85rem;line-height:1.75rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1rem;line-height:1.75rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}blockquote{margin-left:-1.75rem;margin-right:1.75rem;margin-top:0;padding-bottom:0;padding-left:1.42188rem;padding-right:0;padding-top:0;margin-bottom:1.75rem;font-size:1.20112rem;line-height:1.75rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.32813rem solid hsla(0,0%,0%,0.9);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.75rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.75rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.75rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}li > ul{margin-left:1.75rem;margin-bottom:calc(1.75rem / 2);margin-top:calc(1.75rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.75rem / 2);}code{font-size:0.85rem;line-height:1.75rem;}kbd{font-size:0.85rem;line-height:1.75rem;}samp{font-size:0.85rem;line-height:1.75rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:1.16667rem;padding-right:1.16667rem;padding-top:0.875rem;padding-bottom:calc(0.875rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.75rem;color:hsla(0,0%,0%,0.9);font-weight:400;}blockquote cite:before{content:"— ";}ul,ol{margin-left:0;}@media only screen and (max-width:480px){ul,ol{margin-left:1.75rem;}blockquote{margin-left:-1.3125rem;margin-right:0;padding-left:0.98438rem;}}h1,h2,h3,h4,h5,h6{margin-top:3.5rem;}a{box-shadow:0 1px 0 0 currentColor;color:#007acc;text-decoration:none;}a:hover,a:active{box-shadow:none;}mark,ins{background:#007acc;color:white;padding:0.10938rem 0.21875rem;text-decoration:none;}a.gatsby-resp-image-link{box-shadow:none;}</style><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="stylesheet" href="https://github.githubassets.com/assets/gist-embed-b3b573358bfc66d89e1e95dbf8319c09.css"/><link rel="preconnect dns-prefetch" href="https://www.google-analytics.com"/><link rel="alternate" type="application/rss+xml" href="/rss.xml"/><link rel="shortcut icon" href="/icons/icon-48x48.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="manifest" href="/manifest.webmanifest"/><meta name="theme-color" content="#663399"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=392814b65480e9bcefa2fc1f244f99f6"/><meta name="generator" content="Gatsby 2.3.23"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=392814b65480e9bcefa2fc1f244f99f6"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=392814b65480e9bcefa2fc1f244f99f6"/><title data-react-helmet="true">Monotouch tips and snippets | Another Chris</title><meta data-react-helmet="true" name="description" content="This page is full of discoveries and snippets I&#x27;m accruing as I slowly learn my way around Monotouch. Originally my plan was to write objective-C, but just as I had finished my first Objective-C book I heard Monotouch presentation at a Devdays conference..."/><meta data-react-helmet="true" property="og:title" content="Monotouch tips and snippets"/><meta data-react-helmet="true" property="og:description" content="This page is full of discoveries and snippets I&#x27;m accruing as I slowly learn my way around Monotouch. Originally my plan was to write objective-C, but just as I had finished my first Objective-C book I heard Monotouch presentation at a Devdays conference..."/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Chris Small"/><meta data-react-helmet="true" name="twitter:title" content="Monotouch tips and snippets"/><meta data-react-helmet="true" name="twitter:description" content="This page is full of discoveries and snippets I&#x27;m accruing as I slowly learn my way around Monotouch. Originally my plan was to write objective-C, but just as I had finished my first Objective-C book I heard Monotouch presentation at a Devdays conference..."/><style data-href="/styles.1025963f4f2ec7abbad4.css">@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:100;src:local("Montserrat Thin "),local("Montserrat-Thin"),url(/static/montserrat-latin-100-4124805c0503dbfe42dd67d7f5715964.woff2) format("woff2"),url(/static/montserrat-latin-100-c8fb2f714bbc7bc3e8dfffa916b286dc.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:100;src:local("Montserrat Thin italic"),local("Montserrat-Thinitalic"),url(/static/montserrat-latin-100italic-e4bf47bd171a9b2a72dd84c58bf90edf.woff2) format("woff2"),url(/static/montserrat-latin-100italic-d1f3f2d02ee4d7d2d4b1ad865014f189.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:200;src:local("Montserrat Extra Light "),local("Montserrat-Extra Light"),url(/static/montserrat-latin-200-444ae007121264bc1969d49b4031f9b2.woff2) format("woff2"),url(/static/montserrat-latin-200-edbce16a90aa22c297a0307b85789837.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:200;src:local("Montserrat Extra Light italic"),local("Montserrat-Extra Lightitalic"),url(/static/montserrat-latin-200italic-f316c5d1ec40f3e68654c3f38b3999f3.woff2) format("woff2"),url(/static/montserrat-latin-200italic-d7bbb730d9b5e11720b3eb32326dcca7.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:300;src:local("Montserrat Light "),local("Montserrat-Light"),url(/static/montserrat-latin-300-0a7c6df06e85d978d096d4d18fd8d43d.woff2) format("woff2"),url(/static/montserrat-latin-300-5e86df2cad22d2ef2b03516334afae5e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:300;src:local("Montserrat Light italic"),local("Montserrat-Lightitalic"),url(/static/montserrat-latin-300italic-c076c4892bc7a4be7b9097e97a35012d.woff2) format("woff2"),url(/static/montserrat-latin-300italic-37c74a8d2d0d36a0a2c6e9a37ee15b0c.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:400;src:local("Montserrat Regular "),local("Montserrat-Regular"),url(/static/montserrat-latin-400-501ce09c42716a2f6e1503a25eb174c9.woff2) format("woff2"),url(/static/montserrat-latin-400-f29d2b8559699b6beb5b29b25b8bc572.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:400;src:local("Montserrat Regular italic"),local("Montserrat-Regularitalic"),url(/static/montserrat-latin-400italic-882908d9950d9c86ebd380877f293d95.woff2) format("woff2"),url(/static/montserrat-latin-400italic-22e7b04e5f2a901d49d4d342315a715a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:500;src:local("Montserrat Medium "),local("Montserrat-Medium"),url(/static/montserrat-latin-500-f0f2716c5fe401d175b88715e7d28685.woff2) format("woff2"),url(/static/montserrat-latin-500-991b453bf90a0980e78966d2af7e3d3a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:500;src:local("Montserrat Medium italic"),local("Montserrat-Mediumitalic"),url(/static/montserrat-latin-500italic-4590ebba421b3288c305305d7fa7b504.woff2) format("woff2"),url(/static/montserrat-latin-500italic-f3d41e4cdcc2314e49ddcea751d6f87f.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:600;src:local("Montserrat SemiBold "),local("Montserrat-SemiBold"),url(/static/montserrat-latin-600-15c24f7109941777774ddd2c636c6a50.woff2) format("woff2"),url(/static/montserrat-latin-600-f6dc6096f48956908c1787d9a722570a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:600;src:local("Montserrat SemiBold italic"),local("Montserrat-SemiBolditalic"),url(/static/montserrat-latin-600italic-6d10b80529d5c36c7c09fca7193af0fc.woff2) format("woff2"),url(/static/montserrat-latin-600italic-02c4833312d94b1b0866f073023a250e.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:700;src:local("Montserrat Bold "),local("Montserrat-Bold"),url(/static/montserrat-latin-700-79982cd1f74c6fa7451bf9b37ead09ff.woff2) format("woff2"),url(/static/montserrat-latin-700-957e93fbbe131a59791cd820d98b7109.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:700;src:local("Montserrat Bold italic"),local("Montserrat-Bolditalic"),url(/static/montserrat-latin-700italic-283438e9577fe6a684466bb100e105ec.woff2) format("woff2"),url(/static/montserrat-latin-700italic-ca627c5ccc65cf80c2ecaea44b997de9.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold "),local("Montserrat-ExtraBold"),url(/static/montserrat-latin-800-35386154b78d046218fc8f88a44ff515.woff2) format("woff2"),url(/static/montserrat-latin-800-756655905d91b77960888262e7d58d35.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:800;src:local("Montserrat ExtraBold italic"),local("Montserrat-ExtraBolditalic"),url(/static/montserrat-latin-800italic-e1b52a7bd83e2324db6d92bdc206844c.woff2) format("woff2"),url(/static/montserrat-latin-800italic-a69f0add9d86c1a84311d7dd8693ba4a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:normal;font-display:swap;font-weight:900;src:local("Montserrat Black "),local("Montserrat-Black"),url(/static/montserrat-latin-900-260c2ea3ef57feb82251952e605a36d5.woff2) format("woff2"),url(/static/montserrat-latin-900-186cae8091da578150d81958e217714a.woff) format("woff")}@font-face{font-family:Montserrat;font-style:italic;font-display:swap;font-weight:900;src:local("Montserrat Black italic"),local("Montserrat-Blackitalic"),url(/static/montserrat-latin-900italic-d785fb9fc74588ffb7f306799709a97d.woff2) format("woff2"),url(/static/montserrat-latin-900italic-43b527fe77254f97ea36e2b54e845ec4.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:300;src:local("Merriweather Light "),local("Merriweather-Light"),url(/static/merriweather-latin-300-b1158cfcd4aacb9d8fb61625e37af46a.woff2) format("woff2"),url(/static/merriweather-latin-300-cc7de05e166e90320d7d896e0f72a19d.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:300;src:local("Merriweather Light italic"),local("Merriweather-Lightitalic"),url(/static/merriweather-latin-300italic-8fe52a48089d6ebe46db0b8e7cc66263.woff2) format("woff2"),url(/static/merriweather-latin-300italic-e1331f5397c2a673f9d3765138debdb5.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:400;src:local("Merriweather Regular "),local("Merriweather-Regular"),url(/static/merriweather-latin-400-8276fdb72ae8f4714d4e6eba704cc39f.woff2) format("woff2"),url(/static/merriweather-latin-400-69f09800f4f6479d06e44eba837df872.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:400;src:local("Merriweather Regular italic"),local("Merriweather-Regularitalic"),url(/static/merriweather-latin-400italic-3a9be9ea9f7aa4af6de7307df21d9fc0.woff2) format("woff2"),url(/static/merriweather-latin-400italic-d76079ed7541a433a54f79316de086e9.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:700;src:local("Merriweather Bold "),local("Merriweather-Bold"),url(/static/merriweather-latin-700-fa534be7ffa380e39a7f6e03bf9a5e03.woff2) format("woff2"),url(/static/merriweather-latin-700-ba56ea84b8084b7ff9677f50d3cd81bd.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:700;src:local("Merriweather Bold italic"),local("Merriweather-Bolditalic"),url(/static/merriweather-latin-700italic-1ef5edaaa20ae53ea50399884c5e48c6.woff2) format("woff2"),url(/static/merriweather-latin-700italic-534bc9e7ce93c73d73426e46acd78092.woff) format("woff")}@font-face{font-family:Merriweather;font-style:normal;font-display:swap;font-weight:900;src:local("Merriweather Black "),local("Merriweather-Black"),url(/static/merriweather-latin-900-7528fb70e8a4a82c7305e72ff43ac25f.woff2) format("woff2"),url(/static/merriweather-latin-900-3799b6e2f5ed3fcccf9d7a708d7419fa.woff) format("woff")}@font-face{font-family:Merriweather;font-style:italic;font-display:swap;font-weight:900;src:local("Merriweather Black italic"),local("Merriweather-Blackitalic"),url(/static/merriweather-latin-900italic-e1b4d2aaa78e12ad84aaf8a56321e4c2.woff2) format("woff2"),url(/static/merriweather-latin-900italic-2ae22f731b3424e8dbb4b37f7ca6e708.woff) format("woff")}</style><link as="script" rel="preload" href="/component---src-templates-blog-post-js-775aca275802758b5820.js"/><link as="script" rel="preload" href="/0-fa4a7f07c6fbcaedd682.js"/><link as="script" rel="preload" href="/app-e94527e8e59d87114934.js"/><link as="script" rel="preload" href="/styles-12b50b0331563bca0609.js"/><link as="script" rel="preload" href="/webpack-runtime-40594e5056c89970428b.js"/><link as="fetch" rel="preload" href="/static/d/662/path---2010-10-10-monotouch-tips-and-snippets-02-d-a32-1h7fdKkqRjjFerOMfCA3QyC9qE.json" crossorigin="use-credentials"/></head><body><noscript id="gatsby-noscript">This app works best with JavaScript enabled.</noscript><div id="___gatsby"><div style="outline:none" tabindex="-1" role="group"><div style="margin-left:auto;margin-right:auto;max-width:42rem;padding:2.625rem 1.3125rem"><header><h3 style="font-family:Montserrat, sans-serif;margin-top:0"><a style="box-shadow:none;text-decoration:none;color:inherit" href="/">Another Chris</a></h3></header><main><h1>Monotouch tips and snippets</h1><p style="font-size:0.83255rem;line-height:1.75rem;display:block;margin-bottom:1.75rem;margin-top:-1.75rem">October 10, 2010</p><div><p><a href="http://www.bitbucket.org/yetanotherchris/monotouch-samples/src/">Sample code on Bitbucket</a></p>
+<p>This page is full of discoveries and snippets I’m accruing as I slowly learn my way around Monotouch. <a href="/csharp/objective-c-by-example-for-a-csharp-developer">Originally my plan was to write objective-C</a>, but just as I had finished my first Objective-C book I heard Monotouch presentation at a Devdays conference.</p>
+<p><strong>Please note, many of the performance or speed related tips on this page are based around Monotouch 2.x and may no longer be relevant.</strong></p>
+<p><a name="monotouchxmldocs"></a></p>
+<!--more-->
+<h3>Monotouch XML documentation for Visual Studio</h3>
+<p>If you want to use Monotouch in Visual Studio, and want intellisense then stick <a href="/assets/2013/02/monotouchxmldocs.zip">this XML file</a> in the same folder that your monotouch DLLs are.</p>
+<p>It was generated and converted to XML format (Mono uses a different format for storing XML documentation in) using Monotouch 2, however most core classes are covered.</p>
+<p><a name="dimensions"></a></p>
+<h3>Available space/dimensions for the view</h3>
+<p>The graphics below are based on a solution file that writes the View.Bounds property to the screen.<br>
+The bottom bar with “title” is a UIToolBar, the plain black is a UITabBar. </p>
+<p><img src="/assets/2010/10/iphonebounds1.png" alt="Bounds"><img src="/assets/2010/10/iphonebounds2.png" alt="Bounds 2"><img src="/assets/2010/10/iphonebounds3.png" alt="Bounds 3"><br>
+<img src="/assets/2010/10/iphonebounds4.png" alt="Bounds 4"><img src="/assets/2010/10/iphonebounds5.png" alt="Bounds 5"><img src="/assets/2010/10/iphonebounds6.png" alt="Bounds 6"><img src="/assets/2010/10/iphonebounds7.png" alt="Bounds 7"></p>
+<p><a name="ekevent"></a></p>
+<h3>Adding and querying calendar events with the event kit (EK<em>_</em>)</h3>
+<p>The example below is a small snippet based on the source of Flashback. It shows querying and adding calendar events</p>
+<pre>public void CalendarEvents()
+{
+	EKEventStore store = new EKEventStore();
+	EKCalendar calendar = store.DefaultCalendarForNewEvents;
+	// Query the event
+	if (calendar != null)
+	{
+		// Searches for every event in the next year
+		NSPredicate predicate = store.PredicateForEvents(NSDate.Now,DateTime.Now.AddDays(360),new EKCalendar[] {calendar});
+		store.EnumerateEvents(predicate, delegate(EKEvent currentEvent, ref bool stop)
+		{
+			// Perform your check for an event type
+		});
+		
+		// Add a new event
+		EKEvent newEvent = EKEvent.FromStore(store);
+		newEvent.Title = "Lunch at McDonalds";
+		newEvent.Calendar = calendar;
+		newEvent.StartDate = DateTime.Now.Today;
+		newEvent.EndDate = DateTime.Now.Today.AddDays(1);
+		newEvent.Availability = EKEventAvailability.Free;
+		store.SaveEvent(newEvent, EKSpan.ThisEvent, new IntPtr());
+	}
+}
+</pre>
+<h3>Mocking the UI in Visual Studio</h3>
+<p>It’s possibly to imitate the iPhone UI in Visual Studio using a cut up screenshot from the iPhone Simulator and some panels. Below shows how this can be down - it’s a mostly pointless exercise but can help to quickly layout views and get the coordinates if you working without XIBs. The project source for this <a href="http://bitbucket.org/mrshrinkray/monotouch-samples/src/tip/iPhoneMockup/">can be found here</a>.</p>
+<p><img src="/assets/2010/10/uinavigationwinforms.png" alt="iPhone winforms"></p>
+<h3>Setting the application icon</h3>
+<p>Monodevelop for Monotouch makes this as easy as it is in Visual Studio, instead of the more convoluted way in XCode. Simply open the project properties:</p>
+<p><img src="/assets/2010/10/Monotouch-Icon.png" alt="Application icon"></p>
+<p>The icons are automatically round-cornered by Cocoa, and should be a 57×57 png file.</p>
+<h3>Using selectors/the selector object and fading a view out</h3>
+<p>The snippet below is an example of registering your own custom selector, and also shows a method of fading out the current view into a new one, which could be used on a splashscreen. I got the selector code with the help of <a href="http://stackoverflow.com/questions/1470356/how-can-i-animate-a-uibutton-alpha-property-with-monotouch/1475384#1475384">this question</a> from stackoverflow.com</p>
+<pre>public override void ViewDidAppear(bool animated)
+{
+	base.ViewDidAppear (animated);
+	// _imageView,_label,_activityView are all created in ViewDidLoad
+	// Fade out view - you may need to put this inside its own thread
+	UIView.BeginAnimations(null);
+	UIView.SetAnimationDuration(0.5);
+	UIView.SetAnimationTransition(UIViewAnimationTransition.None,_imageView,true);
+	UIView.SetAnimationDelegate(this);
+	UIView.SetAnimationDidStopSelector(new Selector("fadeOutDidFinish"));
+	_imageView.Alpha = 0;
+	_label.Alpha = 0;
+	_activityView.Alpha = 0;
+	UIView.CommitAnimations();
+}
+
+[Export("fadeOutDidFinish")]
+public void FadeOutDidFinish()
+{
+	MyController newController = new MyController();
+	View = newController.View;
+}
+</pre>
+<h3>Animating a View transition using UIView.BeginAnimations and CATransition</h3>
+<p>There’s two ways of performing a view transition animation: using the inbuilt UIView static methods, which limit you to a set of 4 animation styles (see the Apple docs). Below demonstrates using this with a UINavigationController, swap in the View you’re display if your not using a UINavigationController:</p>
+<pre>// Make sure you push before the animations, or the Title doesn't animate
+var controller = new MyController();
+NavigationController.PushViewController(controller, false);
+UIView.BeginAnimations(null,IntPtr.Zero);
+UIView.SetAnimationDuration(1); UIView.SetAnimationTransition(UIViewAnimationTransition.FlipFromLeft,NavigationController.View,true);
+UIView.CommitAnimations();
+</pre>
+<p>The alternative is using CATransition, which gives you more flexibility. You are still limited to 4 types of animation, however there are infact more - but these are undocumented and probably won’t make it onto the appstore if you use them (the @ indicates it’s undocumented):</p>
+<ul>
+<li>kCATransitionFade</li>
+<li>kCATransitionPush</li>
+<li>kCATransitionMoveIn</li>
+<li>kCATransitionReveal</li>
+<li>@”suckEffect”</li>
+<li>@”spewEffect”</li>
+<li>@”genieEffect”</li>
+<li>@”unGenieEffect”</li>
+<li>@”rippleEffect”</li>
+<li>@”twist”</li>
+<li>@”tubey”</li>
+<li>@”swirl”</li>
+<li>@”charminUltra”</li>
+<li>@”zoomyIn”</li>
+<li>@”zoomyOut” </li>
+</ul>
+<p>And the code is fairly similar. I haven’t figured out how to set the timing effect yet.</p>
+<pre>CATransition transition = new CATransition();
+transition.Duration = 1;
+transition.Type = "zoomyOut";
+NavigationController.View.Layer.AddAnimation(transition,"mykey");
+var controller = new MyController();
+NavigationController.PushViewController(controller, false);
+</pre>
+<h3>Gradient background on a UIButton / emulating UIGlassButton</h3>
+<p>UIGlassButton is an undocumented subclass of UIButton which is used throughout the iPhone, for example the “cancel” button when you power off the iPhone. It is possible to create an instance of this using Monotouch using new Class(“UIClass”) and copying some objective-C examples around, however if you app does this it will be rejected in the appstore.</p>
+<p>The solution is to use a graphic background, and make it stretchable. Below is how to achieve this, and one graphic solution as a transparent PNG. It doesn’t have the same bevelling as the Apple buttons but does work on any background. </p>
+<p><img src="/assets/2010/10/uiglassbutton-template.png" alt="UIGlassButton template"> </p>
+<pre>UIImage image = UIImage.FromFile("glassbutton.png");
+image = loginImage.StretchableImage(9,0);
+
+UIButton button = new UIButton(new RectangleF(0, 0, 250, 37));
+button.SetBackgroundImage(image,UIControlState.Normal);
+button.BackgroundColor = UIColor.Clear;
+button.Font = UIFont.BoldSystemFontOfSize(20);
+button.SetTitle("Cancel",UIControlState.Normal);
+</pre>
+<p>An example:</p>
+<p><img src="/assets/2010/10/uiglassbutton-example.png" alt="UIGlassButton example"></p>
+<p><strong>Update</strong>: <a href="http://www.twitter.com/martinbowling" target="_blank">Martin Bowling</a> has a much neater solution with <a href="http://monotouch.info/MonoTouch-Sample-UIGlassButton-PNG-Generator">this</a> glass button image generator (required Monotouch trial or full), which dumps the button as a transparent PNG with its title straight to a file: </p>
+<h3>UIAlertView example</h3>
+<p>The UIAlertView is the alert() or MessageBox.Show of the Cocoa world. It’s nice and flexible like the new modals you were given in Vista, and straight forward to use:</p>
+<pre>using MonoTouch.UIKit;
+void ShowAlert()
+{
+	UIAlertView alert = new UIAlertView();
+	alert.Title = "Are you sure?";
+	alert.AddButton("Ok");
+	alert.AddButton("Maybe");
+	alert.AddButton("No");
+	alert.Message = "This could explode the moon";
+	alert.Delegate = new MyAlertViewDelegate();
+	alert.Show();
+}
+
+public class MyAlertViewDelegate : UIAlertViewDelegate
+{
+	public override void Clicked (UIAlertView alertview, int buttonIndex)
+	{
+		// Don't call base or you'll get:
+		// Unhandled Exception: MonoTouch.Foundation.You_Should_Not_Call_base_In_This_Method
+	}
+	public override void Canceled (UIAlertView alertView)
+	{
+		// Don't call base or you'll get:
+		// Unhandled Exception: MonoTouch.Foundation.You_Should_Not_Call_base_In_This_Method
+	}
+}
+</pre>
+<h3>Getting the bundle path</h3>
+<p>When Monotouch deploys your application for debugging, it will create a directory in</p>
+<p>..Application Support/iPhone Simulator/User/Applications/{Guid}/</p>
+<p>This is your application’s base directory. Everything is stored in a bundle, a type of zip file with all the resources and the app in. <a href="http://wiki.monotouch.net/HowTo/Files/HowTo:_Store_Files">This monotouch page</a> has all the information you need on the various directories in your application’s root directory. To access this you can to it with:</p>
+<p>Environment.CurrentDirectory</p>
+<p>and also available in:</p>
+<p>NSBundle.MainBundle.ResourcePath</p>
+<p>But CurrentDirectory is the better option. So for a build action ‘content’, you set your Sqlite connection string to:</p>
+<pre>var connection = string.Format("Data Source={0}/my.db;Version=3;",Environment.CurrentDirectory);
+</pre>
+<p><strong>Only resources in your main application will be copied to the bundle. Referenced projects with content build actions are ignored.</strong></p>
+<h3>Enabling the return key to hide the a keyboard with ResignFirstResponder</h3>
+<p>Here’s an example of adding support for a standard keyboard on a textfield, and making sure the return key hides the keyboard.</p>
+<pre>private UITextField _textField;
+public override void ViewDidLoad()
+{
+	_textField = new UITextField();
+	_textField.Text = "King Alfonso III";
+	_textField.Bounds = bounds;
+	_textField.Placeholder = "Username";
+	_textField.ShouldReturn = delegate
+	{
+		_textField.ResignFirstResponder();
+		return true;
+	};
+	
+	View.AddSubview(_textField);
+}
+</pre>
+<p>If you are submitted a form with a button, make sure you resign all the textfields responders in the button click, to avoid getting responder errors.</p>
+<pre>public void ButtonClick(object sender, EventArgs e)
+{
+	_textField.ResignFirstResponder();
+	// All other textboxes
+	// Other button logic
+}
+</pre>
+<h3>A Modal dialog helper</h3>
+<p>The class below displays a basic modal dialog with an “OK” button - where no response is necessary, for example if there is no internet connection you would want to warn about this. It also demonstrates a simple Yes/No.</p>
+<pre>public class ModalDialog
+{
+	public static void Alert(string title,string message)
+	{
+		UIAlertView alert = new UIAlertView();
+		alert.Title = title;
+		alert.AddButton("Ok");
+		alert.Message = message;
+		alert.Show();
+	}
+	
+	public static void AskYesNo(string title,string message)
+	{
+		UIAlertView alert = new UIAlertView();
+		alert.Title = title;
+		alert.AddButton("Yes");
+		alert.AddButton("No");
+		alert.Message = message;
+		alert.Delegate = new MyAlertViewDelegate();
+		alert.Show();
+	}
+	
+	public class MyAlertViewDelegate : UIAlertViewDelegate
+	{
+		public override void Clicked (UIAlertView alertview, int buttonIndex)
+		{
+		// Don't call base or you'll get:
+		// Unhandled Exception: MonoTouch.Foundation.You_Should_Not_Call_base_In_This_Method
+		}
+
+		public override void Canceled (UIAlertView alertView)
+		{
+		// Don't call base or you'll get:
+		// Unhandled Exception: MonoTouch.Foundation.You_Should_Not_Call_base_In_This_Method
+		}
+	}
+}
+</pre>
+<h3>Using a monotouch project in Visual Studio 2008/2010</h3>
+<p><strong>Update</strong><br>
+There’s now this <a href="https://github.com/follesoe/VSMonoTouch">Github</a> project to automate going between Visual Studio and Monodevelop.</p>
+<p>The steps below assume you have a shared drive that you keep your Monotouch/Monodevelop project files on. It can become tedious performing these steps each time you switch between Mac and PC. So a program to sync the two would be useful. ManniAT <a href="http://manniat.pp-p.net/blog/post/2009/11/18/MonoTouch-in-Visual-Studio.aspx">has written one</a> that does a one-way convert. I’ve written a very simplistic one also. The download is a Visual Studio Project file:</p>
+<p><img src="/assets/2010/10/monodevelopconverter.png" alt="Monodevelop to visual studio"></p>
+<p><a href="/assets/2013/02/MonotouchProjectConverter.zip">Download</a></p>
+<p><strong>1.</strong><br>
+First of all, copy all your monotouch assemblies from your Mac to a path on your windows machine (or a shared drive). My preferred easy to remember location is C:windowsmonotouch.</p>
+<p><strong>2.</strong><br>
+Backup your monotouch csproj file </p>
+<p><strong>3.</strong><br>
+Edit it in notepad++ or similar. Change this line:</p>
+<blockquote>
+<p><ProjectGuid>{95D28B03-E797-42C2-B5C6-B19D8C3D6670}</ProjectGuid> </p>
+</blockquote>
+<p>to</p>
+<blockquote>
+<p><ProjectGuid>{25B16A36-324E-4DB2-BCE9-85DF33504CD3}</ProjectGuid> </p>
+</blockquote>
+<p><em>(This new GUID is a standard console application.)</em></p>
+<p><strong>4.</strong><br>
+Remove the <ProjectTypeGuids> line</p>
+<p><strong>5.</strong><br>
+Change all <Page Include=&#8221;(Name).xib&#8221; /> to <None Include=&#8221;(Name).xib&#8221; />. This allows you to compile the project, otherwise VS thinks the XIB is a XAML style file.</p>
+<p><strong>6.</strong><br>
+Add a project references folder to point to your monotouch folder in the project properties pane. You can’t add the dlls to the GAC as they’re not strongly signed. Visual Studio stores this folder in a “.csproj.user” file. Unfortunately you have to do this for every project you have.</p>
+<p><strong>7.</strong><br>
+<strong>For Visual Studio 2010:</strong><br>
+Change the <Project ToolsVersion=&#8221;3.5&#8243;..> at the top of the .csproj file to <Project ToolsVersion=&#8221;4.0&#8243;>.</p>
+<p>The project file infact still works with Visual Studio 2008 with ToolsVersion=”4.0″ as long as there is no solution file. Visual Studio looks for a solution file in the parent directory to figure out what version the project is.</p>
+<p>One thing you can do with Visual Studio 2010 is upgrade the projects to client profile 4.0, and remove System.dll from your Windows monotouch folder - it will default to the one in the GAC for the profile. Just be weary not to use .NET 4.0 features such as named parameters, dynamic and code contracts. Also the line</p>
+<blockquote>
+<p><TargetFrameworkVersion>v4.0</TargetFrameworkVersion> </p>
+</blockquote>
+<p>needs to be changed back to</p>
+<blockquote>
+<p><TargetFrameworkVersion>v3.5</TargetFrameworkVersion> </p>
+</blockquote>
+<p>to work correctly in MonoDevelop.</p>
+<h3>Monotouch documentation inside Visual Studio</h3>
+<p>Once you’ve got your Monotouch projects working in Visual Studio you will want to benefit from inline documentation (tooltips) for your intellisense. Mono has its own XML format for its assemblies, so you can’t simply copy across the XML files to get documentation working in Visual Studio. I would distribute the Visual Studio XML file, however this is copyrighted by Apple. The Mono XML files are generated when Monotouch is installed to get around this. To convert to the Visual Studio format just follow the steps below:</p>
+<ul>
+<li>
+<p>Copy the XML folder from your Mac to your windows hard drive: “C:monodocs” </p>
+</li>
+<li>
+<p>Edit the index.xml file in “c:monodocsenindex.xml”</p>
+</li>
+<li>
+<p>Remove the <Type Name="CFRange"> line (there’s no docs for it so it errors), and also AlphaAttribute</p>
+</li>
+<li>
+<p>Save the file</p>
+</li>
+<li>
+<p>Install Mono for windows (or you can perform the steps below on your mac in your /Developer/Monotouch folder)</p>
+</li>
+<li>
+<p>Open a command line to “C:Program FilesMono-2.6.1bin”</p>
+</li>
+<li>
+<p>Type mdoc export-msxdoc “C:/monodocs/en” into the console (see <a href="http://www.mono-project.com/Generating_Documentation#Converting_Monodoc_format_XML_into_inline_XML_documentation">here</a> for more details.)<br>
+-` C:Program FilesMono-2.6.1bin will now have three new xml files:</p>
+<ul>
+<li>monotouch.xml</li>
+<li>NamespaceSummaries.xml</li>
+<li>OpenTK.xml</li>
+</ul>
+</li>
+<li>
+<p>Copy monotouch.xml and the others to your lib folder, or wherever you reference monotouch.dll from.</p>
+</li>
+</ul>
+<p>Visual Studio should now have inline comments as tooltips.</p>
+<h3>Monotouch SqliteParameter and guids</h3>
+<p>If you read the <a href="http://www.go-mono.com/docs/index.aspx?link=T:Mono.Data.SqliteClient.SqliteParameter/*">SqliteParameter documentation</a> you will notice lots of red documentation missing links. If you’ve used Open Source products much this is fairly standard (even though for Monotouch you are paying hundreds of dollars for the product). My own viewpoint on it is why bother making something open source if you can’t be bothered to write the docs, all but a dozen developers usually care about your finally crafted <a href="http://en.wikipedia.org/wiki/Third-generation_programming_language">3GL</a> code unless you write in detail what you’ve done. </p>
+<p>That’s a separate rant however, and actually the Monotouch code is well documented, it’s mainly the root Mono code that isn’t.</p>
+<p>For Mono.Data.SqliteParameter you are required to enter a DbType for your paramater. SqliteParameter is the best way of performing inserts, updates or queries that require unparsed field types - mostly strings.</p>
+<p>After examining the source to Mono.Data.Sqlite I discovered that VARCHAR, TEXT maps to the String DbType. And for Guid I was getting some strange data being entered for my INSERTS using DbType.Guid. I managed to get around this problem by using a String instead and using Guid.ToString().</p>
+<p>One other gotcha will be if you try to return an int from a count() statement. This actually returns a long, so assuming it’s an int will cause a casting exception.</p>
+<h3>Saving user settings in Monotouch using NSUserDefaults</h3>
+<p>There’s a few ways you can save your user settings on the iPhone, but the fastest way is using the NSUserDefaults object.</p>
+<p>This writes to a file in your app bundle called info.plist which is a file Monotouch automatically generates for you. NSUserDefaults has a lot of useful helper methods already built in, as well as synchronisation between what it has and what you have, and a facility for defaults.</p>
+<p>It’s based on using a Dictionary with a key and value, but isn’t restricted to one type - there’s SetInt, SetString. Below is a small example of writing a Settings class.</p>
+<pre>public class Settings
+{
+	public static string Name { get;set; }
+	public static int MagicNumber { get;set; }
+
+	public static void Read()
+	{
+		Name = NSUserDefaults.StandardUserDefaults.StringForKey("name");
+		MagicNumber = NSUserDefaults.StandardUserDefaults.IntForKey("magicnumber");
+	}
+
+	public static void Write()
+	{
+		NSUserDefaults.StandardUserDefaults.SetString(Name,"name");
+		NSUserDefaults.StandardUserDefaults.SetInt(MagicNumber,"magicnumber");
+		NSUserDefaults.StandardUserDefaults.Synchronize();
+	}
+}
+</pre>
+<p>And inside your AppDelegate class:</p>
+<pre>public override bool FinishedLaunching (UIApplication app, NSDictionary options)
+{
+	// If you have defined a view, add it here:
+	// window.AddSubview (navigationController.View);
+	Settings.Read();
+	window.MakeKeyAndVisible ();
+	return true;
+}
+public override void WillTerminate (UIApplication application)
+{
+	Settings.Write();
+}
+</pre>
+<h3>The famous object file format invalid or unsuitable error in Monotouch</h3>
+<p>If you’re using <a href="http://monotouch.net/Documentation/Building_for_Distribution">this guide</a> to sign your app with a provisioning license (adhoc) you can get an ‘object file format invalid or unsuitable’ error for <a href="http://www.iphonedevsdk.com/forum/iphone-sdk-development/5429-codesign-verification-nightmare.html">lots of different reasons</a>.</p>
+<p>The most obvious one is you’ve entered the entire bundle identifier, instead of just the “com.mysite.iphonapp” part.</p>
+<p>But one issue I got for 5 hours of repeated building (3 minutes a build on Mac Mini) and tinkering with every project setting was my assembly name.</p>
+<p>If your assembly name has a dot in the name it won’t sign.For example “MyApp.UI” will not work. I also make sure it’s explicitly set in the project configuration.</p>
+<p>Another useful thing to help out is the “Build Output” window from the view menu. If it’s not on my default, enable it to see the build taking place as the progress bar often stalls at ‘Compiling to native code’.</p>
+<h3>Getting around “background-attachment:fixed” in mobile Safari on the iPhone</h3>
+<p>Because of the way the viewport is scaled and drawn in the mobile version of Safari, you aren’t able to use the CSS “background-attachment: fixed” style to keep the background image in a fixed place. The way around this is to use a UIImageView behind a UIWebView and set the webview to opaque, shown below:</p>
+<pre>UIImageView imageView = new UIImageView();
+imageView.Image = UIImage.FromFile("backgroundimage.png");
+imageView.Frame = new RectangleF(0,0,320,480);
+View.AddSubview(imageView);
+
+UIWebView webView = new UIWebView();
+webView.BackgroundColor = UIColor.Clear;
+webView.Opaque = false;
+webView.Frame = new RectangleF(0, 0, 320, 480);
+webView.LoadHtmlString("&lt;html&gt;your html&lt;/html&gt;", new NSUrl("/"));
+
+View.AddSubview(webView);
+View.BringSubviewToFront(webView);
+</pre>
+<h3>Redirecting links to Safari in a UIWebView</h3>
+<p>This fairly straight forward to do using the Delegate property the UIWebView gives you.</p>
+<pre>public override void ViewDidLoad ()
+{
+	var webView = new UIWebView();
+	webView.Delegate = new WebDelegate();
+	View.AddSubview(webView);
+}
+/// &lt;summary&gt;
+/// Handles all links clicked in the webview, and directs them to Safari.
+/// &lt;/summary&gt;
+public class WebDelegate : UIWebViewDelegate
+{
+	public override bool ShouldStartLoad (UIWebView webView, NSUrlRequest request, UIWebViewNavigationType navigationType)
+	{
+		if (navigationType == UIWebViewNavigationType.LinkClicked)
+		{
+			UIApplication.SharedApplication.OpenUrl(request.Url);
+			return false;
+		}
+		else
+		{
+			return true;
+		}
+	}
+}
+</pre>
+<h3>Hyperlink UIButton or underlined text in a UIButton</h3>
+<p>This snippet is taken from an Objective-C source on Stackoverflow.com. It can serve as an equivalent to the hyperlink button or link button as you’d find in ASP.NET/Winforms/WPF.</p>
+<pre>public class UnderlineButton : UIButton
+{
+	public override void Draw (RectangleF rect)
+	{
+		base.Draw (rect);
+		// Red underline
+		CGContext context = UIGraphics.GetCurrentContext();
+		context.SetRGBFillColor(0xFF,0xFF,0,1);
+		context.SetLineWidth(1);
+		context.MoveTo(0,rect.Height -5);
+		context.AddLineToPoint(rect.Width,rect.Height -5);
+		context.StrokePath();
+	}
+}
+</pre>
+<h3>Hiding the tab bar in a UITabBarController</h3>
+<p>This can be achieved by adding two methods to your parent TabBarController:</p>
+<pre>public void ShowTabBar()
+{
+	// SubView1 is the TabBar
+	View.Subviews[1].Hidden = false;
+}
+
+public void HideTabBar()
+{
+	View.Subviews[1].Hidden = true;
+}
+</pre>
+<p>The first subview is the view it’s displaying, the second is the tabbar itself. You may need to alter the index for this based on your app.</p>
+<p>And then inside your controllers, you can show or hide the bar:</p>
+<pre>public override void ViewDidAppear (bool animated)
+{
+	// Renable the bottom tab bar
+	base.ViewDidAppear (animated);
+
+	// tabBarController is passed in using 'this' in the ctor
+	_tabBarController.ShowTabBar();
+}
+
+public override void ViewDidLoad ()
+{
+	base.ViewDidLoad ();
+
+	// tabBarController is passed in using 'this' in the ctor
+	_tabBarController.HideTabBar();
+}
+</pre>
+<p>The major issue with hiding your tabbar is your view is limited in height to the where the tabbar would be. So if you want to replace it with a toolbar, a toolbar is not as high (30px) which means you have to force a taller toolbar. At this height it looks wrong and probably won’t meet the Apple HIG anyway.</p>
+<p><a name="viewdidload"></a></p>
+<h3>ViewDidLoad vs ViewDidAppear vs ViewWillAppear</h3>
+<p><a href="http://stackoverflow.com/questions/2280423/do-i-programatically-add-subviews-in-viewdidappear-viewdidload-viewwillappear">This question</a> asks the difference between the three overriden methods in classes that derive from UIViewController. Eduardo Scoz gives this nice concise answer which I’m “re-printing” here:</p>
+<ul>
+<li>
+<p><strong>ViewDidLoad</strong> - Whenever I’m adding controls to a view that should appear together with the view, right away, I put it in the ViewDidLoad method. Basically this method is called whenever the view was loaded into memory. So for example, if my view is a form with 3 labels, I would add the labels here; the view will never exist without those forms.</p>
+</li>
+<li>
+<p><strong>ViewWillAppear</strong>: I use ViewWillAppear usually just to update the data on the form. So, for the example above, I would use this to actually load the data from my domain into the form. Creation of UIViews is fairly expensive, and you should avoid as much as possible doing that on the ViewWillAppear method, becuase when this gets called, it means that the iPhone is already ready to show the UIView to the user, and anything heavy you do here will impact performance in a very visible manner (like animations being delayed, etc).</p>
+</li>
+<li>
+<p><strong>ViewDidAppear</strong>: Finally, I use the ViewDidAppear to start off new threads to things that would take a long time to execute, like for example doing a webservice call to get extra data for the form above.The good thing is that because the view already exists and is being displayed to the user, you can show a nice “Waiting” message to the user while you get the data. </p>
+</li>
+</ul>
+<p>There are other tricks you can use, though. Lets say you want a UILabel to “fly” into the form after the form is loaded. In that case, I would add the label to the form in the ViewDidLoad but with a Frame outside of the view area, and then in the ViewDidAppear I would do the animation to fly it back into view.</p>
+<h3>Checking for an internet connection with a timed out Reachability</h3>
+<p><a href="https://github.com/xamarin/monotouch-samples/blob/master/ReachabilitySample/reachability.cs">Miguel De Icaza’s port of Apple’s Reachability class</a> allows you to check for various states of your iPhone’s connection. Apple’s original Reachability and subsequently the API Miguel’s port is calling is <a href="http://blog.ddg.com/?p=24">quite well known to be badly implemented</a> (Miguel has said this himself on the monotouch forums).</p>
+<p>One problem I frequently get with the Reachability class is it can hang on the device when trying to get the WWAN status (internet connection on 3G). A solution to this is to make the call inside a thread, and join it after 2 seconds. The code below demonstrates doing this.</p>
+<p>Update: I’ve discovered since writing this that calling Reachability.InternetConnectionStatus() != NetworkStatus.NotReachable; yields the result a lot faster. Also having the device connected via USB and using Wifi has caused some unpredictable results.</p>
+<pre>/// &lt;summary&gt;
+/// Returns true if the device has an internet connection.
+/// &lt;/summary&gt;
+public bool IsOnline()
+{
+	ReachabilityStatus status = new ReachabilityStatus();
+	Thread thread = new Thread(ThreadedIsOnline);
+	thread.IsBackground = true;
+	thread.Start(status);
+	bool terminated = thread.Join(2000);
+	return terminated && status.IsOnline;
+}
+
+private void ThreadedIsOnline(object state)
+{
+	using (NSAutoreleasePool pool = new NSAutoreleasePool())
+	{
+		((ReachabilityStatus)state).IsOnline = Reachability.RemoteHostStatus() != NetworkStatus.NotReachable;
+	}
+}
+
+private class ReachabilityStatus
+{
+	public bool IsOnline;
+}
+</pre>
+<p><a name="startuptime"></a></p>
+<h3>Masking the startup time of Monotouch</h3>
+<p>When you build a Monotouch application with a provisioning license (whether for the appstore or not), the startup time is generally around 1-2 seconds. The Monotouch team are working on this, however as a stop gap solution a splash screen prevents your users seeing the black screen while it loads, and instead the splash screen launches instantly.</p>
+<p>This is easy to do, you just put a 320×480 pixel PNG file in the root of your project directory, and call it Default.png (the name is case sensitive). Change the build method of the file to “Content” and this the graphic will then appear instantly, while the application loads.</p>
+<p><em>One thing to note, as pointed out by <a href="http://twitter.com/kangamono">Geoff Norton</a> - the startup time depends on what your application is doing. Monotouch can in some cases be faster than an objective-C equivalent.</em></p>
+<p><a name="sqliteperformance"></a></p>
+<h3>SQlite performance in Monotouch</h3>
+<p>Using NHibernate, ASP.NET, SQL Server and servers with specs that make the iPhone tremble I’ve discovered the hard way a few SQLite speed up tips.</p>
+<h4>Don’t use Guid primary keys.</h4>
+<p>It’s the advice for every DBMS however in SQLite you really do see a massive difference. My app went from 6 seconds loading to 0.8 when I removed the Guid primary key.</p>
+<h4>Add an artificial integer autoincrement primary key</h4>
+<p>If the sort order of your table isn’t important, and you are using Guids for the ids, it’s worth adding <a href="http://www.sqlite.org/faq.html#q1">an integer primary key</a>. Your data is then ordered by an integer (rather than it guessing a column), which are fast in SQlite.</p>
+<h4>Lazy load data</h4>
+<p>1500 DateTime parses take around 200ms to create in Monotouch on the iPhone - compare that to a standard dual core desktop PC where I got around 8ms. So if you have large amounts of data it’s a big bottleneck. The load times are a lot slower for non-integer values such as DateTimes and Strings. Storing DateTimes as ticks and an INTEGER column may increase this slightly, however for Strings I found lazy loading decreased the response times quite dramatically.</p>
+<h4>Don’t use joins</h4>
+<p>This is a mantra repeated in other articles about SQLite performance. </p>
+<h4>Cache your data</h4>
+<p>As you Lazy Load, keep your objects in memory with a simple Cache system. Providing you aren’t storing the kind of data that will give your app an out of memory warning, the time it takes to run out of memory from caching SQLite data will almost always be longer than the time the user spends using the app.</p>
+<p>The cache doesn’t need to be complicated, something simple like Cache<T> which holds a list of your data.</p>
+<h4>Consider a different datastore for static data</h4>
+<p>If you have data that isn’t user generated, and is readonly, I found it’s a lot faster to simply serialize the objects with a binary formatter rather than using SQLite. The obvious setback with this is finding an easy way to edit the data quickly, as SQLite has a number of good manager tools such as <a href="http://ostatic.com/sqlitebrowser">SQLitebrowser</a> (Java, cross-platform and lightweight).</p>
+<h3>Transparent background with a UIWebView</h3>
+<p>I take none of the credit for the code below, it’s simply a conversion of the Objective-C from <a href="http://blog.evandavey.com/2009/02/how-to-make-uiwebview-transparent.html">this blog post</a>. This example sets the background color of the view the striped gray appearance you get with UITableViews.</p>
+<pre>public override void ViewDidLoad()
+{
+	View.BackgroundColor = UIColor.GroupTableViewBackgroundColor;
+	_webView = new UIWebView();
+	_webView.Frame = new RectangleF(0, 0, 320, 480);
+	_webView.LoadHtmlString("&lt;html&gt;&lt;body style='background-color:transparent'&gt;test&lt;/body&gt;&lt;/html&gt;', new NSUrl("/"));
+	_webView.BackgroundColor = UIColor.Clear;
+	_webView.Opaque = false;
+}
+</pre>
+<h3>Modal loading UIView dialog</h3>
+<p>On the iPhone there is an example of a modal “loading” dialog when you set the wallpaper from one of your images. There are a few examples of doing this in objective-C around, however an easier solution is simply subclass UIAlertView as shown below. Note that the measurements are fairly esoteric in the example, and may need adjusting if you have a lot more or less text.</p>
+<p><img src="/assets/2010/10/uiloadingview.png" alt="UIAlertView loading screen"></p>
+<pre>/// &lt;summary&gt;
+/// Solution taken from: http://iphonedevelopertips.com/user-interface/uialertview-without-buttons-please-wait-dialog.html
+/// &lt;/summary&gt;
+public class LoadingView : UIAlertView
+{
+	private UIActivityIndicatorView _activityView;
+	public void Show(string title)
+	{
+		Title = title;
+		Show();
+		// Spinner - add after Show() or we have no Bounds.
+		_activityView = new UIActivityIndicatorView(UIActivityIndicatorViewStyle.WhiteLarge);
+		_activityView.Frame = new RectangleF((Bounds.Width / 2) - 15, Bounds.Height - 50, 30, 30);
+		_activityView.StartAnimating();
+		AddSubview(_activityView);
+	}
+	public void Hide()
+	{
+		DismissWithClickedButtonIndex(0, true);
+	}
+}
+</pre>
+<h3>Converting to or from a DateTime to NSDate</h3>
+<p>This isn’t my code, but saved from a pastie.org post:</p>
+<pre>public static DateTime NSDateToDateTime(MonoTouch.Foundation.NSDate date)
+{
+	return (new DateTime(2001,1,1,0,0,0)).AddSeconds(date.SecondsSinceReferenceDate);
+}
+
+public static MonoTouch.Foundation.NSDate DateTimeToNSDate(DateTime date)
+{
+	return MonoTouch.Foundation.NSDate.FromTimeIntervalSinceReferenceDate((date-(new DateTime(2001,1,1,0,0,0))).TotalSeconds);
+}
+</pre>
+<h3>Using a Windows keyboard on Mac OS X</h3>
+<p>As a Windows .NET developer I use Windows and Visual Studio 99% of the time. I also use a British keyboard. One of the frustrations of moving to Mac OS X and not having an Apple keyboard is the key mappings.</p>
+<p>Fortunately with a Microsoft keyboard it’s quite easy to get the keyboard to behave like a Windows keyboard. It involves 4 steps:</p>
+<ol>
+<li>Download the Microsoft keyboard software for Mac OS X and install it.</li>
+<li>As a British keyboard user - set your keyboard to “British - Microsoft”. This will fix your @, ” and other keys.</li>
+<li>Change your CTRL and Win keys around in the keyboard modifiers menu in the system preferences. CTRL+S, O now do what you’re used to, along with CTRL+Z/C/P.</li>
+<li>Add a key bindings file to sort out the HOME/END keys which go to the top of the page by default. <a href="http://www.starryhope.com/tech/2006/mac-os-x-home-and-end-keys/">This blog post</a> tells you how to do, it’s just a matter of creating a textfile:</li>
+</ol>
+<p>~/Library/KeyBindings/DefaultKeyBinding.dict</p>
+<p>Add the following to the file, and restart and any applications you want to use the key bindings in:</p>
+<pre>{
+"\UF72C"  = "pageUp:";
+"\UF72D"  = "pageDown:";
+"\UF729"  = "moveToBeginningOfLine:";
+"\UF72B"  = "moveToEndOfLine:";
+"$\UF729" = "moveToBeginningOfLineAndModifySelection:";
+"$\UF72B" = "moveToEndOfLineAndModifySelection:";
+}
+</pre>
+<p>Not all keys will be correct - for example you’ll need to use CTRL+TAB to ‘alt tab’ around, but it’s close enough.</p>
+<h3>Resources</h3>
+<p>Below is a small list of sites that have lots of info on Monotouch</p>
+<ul>
+<li><a href="http://www.alexyork.net/blog/post/UINavigationController-with-MonoTouch-Building-a-simple-RSS-reader-Part-1.aspx">Alex York’s blog</a></li>
+<li><a href="http://conceptdev.blogspot.com/2009/10/monotouch-sans-interface-builder.html">Craig Dunn’s blog</a></li>
+<li><a href="http://monotouchexamples.com/">ChrisNtr’s site</a></li>
+<li><a href="http://mikebluestein.wordpress.com/">Mike Bluestein’s blog</a></li>
+<li><a href="http://www.codesnack.com/storage/screencasts/uitabbarcontroller/part2/index.html">codesnack screencasts</a></li>
+<li><a href="http://www.Monotouch.info">Monotouch.info</a></li>
+<li><a href="http://tinyurl.com/monotouchbugs">Monotouch’s current bug list</a></li>
+<li><a href="http://forums.monotouch.net/yaf_topics2_Runtime.aspx">The monotouch.net runtime forum</a></li>
+<li><a href="http://stackoverflow.com/questions/tagged/monotouch">Stackoverflow</a></li>
+<li><a href="http://www.delicious.com/tags/monotouch">Delicious</a></li>
+</ul>
+<p>As the Monotouch library matches Cocoatouch down to the classname, you can often just look for what you’re after in Objective-C/X-Code and translate it.</p></div><hr style="margin-bottom:1.75rem"/><div style="display:flex;margin-bottom:4.375rem"><div class=" gatsby-image-wrapper" style="position:relative;overflow:hidden;display:inline-block;width:50px;height:50px;margin-right:0.875rem;margin-bottom:0;min-width:50px;border-radius:100%"><img src="data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAQBAgP/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABtm2Q9WjuUl4Fn//EABsQAAIDAAMAAAAAAAAAAAAAAAECAAMhERMx/9oACAEBAAEFAu2sy+zmB2EAAje4Y2JVqMd//8QAFxEAAwEAAAAAAAAAAAAAAAAAAQIQMf/aAAgBAwEBPwEbGn//xAAWEQEBAQAAAAAAAAAAAAAAAAAQAQL/2gAIAQIBAT8Bpk//xAAcEAACAgIDAAAAAAAAAAAAAAAAEQIhARAxQWH/2gAIAQEABj8C5MRjLC7En6UUXp6//8QAGhABAAIDAQAAAAAAAAAAAAAAAQARITFBUf/aAAgBAQABPyE4AHsWpejCNs4NwGgRUS77AL13MWQDM2G7YphP/9oADAMBAAIAAwAAABCMEEL/xAAYEQEAAwEAAAAAAAAAAAAAAAABABAhMf/aAAgBAwEBPxAkPcmGv//EABkRAQACAwAAAAAAAAAAAAAAAAEAIRARMf/aAAgBAgEBPxBOuwKlsf/EAB4QAQACAgEFAAAAAAAAAAAAAAEAESExQWFxscHR/9oACAEBAAE/EFKza0fIZwQXJ6qmLkEU2SEg17oyw2jlgu99WGEXqhBcx6IziJDPudsROKi3yz//2Q==" alt="Chris Small" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center;opacity:1;transition-delay:0.5s;border-radius:50%"/><noscript><picture><img width="50" height="50" srcset="/static/bd88f286fb823f243a3ee995debb8ec1/c15d6/profile-pic.jpg 1x,
+/static/bd88f286fb823f243a3ee995debb8ec1/43c20/profile-pic.jpg 1.5x,
+/static/bd88f286fb823f243a3ee995debb8ec1/da97e/profile-pic.jpg 2x,
+/static/bd88f286fb823f243a3ee995debb8ec1/3e75a/profile-pic.jpg 3x" src="/static/bd88f286fb823f243a3ee995debb8ec1/c15d6/profile-pic.jpg" alt="Chris Small" style="position:absolute;top:0;left:0;opacity:1;width:100%;height:100%;object-fit:cover;object-position:center"/></picture></noscript></div><p>Written by <strong>Chris Small</strong> who lives and works in London.<!-- --> <a href="https://github.com/yetanotherchris">Github</a>, <a href="https://stackoverflow.com/users/21574/chris-s">Stackoverflow</a>, <a href="/resume/">Resume</a></p></div><ul style="display:flex;flex-wrap:wrap;justify-content:space-between;list-style:none;padding:0"><li><a rel="prev" href="/2010-09-12-uinavigationcontroller-by-example/">← <!-- -->UINavigationController by example</a></li><li><a rel="next" href="/2010-10-10-monotouch-controllers-by-example/">Monotouch Controllers by example<!-- --> →</a></li></ul></main><footer>© <!-- -->2019<!-- -->, Built with<!-- --> <a href="https://www.gatsbyjs.org">Gatsby</a></footer></div></div></div><script>
+  
+  
+  if(true) {
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  }
+  if (typeof ga === "function") {
+    ga('create', 'undefined', 'auto', {});
+      
+      
+      
+      }
+      </script><script id="gatsby-script-loader">/*<![CDATA[*/window.page={"componentChunkName":"component---src-templates-blog-post-js","jsonName":"2010-10-10-monotouch-tips-and-snippets-02d","path":"/2010-10-10-monotouch-tips-and-snippets/"};window.dataPath="662/path---2010-10-10-monotouch-tips-and-snippets-02-d-a32-1h7fdKkqRjjFerOMfCA3QyC9qE";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"app":["/app-e94527e8e59d87114934.js"],"component---node-modules-gatsby-plugin-offline-app-shell-js":["/component---node-modules-gatsby-plugin-offline-app-shell-js-78f9e4dea04737fa062d.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-775aca275802758b5820.js"],"component---src-pages-404-js":["/component---src-pages-404-js-85f717e2054b0307fff6.js"],"component---src-pages-archive-js":["/component---src-pages-archive-js-aaa339ea62cc802de0b9.js"],"component---src-pages-index-js":["/component---src-pages-index-js-d4cb84c2d5fcf0fc531e.js"],"pages-manifest":["/pages-manifest-3f8d51ed239a703d029a.js"]};/*]]>*/</script><script src="/webpack-runtime-40594e5056c89970428b.js" async=""></script><script src="/styles-12b50b0331563bca0609.js" async=""></script><script src="/app-e94527e8e59d87114934.js" async=""></script><script src="/0-fa4a7f07c6fbcaedd682.js" async=""></script><script src="/component---src-templates-blog-post-js-775aca275802758b5820.js" async=""></script></body></html>
