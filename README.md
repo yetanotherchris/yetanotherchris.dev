@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/cefb24ca-2b3e-46c1-943c-12628b3b5fa9/deploy-status)](https://app.netlify.com/sites/reverent-hermann-a67e2d/deploys)
+
 # anotherchris.net
 The [Gatsby](https://www.gatsbyjs.org) and markdown source for my blog, www.anotherchris.net
 
