@@ -3,7 +3,7 @@ title: Output from the Uri class
 date: 2009-02-27 00:00:00 Z
 permalink: "/csharp/output-from-the-uri-class/"
 tags:
-- c#
+- csharp
 Published: 2009-02-27 00:00:00 Z
 author: Chris S
 layout: post

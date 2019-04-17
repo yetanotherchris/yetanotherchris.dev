@@ -3,7 +3,7 @@ title: Filtering System.Diagnostics Trace messages
 date: 2012-02-13 00:00:00 Z
 permalink: "/csharp/filtering-system-diagnostics-trace-messages/"
 tags:
-- c#
+- csharp
 Published: 2012-02-13 00:00:00 Z
 author: Chris S
 layout: post

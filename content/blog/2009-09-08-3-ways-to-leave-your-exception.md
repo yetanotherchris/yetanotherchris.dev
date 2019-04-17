@@ -3,7 +3,7 @@ title: 3 ways to leave your exception
 date: 2009-09-08 00:00:00 Z
 permalink: "/csharp/3-ways-to-leave-your-exception/"
 tags:
-- c#
+- csharp
 Published: 2009-09-08 00:00:00 Z
 author: Chris S
 description: 3 ways to deal with throwing/re-throwing exceptions in C#

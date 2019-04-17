@@ -4,7 +4,7 @@ date: 2011-02-02 00:00:00 Z
 permalink: "/csharp/csharp-bit-manipulation-by-example-part-2/"
 tags:
 - bit-manipulation
-- c#
+- csharp
 Published: 2011-02-02 00:00:00 Z
 author: Chris S
 description: The second part of a two-part blog series looking at bit manipulation in
@@ -273,7 +273,7 @@ The well written JavaRanch article below has 2 good examples of bit shifting wit
   * [Wikipedia article on Endianess][5]
   * [Stackoverflow question on bitwise shifting][6]
 
- [1]: /csharp/csharp-bit-manipulation-by-example-part-1/
+ [1]: /tags/csharp/csharp-bit-manipulation-by-example-part-1/
  [2]: http://www.sliver.com/dotnet/SnippetCompiler/
  [3]: http://www.blackwasp.co.uk/CSharpLogicalBitwiseOps.aspx
  [4]: http://www.javaranch.com/journal/200406/ScjpTipLine-BitShifting.html

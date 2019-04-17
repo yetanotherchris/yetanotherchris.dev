@@ -3,7 +3,7 @@ title: Syntax highlighter for C#
 date: 2010-04-07 00:00:00 Z
 permalink: "/csharp/syntax-highlighter-for-csharp/"
 tags:
-- c#
+- csharp
 Published: 2010-04-07 00:00:00 Z
 author: Chris S
 description: This is small class for color coding, syntax highlighting, pretty printing,

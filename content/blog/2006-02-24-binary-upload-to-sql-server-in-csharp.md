@@ -3,7 +3,7 @@ title: Binary upload to SQL Server in
 date: 2006-02-24 00:00:00 Z
 permalink: "/csharp/binary-upload-to-sql-server-in-csharp/"
 tags:
-- c#
+- csharp
 - sql-server
 Published: 2006-02-24 00:00:00 Z
 author: Chris S

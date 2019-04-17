@@ -3,7 +3,7 @@ title: Other Design Patterns
 date: 2010-02-08 00:00:00 Z
 permalink: "/csharp/other-design-patterns/"
 tags:
-- c#
+- csharp
 - design-patterns
 Published: 2010-02-08 00:00:00 Z
 author: Chris S

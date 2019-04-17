@@ -2,7 +2,7 @@
 title: Unit test naming conventions
 date: 2015-11-04 00:00:00 Z
 tags:
-- c#
+- csharp
 - testing
 - unit-tests
 Published: 2015-11-04 00:00:00 Z

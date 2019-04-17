@@ -3,7 +3,7 @@ title: 'C# Design Patterns: the State pattern'
 date: 2009-03-09 00:00:00 Z
 permalink: "/csharp/csharp-design-patterns-the-state-pattern/"
 tags:
-- c#
+- csharp
 - design-patterns
 Published: 2009-03-09 00:00:00 Z
 author: Chris S

@@ -3,7 +3,7 @@ title: Serialization as a database
 date: 2008-08-05 00:00:00 Z
 permalink: "/csharp/serialization-as-a-database-in/"
 tags:
-- c#
+- csharp
 - serialization
 Published: 2008-08-05 00:00:00 Z
 author: Chris S

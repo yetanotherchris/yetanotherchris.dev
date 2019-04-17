@@ -3,7 +3,7 @@ title: Listing Windows users and groups in C#
 date: 2010-04-16 00:00:00 Z
 permalink: "/csharp/listing-windows-users-and-groups-in-c/"
 tags:
-- c#
+- csharp
 Published: 2010-04-16 00:00:00 Z
 author: Chris S
 description: One method of listing Windows users and groups in C#.

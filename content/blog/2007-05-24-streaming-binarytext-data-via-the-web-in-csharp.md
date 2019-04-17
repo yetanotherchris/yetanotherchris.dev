@@ -3,7 +3,7 @@ title: Streaming binary/text data via the web in C#
 date: 2007-05-24 00:00:00 Z
 permalink: "/csharp/streaming-binarytext-data-via-the-web-in-csharp/"
 tags:
-- c#
+- csharp
 - xml
 Published: 2007-05-24 00:00:00 Z
 author: Chris S

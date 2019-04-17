@@ -3,7 +3,7 @@ title: 'C# Design Patterns: the Observer pattern'
 date: 2009-02-28 00:00:00 Z
 permalink: "/csharp/csharp-design-patterns-the-observer-pattern/"
 tags:
-- c#
+- csharp
 - design-patterns
 Published: 2009-02-28 00:00:00 Z
 author: Chris S

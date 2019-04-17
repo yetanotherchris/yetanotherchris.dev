@@ -3,7 +3,7 @@ title: Serializing an object to XML snippet
 date: 2012-03-14 00:00:00 Z
 permalink: "/csharp/serializing-an-object-to-xml-snippet/"
 tags:
-- c#
+- csharp
 Published: 2012-03-14 00:00:00 Z
 author: Chris S
 layout: post

@@ -3,7 +3,7 @@ title: XML Browser (demo app)
 date: 2008-02-05 00:00:00 Z
 permalink: "/csharp/xml-browser-demo-app/"
 tags:
-- c#
+- csharp
 - xml
 Published: 2008-02-05 00:00:00 Z
 author: Chris S

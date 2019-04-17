@@ -3,7 +3,7 @@ title: Export to Excel in C#
 date: 2009-10-12 00:00:00 Z
 permalink: "/csharp/excel-exporting-in-csharp/"
 tags:
-- c#
+- csharp
 Published: 2009-10-12 00:00:00 Z
 author: Chris S
 layout: post

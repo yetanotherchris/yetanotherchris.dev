@@ -3,7 +3,7 @@ title: Image conversion in C#
 date: 2009-04-13 00:00:00 Z
 permalink: "/csharp/image-conversion-in-csharp/"
 tags:
-- c#
+- csharp
 - winforms
 Published: 2009-04-13 00:00:00 Z
 author: Chris S

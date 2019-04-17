@@ -3,7 +3,7 @@ title: Simplified C# Atom and Rss feed parser
 date: 2010-02-08 00:00:00 Z
 permalink: "/csharp/simplified-csharp-atom-and-rss-feed-parser/"
 tags:
-- c#
+- csharp
 Published: 2010-02-08 00:00:00 Z
 author: Chris S
 description: A set of snippets for parsing RSS and ATOM feeds.

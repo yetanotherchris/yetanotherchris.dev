@@ -3,7 +3,7 @@ title: 'C# Design Patterns: the Singleton pattern'
 date: 2009-01-13 00:00:00 Z
 permalink: "/csharp/csharp-design-patterns-the-singleton-pattern/"
 tags:
-- c#
+- csharp
 - design-patterns
 Published: 2009-01-13 00:00:00 Z
 author: Chris S

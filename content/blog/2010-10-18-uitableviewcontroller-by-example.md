@@ -234,8 +234,8 @@ public override void MoveRow (UITableView tableView, NSIndexPath sourceIndexPath
 
  [1]: https://bitbucket.org/yetanotherchris/monotouch-samples/get/default.zip
  [2]: http://ios.xamarin.com/
- [3]: /iphone/uinavigationcontroller-by-example/
- [4]: /monotouch/monotouch-tips-and-snippets/
+ [3]: /tags/iphone/uinavigationcontroller-by-example/
+ [4]: /tags/monotouch/monotouch-tips-and-snippets/
  [5]: http://www.go-mono.org/docs/index.aspx?link=T:MonoTouch.UIKit.UITableViewDelegate
  [6]: http://www.go-mono.org/docs/index.aspx?link=T:MonoTouch.UIKit.UITableViewDataSource
  [7]: /assets/2010/10/UITableViewController.png

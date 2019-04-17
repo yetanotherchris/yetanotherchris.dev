@@ -3,7 +3,7 @@ title: 'Your base class: Abstract or Interface?'
 date: 2009-05-18 00:00:00 Z
 permalink: "/csharp/your-base-class-abstract-or-interface/"
 tags:
-- c#
+- csharp
 Published: 2009-05-18 00:00:00 Z
 author: Chris S
 description: One thing that is often overlooked by the tutorials and books is deciding

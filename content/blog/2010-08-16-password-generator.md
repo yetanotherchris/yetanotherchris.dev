@@ -3,7 +3,7 @@ title: Password Generator
 date: 2010-08-16 00:00:00 Z
 permalink: "/csharp/password-generator/"
 tags:
-- c#
+- csharp
 - password-generator
 Published: 2010-08-16 00:00:00 Z
 author: Chris S
@@ -29,4 +29,4 @@ The password generator classes are available to download [here][1].
 <div id="silverlightControlHost" style="width:400px; height:320px;">
 </div>
 
- [1]: /csharp/pronounceable-password-generator/
+ [1]: /tags/csharp/pronounceable-password-generator/

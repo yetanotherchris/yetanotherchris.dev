@@ -3,7 +3,7 @@ title: Wake up from Sleep (CreateWaitableTimer) in C#
 date: 2009-06-18 00:00:00 Z
 permalink: "/csharp/wake-up-from-sleep-createwaitabletimer-in-csharp/"
 tags:
-- c#
+- csharp
 - winforms
 Published: 2009-06-18 00:00:00 Z
 author: Chris S

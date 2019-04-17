@@ -3,7 +3,7 @@ title: Format XML in C#
 date: 2009-09-09 00:00:00 Z
 permalink: "/csharp/formatting-xml-in-csharp/"
 tags:
-- c#
+- csharp
 - xml
 Published: 2009-09-09 00:00:00 Z
 author: Chris S

@@ -3,7 +3,7 @@ title: LDAP/Active directory tree in C#
 date: 2009-10-12 00:00:00 Z
 permalink: "/csharp/ldapactive-directory-tree-in-csharp/"
 tags:
-- c#
+- csharp
 - winforms
 Published: 2009-10-12 00:00:00 Z
 author: Chris S

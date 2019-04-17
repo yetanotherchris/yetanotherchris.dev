@@ -3,7 +3,7 @@ title: Delegates, Funcs and Actions by example
 date: 2010-05-03 00:00:00 Z
 permalink: "/csharp/delegates-funcs-and-actions-by-example/"
 tags:
-- c#
+- csharp
 Published: 2010-05-03 00:00:00 Z
 author: Chris S
 description: This is a small set of reference examples of the various ways of declaring

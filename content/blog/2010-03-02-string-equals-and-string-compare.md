@@ -4,7 +4,7 @@ date: 2010-03-02 00:00:00 Z
 permalink: "/csharp/string-equals-and-string-compare/"
 tags:
 - assemblies
-- c#
+- csharp
 Published: 2010-03-02 00:00:00 Z
 author: Chris S
 description: What's the difference between ==, .equals and string.Compare()? This post

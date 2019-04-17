@@ -32,5 +32,5 @@ The two articles cover most of the basics and a bit more via code, and they incl
  [1]: /assets/2010/10/UINavigationController2.png
  [2]: /assets/2010/10/UITableViewController3.png
  [3]: /assets/2010/10/UITableViewController4.png
- [4]: /iphone/uinavigationcontroller-by-example
- [5]: /monotouch/uitableviewcontroller-by-example/
+ [4]: /tags/iphone/uinavigationcontroller-by-example
+ [5]: /tags/monotouch/uitableviewcontroller-by-example/

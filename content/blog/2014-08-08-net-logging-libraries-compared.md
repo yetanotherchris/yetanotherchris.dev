@@ -3,7 +3,7 @@ title: ".NET logging libraries compared"
 date: 2014-08-08 00:00:00 Z
 permalink: "/csharp/net-logging-libraries-compared/"
 tags:
-- c#
+- csharp
 Published: 2014-08-08 00:00:00 Z
 author: Chris S
 layout: post

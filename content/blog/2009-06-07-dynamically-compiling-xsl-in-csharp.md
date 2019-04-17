@@ -3,7 +3,7 @@ title: Dynamically compiling XSL in C#
 date: 2009-06-07 00:00:00 Z
 permalink: "/csharp/dynamically-compiling-xsl-in-csharp/"
 tags:
-- c#
+- csharp
 - xml
 Published: 2009-06-07 00:00:00 Z
 author: Chris S

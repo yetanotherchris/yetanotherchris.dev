@@ -3,7 +3,7 @@ title: Silverlight JSON WebClient wrapper/helper
 date: 2010-06-06 00:00:00 Z
 permalink: "/csharp/silverlight-json-webclient-wrapperhelper/"
 tags:
-- c#
+- csharp
 - silverlight
 - webclient
 Published: 2010-06-06 00:00:00 Z

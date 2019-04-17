@@ -130,4 +130,4 @@ Subsonic is a kind of amalgamation of the Entity framework and ActiveRecord with
  [3]: http://www.codeplex.com/PuzzleNPersist
  [4]: http://www.puzzleframework.com
  [5]: http://www.codeplex.com/subsonic
- [6]: /orm/a-look-at-net-orms-part-3
+ [6]: /tags/orm/a-look-at-net-orms-part-3

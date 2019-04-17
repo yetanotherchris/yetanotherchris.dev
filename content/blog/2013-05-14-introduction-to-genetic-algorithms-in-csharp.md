@@ -4,7 +4,7 @@ date: 2013-05-14 00:00:00 Z
 permalink: "/csharp/introduction-to-genetic-algorithms-in-csharp/"
 tags:
 - artificial-intelligence
-- c#
+- csharp
 Published: 2013-05-14 00:00:00 Z
 author: Chris S
 layout: post

@@ -3,7 +3,7 @@ title: Parsing XFDF (PDF annotations) in C#
 date: 2012-02-07 00:00:00 Z
 permalink: "/csharp/parsing-xfdf-pdf-annotations/"
 tags:
-- c#
+- csharp
 Published: 2012-02-07 00:00:00 Z
 author: Chris S
 layout: post

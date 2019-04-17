@@ -4,7 +4,7 @@ date: 2009-02-03 00:00:00 Z
 permalink: "/csharp/csharp-and-net-type-visibility/"
 tags:
 - ".net"
-- c#
+- csharp
 Published: 2009-02-03 00:00:00 Z
 author: Chris S
 description: This post is a reference article about visibility in C# and .NET.

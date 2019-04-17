@@ -3,7 +3,7 @@ title: Using XmlTextWriter to produce a XML string
 date: 2010-02-16 00:00:00 Z
 permalink: "/csharp/using-xmltextwriter-to-produce-a-xml-string/"
 tags:
-- c#
+- csharp
 - xml
 Published: 2010-02-16 00:00:00 Z
 author: Chris S

@@ -53,6 +53,12 @@ module.exports = {
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          {
+            resolve: `gatsby-plugin-tags`,
+            options: {
+              templatePath: `${__dirname}/src/templates/tag.js`
+            }
+          }
         ],
       },
     },
@@ -84,6 +90,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
+    }
   ],
 }

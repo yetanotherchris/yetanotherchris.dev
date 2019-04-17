@@ -1,7 +1,7 @@
 ---
 title: Inside The System.IO Namespace Part 3
 date: 2010-10-26 00:00:00 Z
-permalink: "/net/inside-the-systemio-namespace-part-3/"
+permalink: "/tags/net/inside-the-systemio-namespace-part-3/"
 tags:
 - ".net"
 Published: 2010-10-26 00:00:00 Z
@@ -384,8 +384,8 @@ Reading very large files (eg dvd-size) or buggy in-memory manipulation with Memo
 
 <pre>byte[] b = new byte[int.MaxValue];</pre>
 
- [1]: /net/inside-the-systemio-namespace-part-1
- [2]: /net/inside-the-systemio-namespace-part-2
+ [1]: /tags/net/inside-the-systemio-namespace-part-1
+ [2]: /tags/net/inside-the-systemio-namespace-part-2
  [3]: /assets/2010/10/readerwriter.gif
  [4]: http://www.yoda.arachsys.com/csharp/miscutil/
  [5]: /assets/2010/10/ioexception.gif

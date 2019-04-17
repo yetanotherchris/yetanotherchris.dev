@@ -3,7 +3,7 @@ title: C# Symmetric encryption wrapper
 date: 2009-07-24 00:00:00 Z
 permalink: "/csharp/csharp-symmetric-encryption-wrapper/"
 tags:
-- c#
+- csharp
 - encryption
 Published: 2009-07-24 00:00:00 Z
 author: Chris S

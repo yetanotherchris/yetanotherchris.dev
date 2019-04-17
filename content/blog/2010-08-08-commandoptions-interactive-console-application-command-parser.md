@@ -3,7 +3,7 @@ title: CommandOptions - interactive console application command parser
 date: 2010-08-08 00:00:00 Z
 permalink: "/csharp/commandoptions-interactive-console-application-command-parser/"
 tags:
-- c#
+- csharp
 - command-line
 Published: 2010-08-08 00:00:00 Z
 author: Chris S

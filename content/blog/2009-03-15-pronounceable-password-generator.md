@@ -3,7 +3,7 @@ title: Pronounceable password generator
 date: 2009-03-15 00:00:00 Z
 permalink: "/csharp/pronounceable-password-generator/"
 tags:
-- c#
+- csharp
 Published: 2009-03-15 00:00:00 Z
 author: Chris S
 description: A c# password generator which creates both random alpha-numeric and the more

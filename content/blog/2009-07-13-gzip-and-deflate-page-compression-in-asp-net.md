@@ -4,7 +4,7 @@ date: 2009-07-13 00:00:00 Z
 permalink: "/csharp/gzip-and-deflate-page-compression-in-asp-net/"
 tags:
 - asp.net
-- c#
+- csharp
 Published: 2009-07-13 00:00:00 Z
 author: Chris S
 description: A re-packaged version of Bart De Smet's ASP.NET page compression using GZIP.

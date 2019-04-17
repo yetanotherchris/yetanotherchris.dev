@@ -3,7 +3,7 @@ title: Sending messages to windows in C# via winapi
 date: 2008-09-16 00:00:00 Z
 permalink: "/csharp/sending-messages-to-windows-in-csharp-via-winapi/"
 tags:
-- c#
+- csharp
 - winforms
 Published: 2008-09-16 00:00:00 Z
 author: Chris S

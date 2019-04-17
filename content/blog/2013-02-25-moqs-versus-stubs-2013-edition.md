@@ -3,7 +3,7 @@ title: Moqs versus Stubs (2013 edition)
 date: 2013-02-25 00:00:00 Z
 permalink: "/csharp/moqs-versus-stubs-2013-edition/"
 tags:
-- c#
+- csharp
 - roadkill-wiki
 - testing
 Published: 2013-02-25 00:00:00 Z

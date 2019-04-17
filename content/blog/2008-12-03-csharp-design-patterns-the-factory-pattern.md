@@ -3,7 +3,7 @@ title: 'C# Design Patterns: the Factory pattern'
 date: 2008-12-03 00:00:00 Z
 permalink: "/csharp/csharp-design-patterns-the-factory-pattern/"
 tags:
-- c#
+- csharp
 - design-patterns
 Published: 2008-12-03 00:00:00 Z
 author: Chris S

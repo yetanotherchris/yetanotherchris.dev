@@ -3,7 +3,7 @@ title: Using Google maps with C#
 date: 2010-03-16 00:00:00 Z
 permalink: "/csharp/using-google-maps-with-csharp/"
 tags:
-- c#
+- csharp
 Published: 2010-03-16 00:00:00 Z
 author: Chris S
 description: How to parse a website and then plot a set of addresses onto an embedded

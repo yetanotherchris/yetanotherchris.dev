@@ -1,9 +1,9 @@
 ---
 title: Friendly Unique Id Generation Part 1
 date: 2009-03-03 00:00:00 Z
-permalink: "/csharp/friendly-unique-id-generation-part-1/"
+permalink: "/tags/csharp/friendly-unique-id-generation-part-1/"
 tags:
-- c#
+- csharp
 - url-generation
 Published: 2009-03-03 00:00:00 Z
 author: Chris S
@@ -130,13 +130,13 @@ This just produces a guid in string format. It's not really viable for the ids w
 
  [1]: #base64
  [2]: #guid
- [3]: /csharp/friendly-unique-id-generation-part-2#numeric
- [4]: /csharp/friendly-unique-id-generation-part-2#alphanumeric
- [5]: /csharp/friendly-unique-id-generation-part-2#host
- [6]: /csharp/friendly-unique-id-generation-part-2#time
- [7]: /csharp/friendly-unique-id-generation-part-2#ticks
- [8]: /csharp/friendly-unique-id-generation-part-2#md5
- [9]: /csharp/friendly-unique-id-generation-part-2#password
- [10]: /csharp/friendly-unique-id-generation-part-2#base62
+ [3]: /tags/csharp/friendly-unique-id-generation-part-2#numeric
+ [4]: /tags/csharp/friendly-unique-id-generation-part-2#alphanumeric
+ [5]: /tags/csharp/friendly-unique-id-generation-part-2#host
+ [6]: /tags/csharp/friendly-unique-id-generation-part-2#time
+ [7]: /tags/csharp/friendly-unique-id-generation-part-2#ticks
+ [8]: /tags/csharp/friendly-unique-id-generation-part-2#md5
+ [9]: /tags/csharp/friendly-unique-id-generation-part-2#password
+ [10]: /tags/csharp/friendly-unique-id-generation-part-2#base62
  [11]: http://tinyurl.com
  [12]: http://en.wikipedia.org/wiki/UUID#Version_4_.28random.29

@@ -3,7 +3,7 @@ title: Whois, DNS, CName, MX record lookup in C#
 date: 2008-10-06 00:00:00 Z
 permalink: "/csharp/whois-dns-cname-mx-record-lookup-in-csharp/"
 tags:
-- c#
+- csharp
 Published: 2008-10-06 00:00:00 Z
 author: Chris S
 description: This is the source code from the network tools page that use to exist on

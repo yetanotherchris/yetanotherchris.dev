@@ -3,7 +3,7 @@ title: A C# UK bank holiday calculator
 date: 2014-05-21 00:00:00 Z
 permalink: "/csharp/a-c-uk-bank-holiday-calculator/"
 tags:
-- c#
+- csharp
 Published: 2014-05-21 00:00:00 Z
 author: Chris S
 layout: post

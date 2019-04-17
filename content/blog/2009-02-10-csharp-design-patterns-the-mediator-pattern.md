@@ -3,7 +3,7 @@ title: 'C# Design Patterns: the Mediator pattern'
 date: 2009-02-10 00:00:00 Z
 permalink: "/csharp/csharp-design-patterns-the-mediator-pattern/"
 tags:
-- c#
+- csharp
 - design-patterns
 Published: 2009-02-10 00:00:00 Z
 author: Chris S

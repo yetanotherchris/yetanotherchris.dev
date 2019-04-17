@@ -3,7 +3,7 @@ title: Embedded resources example
 date: 2009-11-15 00:00:00 Z
 permalink: "/csharp/embedded-resources-example/"
 tags:
-- c#
+- csharp
 Published: 2009-11-15 00:00:00 Z
 author: Chris S
 layout: post

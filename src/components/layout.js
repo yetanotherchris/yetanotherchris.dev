@@ -65,7 +65,7 @@ class Layout extends React.Component {
         <footer style={{fontSize: `10px`}}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a target="_blank" href="https://www.gatsbyjs.org">Gatsby</a>. Blog <a target="_blank" href="https://github.com/yetanotherchris/anotherchris.net/issues">Feedback</a>
         </footer>
       </div>
     )

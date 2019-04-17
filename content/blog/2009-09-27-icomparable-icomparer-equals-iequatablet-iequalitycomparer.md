@@ -3,7 +3,7 @@ title: IComparable, IComparer, Equals, IEquatable&lt;T&gt;, IEqualityComparer
 date: 2009-09-27 00:00:00 Z
 permalink: "/csharp/icomparable-icomparer-equals-iequatablet-iequalitycomparer/"
 tags:
-- c#
+- csharp
 Published: 2009-09-27 00:00:00 Z
 author: Chris S
 description: A look at the difference between these 4 interfaces, used for sorting and

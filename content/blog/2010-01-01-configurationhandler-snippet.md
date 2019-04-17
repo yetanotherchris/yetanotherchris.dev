@@ -3,7 +3,7 @@ title: IConfigurationSectionHandler example
 date: 2010-01-01 00:00:00 Z
 permalink: "/csharp/configurationhandler-snippet/"
 tags:
-- c#
+- csharp
 Published: 2010-01-01 00:00:00 Z
 author: Chris S
 description: This is a small snippet for the basics of writing a ConfigurationHandler

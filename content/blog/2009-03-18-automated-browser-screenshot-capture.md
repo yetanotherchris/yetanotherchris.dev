@@ -3,7 +3,7 @@ title: Automated browser screenshot capture
 date: 2009-03-18 00:00:00 Z
 permalink: "/csharp/automated-browser-screenshot-capture/"
 tags:
-- c#
+- csharp
 - winforms
 Published: 2009-03-18 00:00:00 Z
 author: Chris S

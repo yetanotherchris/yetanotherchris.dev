@@ -3,7 +3,7 @@ title: Linked list and Double linked list in C#
 date: 2010-12-22 00:00:00 Z
 permalink: "/csharp/linked-list-and-double-linked-list-in-csharp/"
 tags:
-- c#
+- csharp
 Published: 2010-12-22 00:00:00 Z
 author: Chris S
 description: Two examples of implementing a linked and double linked list in C# from scratch.

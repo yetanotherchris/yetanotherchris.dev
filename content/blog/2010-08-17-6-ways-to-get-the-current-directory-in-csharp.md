@@ -3,7 +3,7 @@ title: 6 ways to get the current directory in C#
 date: 2010-08-17 00:00:00 Z
 permalink: "/csharp/6-ways-to-get-the-current-directory-in-csharp/"
 tags:
-- c#
+- csharp
 Published: 2010-08-17 00:00:00 Z
 author: Chris S
 description: Different approaches to getting the assembly or application's current directory

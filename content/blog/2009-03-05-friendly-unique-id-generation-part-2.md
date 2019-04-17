@@ -1,9 +1,9 @@
 ---
 title: Friendly Unique Id Generation part 2
 date: 2009-03-05 00:00:00 Z
-permalink: "/csharp/friendly-unique-id-generation-part-2/"
+permalink: "/tags/csharp/friendly-unique-id-generation-part-2/"
 tags:
-- c#
+- csharp
 - url-generation
 Published: 2009-03-05 00:00:00 Z
 author: Chris S
@@ -164,8 +164,8 @@ Jeff Keys has written a [Base62 class][11] which encapsulates Base62 as a value 
 
 If there's any errors with the math(s) please get in touch.
 
- [1]: /csharp/friendly-unique-id-generation-part-1#base64
- [2]: /csharp/friendly-unique-id-generation-part-1#guid
+ [1]: /tags/csharp/friendly-unique-id-generation-part-1#base64
+ [2]: /tags/csharp/friendly-unique-id-generation-part-1#guid
  [3]: #numeric
  [4]: #alphanumeric
  [5]: #host

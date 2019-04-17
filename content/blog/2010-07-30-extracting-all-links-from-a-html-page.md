@@ -3,7 +3,7 @@ title: Extracting all links from a HTML page
 date: 2010-07-30 00:00:00 Z
 permalink: "/csharp/extracting-all-links-from-a-html-page/"
 tags:
-- c#
+- csharp
 Published: 2010-07-30 00:00:00 Z
 author: Chris S
 layout: post

@@ -3,7 +3,7 @@ title: 'C# Design Patterns: the Façade pattern'
 date: 2009-04-14 00:00:00 Z
 permalink: "/csharp/csharp-design-patterns-the-facade-pattern/"
 tags:
-- c#
+- csharp
 - design-patterns
 Published: 2009-04-14 00:00:00 Z
 author: Chris S

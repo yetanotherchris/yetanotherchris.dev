@@ -3,7 +3,7 @@ title: Changing a Richtextbox caret
 date: 2006-02-16 00:00:00 Z
 permalink: "/csharp/changing-a-richtextbox-caret-in-csharp/"
 tags:
-- c#
+- csharp
 - winforms
 Published: 2006-02-16 00:00:00 Z
 author: Chris S

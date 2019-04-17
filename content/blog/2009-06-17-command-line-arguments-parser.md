@@ -1,9 +1,9 @@
 ---
 title: Command line arguments parser
 date: 2009-06-17 00:00:00 Z
-permalink: "/csharp/command-line-arguments-parser/"
+permalink: "/tags/csharp/command-line-arguments-parser/"
 tags:
-- c#
+- csharp
 - command-line
 Published: 2009-06-17 00:00:00 Z
 author: Chris S
@@ -48,5 +48,5 @@ Here's the source, with example usage:
 
 `gist:yetanotherchris/4747009`
 
- [1]: /csharp/commandoptions-interactive-console-application-command-parser/
- [2]: /csharp/csharp-design-patterns-the-state-pattern
+ [1]: /tags/csharp/commandoptions-interactive-console-application-command-parser/
+ [2]: /tags/csharp/csharp-design-patterns-the-state-pattern

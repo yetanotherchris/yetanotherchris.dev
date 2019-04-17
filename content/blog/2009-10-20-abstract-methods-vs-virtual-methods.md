@@ -3,7 +3,7 @@ title: Abstract methods vs Virtual methods
 date: 2009-10-20 00:00:00 Z
 permalink: "/csharp/abstract-methods-vs-virtual-methods/"
 tags:
-- c#
+- csharp
 Published: 2009-10-20 00:00:00 Z
 author: Chris S
 description: Many moons I was curious about the difference in IL that is produced between

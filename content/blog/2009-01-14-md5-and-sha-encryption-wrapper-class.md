@@ -3,7 +3,7 @@ title: C# MD5 and SHA encryption wrapper class
 date: 2009-01-14 00:00:00 Z
 permalink: "/csharp/md5-and-sha-encryption-wrapper-class/"
 tags:
-- c#
+- csharp
 - encryption
 Published: 2009-01-14 00:00:00 Z
 author: Chris S

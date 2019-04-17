@@ -4,7 +4,7 @@ date: 2011-02-21 00:00:00 Z
 permalink: "/csharp/genetic-algorithms-in-csharp/"
 tags:
 - artificial-intelligence
-- c#
+- csharp
 Published: 2011-02-21 00:00:00 Z
 author: Chris S
 description: A .NET 3.5 upgrade to Barry Lapthorn's original C# example found on codeproject.

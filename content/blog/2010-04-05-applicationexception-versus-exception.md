@@ -4,7 +4,7 @@ date: 2010-04-05 00:00:00 Z
 permalink: "/csharp/applicationexception-versus-exception/"
 tags:
 - best-practices
-- c#
+- csharp
 Published: 2010-04-05 00:00:00 Z
 author: Chris S
 description: The two often repeated phrases about Exceptions in .NET is they should be

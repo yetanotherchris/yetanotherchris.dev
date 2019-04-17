@@ -3,7 +3,7 @@ title: An extension method for converting a byte array to a string (reading its 
 date: 2010-07-19 00:00:00 Z
 permalink: "/csharp/an-extension-method-for-converting-a-byte-array-to-a-string-reading-its-bom/"
 tags:
-- c#
+- csharp
 Published: 2010-07-19 00:00:00 Z
 author: Chris S
 description: An extension method that adapts Rick Strahl's code (and the comments too)

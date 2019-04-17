@@ -3,7 +3,7 @@ title: Const vs Readonly in C#
 date: 2009-09-06 00:00:00 Z
 permalink: "/csharp/const-vs-readonly-in-csharp/"
 tags:
-- c#
+- csharp
 Published: 2009-09-06 00:00:00 Z
 author: Chris S
 description: The differences between const and readonly, including some ILASM.
