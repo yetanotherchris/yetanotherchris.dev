@@ -8,7 +8,7 @@ import PostsList from "../components/PostsList"
 const CategoryTemplate = ({ location, pageContext, data }) => {
   const { tag } = pageContext
   return (
-    <Layout location={location} title={`Posts with tag "${tag}"`}>
+    <Layout location={location} title={`Blog posts with tag "${tag}"`}>
       <div className="tag-container">
         <SEO title={`Posts with tag "${tag}"`} />
           <PostsList postEdges={data.allMarkdownRemark.edges} />

@@ -6,27 +6,51 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
 
-const PostItem = (node) => {
-  const title = node.frontmatter.title || node.fields.slug
-  return (
-    <div key={node.fields.slug}>
-      <h3
-        style={{
-          marginBottom: rhythm(1 / 4),
-        }}
-      >
-        <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
-          {title}
-        </Link>
-      </h3>
-      <small>{node.frontmatter.date}</small>
-      <p
-        dangerouslySetInnerHTML={{
-          __html: node.frontmatter.description || node.excerpt,
-        }}
-      />
-    </div>
-  )
+class PostItem extends React.Component {
+  render() {
+    let node = this.props.node;
+    const title = node.frontmatter.title || node.fields.slug
+
+    return (
+      <div key={node.fields.slug}>
+        <h3
+          style={{
+            marginBottom: rhythm(1 / 4),
+          }}
+        >
+          <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+            {title}
+          </Link>
+        </h3>
+        <small>{node.frontmatter.date}</small>
+        <p
+          dangerouslySetInnerHTML={{
+            __html: node.frontmatter.description || node.excerpt,
+          }}
+        />
+      </div>
+    )
+  }
+}
+
+class TagGroup extends React.Component {
+  render() {
+    let groupedNodes = this.props.groupedNodes;
+    let tagKey = this.props.tagKey;
+
+    var nodes = groupedNodes.get(tagKey);
+    var htmlArray = nodes.map(node => 
+    {
+        return <PostItem node={node} />
+    });
+
+    return (
+      <div>
+          <h2 style={{borderBottom: `1px solid #aaa`}}>{tagKey.toUpperCase()}</h2>
+          {htmlArray}
+      </div>
+    )
+  }
 }
 
 class BlogIndex extends React.Component {
@@ -42,26 +66,36 @@ class BlogIndex extends React.Component {
         {
           sortedNodes.set(tag, new Array());
         }
-        sortedNodes.set(tag, post.node);
+
+        var existingArray = sortedNodes.get(tag);
+        existingArray.push(post.node);
+        sortedNodes.set(tag, existingArray);
       });
     });
-    let i = 0;
+
+    let tagKeys = Array.from(sortedNodes, ([key, value]) => {
+        return key;
+    });
+
+    tagKeys = tagKeys.sort(function(a,b){
+        return a.localeCompare(b);
+    })
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="All posts"
+          title="All tags"
           keywords={[`c#`, `.net`, `devops`, `docker`]}
         />
         <Bio />
-        {sortedNodes.forEach((value, key, map) => 
+        {tagKeys.map(tagKey => 
         {
-          <div><h2>{key}</h2></div>
+          return <TagGroup tagKey={tagKey} groupedNodes={sortedNodes} />
         })}
 
         <div style={{
             paddingBottom: `40px`
         }}>
-          <a href="/archive" >View older posts...</a>
         </div>
       </Layout>
     )

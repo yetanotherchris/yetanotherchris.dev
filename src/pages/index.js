@@ -41,12 +41,6 @@ class BlogIndex extends React.Component {
             </div>
           )
         })}
-
-        <div style={{
-            paddingBottom: `40px`
-        }}>
-          <a href="/archive" >View older posts...</a>
-        </div>
       </Layout>
     )
   }

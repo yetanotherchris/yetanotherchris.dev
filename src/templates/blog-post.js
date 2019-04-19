@@ -6,6 +6,28 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
 
+const _ = require("lodash")
+
+class TagsList extends React.Component {
+  render() {
+
+    let tags = this.props.tags;
+    if (!tags)
+      return "";
+  
+    return tags.map((tag, i) => {
+      var paddingAmount = "";
+      var kebab = _.kebabCase(tag);
+      if (i > 0)
+      {
+        paddingAmount = "10px";
+      }
+
+      return <span style={{fontSize: 'small',paddingLeft: paddingAmount}} key={tag}><a href={`/tags/${kebab}`}>{tag}</a></span>
+    });
+  }
+}
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
@@ -30,6 +52,11 @@ class BlogPostTemplate extends React.Component {
           {post.frontmatter.date}
         </p>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <div>
+          <TagsList tags={post.frontmatter.tags} />
+        </div>
+
         <hr
           style={{
             marginBottom: rhythm(1),
@@ -84,6 +111,7 @@ export const pageQuery = graphql`
         title
         date(formatString: "MMMM DD, YYYY")
         description
+        tags
       }
     }
   }
