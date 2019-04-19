@@ -12,10 +12,10 @@ dsq_thread_id:
 - 4207229875
 ---
 
-*Small update: added the dotnet core way of doing things*
+*Small update: added the dotnet core way of doing things (Directory.GetCurrentDirectory())*
 
 ### System.AppContext.BaseDirectory
-This is the prefered replacement for AppDomain.CurrentDomain.BaseDirectory in .net core (at least until the API appears for AppDomain, if it ever will).
+This is the prefered replacement for AppDomain.CurrentDomain.BaseDirectory in .net core beta (at least until the API appears for AppDomain, if it ever will).
 
 ### AppDomain.CurrentDomain.BaseDirectory
 
@@ -24,6 +24,8 @@ This is the best option all round. It will give you the base directory for class
 <!--more-->
 
 ### Directory.GetCurrentDirectory()
+
+Note: in .NET Core this is the current best practice. The details below relate to the .NET Framework 4.5 and below.
 
 This does an interop call using the winapi GetCurrentDirectory call inside kernel32.dll, which means the launching process' folder will often be returned. Also as the MSDN documents say, it's not guaranteed to work on mobile devices.
 
