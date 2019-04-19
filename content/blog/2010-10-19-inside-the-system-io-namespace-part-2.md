@@ -85,5 +85,5 @@ The GZipStream is purely for compressing a stream of bytes, it's not intended to
 
 `gist:yetanotherchris/4964019`
 
- [1]: /tags/net/inside-the-systemio-namespace-part-1
- [2]: /tags/net/inside-the-systemio-namespace-part-3
+ [1]: /net/inside-the-systemio-namespace-part-1
+ [2]: /net/inside-the-systemio-namespace-part-3

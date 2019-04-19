@@ -20,6 +20,7 @@ exports.createPages = ({ graphql, actions }) => {
               }
               frontmatter {
                 title
+                permalink
               }
             }
           }
@@ -38,11 +39,17 @@ exports.createPages = ({ graphql, actions }) => {
       const previous = index === posts.length - 1 ? null : posts[index + 1].node
       const next = index === 0 ? null : posts[index - 1].node
 
+      let slug = post.node.fields.slug;
+      if (post.node.frontmatter.permalink)
+      {
+        slug = post.node.frontmatter.permalink;
+      }
+
       createPage({
-        path: post.node.fields.slug,
+        path: slug,
         component: blogPost,
         context: {
-          slug: post.node.fields.slug,
+          slug: slug,
           previous,
           next,
         },
@@ -69,7 +76,7 @@ exports.createPages = ({ graphql, actions }) => {
           tag,
         },
       })
-    })
+    });
 
     return null
   })
@@ -79,7 +86,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
   const { createNodeField } = actions
 
   if (node.internal.type === `MarkdownRemark`) {
-    const value = createFilePath({ node, getNode })
+    let value = createFilePath({ node, getNode })
+    if (node.frontmatter.permalink)
+    {
+      value = node.frontmatter.permalink;
+    }
+    
     createNodeField({
       name: `slug`,
       node,

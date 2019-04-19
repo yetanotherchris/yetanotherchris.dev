@@ -88,8 +88,8 @@ Aside from this it’s not going to receive large amount of updates besides bug 
  [6]: /assets/2011/10/sprucesearch.png
  [7]: /assets/2011/10/spruceedit.png
  [8]: /assets/2011/10/sprucerss.png
- [9]: /tags/tfs/tfs-template-types
+ [9]: /tfs/tfs-template-types
  [10]: http://www.bitbucket.org/yetanotherchris/
  [11]: http://www.db4o.com/
  [12]: http://ravendb.net/
- [13]: /tags/tfs/some-base-principles-for-spruce/
+ [13]: /tfs/some-base-principles-for-spruce/

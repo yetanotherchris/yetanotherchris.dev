@@ -1,7 +1,7 @@
 ---
 title: Inside .NET assemblies (part 1)
 date: 2010-07-12 00:00:00 Z
-permalink: "/tags/net/inside-net-assemblies-part-1/"
+permalink: "/net/inside-net-assemblies-part-1/"
 tags:
 - ".net"
 - assemblies
@@ -200,7 +200,7 @@ Every assembly must contain a manifest metadata table in one of its modules. In 
 
 Alongside this information about the assembly is another table that has to be present in atleast one of the assembly's modules. This is the AssemblyRef table. This contains a list to all assemblies that are referenced by the modules in the assembly. The only assembly with an empty AssemblyRef table is the mscorlib.dll assembly that contains the BCL types. The AssemblyRef table contains similar columns to the manifest metadata table that describes the assembly. This includes the referenced assembly's hash, version, public key, name and locale.
 
- [1]: /tags/net/inside-net-assemblies-part-2/
+ [1]: /net/inside-net-assemblies-part-2/
  [2]: http://www.ecma-international.org/publications/files/ECMA-ST/Ecma-335.pdf
  [3]: http://msdn.microsoft.com/en-us/magazine/cc163655.aspx
  [4]: http://msdn.microsoft.com/en-us/library/ms998530.aspx

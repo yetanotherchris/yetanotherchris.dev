@@ -89,7 +89,7 @@ Below shows most features you'll need to know about, with comments describing wh
   * Information about synthesised properties can be found on the [Apple developer site][8] and [here][9].
 
  [1]: http://www.monotouch.net
- [2]: /tags/monotouch/monotouch-tips-and-snippets/
+ [2]: /monotouch/monotouch-tips-and-snippets/
  [3]: http://developer.apple.com/documentation/Cocoa/Conceptual/Exceptions/Tasks/RaisingExceptions.html
  [4]: http://www.amazon.com/gp/product/0321566157?ie=UTF8&tag=sloppycode-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0596526784
  [5]: http://developer.apple.com/mac/library/documentation/Cocoa/Conceptual/CodingGuidelines/Articles/NamingBasics.html#//apple_ref/doc/uid/20001281-BBCHBFAH

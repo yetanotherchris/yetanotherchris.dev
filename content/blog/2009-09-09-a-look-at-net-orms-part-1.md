@@ -1,7 +1,7 @@
 ---
 title: A Look At .NET ORMs - Part 1
 date: 2009-09-09 00:00:00 Z
-permalink: "/tags/orm/a-look-at-net-orms-part-1/"
+permalink: "/orm/a-look-at-net-orms-part-1/"
 tags:
 - ".net"
 - orm
@@ -104,8 +104,8 @@ I couldn't get the tool to work in Sooda, it just froze each time I used it (whi
 
 [Part 2 >>][5]
 
- [1]: /tags/orm/a-look-at-net-object-relational-mappers-orms/
+ [1]: /orm/a-look-at-net-object-relational-mappers-orms/
  [2]: http://www.db4o.com/
  [3]: http://msdn.microsoft.com/en-us/library/aa697427(VS.80).aspx
  [4]: http://sooda.sourceforge.net/
- [5]: /tags/orm/a-look-at-net-orms-part-2/
+ [5]: /orm/a-look-at-net-orms-part-2/

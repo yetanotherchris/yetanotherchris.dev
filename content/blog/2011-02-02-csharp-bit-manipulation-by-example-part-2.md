@@ -273,7 +273,7 @@ The well written JavaRanch article below has 2 good examples of bit shifting wit
   * [Wikipedia article on Endianess][5]
   * [Stackoverflow question on bitwise shifting][6]
 
- [1]: /tags/csharp/csharp-bit-manipulation-by-example-part-1/
+ [1]: /csharp/csharp-bit-manipulation-by-example-part-1/
  [2]: http://www.sliver.com/dotnet/SnippetCompiler/
  [3]: http://www.blackwasp.co.uk/CSharpLogicalBitwiseOps.aspx
  [4]: http://www.javaranch.com/journal/200406/ScjpTipLine-BitShifting.html

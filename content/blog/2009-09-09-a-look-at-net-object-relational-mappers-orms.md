@@ -76,17 +76,17 @@ The 2 most important features, in my view, of an ORM though are:
   * [Quick start guide, tools, docs etc.][18]
   * [Codeproject articles about NHibernate][19]
 
- [1]: /tags/orm/a-look-at-net-orms-part-1#db4o
- [2]: /tags/orm/a-look-at-net-orms-part-1#linqtoentities
- [3]: /tags/orm/a-look-at-net-orms-part-1#sooda
- [4]: /tags/orm/a-look-at-net-orms-part-2#persistor
- [5]: /tags/orm/a-look-at-net-orms-part-2#npersist
- [6]: /tags/orm/a-look-at-net-orms-part-2#subsonic
- [7]: /tags/orm/a-look-at-net-orms-part-3#odx
- [8]: /tags/orm/a-look-at-net-orms-part-3#nhibernate
- [9]: /tags/orm/a-look-at-net-orms-part-3#coolstorage
- [10]: /tags/orm/a-look-at-net-orms-part-3#lightspeed
- [11]: /tags/orm/a-look-at-net-orms-part-3#lllbgen
+ [1]: /orm/a-look-at-net-orms-part-1#db4o
+ [2]: /orm/a-look-at-net-orms-part-1#linqtoentities
+ [3]: /orm/a-look-at-net-orms-part-1#sooda
+ [4]: /orm/a-look-at-net-orms-part-2#persistor
+ [5]: /orm/a-look-at-net-orms-part-2#npersist
+ [6]: /orm/a-look-at-net-orms-part-2#subsonic
+ [7]: /orm/a-look-at-net-orms-part-3#odx
+ [8]: /orm/a-look-at-net-orms-part-3#nhibernate
+ [9]: /orm/a-look-at-net-orms-part-3#coolstorage
+ [10]: /orm/a-look-at-net-orms-part-3#lightspeed
+ [11]: /orm/a-look-at-net-orms-part-3#lllbgen
  [12]: http://csharp-source.net/open-source/persistence
  [13]: http://sharptoolbox.com/categories/object-relational-mappers
  [14]: http://en.wikipedia.org/wiki/List_of_object-relational_mapping_software

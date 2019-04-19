@@ -1,7 +1,7 @@
 ---
 title: C# Design Patterns
 date: 2008-09-02 00:00:00 Z
-permalink: "/tags/csharp/csharp-design-patterns/"
+permalink: "/csharp/csharp-design-patterns/"
 tags:
 - csharp
 - design-patterns
@@ -65,16 +65,16 @@ Quite a decent book with UML diagrams of each pattern. A little bit patchy with 
 
 The author of Patterns of Enterprise Application Architecture, another patterns book geared at software for the &#8220;enterprise&#8221; (not star trek).
 
- [1]: /tags/csharp/csharp-design-patterns-the-factory-pattern
- [2]: /tags/csharp/csharp-design-patterns-the-abstract-factory-pattern
- [3]: /tags/csharp/csharp-design-patterns-the-singleton-pattern
- [4]: /tags/csharp/csharp-design-patterns-the-strategy-pattern
- [5]: /tags/csharp/csharp-design-patterns-the-iterator-pattern
- [6]: /tags/csharp/csharp-design-patterns-the-mediator-pattern
- [7]: /tags/csharp/csharp-design-patterns-the-observer-pattern
- [8]: /tags/csharp/csharp-design-patterns-the-state-pattern
- [9]: /tags/csharp/csharp-design-patterns-the-facade-pattern/
- [10]: /tags/csharp/other-design-patterns
+ [1]: /csharp/csharp-design-patterns-the-factory-pattern
+ [2]: /csharp/csharp-design-patterns-the-abstract-factory-pattern
+ [3]: /csharp/csharp-design-patterns-the-singleton-pattern
+ [4]: /csharp/csharp-design-patterns-the-strategy-pattern
+ [5]: /csharp/csharp-design-patterns-the-iterator-pattern
+ [6]: /csharp/csharp-design-patterns-the-mediator-pattern
+ [7]: /csharp/csharp-design-patterns-the-observer-pattern
+ [8]: /csharp/csharp-design-patterns-the-state-pattern
+ [9]: /csharp/csharp-design-patterns-the-facade-pattern/
+ [10]: /csharp/other-design-patterns
  [11]: /assets/2013/02/designpatterns.zip
  [12]: http://msdn.microsoft.com/en-gb/magazine/cc188707.aspx
  [13]: http://www.codeproject.com/script/Articles/MemberArticles.aspx?amid=52003

@@ -45,7 +45,7 @@ class TagGroup extends React.Component {
     });
 
     return (
-      <div>
+      <div key={tagKey}>
           <h2 style={{borderBottom: `1px solid #aaa`}}>{tagKey.toUpperCase()}</h2>
           {htmlArray}
       </div>
@@ -112,7 +112,7 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___tags], order: DESC }
+      sort: { fields: [frontmatter___date], order: DESC }
       limit: 1000
     ) {
       edges {

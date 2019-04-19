@@ -322,5 +322,5 @@ Removing a controller uses the same technique as above, but removing rather than
  [2]: /assets/2010/09/UINavigationController.png
  [3]: /assets/2010/09/UINavigationController2.png
  [4]: http://en.wikipedia.org/wiki/Separation_of_concerns
- [5]: /tags/monotouch/monotouch-tips-and-snippets#viewdidload
- [6]: /tags/monotouch/monotouch-tips-and-snippets
+ [5]: /monotouch/monotouch-tips-and-snippets#viewdidload
+ [6]: /monotouch/monotouch-tips-and-snippets

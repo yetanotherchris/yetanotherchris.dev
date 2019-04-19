@@ -134,7 +134,7 @@ The following article and books helped a lot with this article, I'd definitely r
   * [CLR via C#][9] - Jeffrey Richter 
   * [Article about streams and metadata information][5].
 
- [1]: /tags/net/inside-net-assemblies-part-1/
+ [1]: /net/inside-net-assemblies-part-1/
  [2]: http://msdn.microsoft.com/en-us/library/system.globalization.cultureinfo.aspx
  [3]: http://msdn.microsoft.com/en-us/library/zew6azb7(VS.80).aspx
  [4]: http://msdn.microsoft.com/en-us/library/eftw1fys.aspx

@@ -29,4 +29,4 @@ The password generator classes are available to download [here][1].
 <div id="silverlightControlHost" style="width:400px; height:320px;">
 </div>
 
- [1]: /tags/csharp/pronounceable-password-generator/
+ [1]: /csharp/pronounceable-password-generator/
