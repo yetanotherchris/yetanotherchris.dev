@@ -51,6 +51,12 @@ class Layout extends React.Component {
         </h3>
       )
     }
+
+    let adsenseHtml = `(adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-5743316258017902",
+      enable_page_level_ads: true
+    });`;
+
     return (
       <div
         style={{
@@ -71,10 +77,10 @@ class Layout extends React.Component {
           &nbsp;/&nbsp;<a href="/tags" >all tags</a>
         </footer>
         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <AdSense.Google
-          client='ca-pub-5743316258017902'
-          slot=''
-        />
+        <script dangerouslySetInnerHTML={{
+          __html: adsenseHtml
+        }}>
+        </script>
       </div>
     )
   }
