@@ -34,6 +34,11 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
+    let adsenseHtml = `(adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "ca-pub-5743316258017902",
+      enable_page_level_ads: true
+    });`;
+
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
