@@ -61,5 +61,11 @@ String.prototype.rot13 = function(){
 
 var resume = require("./resume.json");
 var html = render(resume);
-fs.writeFile("index.html", html);
-console.log("index.html sucessfully written.");
+fs.writeFile("index.html", html, (err) => {
+	if (err)
+	{
+		throw err;
+	}	
+
+	console.log("index.html sucessfully written.");
+});

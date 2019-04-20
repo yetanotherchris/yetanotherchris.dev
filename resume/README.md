@@ -13,4 +13,11 @@ The theme is based off https://github.com/eddywashere/resume. I added some JSON 
 
 As the schema has changed, I've stuck to just transforming the JSON using Handlebar and writing the HTML to disk instead of the Resume NPM package.
 
-Run `install.ps1` to run node with `index.js`, which runs handlebar. `index2.html` was done by hand.
+## Setup
+
+The resume is rendered using Handlebars
+
+```
+npm install
+node ./nodeindex.js
+```

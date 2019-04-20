@@ -2,7 +2,7 @@
   "basics": {
     "name": "Chris Small",
     "label": "Software Engineer",
-    "baseUrl": "www.anotherchris.net/resume",
+    "baseUrl": "anotherchris.net/resume",
     "picture": "",
     "email": "chris.a.small@gmail.com",
     "phone": "on request",
@@ -36,24 +36,39 @@
   },
   "work": [
     {
+      "company": "JustEat",
+      "website": "https://www.just-eat.com",
+      "summary": "Current projects:",
+      "highlights": [
+        "Various AWS-based event driven architecture projects using ML and experimentation approaches."
+      ],
+      "positions": [
+        {
+          "position": "Senior Developer",
+          "startDate": "2018-09-03",
+          "endDate": ""
+        }
+      ]
+    },
+    {
       "company": "Totaljobs Group",
       "website": "https://www.totaljobs.com",
-      "summary": "Whilst at Totaljobs Group I have achieved the following:",
+      "summary": "Whilst at Totaljobs Group I achieved the following:",
       "highlights": [
-        "Worked in several roles in the organisation: Managing developer, Principal developer and currently Senior developer.",
-        "In conjunction with the Packt work, my current specialism is .NET Core and ASP.NET Core with Docker, and automation of the build process.",
-        "Current project is Docker/.NET Core based inside AWS ECS serving up to 80,000 requests per minute, including SNS/SQS event based system for managing various job-based events.",
-        "As well as C# (backend) work we have are responsible for the devops work, we own the releases and monitoring and are pushing towards CD.",
-        "The company is mostly AWS, and we manage all our AWS resources via Terraform, with additional Bash and Powershell for orchestration.",
-        "I am one of the main contributors to the www.github.com/totaljobsgroup organisation, open sourcing parts of our code base to encourage open collaboration, most notably the Syringe project.",
-        "Strong advocate for clean code and good, simple technical documentation in our Github Enterprise projects - I converted all our existing documentation to Markdown and then onto Github Enterprise and push for living (but minimal) documentation on all projects.",
-        "I've worked on most of the Totaljobs tech stack over the years noteably: an email service that sends millions of emails daily, content service for site wide HTML/CSS/JS and a Salesforce based order fulfillment service."
+        "Worked in several roles in the organisation: Principal developer, Managing developer and Senior developer.",
+        "In conjunction with the Packt work, my specialism was .NET Core and ASP.NET Core with Docker, and automation of the build process.",
+        "Part of an agile team responsible for a Docker/.NET Core based AWS ECS API serving up to 80,000 requests per minute, including SNS/SQS event based system for managing various job-based events.",
+        "Responsibility for devops work, owning the releases and monitoring, and pushing towards CD.",
+        "The company is mostly AWS, managing AWS resources via Terraform, with additional Bash and Powershell for orchestration.",
+        "I was one of the main contributors to the www.github.com/totaljobsgroup organisation, open sourcing parts of our code base to encourage open collaboration, most notably the Syringe project.",
+        "Strong advocate for clean code and good, simple technical documentation in the Github Enterprise projects - I converted all the existing documentation to Markdown and then onto Github Enterprise and push for living (but minimal) documentation on all projects.",
+        "I worked on most of the Totaljobs tech stack over the years noteably: an email service that sends millions of emails daily, content service for site wide HTML/CSS/JS and a Salesforce based order fulfillment service."
       ],
       "positions": [
         {
           "position": "Senior Developer",
           "startDate": "2017-04-01",
-          "endDate": ""
+          "endDate": "2018-07-26"
         },
         {
           "position": "Principal Developer",
@@ -147,15 +162,8 @@
       "name": "Docker for ASP.NET Core MVC (video)",
       "publisher": "Packt",
       "releaseDate": "2018-03-18",
-      "website": "https://www.packtpub.com/",
+      "website": "https://www.packtpub.com/virtualization-and-cloud/docker-aspnet-core-mvc-video",
       "summary": "A video course to get you up and running with ASP.NET Core with Docker."
-    },
-    {
-      "name": "Learn ASP.NET Core in 7 Days (video)",
-      "publisher": "Packt",
-      "releaseDate": "2018-09-01",
-      "website": "https://www.packtpub.com/",
-      "summary": "In progress"
     }
   ],
   "skills": [
