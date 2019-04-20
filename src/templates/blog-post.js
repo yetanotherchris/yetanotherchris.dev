@@ -51,6 +51,13 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+
+        <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <script dangerouslySetInnerHTML={{
+          __html: adsenseHtml
+        }}>
+        </script>
+
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
         <div>

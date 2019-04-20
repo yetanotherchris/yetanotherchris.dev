@@ -76,11 +76,6 @@ class Layout extends React.Component {
           &nbsp;/&nbsp;<a href="/archive" >older posts</a>
           &nbsp;/&nbsp;<a href="/tags" >all tags</a>
         </footer>
-        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: adsenseHtml
-        }}>
-        </script>
       </div>
     )
   }
