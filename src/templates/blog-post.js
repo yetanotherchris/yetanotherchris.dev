@@ -34,11 +34,6 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title
     const { previous, next } = this.props.pageContext
 
-    let adsenseHtml = `(adsbygoogle = window.adsbygoogle || []).push({
-      google_ad_client: "ca-pub-5743316258017902",
-      enable_page_level_ads: true
-    });`;
-
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -56,12 +51,6 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-
-        <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: adsenseHtml
-        }}>
-        </script>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
