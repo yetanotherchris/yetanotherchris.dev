@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-import AdSense from 'react-adsense';
 import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
@@ -71,7 +70,7 @@ class Layout extends React.Component {
         <footer style={{fontSize: `10px`}}>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a target="_blank" href="https://www.gatsbyjs.org">Gatsby</a>. 
+          <a target="_blank" rel="noopener noreferrer" href="https://www.gatsbyjs.org">Gatsby</a>. 
           &nbsp;/&nbsp;<a target="_blank" rel="noopener noreferrer" href="https://github.com/yetanotherchris/anotherchris.net/issues">blog feedback</a>
           &nbsp;/&nbsp;<a href="/archive" >older posts</a>
           &nbsp;/&nbsp;<a href="/tags" >all tags</a>
