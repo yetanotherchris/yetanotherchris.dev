@@ -48,10 +48,10 @@ I've turned this off by default as it was affecting some people's urls that cont
 
 \n, \r and \t are ignored, and any control characters (<32 in ASCII) or characters between the ASCII range of 127 to 159 are encoded into the Unicode 0xFFDD. In unicode, <a href="http://www.unicode.org/charts/PDF/UFFF0.pdf" target="_blank">this number</a> is &#8220;used to replace a character whose value is unknown or unrepresentable in Unicode&#8221;.
 
-[<img class="alignnone size-medium wp-image-1181" alt="unicode-xss" src="http://www.anotherchris.net/assets/2013/10/unicode-xss-300x55.png" width="300" height="55" />][1]
+[<img class="alignnone size-medium wp-image-1181" alt="unicode-xss" src="/assets/2013/10/unicode-xss-300x55.png" width="300" height="55" />][1]
 
 This step is on by default in Roadkill. It makes for some more bulkier HTML being sent down to the browser, as every character is hex encoded, but also ensures that Roadkill sticks fairly closely to the OWASP recommendations.
 
 The AJAX control kit gets the credit for 99% of the work, and also included a very comprehensive set of unit tests too - 118 in total! The official Microsoft Web Protection library would be better off as a rewrite using the Ajax Control kit's source, and the OWASP AntiSamy project or referencing their recommendations.
 
- [1]: http://www.anotherchris.net/assets/2013/10/unicode-xss.png
+ [1]: /assets/2013/10/unicode-xss.png

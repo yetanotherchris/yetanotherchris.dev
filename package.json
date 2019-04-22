@@ -45,7 +45,7 @@
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0"
   },
-  "homepage": "https://github.com/yetanotherchris/anotherchris.net",
+  "homepage": "https://github.com/yetanotherchris/yetanotherchris.dev",
   "keywords": [
     "gatsby"
   ],
@@ -53,7 +53,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yetanotherchris/anotherchris.net.git"
+    "url": "git+https://github.com/yetanotherchris/yetanotherchris.dev.git"
   },
   "scripts": {
     "build": "gatsby build",

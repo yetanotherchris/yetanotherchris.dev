@@ -2,12 +2,12 @@
   "basics": {
     "name": "Chris Small",
     "label": "Software Engineer",
-    "baseUrl": "anotherchris.net/resume",
+    "baseUrl": "yetanotherchris.dev/resume",
     "picture": "",
     "email": "chris.a.small@gmail.com",
     "phone": "on request",
-    "website": "http://www.anotherchris.net",
-    "alternativeResume": "http://www.anotherchris.net/resume/resume2.html",
+    "website": "http://yetanotherchris.dev",
+    "alternativeResume": "http://yetanotherchris.dev/resume/resume2.html",
     "summary": "C#, ASP.NET, MVC, WebApi, Javascript, Typescript, LESS/SASS, Scrum, Agil, SQL Server, MSMQ, Teamcity, Octopus, Powershell, Bash, TDD, Git, Hg, .NET Core, Linux, Docker, VMWare, AWS, Jekyll,  Appveyor, Open source",
     "location": {
       "address": "",

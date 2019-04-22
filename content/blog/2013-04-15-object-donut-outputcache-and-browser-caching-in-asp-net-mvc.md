@@ -28,7 +28,7 @@ The new ORM I've switched to, Lightspeed, has second level caching built in, but
 
 ## Browser Caching
 
-[<img src="http://www.anotherchris.net/assets/2013/03/304notmodified-300x211.png" alt="304notmodified" width="300" height="211" class="alignnone size-medium wp-image-1085" />][1]
+[<img src="/assets/2013/03/304notmodified-300x211.png" alt="304notmodified" width="300" height="211" class="alignnone size-medium wp-image-1085" />][1]
 
 This is where I learnt a lot about client-side caching, specifically in conjunction with MVC. Roadkill version 1.5 and earlier added a if-not-modified header check but I discovered how it was doing it was completely wrong. There are basically 3 variations of browser caching you can do, which aren't mutually exclusive:
 
@@ -56,4 +56,4 @@ If you'd like to see the caching in action in Roadkill, the source code files ar
 
 Most of the information on browser caching is from <a href="https://developers.google.com/speed/docs/best-practices/caching" target="_blank">this excellent Google guide</a>, and the <a href="http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html" title="HTTP RFC" target="_blank">HTTP RFC</a>
 
- [1]: http://www.anotherchris.net/assets/2013/03/304notmodified.png
+ [1]: /assets/2013/03/304notmodified.png

@@ -15,7 +15,7 @@ layout: post
 
 Roadkill is now up to over 1000 tests (around 1150) as it gets near the version 2 release coming in 2014. Around three hundred of these come from the Markdown parser that Jeff Atwood wrote, and the HTML sanitizing toolkit, but the others have all accumulated over the past year including a lot of retro-fitted tests which were written to aid refactors. The test coverage is now around the 75% mark according to Jetbrain's DotCover tool:
 
-[<img src="http://www.anotherchris.net/assets/2013/12/coverage-300x152.png" alt="coverage" width="500" height="252" class="alignnone size-medium wp-image-1206" />][1]
+[<img src="/assets/2013/12/coverage-300x152.png" alt="coverage" width="500" height="252" class="alignnone size-medium wp-image-1206" />][1]
 
 <!--more-->
 
@@ -32,7 +32,7 @@ The tests in Roadkill make a great documentation tool and way to communicate my 
 
 Roadkill sticks to the testing triangle:
 
-[<img src="http://www.anotherchris.net/assets/2013/12/testing_triangle-300x233.jpg" alt="testing_triangle-300x233" width="300" height="233" class="alignnone size-full wp-image-1209" />][2]
+[<img src="/assets/2013/12/testing_triangle-300x233.jpg" alt="testing_triangle-300x233" width="300" height="233" class="alignnone size-full wp-image-1209" />][2]
 
 There are a lot of Selenium acceptance tests in the project which is down to my own preference, as I think close to 100% coverage for your UI is essential for headache-free web-based software. The pattern used throughout Roadkill is &#8220;Arrange, Act Assert&#8221; - arrange contains the setup, act performs the action and assert verifies the outcome. This is used alongside the tests being named using the similar &#8220;given, when, then&#8221; pattern (which I think originated from BDD). The two aren't mutually exclusive but the AAA pattern is less expressive for business software, particular if you have formal acceptance criteria you're testing against. I obviously don't have this level of formality in Roadkill and can craft the code however I damn want! The Pony, Zebra, Unicorn pattern if needed.
 
@@ -42,7 +42,7 @@ Sadly the majority of the .NET framework is not as testable as the new-ish MVC f
 
 If you'd like to see evidence of Roadkill's green ticks, [the CI output (from a successful build) is here.][4]
 
- [1]: http://www.anotherchris.net/assets/2013/12/coverage.png
- [2]: http://www.anotherchris.net/assets/2013/12/testing_triangle-300x233.jpg
+ [1]: /assets/2013/12/coverage.png
+ [2]: /assets/2013/12/testing_triangle-300x233.jpg
  [3]: http://stackoverflow.com/users/29407/darin-dimitrov
  [4]: http://198.199.127.135:8111/viewLog.html?buildTypeId=Roadkill_Default&buildId=231

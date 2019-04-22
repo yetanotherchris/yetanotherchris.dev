@@ -4,7 +4,7 @@ module.exports = {
     title: `Chris's coding blog`,
     author: `Chris Small`,
     description: `Personal snippets, notes and tales relating to C# and .NET/.NET Core.`,
-    siteUrl: `https://anotherchris.net/`,
+    siteUrl: `https://yetanotherchris.dev/`,
     social: {
       twitter: ``,
       github: 'yetanotherchris',

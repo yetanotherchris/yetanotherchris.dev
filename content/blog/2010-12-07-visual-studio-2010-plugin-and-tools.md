@@ -89,7 +89,7 @@ For Eclipse and Java/Android developer, [here is a settings file][22] that takes
  [3]: http://code.msdn.microsoft.com/PowerCommands
  [4]: http://msdn.microsoft.com/en-us/vcsharp/dd218053.aspx
  [5]: http://research.microsoft.com/en-us/projects/Pex/
- [6]: http://www.anotherchris.net/assets/2013/02/Snipper1.zip
+ [6]: /assets/2013/02/Snipper1.zip
  [7]: http://blog.scott.willeke.com/2008/05/slashdocs-c-xml-comment-add-in-updated.html
  [8]: http://www.codeproject.com/KB/macros/JSLintVS.aspx
  [9]: http://www.ruizata.com/

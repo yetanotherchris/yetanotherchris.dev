@@ -50,13 +50,13 @@ The LINQ statements I used for my stats were:
 
 First off **KLOC:**
 
-[<img class="alignnone size-medium wp-image-1152" alt="loc" src="http://www.anotherchris.net/assets/2013/07/loc-300x68.png" width="300" height="68" />][3]
+[<img class="alignnone size-medium wp-image-1152" alt="loc" src="/assets/2013/07/loc-300x68.png" width="300" height="68" />][3]
 
 This demonstrates that I have as much test code as I do production code (minus the HTML views, Javascript, CSS) which would no doubt horrify older school purists and coders who don't embrace TDD or unit testing. For me it feels like a good sign though - I know I have fairly complete test coverage for the project, with the main gaps coming from wiki markup parser, which I use a Microsoft OS project for and the logging and caching.
 
 Next up is **Cyclomatic Complexity** (I'm counting anything with over 3 decision points):
 
-[<img class="alignnone size-medium wp-image-1150" alt="cyclic" src="http://www.anotherchris.net/assets/2013/07/cyclic-300x278.png" width="300" height="278" />][4]
+[<img class="alignnone size-medium wp-image-1150" alt="cyclic" src="/assets/2013/07/cyclic-300x278.png" width="300" height="278" />][4]
 
 The results are actually mostly positive, the majority of problems come from the CreoleParser class which came from creoleparser.codeplex.com, with some adjustments added to it over time. I'm looking to replace this completely in version 2 with an ANTLR based approach.
 
@@ -66,17 +66,17 @@ Finally there are the **LCOM** results - everything with 1 or above. Back in ver
 
 Higher LCOM values can mean you are calling static methods variables on other classes but there are no classes with more than a 1 LCOM in version 1.8, which is nice:
 
-[<img class="alignnone size-medium wp-image-1151" alt="lcom" src="http://www.anotherchris.net/assets/2013/07/lcom-300x241.png" width="300" height="241" />][5]
+[<img class="alignnone size-medium wp-image-1151" alt="lcom" src="/assets/2013/07/lcom-300x241.png" width="300" height="241" />][5]
 
 And in summary NDepend thinks the project is green, though a bit too close to unstable:
 
-[<img class="alignnone size-medium wp-image-1149" alt="AbstractnessVSInstability" src="http://www.anotherchris.net/assets/2013/07/AbstractnessVSInstability-300x300.png" width="300" height="300" />][6]
+[<img class="alignnone size-medium wp-image-1149" alt="AbstractnessVSInstability" src="/assets/2013/07/AbstractnessVSInstability-300x300.png" width="300" height="300" />][6]
 
 &nbsp;
 
  [1]: http://www.ohloh.net/p/roadkillwiki
  [2]: http://www.ndepend.com/Metrics.aspx
- [3]: http://www.anotherchris.net/assets/2013/07/loc.png
- [4]: http://www.anotherchris.net/assets/2013/07/cyclic.png
- [5]: http://www.anotherchris.net/assets/2013/07/lcom.png
- [6]: http://www.anotherchris.net/assets/2013/07/AbstractnessVSInstability.png
+ [3]: /assets/2013/07/loc.png
+ [4]: /assets/2013/07/cyclic.png
+ [5]: /assets/2013/07/lcom.png
+ [6]: /assets/2013/07/AbstractnessVSInstability.png
