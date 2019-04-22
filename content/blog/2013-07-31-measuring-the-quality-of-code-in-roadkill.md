@@ -5,6 +5,7 @@ permalink: "/roadkill-wiki/measuring-the-quality-of-code-in-roadkill/"
 tags:
 - ndepend
 - roadkill-wiki
+- code-quality
 Published: 2013-07-31 00:00:00 Z
 author: Chris S
 layout: post
