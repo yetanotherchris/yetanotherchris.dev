@@ -8,11 +8,11 @@ permalink: "/gatsby/jeykll-to-gatsby/"
 ---
 My blog, or site full of random programming content really (blogs didn't really exist in 2001 when I started it), began with the domain [sloppycode.net](https://web.archive.org/web/20050405210904/http://www.sloppycode.net:80/)
 
-![sloppycode.net](/assets/2019/sloppycode.png)
+![sloppycode.net](/assets/2019/04/sloppycode.png)
 
 I can't remember when I abandoned that domain, but the site had a flurry of updates in 2008-2013, and has stagnated a bit over the past years.
 
-![sloppycode.net original](/assets/2019/sloppycode2.png)
+![sloppycode.net original](/assets/2019/04/sloppycode2.png)
 
 It's gone from PHP to .NET webforms, to Umbraco, to C1 CMS, to Squarespace, to Wordpress, to Wyam, to Jeykll/Github pages and now it's on [Gatsby](http://www.gatsbyjs.org) which has been a fun learning curve, and hosted with the excellent [netlify.com](http://netlify.com)
 
