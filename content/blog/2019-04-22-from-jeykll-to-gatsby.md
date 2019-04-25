@@ -14,7 +14,9 @@ I can't remember when I abandoned that domain, but the site had a flurry of upda
 
 ![sloppycode.net original](/assets/2019/04/sloppycode2.png)
 
-It's gone from PHP to .NET webforms, to Umbraco, to C1 CMS, to Squarespace, to Wordpress, to Wyam, to Jeykll/Github pages and now it's on [Gatsby](http://www.gatsbyjs.org) which has been a fun learning curve, and hosted with the excellent [netlify.com](http://netlify.com)
+It's gone from PHP to .NET webforms, to Umbraco, to C1 CMS, to Squarespace, to Wordpress, to Wyam, to Jeykll/Github pages and now it's on [Gatsby](http://www.gatsbyjs.org) which has been a fun learning curve, and hosted with the excellent [netlify.com](http://netlify.com).
+
+Thanks to frontmatter all the urls were preserved in Gatsby, thanks to the "permalink" field. Good news for the 500 weekly viewers of [6 ways to get the current directory in c#](/csharp/6-ways-to-get-the-current-directory-in-csharp/).
 
 Needless to say that in 2019 it's far easier to publish custom content than back in 2001, with the site being in a decent standardized format - Markdown and Frontmatter, inside a Git repository and auto-published with virtually everything you need out of the box thanks to Gatsby and Netlify.
 
