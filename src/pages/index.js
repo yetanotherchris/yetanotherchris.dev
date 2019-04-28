@@ -5,6 +5,7 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import PopularPosts from "../components/PopularPosts";
 
 class BlogIndex extends React.Component {
   render() {
@@ -19,6 +20,7 @@ class BlogIndex extends React.Component {
           keywords={[`c#`, `.net`, `devops`, `docker`]}
         />
         <Bio />
+        <PopularPosts />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

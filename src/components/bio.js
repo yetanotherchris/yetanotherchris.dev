@@ -38,8 +38,8 @@ function Bio() {
               }}
             />
             <p>
-              I'm <strong>{author}</strong>, a software engineer living and working in London. 
-              This is my tech blog. Find out more via 
+              I'm <strong>{author}</strong>, a software engineer working in London. 
+              This is my tech blog. Find out more about me via 
               {` `}
               <a href={`https://github.com/${social.github}`}>
                 Github

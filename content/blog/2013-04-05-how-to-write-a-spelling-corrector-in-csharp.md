@@ -2,6 +2,7 @@
 title: How to Write a Spelling Corrector in C#
 date: 2013-04-05 00:00:00 Z
 permalink: "/csharp/how-to-write-a-spelling-corrector-in-csharp/"
+popularpost: true
 tags:
 - csharp
 Published: 2013-04-05 00:00:00 Z

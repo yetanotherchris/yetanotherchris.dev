@@ -2,6 +2,7 @@
 title: Introduction to Genetic Algorithms in C#
 date: 2013-05-14 00:00:00 Z
 permalink: "/csharp/introduction-to-genetic-algorithms-in-csharp/"
+popularpost: true
 tags:
 - artificial-intelligence
 - csharp

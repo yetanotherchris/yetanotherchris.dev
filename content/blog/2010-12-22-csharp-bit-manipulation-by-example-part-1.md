@@ -2,6 +2,7 @@
 title: C# Bit manipulation by example (part 1)
 date: 2010-12-22 00:00:00 Z
 permalink: "/csharp/csharp-bit-manipulation-by-example-part-1/"
+popularpost: true
 tags:
 - bit-manipulation
 - csharp
