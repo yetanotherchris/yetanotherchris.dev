@@ -1,7 +1,7 @@
 ---
 title: "Talk: Software has become too complicated"
 author: Chris S
-date: 2019-04-22 19:44:24 +0000
+date: 2019-05-04 19:44:24 +0000
 tags: ["talks"]
 permalink: "/talks/software-has-become-too-complicated/"
 excerpt: "An entertaining talk by Joe Armstrong from 2014, one of the creators of Erlang, discussing 
