@@ -4,9 +4,9 @@ author: Chris S
 date: 2019-04-22 19:44:24 +0000
 tags: ["talks"]
 permalink: "/talks/software-has-become-too-complicated/"
-excerpt: An entertaining talk by Joe Armstrong from 2014, one of the creators of Erlang, discussing 
+excerpt: "An entertaining talk by Joe Armstrong from 2014, one of the creators of Erlang, discussing 
 how software has been progressively more complicated through its level of abstractions since the 
-birth last century.
+birth last century."
 ---
 Below is an entertaining talk by Joe Armstrong from 2014, one of the creators of Erlang (the language [1][behind WhatsApp](1)). He talks about how complicated software is in the year 2019, in comparison to the first ever software program - which he refers to as "probably the first and last program that was ever correct".
 
