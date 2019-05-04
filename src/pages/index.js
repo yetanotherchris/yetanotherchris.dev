@@ -23,6 +23,13 @@ class BlogIndex extends React.Component {
         <PopularPosts />
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
+          var desc = node.frontmatter.excerpt || node.frontmatter.description;
+
+          if (!desc || desc.length === 0)
+          {
+            desc = node.excerpt;
+          }
+
           return (
             <div key={node.fields.slug}>
               <h3
@@ -37,7 +44,7 @@ class BlogIndex extends React.Component {
               <small>{node.frontmatter.date}</small>
               <p
                 dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description || node.excerpt,
+                  __html: desc
                 }}
               />
             </div>
@@ -71,6 +78,7 @@ export const pageQuery = graphql`
             date(formatString: "MMMM DD, YYYY")
             title
             description
+            excerpt
           }
         }
       }

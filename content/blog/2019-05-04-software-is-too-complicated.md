@@ -8,7 +8,7 @@ excerpt: "An entertaining talk by Joe Armstrong from 2014, one of the creators o
 how software has been progressively more complicated through its level of abstractions since the 
 birth last century."
 ---
-Below is an entertaining talk by Joe Armstrong from 2014, one of the creators of Erlang (the language [1][behind WhatsApp](1)). He talks about how complicated software is in the year 2019, in comparison to the first ever software program - which he refers to as "probably the first and last program that was ever correct".
+Below is an entertaining talk by Joe Armstrong from 2014, one of the creators of Erlang (the language [behind WhatsApp][1]). He talks about how complicated software is in the year 2019, in comparison to the first ever software program - which he refers to as "probably the first and last program that was ever correct".
 
 As an ex-physicist he weaves a lot of physics into the talk, and describes how computers should be booting in 60 nanoseconds, and are over 1000x faster than they were in the 1980s.
 
@@ -16,6 +16,6 @@ The talk goes on to talk about battling the reverse entropy that we have got int
 
 Sadly Joe passed away last week.
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=lKXe3HUG2l4" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lKXe3HUG2l4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [1]: https://www.wired.com/2015/09/whatsapp-serves-900-million-users-50-engineers/

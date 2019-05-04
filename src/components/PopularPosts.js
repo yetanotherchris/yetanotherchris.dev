@@ -35,7 +35,7 @@ const PopularPosts = () => {
           }}>
           {data.allMarkdownRemark.edges.map((item) => {
             let node = item.node;
-            let key = `popular-${node.permalink}`;
+            let key = `popular-${node.frontmatter.permalink}`;
 
             return (
               <li

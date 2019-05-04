@@ -10,6 +10,12 @@ class PostItem extends React.Component {
   render() {
     let node = this.props.node;
     const title = node.frontmatter.title || node.fields.slug
+    var desc = node.frontmatter.excerpt || node.frontmatter.description;
+
+    if (!desc || desc.length === 0)
+    {
+      desc = node.excerpt;
+    }
 
     return (
       <div key={node.fields.slug}>
@@ -25,7 +31,7 @@ class PostItem extends React.Component {
         <small>{node.frontmatter.date}</small>
         <p
           dangerouslySetInnerHTML={{
-            __html: node.frontmatter.description || node.excerpt,
+            __html: desc
           }}
         />
       </div>
