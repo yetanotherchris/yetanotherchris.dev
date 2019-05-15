@@ -25,8 +25,6 @@ Alphanumeric passwords are mixed case passwords in the form of something like &#
 Prounceable passwords tend to be more useful for password rotation as they are memorable, so people will be less inclined to write them down. Examples include words like &#8220;llantedynd&#8221; (ok not so prounceable unless you're Welsh), &#8220;cardellelt&#8221;, &#8220;flotshrous&#8221;. Combining the output with additional numbers and and none alphanumeric characters helps the password strength. 
 
 The password generator classes are available to download [here][1].
-
-<div id="silverlightControlHost" style="width:400px; height:320px;">
-</div>
+Update: the demo is no longer available as it was originally created with Silverlight.
 
  [1]: /csharp/pronounceable-password-generator/
