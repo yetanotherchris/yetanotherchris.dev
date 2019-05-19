@@ -1,9 +1,10 @@
 import React from "react"
+const _ = require("lodash")
 
 const TagLink = ({ tag }) => {
 
   return (
-    <a href={`/tags/${tag}`}>{tag}</a> 
+    <a href={`/tags/${_.kebabCase(tag)}/`}>{tag}</a> 
   )
 }
 

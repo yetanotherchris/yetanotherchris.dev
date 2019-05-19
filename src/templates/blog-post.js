@@ -17,7 +17,8 @@ class TagsList extends React.Component {
   
     return tags.map((tag, i) => {
       var paddingAmount = "";
-      var kebab = _.kebabCase(tag);
+      var kebab = tag.replace(".","");
+      kebab = _.kebabCase(kebab);
       if (i > 0)
       {
         paddingAmount = "10px";
