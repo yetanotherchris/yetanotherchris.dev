@@ -3,7 +3,7 @@ title: Unix Cheat Sheet
 date: 2009-02-02 00:00:00 +0000
 permalink: "/tools/unix-cheat-sheet/"
 tags:
-- tools
+- unix
 Published: 2009-02-02 00:00:00 +0000
 author: Chris S
 description: This post is a command reference card for some regularly used unix commands,
@@ -12,9 +12,8 @@ description: This post is a command reference card for some regularly used unix 
 layout: post
 dsq_thread_id:
 - 1074123375
-
 ---
-![unix tar](http://imgs.xkcd.com/comics/tar.png)
+[![unix tar](/assets/2009/02/unix-tar.png)](http://imgs.xkcd.com/comics/tar.png)
 
 This post is a command reference card for some regularly used unix commands, tested on linux (Rdhat 6, a while ago) but should hopefully work on most unix command shells. Any additional (non-obscure) commands you think should be added,or corrections please email me.
 
@@ -243,128 +242,4 @@ e.g chmod 755 myfile.txt - changes the permissions on the file to 755 which is :
 * `chgrp [group] fileordirectory` - changes the groupownership of a file or directory. Use -R to recursively change a whole directory and its sub directories.
 
 ## Permissions calculator
-
-<script>
-function clearForm()
-{
-var form = document.getElementById("unixcalculator");
-for (var i=0;i < form.elements.length;i++)
-`{`		if (form.elements\[i\].type == "checkbox")
-`{`			form.elements\[i\].checked = false;
-}
-}
-
-    form.unixpermission.value = "";
-
-}
-
-function makePermissions()
-{
-mode = 0;
-var form = document.getElementById("unixcalculator");
-for (var i=0;i < form.elements.length;i++)
-{
-if (form.elements\[i\].type == "checkbox")
-{
-if (form.elements\[i\].checked == true)
-{
-mode += parseInt(form.elements\[i\].value);
-}
-}
-}
-
-    form.unixpermission.value = mode;
-
-}
-
-function reversePermissions()
-{
-var form = document.getElementById("unixcalculator");
-for (var i=0;i < form.elements.length;i++)
-{
-if (form.elements\[i\].type == "checkbox")
-{
-form.elements\[i\].checked = false;
-}
-}
-
-    var form = document.getElementById("unixcalculator");
-    var mode = parseInt(form.unixpermission.value);
-    for (var i=0;i < form.elements.length;i++)
-    {
-    	if (form.elements[i].type == "checkbox")
-    	{
-    		var val = parseInt(form.elements[i].value);
-    		if (mode === val)
-    		{
-    			form.elements[i].checked = true;
-    			return;
-    		}
-    	}
-    }
-    
-    console.log("the mode is: " +mode);
-    for (var i=0;i < form.elements.length;i++)
-    {
-    	if (form.elements[i].type == "checkbox")
-    	{
-    		var val = parseInt(form.elements[i].value);
-    		var newMode = mode - val;
-    		console.log("new mode would be: " +newMode);
-    
-    		if (newMode >= 0)
-    		{
-    			form.elements[i].checked = true;
-    			mode -= val;
-    		}
-    		else if (newMode === 0)
-    		{
-    			return;
-    		}
-    	}
-    }
-
-}
-</script>
-<form id="unixcalculator">
-<table width="500" class="table table-bordered">
-<thead>
-<tr>
-<th> </th>
-<th>Read</th>
-<th>Write</th>
-<th>Execute</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Owner</td>
-<td><input type="checkbox" name="a1" value="400" /></td>
-<td><input type="checkbox" name="a2" value="200" /></td>
-<td><input type="checkbox" name="a3" value="100" /></td>
-</tr>
-<tr>
-<td>Group</td>
-<td><input type="checkbox" name="b1" value="40" /></td>
-<td><input type="checkbox" name="b2" value="20" /></td>
-<td><input type="checkbox" name="b3" value="10" /></td>
-</tr>
-<tr>
-<td>Others</td>
-<td><input type="checkbox" name="c1" value="4" /></td>
-<td><input type="checkbox" name="c2" value="2" /></td>
-<td><input type="checkbox" name="c3" value="1" /></td>
-</tr>
-<tr>
-<td colspan="4" align="right">Mode <input type="text" name="unixpermission" id="unixpermission" /></td>
-</tr>
-<tr>
-<td colspan="4" style="text-align:right">
-<input type="button" class="btn btn-primary" name="Button" value="Clear" onclick="clearForm();" />
-<input type="button" class="btn btn-primary" name="Button" value="Calculate permissions" onclick="makePermissions();" />
-<input type="button" class="btn btn-primary" name="Button" value="Show permissions" onclick="reversePermissions();" />
-</td>
-</tr>
-</tbody>
-</table>
-</form>
+As Gatsby is a little fiddly with including scripts inside Markdown (as it's React-based), the calculator is now available [here](/unixcheatsheet/).

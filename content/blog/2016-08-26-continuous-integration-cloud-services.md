@@ -2,7 +2,7 @@
 title: Continuous Integration cloud services
 date: 2016-08-26 00:00:00 Z
 tags:
-- continous-integration
+- continuous-integration
 Published: 2016-08-26 00:00:00 Z
 author: Chris S
 shortpost: true
