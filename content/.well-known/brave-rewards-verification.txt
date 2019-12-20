@@ -1,3 +1,0 @@
-This is a Brave Rewards publisher verification file.
-Domain: yetanotherchris.dev
-Token: 15835b2a9905d3838432ecb305b17864c8606b4f6b8848b89acf6e43bd1190e8
