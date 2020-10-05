@@ -19,6 +19,11 @@ excerpt: "The mess of OAuth 2.0 is being compacted and simplified in OAuth 2.1, 
 [11]: https://youtu.be/AwCt2-EHYik
 [12]: https://youtu.be/CPbvxxslDTU
 [13]: https://tools.ietf.org/html/draft-parecki-oauth-v2-1-03
+[14]: https://leastprivilege.com/2020/10/01/the-future-of-identityserver/
+
+**Update:** No more than 2 days after writing this post, IdentityServer 4 has been announced as duel license again. Looking back to the IdentityServer 3 license, it appears it has always been a BSD and Apache 2 license, so that was an over sight on my part. It's fortunate I'd started nothing after this post as I'll need to stick to Roadkill having its own OIDC solution.
+
+### Some background
 
 For the past month I've been trying to level up my OAuth 2.0 knowledge for free, via the RFCs (that didn't last long), Auth0.com and Youtube. I've been trying to upgrade [Roadkill Wiki][0], my pet .NET Core Wiki, to use OAuth for almost 2 years now and realised I only know a corner of the OAuth spec, largely because of the SPA nature of Roadkill v3.
 
