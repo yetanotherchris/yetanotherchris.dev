@@ -79,9 +79,9 @@ private static string Decrypt(string base64Text)
 
 ### Overview
 
-There is another use of public key certificates. Here's my attempt to explain it:
+There is another use of public key cryptography. Here's my attempt to explain it:
 
-> I want to send your something, say a PDF, and you really want to be sure that I created this PDF and therefore that it was me that sent it to you. 
+> I want to send your something, say a text file (or maybe a PDF), and you really want to be sure that I created this text file and therefore that it was me that sent it to you. 
 >
 > I generate a public-private key pair:  
 > 
@@ -94,7 +94,7 @@ There is another use of public key certificates. Here's my attempt to explain it
 
 ### Signing
 
-I sign my PDF (in this example it's a string as the `text` parameter). I then send you my PDF *and* this base-64'd output - as a text file if it's a really long string.
+I sign my text file (in this example it's a string as the `text` parameter). I then send you my text file *and* this base-64'd output - as a text file if it's a really long string.
 
 ```c#
 private static string SignWithPrivateKey(string text)
@@ -114,9 +114,9 @@ private static string SignWithPrivateKey(string text)
 
 ### Verifying
 
-You can make sure the PDF I sent you is the same one that I created, using:
+You can make sure the text file I sent you is the same one that I created, using:
 
-1. The PDF I sent you (`plainText` in the example below).
+1. The text file I sent you (`plainText` in the example below).
 1. The public key I sent you - `public.pem` file.
 1. The base64'd verification string I sent you.
 
