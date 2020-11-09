@@ -6,6 +6,7 @@ tags: ["security", "public-private-key", "rsa", "ssl"]
 permalink: "/security/public-private-key-in-netcore-by-example/"
 excerpt: "Examples in C# of how to load PEM,CER files in .NET Core to encrypt, decrypt, sign and verify your data"
 ---
+[0]: https://gist.github.com/yetanotherchris/d8330dd6f541f85903a9bdd5dd13bb1f
 [1]: https://www.youtube.com/watch?v=AQDCe585Lnc
 [2]: https://damienbod.com/2020/08/19/symmetric-and-asymmetric-encryption-in-net-core/
 [3]: https://slproweb.com/products/Win32OpenSSL.html
@@ -17,6 +18,7 @@ This post illustrates examples of the two uses of public key cryptography in .NE
 - Encrypting and decrypting data.
 - Signing and verifying data.
 
+A full C# console app example [is available on this Gist][0]
 
 ### Notes
   
