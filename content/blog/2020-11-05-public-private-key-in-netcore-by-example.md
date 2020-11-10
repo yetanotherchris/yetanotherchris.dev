@@ -39,7 +39,9 @@ A full C# console app example [is available on this Gist][0]
 > 
 > First, you generate a public and private key pair, as two .PEM files. 
 >
-> `$ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -keyout private.pem -out public.pem`
+```bash
+$ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -keyout private.pem -out public.pem
+```
 >
 > You keep your private key very safe.
 > 
@@ -49,7 +51,7 @@ A full C# console app example [is available on this Gist][0]
 
 I encrypt my file (in the example below it's a text file) using your public key. I then send you the output of this, which is a base-64'd string - as a text file if it's a really long string.
 
-```c#
+```csharp
 private static string Encrypt(string text)
 {
     byte[] publicPemBytes = File.ReadAllBytes("public.pem");
@@ -65,7 +67,7 @@ private static string Encrypt(string text)
 
 You can then decrypt the base64'd string I sent you using your private key, and you will see the file or message in its original, un-encrypted form:
 
-```c#
+```csharp
 private static string Decrypt(string base64Text)
 {
     using X509Certificate2 certificate = CombinePublicAndPrivateCerts();
@@ -87,8 +89,9 @@ There is another use of public key cryptography. Here's my attempt to explain it
 >
 > I generate a public-private key pair:  
 > 
-> `$ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -keyout private.pem -out public.pem`
->
+```bash
+$ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -keyout private.pem -out public.pem
+```
 > I keep my private key very safe.
 >
 > I send you my public key: `public.pem` file (sometimes the naming convention in examples is `certificate.pem`). 
@@ -98,7 +101,7 @@ There is another use of public key cryptography. Here's my attempt to explain it
 
 I sign my text file (in this example it's a string as the `text` parameter). I then send you my text file *and* this base-64'd output - as a text file if it's a really long string.
 
-```c#
+```csharp
 private static string SignWithPrivateKey(string text)
 {
     var privateKeyText = File.ReadAllText("private.pem");
@@ -122,7 +125,7 @@ You can make sure the text file I sent you is the same one that I created, using
 1. The public key I sent you - `public.pem` file.
 1. The base64'd verification string I sent you.
 
-```c#
+```csharp
 private static bool VerifySignature(string plainText, string base64Signature)
 {
     byte[] publicPemBytes = File.ReadAllBytes("public.pem");
