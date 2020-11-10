@@ -36,10 +36,29 @@ If you're a .NET developer you will find, at some time your life, exporting or i
 [Wikipedia link][5]
 
 ## .cert, cer, .crt, .pem, .key files
-These are all the same file format, plain text files that contain a public or private key certificate in X509 format, or both. The typically have a header `-----BEGIN CERTIFICATE-----`, `-----BEGIN PRIVATE KEY-----` or `-----BEGIN RSA PRIVATE KEY-----` and a similar footer.
+These are all the same file format, plain text files that contain a public or private key certificate in X509 format, or both. They typically have a header, a footer to match:
+
+```
+-----BEGIN CERTIFICATE-----
+(base64'd cert here)
+```
+
+For private keys:
+
+```
+-----BEGIN PRIVATE KEY-----
+(base64'd cert here)
+```
+
+or 
+
+```
+-----BEGIN RSA PRIVATE KEY-----
+(base64'd cert here)
+```
 
 `.key` files will typically only contain the private key.
 
 You might find yourself combining many of these when dealing with SSL authority chains, or just combining a public and private key. .NET Core 3.0 doesn't support loading them in this format, but will in .NET Core 5.
 
-[There are many other filenames I've left out...][6]
+[There are quite a few other file types I've left out...][6]

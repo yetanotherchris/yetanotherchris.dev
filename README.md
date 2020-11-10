@@ -6,9 +6,11 @@ The [Gatsby](https://www.gatsbyjs.org) and markdown source for my blog, http://y
 ### Working locally
 
 1. Install Node JS
-2. `npm install`
-3. `install -g gatsby-cli`
-4. `gatsby build` or `gatsby develop`
+1. `npm install -g yarn`
+1. `yarn install`
+1. `yarn global add gatsby-cli`
+1. Check the command `gatsby` works. If you're on Windows and it doesn't, [try this](https://gist.github.com/yetanotherchris/1e339bd72d4698f70e2c3a02b04fc1c8)
+1. `gatsby build` or `gatsby develop`
 
 Images reside in the `static` folder, markdown in the `content/blog` folder. The template has a few 
 foibles, such as its assets folder being in two place which I'm yet to figure out.
