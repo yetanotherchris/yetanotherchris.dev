@@ -2,8 +2,8 @@
 title: "Public private key (PEM/X509) cryptography by example in .NET Core"
 author: Chris S
 date: 2020-11-05 08:00:00 +0000
-tags: ["security", "public-private-key", "rsa", "ssl"]
-permalink: "/security/public-private-key-in-netcore-by-example/"
+tags: ["net-core", "security", "public-private-key", "rsa", "ssl"]
+permalink: "/net-core/public-private-key-in-netcore-by-example"
 excerpt: "Examples in C# of how to load PEM,CER files in .NET Core to encrypt, decrypt, sign and verify your data"
 ---
 [0]: https://gist.github.com/yetanotherchris/d8330dd6f541f85903a9bdd5dd13bb1f

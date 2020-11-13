@@ -3,7 +3,7 @@ title: "Learn OAuth, the hard way"
 author: Chris S
 date: 2020-09-28 08:00:00 +0000
 tags: ["oauth", "security", "roadkill-wiki"]
-permalink: "/oauth/learn-oauth-the-hard-way/"
+permalink: "/oauth/learn-oauth-the-hard-way"
 excerpt: "The mess of OAuth 2.0 is being compacted and simplified in OAuth 2.1, a new Aaron Parecki video explains the mess really well, also helping resolve a year old Roadkill Wiki struggle."
 ---
 

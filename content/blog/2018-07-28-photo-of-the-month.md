@@ -10,5 +10,5 @@ tags:
 ---
 It's been a long time, but here's a nice photo of Valencia Opera House from pxhere.com, on my list of places to visit.
 
-![](/assets/valencia.jpg)
+![](/assets/2018/valencia.jpg)
 

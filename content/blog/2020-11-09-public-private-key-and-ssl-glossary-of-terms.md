@@ -3,7 +3,7 @@ title: "Public key crytography glossary of terms for .NET Core developers"
 author: Chris S
 date: 2020-11-09 08:00:00 +0000
 tags: ["ssl", "security", "public-private-key"]
-permalink: "/security/public-private-key-and-ssl-glossary-of-terms"
+permalink: "/security/public-private-key-glossary-of-terms"
 excerpt: "A small glossary of terms for public key crytography including PFX, PCKS, cert and pem files."
 ---
 
