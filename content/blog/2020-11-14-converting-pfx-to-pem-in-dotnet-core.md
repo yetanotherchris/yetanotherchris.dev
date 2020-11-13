@@ -57,7 +57,7 @@ Before continuing, you should find out which Algorithm your PFX file uses. Typic
 
 ![pfx algos](/assets/2020/pfx-algo.png)
 
-If the algorithm is RSA or ECSDA you can load the key in .NET Core. ECSDA is the successor to DSA and is newer than RSA, using elliptic curves - which I won't pretend I know they work - rather than RSA's factorials, which means it has the same security with shorter keys. There's more information on the difference between the two [here][4].
+If the algorithm is RSA or ECSDA you can load the key in .NET Core. ECSDA is the successor to DSA and is newer than RSA, using elliptic curves - I won't pretend I know how they work - rather than RSA's factorials, which means it has the same security with shorter keys. There's more information on the difference between the two [here][4].
 
 ```csharp
 // dotnet add package System.Security.Cryptography.Algorithms
