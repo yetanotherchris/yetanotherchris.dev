@@ -20,7 +20,7 @@ excerpt: "A small glossary of terms for public key crytography including PFX, PC
 
 It might be a little ambitious to summarise this in one paragraph, but it's essentially about generating two keys: a public and private key. You keep your private key safe. You distribute your public key, and another person (or you) can encrypt a file or message with it, and then send you the encrypted text or file. You then decrypt this with your private key. 
 
-[There is also data signing and verification][1]
+There is also data signing and verification, where you sign or generate a verification code for a file, document, piece of text with your private key. You send somebody the file/document/piece of text, verification code and your public key, and they can check the verification code matches using that public key. [This is better illustrated with example code][1]
 
 ## PKCS
 Public Key Cryptography Standards. These are crytopgraphy standards, with the first versions being [in the 90s from RSA][2], but strangely not starting with PKCS#1. If you look on wikipedia, quite a few of them have been abandonded and the ordering is a bit unusual. The important ones for .NET Core are PKCS#1 (private RSA key), PKCS#8 (the default private key format openssl outputs as), and PCKS#12 (the PFX file format standard)
