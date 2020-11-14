@@ -7,9 +7,10 @@ permalink: "/net-core/public-private-key-in-netcore-by-example"
 excerpt: "Examples in C# of how to load PEM,CER files in .NET Core to encrypt, decrypt, sign and verify your data"
 ---
 [0]: https://gist.github.com/yetanotherchris/d8330dd6f541f85903a9bdd5dd13bb1f
-[1]: https://www.youtube.com/watch?v=AQDCe585Lnc
-[2]: https://damienbod.com/2020/08/19/symmetric-and-asymmetric-encryption-in-net-core/
-[3]: https://slproweb.com/products/Win32OpenSSL.html
+[1]: /net-core/converting-pfx-to-pem-in-dotnet-core
+[2]: https://www.youtube.com/watch?v=AQDCe585Lnc
+[3]: https://damienbod.com/2020/08/19/symmetric-and-asymmetric-encryption-in-net-core/
+[4]: https://slproweb.com/products/Win32OpenSSL.html
 
 ## Introduction
 
@@ -22,14 +23,14 @@ A full C# console app example [is available on this Gist][0]
 
 ### Notes
   
-- *If you have a PFX file, I've written a separate blog post about converting your PFX file to the X509 (.`pem`, .`cert` etc.) format used in these examples.*
-- *These examples are for RSA key pairs, you should be able to convert them to ECDA easily though, with `ECDA.Create()`.*
+- *If you have a PFX file, I've written [a separate blog post][1] about converting your PFX file to the X509 (.`pem`, .`cert` etc.) format used in these examples.*
+- *These examples are for RSA key pairs, you should be able to convert them to ECDSA easily though, with `ECDSA.Create()`.*
 - *The examples all use a simple bit of text, but this could easily be a file by using `byte[] textBytes = File.ReadAllBytes(...)`*
 - *`.crt`, `.pem`, `.key` files are all the same format, usually a text format*
 - *The padding when encrypting and decrypting needs to be the same format*.
-- *[This video explains asymmetrical encryption well][1]*
-- *[This blog post has a few other C# examples][2]*
-- *`openssl` is a command line tool. Windows users can find it [here][3], or alternatively just install the Linux subsystem and then get Ubuntu on the Windows Store, and `cd /mnt/c/Users/yourusername`.*
+- *[This video explains asymmetrical encryption well][2]*
+- *[This blog post has a few other C# examples][3]*
+- *`openssl` is a command line tool. Windows users can find it [here][4], or alternatively just install the Linux subsystem and then get Ubuntu on the Windows Store, and `cd /mnt/c/Users/yourusername`.*
 
 ## Encrypting and decrypting data
 
@@ -49,7 +50,7 @@ $ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -keyout private.pem -out 
 
 ### Encrypting
 
-I encrypt my file (in the example below it's a text file) using your public key. I then send you the output of this, which is a base-64'd string - as a text file if it's a really long string.
+I encrypt my file (in the example below it's a text file) using your public key. I then send you the output of this, which is a base-64'd string.
 
 ```csharp
 private static string Encrypt(string text)
@@ -99,7 +100,9 @@ $ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -keyout private.pem -out 
 
 ### Signing
 
-I sign my text file (in this example it's a string as the `text` parameter). I then send you my text file *and* this base-64'd output - as a text file if it's a really long string.
+I sign my text file (in this example it's a string as the `text` parameter). I then send you my text file *and* this base-64'd output.
+
+As mentioned above, it's easy to read in a binary file too - just use `byte[] fileBytes = File.ReadAllBytes(..)` instead.
 
 ```csharp
 private static string SignWithPrivateKey(string text)
@@ -111,8 +114,8 @@ private static string SignWithPrivateKey(string text)
     using RSA rsa = RSA.Create();
     rsa.ImportPkcs8PrivateKey(privateKeyBytes, out _);
 
-    byte[] textBytes = System.Text.Encoding.Default.GetBytes(text);
-    byte[] signature = rsa.SignData(textBytes, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
+    byte[] fileBytes = System.Text.Encoding.Default.GetBytes(text);
+    byte[] signature = rsa.SignData(fileBytes, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
     return Convert.ToBase64String(signature);
 }
 ```
@@ -121,7 +124,7 @@ private static string SignWithPrivateKey(string text)
 
 You can make sure the text file I sent you is the same one that I created, using:
 
-1. The text file I sent you (`plainText` in the example below).
+1. The text file I sent you (`plainText` in the example below, but could be a file using `byte[]`).
 1. The public key I sent you - `public.pem` file.
 1. The base64'd verification string I sent you.
 
