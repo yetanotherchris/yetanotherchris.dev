@@ -86,7 +86,7 @@ private static X509Certificate2 CombinePublicAndPrivateCerts()
     }
 
     var keyPair = publicX509.CopyWithPrivateKey(rsa);
-    return publicX509;
+    return keyPair;
 
     // You can also convert TO pfx, not that you will want to:
     // return new X509Certificate2(keyPair.Export(X509ContentType.Pfx));
