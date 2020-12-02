@@ -41,7 +41,7 @@ A full C# console app example [is available on this Gist][0]
 > First, you generate a public and private key pair, as two .PEM files. 
 >
 ```bash
-$ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -keyout private.pem -out public.pem
+$ openssl req -x509 -sha256 -days 365 -newkey rsa:4096 -nodes -keyout private.pem -out public.pem
 ```
 >
 > You keep your private key very safe.
