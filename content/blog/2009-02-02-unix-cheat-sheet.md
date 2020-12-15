@@ -86,7 +86,8 @@ To edit the sudo file in bash (install Nano first, apt-get install nano or yum i
 
 ### SSH
 
-* `ssh root@1.2.3.4` - SSH onto a server (use git bash for Windows for this)
+* `ssh root@1.2.3.4` - SSH onto a server (use WSL2/git bash for Windows for this)
+* `ssh -i ~/.ssh/my.pem ec2-user@10.0.0.1` - SSH onto an EC2 Amazon Linux box, use `chmod 400 my.pem` first)
 * `scp root@1.2.3.4:localfile.txt /etc/remotefile.txt` - copy localfile.txt to /etc/remotefile.txt
 * `scp root@1.2.3.4:/root/privatekey.pem privatekey.pem` - copy privatekey.pem onto your server
 
