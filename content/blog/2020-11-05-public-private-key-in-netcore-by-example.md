@@ -149,6 +149,6 @@ Typically, when you want to use an SSL certificate you will receive a single PEM
 
 On Windows, the certificate loading inside Kestrel assumes you are always using a PFX-format certificate - PKCS12. PEM format files are typically provided to you as PKCS8, so you need to specify this to load PEM files as SSL certificates on Windows.
 
-The workaround is below - [this has been an ongoing issue since .NET Core 1.0].
+The workaround is below - [this has been an ongoing issue since .NET Core 1.0][5].
 
 `gist:yetanotherchris/c4568aeb005e191a741294618f977f30`
