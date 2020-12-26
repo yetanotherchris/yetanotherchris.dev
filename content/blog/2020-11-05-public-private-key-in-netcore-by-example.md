@@ -1,9 +1,9 @@
 ---
-title: "Public private key (PEM/X509) cryptography by example in .NET Core"
+title: "SSL and Public private key (PEM/X509) cryptography by example in .NET Core"
 author: Chris S
 date: 2020-11-05 08:00:00 +0000
 tags: ["net-core", "security", "public-private-key", "rsa", "ssl"]
-permalink: "/net-core/public-private-key-in-netcore-by-example"
+permalink: "/net-core/ssl-public-private-key-in-netcore-by-example"
 excerpt: "Examples in C# of how to load PEM,CER files in .NET Core to encrypt, decrypt, sign and verify your data"
 ---
 [0]: https://gist.github.com/yetanotherchris/d8330dd6f541f85903a9bdd5dd13bb1f
@@ -11,6 +11,7 @@ excerpt: "Examples in C# of how to load PEM,CER files in .NET Core to encrypt, d
 [2]: https://www.youtube.com/watch?v=AQDCe585Lnc
 [3]: https://damienbod.com/2020/08/19/symmetric-and-asymmetric-encryption-in-net-core/
 [4]: https://slproweb.com/products/Win32OpenSSL.html
+[5]: https://github.com/dotnet/runtime/issues/23749
 
 ## Introduction
 
@@ -18,6 +19,7 @@ This post illustrates examples of the two uses of public key cryptography in .NE
 
 - Encrypting and decrypting data.
 - Signing and verifying data.
+- Loading two `.pem` SSL certificates into Kestrel.
 
 A full C# console app example [is available on this Gist][0]
 
@@ -140,3 +142,13 @@ private static bool VerifySignature(string plainText, string base64Signature)
     return rsa.VerifyData(dataBytes, signatureBytes, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
 }
 ```
+
+## Loading PEM file SSL certificates in Kestrel
+
+Typically, when you want to use an SSL certificate you will receive a single PEM file - the public and private key inside it, maybe the chain of trust certs also inside that PEM file. You might also receive the SSL certificate as a public key and private PEM key too.
+
+On Windows, the certificate loading inside Kestrel assumes you are always using a PFX-format certificate - PKCS12. PEM format files are typically provided to you as PKCS8, so you need to specify this to load PEM files as SSL certificates on Windows.
+
+The workaround is below - [this has been an ongoing issue since .NET Core 1.0].
+
+`gist:yetanotherchris/c4568aeb005e191a741294618f977f30`
