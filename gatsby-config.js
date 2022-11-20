@@ -77,19 +77,20 @@ module.exports = {
         trackingId: `UA-138704988-2`
       },
     },
-    `gatsby-plugin-feed`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Another Chris`,
-        short_name: `Another Chris`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `content/assets/favicon.png`,
-      },
-    },
+    // `gatsby-plugin-feed`,
+    // {
+    //   resolve: `gatsby-plugin-manifest`,
+    //   feeds: [],
+    //   options: {
+    //     name: `Another Chris`,
+    //     short_name: `Another Chris`,
+    //     start_url: `/`,
+    //     background_color: `#ffffff`,
+    //     theme_color: `#663399`,
+    //     display: `minimal-ui`,
+    //     icon: `content/assets/favicon.png`,
+    //   },
+    // },
     `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     {
