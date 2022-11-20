@@ -70,7 +70,7 @@ class BlogIndex extends React.Component {
       post.node.fields.tags.forEach(tag => {
         if (!sortedNodes.get(tag))
         {
-          sortedNodes.set(tag, new []());
+          sortedNodes.set(tag, new Array());
         }
 
         var existingArray = sortedNodes.get(tag);
