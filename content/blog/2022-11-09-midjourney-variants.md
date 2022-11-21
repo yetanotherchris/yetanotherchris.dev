@@ -1,15 +1,16 @@
 ---
-title: "Midjourney prompt variations"
+title: "Midjourney prompts examples"
 author: Chris S
 date: 2022-11-11 08:00:00 +0000
 tags: ["ai", "midjourney"]
-permalink: "/ai/midjourney-prompt-variations"
-excerpt: "Midjourney is an AI tool for generating images. This post shows prompt styles for variations."
+permalink: "/ai/midjourney-prompt-examples"
+excerpt: "Midjourney is an AI tool for generating images. This post shows midjourney prompt examples for a coffee cup image."
 ---
 
 ## Overview
-I decided to try out as many prompt variations as I could think of using the Discord-based AI image generation tool [midjourney]](http://www.midjourney.com). 
-These prompts take roughly 5 formats:
+I decided to try out as many prompt variations as I could think of using the Discord-based AI art/image generation tool [midjourney](http://www.midjourney.com) ([docs are here](https://midjourney.gitbook.io/docs/)). 
+
+The prompts I used took one of five formats:
 
 - `/imagine a coffee cup full of coffee, by <artist>`
 - `/imagine a coffee cup full of coffee, as <style>`
