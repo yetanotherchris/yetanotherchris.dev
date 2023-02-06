@@ -8,7 +8,7 @@ excerpt: "Midjourney is an AI tool for generating images. This post shows midjou
 ---
 
 ## Overview
-I decided to try out as many prompt variations as I could think of using the Discord-based AI art/image generation tool [midjourney](http://www.midjourney.com) ([docs are here](https://midjourney.gitbook.io/docs/)). 
+I decided to try out as many prompt variations as I could think of using the Discord-based AI art/image generation tool [midjourney](https://www.midjourney.com) ([docs are here](https://midjourney.gitbook.io/docs/)). 
 
 The prompts I used took one of five formats:
 
