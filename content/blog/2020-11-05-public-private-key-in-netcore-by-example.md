@@ -114,7 +114,7 @@ private static string SignWithPrivateKey(string text)
     var privateKeyBytes = Convert.FromBase64String(privateKeyBlocks[1]);
     
     using RSA rsa = RSA.Create();
-    rsa.ImportPkcs8PrivateKey(privateKeyBytes, out _);
+    rsa.ImportEncryptedPkcs8PrivateKey("your-secret-password", privateKeyBytes, out _);
 
     byte[] fileBytes = System.Text.Encoding.Default.GetBytes(text);
     byte[] signature = rsa.SignData(fileBytes, HashAlgorithmName.SHA256, RSASignaturePadding.Pkcs1);
