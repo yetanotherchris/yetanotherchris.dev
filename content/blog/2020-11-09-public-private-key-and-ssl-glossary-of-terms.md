@@ -7,7 +7,7 @@ permalink: "/security/public-private-key-glossary-of-terms"
 excerpt: "A small glossary of terms for public key crytography including PFX, PCKS, cert and pem files."
 ---
 
-[1]: /security/public-private-key-in-netcore-by-example/
+[1]: /net-core/ssl-public-private-key-in-netcore-by-example/
 [2]: https://tools.ietf.org/html/rfc2313
 [3]: https://en.wikipedia.org/wiki/PKCS
 [4]: /coming-shortly
