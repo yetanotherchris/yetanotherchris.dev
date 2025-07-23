@@ -1,16 +1,31 @@
-ul, ol { margin-left: 1.75rem; }
-li { margin-bottom: 0; }
-
-blockquote
-{ 
-    margin-left: 0.5rem;
-    padding-left: 0.75rem;
-    font-size: 0.9rem; 
-    border-left: 0.3rem solid #ddd; 
+body {
+  background-color: white;
 }
 
-.language-text 
-{
-    font-size: 1rem;
-    background-color: #eaecef;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: white;
+  }
+}
+
+ul,
+ol {
+  margin-left: 1.75rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+blockquote {
+  margin-left: 0.5rem;
+  padding-left: 0.75rem;
+  font-size: 0.9rem;
+  border-left: 0.3rem solid #ddd;
+}
+
+.language-text {
+  font-size: 1rem;
+  background-color: #eaecef;
 }
