@@ -1,5 +1,5 @@
 ---
-title: "2025 - 16m tokens used on openrouter and 5+ Claude projects"
+title: "2025 - 16m tokens used on openrouter and 8+ Claude projects"
 author: Chris S
 date: 2025-12-31 17:00:00 +0000
 tags: ["ai", "llm", "vibe-coding"]
