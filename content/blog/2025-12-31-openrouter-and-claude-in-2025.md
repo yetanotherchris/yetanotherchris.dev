@@ -4,7 +4,7 @@ author: Chris S
 date: 2025-12-031 17:00:00 +0000
 tags: ["ai", "llm", "vibe-coding"]
 permalink: "/ai/openrouter-and-claude-in-2025"
-excerpt: "I used 16m tokens on openrouter in 2025, and created 5+ projects with Claude"
+excerpt: "I used 16m tokens on openrouter in 2025, and created 8+ projects created purely with Claude"
 ---
 
 ![openrouter usage][1]
