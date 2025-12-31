@@ -7,6 +7,8 @@ permalink: "/ai/openrouter-and-claude-in-2025"
 excerpt: "I used 16m tokens on openrouter in 2025, and created 5+ projects with Claude"
 ---
 
+![openrouter usage][1]
+
 The creator of Claude Code, which itself was a hackathon project to begin with, has this month said month that he hasn't committed a single code change in the last 30 days without using Claude. Obviously there's an incentive to saying this. However there's a weird cognitive dissonance going on in software right now, where luddites are stuck in a world where they believe LLMS are just statistical copy and paste engine (regardless of MoE, MCP servers, Caches, Agents and various other improvements) and to be avoided. Perhaps that's a result of using ChatGPT/Grok and CoPilot (Grok is really good with Go incidentally).
 
 The last personal project I wrote that wasn't Claude-first was [tinycity](https://github.com/yetanotherchris/tinycity), I've created about 8+ projects that would've normally taken weeks to write, feeding them a template C# project when they're C#:
@@ -25,6 +27,6 @@ I'm hoping LLMS stop padding responses in 2026 to burn output tokens, which are 
 
 I think one big advantage in Claude's hybrid-planning mode is knowing where it's going wrong. However if you don't know what it's doing, which a few times I haven't, it can go down a big rabbit hole as it did with Python and ML on an unpublished project, which wasted around 5 evenings. But failing fast might be a big advantage of Claude or Grok coding - being able to trial and error 10x faster.
 
-![openrouter usage][1]
+
 
  [1]: /assets/2025/openrouter.png
