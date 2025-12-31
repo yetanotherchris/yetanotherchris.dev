@@ -9,7 +9,7 @@ excerpt: "I used 16m tokens on openrouter in 2025, and created 8+ projects creat
 
 ![openrouter usage][1]
 
-The creator of Claude Code, which itself was a hackathon project to begin with, has this month said month that he hasn't committed a single code change in the last 30 days without using Claude. Obviously there's an incentive to saying this. However there's a weird cognitive dissonance going on in software right now, where luddites are stuck in a world where they believe LLMS are just statistical copy and paste engine (regardless of MoE, MCP servers, Caches, Agents and various other improvements) and to be avoided. Perhaps that's a result of using ChatGPT/Grok and CoPilot (Grok is really good with Go incidentally).
+The creator of Claude Code, which itself was a hackathon project to begin with, has this month said that he hasn't committed a single code change in the last 30 days without using Claude. Obviously there's an incentive to saying this. However there's a weird cognitive dissonance going on in software right now, where a few luddites are stuck in a world where they believe LLMS are just statistical copy and paste engines (regardless of MoE, MCP servers, Caches, Agents and various other improvements in under a year), and to be avoided. Perhaps that's a result of using ChatGPT/Grok and CoPilot (Grok is really good with Go incidentally).
 
 The last personal project I wrote that wasn't Claude-first was [tinycity](https://github.com/yetanotherchris/tinycity), I've created about 8+ projects that would've normally taken weeks to write, feeding them a template C# project when they're C#:
 
