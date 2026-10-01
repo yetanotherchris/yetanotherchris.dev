@@ -2,7 +2,7 @@
   // Cloudflare Worker that serves the Gatsby build output as static assets.
   //
   // Cloudflare Git integration (Workers Builds) settings to use in the dashboard:
-  //   Build command:  npm run build
+  //   Build command:  yarn build
   //   Deploy command: npx wrangler deploy
   //   Root directory: / (repo root)
   //
@@ -11,11 +11,15 @@
   // compatibility concerns because Gatsby runs at build time, not on the edge.
   "name": "yetanotherchris-dev",
   "compatibility_date": "2026-10-01",
+  // Serve the Worker on <name>.<account-subdomain>.workers.dev. Required here
+  // because without it, Workers Builds disables workers.dev and, if no custom
+  // domain/route is attached, the Worker has no target at all.
+  "workers_dev": true,
   // Build-time Node pin. The Workers Build image defaults to Node 24; this
   // Gatsby 5.16 / sharp 0.32 / lmdb stack was verified on Node 22 (also
-  // preinstalled in the image), so pin it here. Yarn is no longer pinned: this
-  // repo now uses Yarn 4.9.1 (the build image default) with a Berry lockfile,
-  // set via "packageManager" in package.json.
+  // preinstalled in the image), so pin it here. Yarn is not pinned: this repo
+  // uses Yarn 4.9.1 (the build image default) with a Berry lockfile, set via
+  // "packageManager" in package.json.
   "vars": {
     "NODE_VERSION": "22"
   },
@@ -23,13 +27,28 @@
     "directory": "./public",
     // Gatsby emits a 404.html at the root of public/; serve it for unmatched paths.
     "not_found_handling": "404-page"
-  },
-  // Custom domain attachment. The zone (yetanotherchris.dev) must be on this
-  // Cloudflare account, otherwise `wrangler deploy` will fail — remove this
-  // block and attach the domain from the dashboard instead if so.
+  }
+
+  // ---------------------------------------------------------------------------
+  // Custom domain (DISABLED).
+  //
+  // Attaching the custom domain failed with:
+  //   "Can't infer zone from route, please specify zone for yetanotherchris.dev"
+  //   [code: 10082]
+  //
+  // This means yetanotherchris.dev is not an active zone in the Cloudflare
+  // account that runs this build. To enable it:
+  //   1. Add yetanotherchris.dev as a zone to this same Cloudflare account
+  //      (add the site and switch its nameservers to Cloudflare), then
+  //   2. Uncomment the block below, commit and push.
+  //
+  // Alternatively, attach it from the dashboard: Worker -> Settings ->
+  // Domains & Routes -> Add -> Custom domain (same zone requirement applies).
+  //
   // For www and the anotherchris.net alias, use zone-level Redirect Rules
   // (see static/_redirects for details).
-  "routes": [
-    { "pattern": "yetanotherchris.dev", "custom_domain": true }
-  ]
+  // ---------------------------------------------------------------------------
+  // "routes": [
+  //   { "pattern": "yetanotherchris.dev", "custom_domain": true }
+  // ]
 }
