@@ -1,0 +1,14 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: SAMEORIGIN
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+
+# Gatsby content-hashes its JS/CSS/image bundles under /static, so they are safe
+# to cache immutably.
+/static/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Page data drives client-side navigation; revalidate so new posts appear.
+/page-data/*
+  Cache-Control: public, max-age=0, must-revalidate

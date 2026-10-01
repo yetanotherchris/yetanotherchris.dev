@@ -1,4 +1,15 @@
-# These rules will change if you change your site’s custom domains or HTTPS settings
-
-# Redirect domain aliases to primary domain
-https://anotherchris.net/* https://yetanotherchris.dev/:splat 301!
+# Cloudflare _redirects only supports subpath (relative) redirects — you cannot
+# match or redirect a different hostname here.
+#
+# The previous Netlify rule (a full cross-domain redirect, including the "!"
+# force flag) is therefore not valid on Cloudflare. Handle anotherchris.net and
+# the www subdomain at the zone level instead:
+#
+#   Cloudflare dashboard -> Rules -> Redirect Rules (or Bulk Redirects)
+#     anotherchris.net/*  ->  https://yetanotherchris.dev/$1   301
+#     www.yetanotherchris.dev/*  ->  https://yetanotherchris.dev/$1   301
+#
+# Add a proxied DNS record for each alias hostname so the redirect rules apply.
+#
+# Path-level redirects for this site can be added below, e.g.:
+# /old-post/ /new-post/ 301

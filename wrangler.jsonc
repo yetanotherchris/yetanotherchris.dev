@@ -1,0 +1,27 @@
+{
+  // Cloudflare Worker that serves the Gatsby build output as static assets.
+  //
+  // Cloudflare Git integration (Workers Builds) settings to use in the dashboard:
+  //   Build command:  npm run build
+  //   Deploy command: npx wrangler deploy
+  //   Root directory: / (repo root)
+  //
+  // There is no Worker script (`main`): this is an assets-only Worker, so
+  // Cloudflare only uploads, caches and serves ./public. No Node/runtime
+  // compatibility concerns because Gatsby runs at build time, not on the edge.
+  "name": "yetanotherchris-dev",
+  "compatibility_date": "2026-10-01",
+  "assets": {
+    "directory": "./public",
+    // Gatsby emits a 404.html at the root of public/; serve it for unmatched paths.
+    "not_found_handling": "404-page"
+  },
+  // Custom domain attachment. The zone (yetanotherchris.dev) must be on this
+  // Cloudflare account, otherwise `wrangler deploy` will fail — remove this
+  // block and attach the domain from the dashboard instead if so.
+  // For www and the anotherchris.net alias, use zone-level Redirect Rules
+  // (see static/_redirects for details).
+  "routes": [
+    { "pattern": "yetanotherchris.dev", "custom_domain": true }
+  ]
+}
