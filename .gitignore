@@ -61,6 +61,12 @@ public
 # cloudflare workers
 .wrangler/
 
+# yarn (berry)
+.yarn/cache
+.yarn/install-state.gz
+.yarn/unplugged
+.pnp.*
+
 # Mac files
 .DS_Store
 

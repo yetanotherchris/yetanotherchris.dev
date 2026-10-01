@@ -51,13 +51,7 @@ module.exports = {
           `gatsby-remark-embed-gist`,
           `gatsby-remark-prismjs`,
           `gatsby-remark-copy-linked-files`,
-          `gatsby-remark-smartypants`,
-          {
-            resolve: `gatsby-plugin-tags`,
-            options: {
-              templatePath: `${__dirname}/src/templates/tag.js`
-            }
-          }
+          `gatsby-remark-smartypants`
         ],
       },
     },

@@ -11,6 +11,14 @@
   // compatibility concerns because Gatsby runs at build time, not on the edge.
   "name": "yetanotherchris-dev",
   "compatibility_date": "2026-10-01",
+  // Build-time Node pin. The Workers Build image defaults to Node 24; this
+  // Gatsby 5.16 / sharp 0.32 / lmdb stack was verified on Node 22 (also
+  // preinstalled in the image), so pin it here. Yarn is no longer pinned: this
+  // repo now uses Yarn 4.9.1 (the build image default) with a Berry lockfile,
+  // set via "packageManager" in package.json.
+  "vars": {
+    "NODE_VERSION": "22"
+  },
   "assets": {
     "directory": "./public",
     // Gatsby emits a 404.html at the root of public/; serve it for unmatched paths.

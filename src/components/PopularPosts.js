@@ -6,7 +6,7 @@ const PopularPosts = () => {
     const data = useStaticQuery(graphql`query PopularPostsQuery {
       allMarkdownRemark(
         filter: { frontmatter: { popularpost: { eq: true } } }
-        sort: { fields: [frontmatter___title], order: DESC }
+        sort: { frontmatter: { title: DESC } }
         limit: 3
       ) {
         edges {

@@ -6,11 +6,12 @@ exports.createPages = ({ graphql, actions }) => {
   const { createPage } = actions
 
   const blogPost = path.resolve(`./src/templates/blog-post.js`)
+  const tagTemplate = path.resolve(`./src/templates/tag.js`)
   return graphql(
     `
       {
         allMarkdownRemark(
-          sort: { fields: [frontmatter___date], order: DESC }
+          sort: { frontmatter: { date: DESC } }
           limit: 1000
         ) {
           edges {
@@ -22,6 +23,7 @@ exports.createPages = ({ graphql, actions }) => {
                 title
                 permalink
                 popularpost
+                tags
               }
             }
           }
@@ -70,15 +72,13 @@ exports.createPages = ({ graphql, actions }) => {
 
     // Make tag pages
     tags.forEach(tag => {
-      let kebabTag = _.kebabCase(tag);
-      console.log(kebabTag);
       createPage({
-        path: `/tags/${kebabTag}/`,
+        path: `/tags/${_.kebabCase(tag)}/`,
         component: tagTemplate,
         context: {
-          kebabTag,
+          tag,
         },
-      })
+      });
     });
 
     return null
@@ -99,6 +99,12 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
       name: `slug`,
       node,
       value,
+    })
+
+    createNodeField({
+      name: `tags`,
+      node,
+      value: node.frontmatter.tags || [],
     })
   }
 }
